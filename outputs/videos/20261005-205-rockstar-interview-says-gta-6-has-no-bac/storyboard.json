@@ -1,0 +1,124 @@
+[
+  {
+    "shot": 1,
+    "start": 0.0,
+    "end": 3.0,
+    "seconds": 3,
+    "shot_type": "Hook: low wide, crowd toward camera",
+    "asset_type": "AI_VIDEO",
+    "camera": "Camera at chest height tracking backward at walking pace; one woman in the centre is sharp, everyone around her is heavily blurred",
+    "visual": "A packed sunlit pavement. One person is in focus, the rest of the crowd is soft blur: the usual game crowd.",
+    "on_screen_text": "\"NO BACKGROUND CHARACTERS\"  |  corner label for the whole video: AI-generated visuals, not game footage",
+    "vo_lines": [
+      1
+    ],
+    "higgsfield_prompt": "A crowded sunlit city pavement beside a beach road, dozens of pedestrians walking toward the camera. A woman in a yellow shirt in the centre is in sharp focus while every other person is a soft blur. Camera tracks backward at chest height, steady. Photoreal cinematic street photography, shallow depth of field, warm late-afternoon coastal light, pastel art deco buildings and palm trees, vertical 9:16 frame, natural motion, no readable text, no signage lettering, no brand marks. 3 seconds."
+  },
+  {
+    "shot": 2,
+    "start": 3.0,
+    "end": 8.0,
+    "seconds": 5,
+    "shot_type": "Attribution card",
+    "asset_type": "TEXT_GRAPHIC",
+    "reuse_shot": 1,
+    "camera": "None: freeze the last frame of shot 1, darken and blur it, type the attribution over it",
+    "visual": "Frozen, dimmed frame of the crowd with a clean lower-third naming who said it and where.",
+    "on_screen_text": "James Horton, writing director  ·  Love Magazine interview, reported by Polygon",
+    "vo_lines": [
+      2
+    ],
+    "higgsfield_prompt": null
+  },
+  {
+    "shot": 3,
+    "start": 8.0,
+    "end": 14.0,
+    "seconds": 6,
+    "shot_type": "Rack focus, medium",
+    "asset_type": "AI_VIDEO",
+    "camera": "Locked-off medium shot; focus pulls slowly from the foreground figure to the pair behind her, no camera move",
+    "visual": "A woman on a phone in the foreground goes soft as the focus lands on a man behind her bargaining with a fruit seller, who is suddenly the subject.",
+    "on_screen_text": "\"There's just foreground you're not paying attention to right now.\"",
+    "vo_lines": [
+      3
+    ],
+    "higgsfield_prompt": "Medium shot on a busy pavement. In the foreground a woman talks on a phone, sharp. Behind her a man in a pink shirt bargains with a fruit seller at a cart, blurred. The focus slowly pulls from the woman to the two men until they are sharp and she is blurred. Static camera, slow rack focus is the only change. Photoreal cinematic street photography, shallow depth of field, warm late-afternoon coastal light, pastel art deco buildings and palm trees, vertical 9:16 frame, natural motion, no readable text, no signage lettering, no brand marks. 6 seconds."
+  },
+  {
+    "shot": 4,
+    "start": 14.0,
+    "end": 19.0,
+    "seconds": 5,
+    "shot_type": "Three portraits at a crossing",
+    "asset_type": "AI_IMAGE_WITH_MOTION",
+    "camera": "Generate a still, then animate a slow push-in with slight parallax; subjects barely move",
+    "visual": "Three very different people waiting at a crossing, each with distinct clothes and hair, all sharp: studied, not copy-pasted.",
+    "on_screen_text": "How they talk. What they wear. Their hair.  (Polygon, on Rockstar's Florida research)",
+    "vo_lines": [
+      4
+    ],
+    "higgsfield_prompt": "Three strangers waiting side by side at a pedestrian crossing, full body, all in sharp focus: an older man in a linen shirt and straw hat, a young woman with braided hair and roller skates over her shoulder, a construction worker in a high-visibility vest holding a cold drink. Each has clearly different clothing and hairstyle. Slow push-in with gentle parallax. Photoreal cinematic street photography, shallow depth of field, warm late-afternoon coastal light, pastel art deco buildings and palm trees, vertical 9:16 frame, natural motion, no readable text, no signage lettering, no brand marks. 5 seconds."
+  },
+  {
+    "shot": 5,
+    "start": 19.0,
+    "end": 25.0,
+    "seconds": 6,
+    "shot_type": "Fast forward track through the crowd",
+    "asset_type": "AI_VIDEO",
+    "camera": "Fast forward tracking shot at head height, weaving through people, slight handheld shake, motion blur at the edges",
+    "visual": "Running through the busiest street: pairs and groups pass on both sides mid-conversation, gesturing, laughing, arguing.",
+    "on_screen_text": "\"snatches of a hundred different conversations\"",
+    "vo_lines": [
+      5
+    ],
+    "higgsfield_prompt": "Fast forward tracking shot at head height running through a dense crowd on a wide city pavement. Pairs and small groups pass close on both sides, talking, gesturing, laughing, one couple arguing. Slight handheld shake and motion blur at the frame edges, people stay recognisable. Photoreal cinematic street photography, shallow depth of field, warm late-afternoon coastal light, pastel art deco buildings and palm trees, vertical 9:16 frame, natural motion, no readable text, no signage lettering, no brand marks. 6 seconds."
+  },
+  {
+    "shot": 6,
+    "start": 25.0,
+    "end": 30.0,
+    "seconds": 5,
+    "shot_type": "Whip to a single stranger, close",
+    "asset_type": "AI_VIDEO",
+    "camera": "Quick whip pan that stops dead on one passer-by, then a short push-in as he turns to the lens",
+    "visual": "The camera lands on one man in the crowd. He stops, turns, and looks straight into the lens until he fills the frame.",
+    "on_screen_text": "Look at someone new and they \"fill the frame\"",
+    "vo_lines": [
+      6
+    ],
+    "higgsfield_prompt": "A quick pan across a blurred street crowd stops on one middle-aged man in a floral shirt carrying a grocery bag. He stops walking, turns his head and looks directly into the camera with a wary expression as the camera pushes in to a close-up. The crowd behind him stays blurred. Photoreal cinematic street photography, shallow depth of field, warm late-afternoon coastal light, pastel art deco buildings and palm trees, vertical 9:16 frame, natural motion, no readable text, no signage lettering, no brand marks. 5 seconds."
+  },
+  {
+    "shot": 7,
+    "start": 30.0,
+    "end": 36.0,
+    "seconds": 6,
+    "shot_type": "Payoff: high wide, everything sharp",
+    "asset_type": "AI_VIDEO",
+    "camera": "High angle wide from a first-floor balcony, slow crane up; the blur clears across the frame until the whole street is sharp",
+    "visual": "The whole street from above. The soft blur sweeps away and every single person is in focus at the same time.",
+    "on_screen_text": "A promise from an interview. Not something anyone can test yet.",
+    "vo_lines": [
+      7
+    ],
+    "higgsfield_prompt": "High angle wide shot from a balcony over a long crowded pavement and beach road at golden hour. The image starts soft and the focus sweeps from bottom to top of the frame until every pedestrian is sharp and detailed. Slow crane upward. Deep focus by the end. Photoreal cinematic street photography, shallow depth of field, warm late-afternoon coastal light, pastel art deco buildings and palm trees, vertical 9:16 frame, natural motion, no readable text, no signage lettering, no brand marks. 6 seconds."
+  },
+  {
+    "shot": 8,
+    "start": 36.0,
+    "end": 39.0,
+    "seconds": 3,
+    "shot_type": "End card",
+    "asset_type": "TEXT_GRAPHIC",
+    "reuse_shot": 7,
+    "camera": "None: hold the last frame of shot 7 under the card",
+    "visual": "Question card over the final sharp street frame, with the publication name.",
+    "on_screen_text": "Would you stop and listen?  |  Sources in the description  |  Leonida Desk",
+    "vo_lines": [
+      8
+    ],
+    "higgsfield_prompt": null
+  }
+]

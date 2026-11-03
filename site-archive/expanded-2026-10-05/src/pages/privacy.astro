@@ -1,0 +1,18 @@
+---
+import Base from '../layouts/Base.astro';
+import { EMAIL, SITE, FLAGS } from '../config';
+---
+<Base title="Privacy notice" description={`What ${SITE.name} collects and why.`}>
+  <div class="plain">
+    <div class="page-head"><h1>Privacy notice</h1><p>What this site collects, in plain language.</p></div>
+    <h2>Reading the site</h2>
+    <p>The site sets no cookies. It can record anonymous usage events (a page was viewed, how far it was scrolled, time spent, a share or link was clicked) to understand which articles are useful. These events contain no name, email address or account.</p>
+    <h2>Newsletter</h2>
+    <p>If you subscribe we store your email address, the time you gave consent, the page you signed up on, and any game or topic preferences you chose. We use them only to send the newsletter. Every email has an unsubscribe link.</p>
+    <h2>Affiliate links</h2>
+    <p>If you follow a "Recommended" link the retailer may use its own cookies to attribute a purchase. That happens on the retailer's site under its own policy.</p>
+    {FLAGS.ads_enabled && <><h2>Advertising</h2><p>The site shows advertising, which may use cookies set by the advertising provider.</p></>}
+    <h2>Your requests</h2>
+    <p>You can ask what we hold about you, or ask us to delete it{EMAIL.privacy ? <>, by writing to <a href={`mailto:${EMAIL.privacy}`}>{EMAIL.privacy}</a></> : ', using the contact details on the contact page once the site launches'}.</p>
+  </div>
+</Base>

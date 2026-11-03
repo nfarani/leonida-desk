@@ -1,0 +1,93 @@
+[
+  {
+    "shot": 1,
+    "start": 0.0,
+    "end": 4.0,
+    "seconds": 4,
+    "shot_type": "Establishing wide, hook",
+    "camera": "Low dolly forward at knee height, slow",
+    "visual": "A palm-lined coastal boulevard at dusk, rows of bright yard signs with nothing written on them.",
+    "on_screen_text": "GTA VI won't name real politicians. Here's why.  |  small corner label for the whole video: AI-generated visuals, not game footage",
+    "vo_lines": [
+      1
+    ],
+    "higgsfield_prompt": "Vertical 9:16 cinematic shot. A sun-bleached coastal boulevard at dusk lined with tall palm trees, dozens of brightly coloured campaign-style yard signs planted in the grass verge, every sign completely blank with no words and no faces, pink and teal sky, warm street lights just coming on, stylised semi-realistic 3D illustration, slow dolly forward at knee height, shallow depth of field, no people in frame, no readable text, no brand marks.",
+    "asset_type": "AI_VIDEO"
+  },
+  {
+    "shot": 2,
+    "start": 4.0,
+    "end": 10.0,
+    "seconds": 6,
+    "shot_type": "Medium, symmetrical",
+    "camera": "Slow push-in, centred",
+    "visual": "An empty debate stage: two unoccupied podiums under hot studio lights, confetti falling on nobody.",
+    "on_screen_text": "Source: Love Magazine interview, as reported by VGC",
+    "vo_lines": [
+      2
+    ],
+    "higgsfield_prompt": "Vertical 9:16 cinematic shot. An empty television debate stage with two unoccupied podiums facing each other under harsh studio spotlights, slow confetti drifting down onto an empty floor, exaggerated satirical set design in saturated red and blue, glossy reflective stage, stylised semi-realistic 3D illustration, slow symmetrical push-in, no people, no readable text, no flags of any real country, no brand marks.",
+    "asset_type": "AI_VIDEO"
+  },
+  {
+    "shot": 3,
+    "start": 10.0,
+    "end": 17.0,
+    "seconds": 7,
+    "shot_type": "Wide, locked-off time-lapse",
+    "camera": "Static wide, time-lapse motion in frame",
+    "visual": "A street corner where every billboard and poster keeps flipping to a new blank colour while a crowd blurs past.",
+    "on_screen_text": "Feels like now. Tied to no one.",
+    "vo_lines": [
+      3
+    ],
+    "higgsfield_prompt": "Vertical 9:16 cinematic time-lapse. A busy city street corner at night, large billboards and shopfront posters rapidly flipping between plain blocks of colour with nothing printed on them, a crowd of pedestrians streaking past as motion blur, neon reflections on wet pavement, humid tropical atmosphere, stylised semi-realistic 3D illustration, static wide camera, no readable text, no recognisable faces, no brand marks.",
+    "asset_type": "AI_VIDEO"
+  },
+  {
+    "shot": 4,
+    "start": 17.0,
+    "end": 25.0,
+    "seconds": 8,
+    "shot_type": "Close-up insert",
+    "camera": "Handheld close-up, slight drift, rack focus from phone to radio dial",
+    "visual": "A phone buzzing on a car dashboard with an unknown caller, the radio dial glowing beside it, palm shadows crossing the windscreen.",
+    "on_screen_text": "Still in the world: election signs · campaign robocalls · political talk radio",
+    "vo_lines": [
+      4
+    ],
+    "higgsfield_prompt": "Vertical 9:16 cinematic close-up inside a parked car at sunset. A smartphone vibrating on the dashboard with a blank glowing incoming-call screen, an old car radio dial lit amber beside it, shadows of palm fronds sliding slowly across the windscreen, dust in warm light, stylised semi-realistic 3D illustration, gentle handheld drift with a rack focus from the phone to the radio dial, no readable text on any screen, no people, no brand marks.",
+    "asset_type": "AI_VIDEO"
+  },
+  {
+    "shot": 5,
+    "start": 25.0,
+    "end": 32.0,
+    "seconds": 7,
+    "shot_type": "Quote card",
+    "camera": "None; text animates in line by line",
+    "visual": "Full-screen quote on the brand background, attribution underneath. Hold long enough to read twice.",
+    "on_screen_text": "\"...making everything satirical, larger than life, and more grotesque.\"  Rockstar's narrative lead, in Love Magazine (via VGC)",
+    "vo_lines": [
+      5
+    ],
+    "higgsfield_prompt": null,
+    "asset_type": "TEXT_GRAPHIC"
+  },
+  {
+    "shot": 6,
+    "start": 32.0,
+    "end": 38.0,
+    "seconds": 6,
+    "shot_type": "Closing wide, end card",
+    "camera": "Slow pull-back and tilt up",
+    "visual": "A funhouse mirror on a boardwalk stretching the skyline into something tall and ridiculous; end card fades over it.",
+    "on_screen_text": "The absurdity of now. Minus the names.  |  Leonida Desk · sources in description · AI-generated visuals",
+    "vo_lines": [
+      6,
+      7
+    ],
+    "higgsfield_prompt": "Vertical 9:16 cinematic shot. A warped funhouse mirror standing on an empty seaside boardwalk at golden hour, the reflection stretching a distant city skyline into a tall, bulging, comically distorted shape, string lights swaying overhead, gulls in the distance, stylised semi-realistic 3D illustration, slow pull-back with a gentle tilt up to the sky, no people, no readable text, no brand marks.",
+    "asset_type": "AI_VIDEO"
+  }
+]

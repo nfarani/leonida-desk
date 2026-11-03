@@ -1,0 +1,38 @@
+[
+  {
+    "shot": 1,
+    "asset_type": "AI_VIDEO",
+    "seconds": 3,
+    "aspect": "9:16",
+    "camera": "Low front three-quarter angle, camera retreating fast in front of the car, slight shake as the spray hits the lens",
+    "prompt": "A red sports coupe speeds through deep standing water on a city avenue at night, loses traction and slides sideways toward the camera, throwing a huge wall of spray. Two patrol cars with flashing red and blue lights are right behind it in the rain. Low front three-quarter angle, the camera retreats fast ahead of the car, spray hits the lens. Urgent, out of control. Photoreal, cinematic, night storm in a subtropical coastal city with palm trees and pastel low-rise buildings, heavy rain, vertical 9:16 frame. The red coupe is seen only from the front or the side, never from behind. No readable text, no lettering, no badges, no brand marks. 3 seconds.",
+    "method": "text_to_video"
+  },
+  {
+    "shot": 3,
+    "asset_type": "AI_VIDEO",
+    "seconds": 3,
+    "aspect": "9:16",
+    "camera": "Starts close on a roof edge, tilts down fast with the falling water to street level as headlights approach through the rain",
+    "prompt": "Torrential rain at night. Water gushes off the edge of a pastel building's roof and streams down a street lamp, a palm tree thrashes violently in the wind. The camera tilts down fast, following the falling water, to a street where water is rising across the tarmac, as two headlights approach through the rain in the distance. Lightning flashes. Menacing, the storm is taking over. Photoreal, cinematic, subtropical coastal city, vertical 9:16 frame, no readable text, no brand marks. 5 seconds.",
+    "method": "text_to_video"
+  },
+  {
+    "shot": 4,
+    "asset_type": "AI_VIDEO",
+    "seconds": 4,
+    "aspect": "9:16",
+    "camera": "Ground-level close-up tracking alongside the front wheel, very shallow depth of field",
+    "prompt": "Extreme ground-level close-up of the front wheel of a red sports coupe driving fast into deep standing water on a city street at night. Water sprays up and climbs the black tyre, the wheel begins to skate and wobble as it loses grip. The camera tracks alongside the wheel at road height, shallow depth of field, rain hitting the water. Tense, the moment before it goes wrong. Photoreal, cinematic, night storm in a subtropical coastal city with palm trees and pastel low-rise buildings, heavy rain, vertical 9:16 frame. The red coupe is seen only from the front or the side, never from behind. No readable text, no lettering, no badges, no brand marks. 5 seconds.",
+    "method": "text_to_video"
+  },
+  {
+    "shot": 7,
+    "asset_type": "AI_VIDEO",
+    "seconds": 3,
+    "aspect": "9:16",
+    "camera": "Low angle from the street, the camera whips up to follow the helicopter as a gust throws it sideways",
+    "prompt": "A dark helicopter hovers low over a flooded palm-lined street at night, clearly visible, its searchlight pointed at the road. A violent gust of wind hits it and shoves it sideways, the helicopter tilts hard, and the searchlight beam whips off the road and across the pastel buildings. Low angle from street level, the camera whips up to follow it. Palm trees bent flat by the wind, sheets of rain. Chaotic, the storm is winning. Photoreal, cinematic, vertical 9:16 frame, no readable text, no markings. 4 seconds.",
+    "method": "text_to_video"
+  }
+]

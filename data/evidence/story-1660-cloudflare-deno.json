@@ -1,0 +1,124 @@
+{
+  "packet_id": "story-1660-cloudflare-deno",
+  "story_id": 1660,
+  "parent_event_id": null,
+  "story_ids": [
+    1660
+  ],
+  "angle_id": "cloudflare-deno",
+  "angle": "What was announced and what was not",
+  "editorial_bucket": "BREAKING",
+  "story_label": "CREDIBLE_RUMOUR",
+  "built_at": "2026-10-11T19:18:21+00:00",
+  "sources": [
+    {
+      "id": "s1",
+      "story_id": 1660,
+      "publisher": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model",
+      "title": "Cloudflare acquires Deno to improve its Workers programming model",
+      "published_at": "2026-10-10T16:25:42+00:00",
+      "tier": 1,
+      "source_type": "journalism",
+      "opened": true,
+      "opened_at": "2026-10-11T19:20:49+00:00",
+      "note": ""
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "headline",
+      "claim": "TechCrunch published a piece headlined: Cloudflare acquires Deno to improve its Workers programming model",
+      "source_id": "s1",
+      "source_url": "https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model",
+      "source_date": "2026-10-10T16:25:42+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "Cloudflare will use this acquisition to improve its Workers programming model and platform.",
+      "quote": null
+    },
+    {
+      "id": "c2",
+      "kind": "fact",
+      "claim": "Cloudflare announced on Friday that it is acquiring Deno, the startup behind the programming runtime of the same name.",
+      "source_id": "s1",
+      "source_url": "https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model",
+      "source_date": "2026-10-10T16:25:42+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "TechCrunch: Cloudflare announced Friday that it's acquiring Deno.",
+      "quote": null
+    },
+    {
+      "id": "c3",
+      "kind": "fact",
+      "claim": "Cloudflare's Kenton Varda, principal engineer for Workers, said the acquisition will be used to improve the Workers programming model and platform, on which customers build and run software on Cloudflare's network.",
+      "source_id": "s1",
+      "source_url": "https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model",
+      "source_date": "2026-10-10T16:25:42+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "TechCrunch relays Varda.",
+      "quote": null
+    },
+    {
+      "id": "c4",
+      "kind": "fact",
+      "claim": "Deno was co-founded by Bert Belder and Node.js creator Ryan Dahl.",
+      "source_id": "s1",
+      "source_url": "https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model",
+      "source_date": "2026-10-10T16:25:42+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "TechCrunch names the co-founders.",
+      "quote": null
+    },
+    {
+      "id": "c5",
+      "kind": "fact",
+      "claim": "Deno recently launched celld, an open source implementation of Workers.",
+      "source_id": "s1",
+      "source_url": "https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model",
+      "source_date": "2026-10-10T16:25:42+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "TechCrunch: recently launched celld, an open source implementation of Workers.",
+      "quote": null
+    },
+    {
+      "id": "c6",
+      "kind": "fact",
+      "claim": "Varda rejected the theory that Workers was made different from other cloud platforms to create lock-in.",
+      "source_id": "s1",
+      "source_url": "https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model",
+      "source_date": "2026-10-10T16:25:42+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "TechCrunch quotes Varda.",
+      "quote": "being open source and giving people an escape hatch is good business"
+    },
+    {
+      "id": "c7",
+      "kind": "fact",
+      "claim": "Ryan Dahl said his team is joining Cloudflare to make the Workers programming model mainstream.",
+      "source_id": "s1",
+      "source_url": "https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model",
+      "source_date": "2026-10-10T16:25:42+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "TechCrunch quotes Dahl.",
+      "quote": "joining Cloudflare to make the Workers programming model a mainstream way to build servers"
+    },
+    {
+      "id": "c8",
+      "kind": "fact",
+      "claim": "Financial terms were not disclosed; Deno had raised $26 million in total, including a Series A led by Sequoia.",
+      "source_id": "s1",
+      "source_url": "https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model",
+      "source_date": "2026-10-10T16:25:42+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "TechCrunch: terms not disclosed; raised a total of $26 million.",
+      "quote": null
+    }
+  ],
+  "conflicts": [],
+  "media": {
+    "status": "none",
+    "note": "No hero media selected."
+  },
+  "sensitive": false
+}

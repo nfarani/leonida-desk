@@ -1,0 +1,239 @@
+{
+  "packet_id": "story-1685-apple-home-lineup",
+  "story_id": 1685,
+  "parent_event_id": 1685,
+  "story_ids": [
+    1685,
+    1689
+  ],
+  "angle_id": "apple-home-lineup",
+  "angle": "Everything reported before Tuesday, in one table",
+  "editorial_bucket": "BREAKING",
+  "story_label": "HIGH_CONFIDENCE_REPORT",
+  "built_at": "2026-10-11T19:18:21+00:00",
+  "sources": [
+    {
+      "id": "s1",
+      "story_id": 1685,
+      "publisher": "Engadget",
+      "url": "https://engadget.com/2283275/apples-smart-home-hub-will-reportedly-be-called-homeview",
+      "title": "Apple's smart home hub will reportedly be called HomeView",
+      "published_at": "2026-10-11T16:28:47+00:00",
+      "tier": 1,
+      "source_type": "journalism",
+      "opened": true,
+      "opened_at": "2026-10-11T19:21:01+00:00",
+      "note": ""
+    },
+    {
+      "id": "s2",
+      "story_id": 1685,
+      "publisher": "9to5Mac",
+      "url": "https://9to5mac.com/2026/10/11/apple-homeview-home-hub-four-colors-november",
+      "title": "Report: Apple ‘HomeView’ smart home hub will ship in November, come in four colors, A18 chip",
+      "published_at": "2026-10-11T14:09:49+00:00",
+      "tier": 2,
+      "source_type": "journalism",
+      "opened": true,
+      "opened_at": "2026-10-11T19:21:01+00:00",
+      "note": ""
+    },
+    {
+      "id": "s3",
+      "story_id": 1689,
+      "publisher": "9to5Mac",
+      "url": "https://9to5mac.com/2026/10/11/apple-homepod-mini-2-release-date",
+      "title": "Report: HomePod mini 2 to release on October 30 with these upgrades",
+      "published_at": "2026-10-11T14:56:13+00:00",
+      "tier": 2,
+      "source_type": "journalism",
+      "opened": true,
+      "opened_at": "2026-10-11T19:21:01+00:00",
+      "note": ""
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "headline",
+      "claim": "Engadget published a piece headlined: Apple's smart home hub will reportedly be called HomeView",
+      "source_id": "s1",
+      "source_url": "https://engadget.com/2283275/apples-smart-home-hub-will-reportedly-be-called-homeview",
+      "source_date": "2026-10-11T16:28:47+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Bloomberg reported that the HomeView device will start shipping in November.",
+      "quote": null
+    },
+    {
+      "id": "c2",
+      "kind": "headline",
+      "claim": "9to5Mac published a piece headlined: Report: Apple ‘HomeView’ smart home hub will ship in November, come in four colors, A18 chip",
+      "source_id": "s2",
+      "source_url": "https://9to5mac.com/2026/10/11/apple-homeview-home-hub-four-colors-november",
+      "source_date": "2026-10-11T14:09:49+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "Bloomberg’s Mark Gurman today reported that the Apple home hub – set to be announced on October 13 as part of Apple’s ‘Welcome home’ event experience — will be called the HomeView. The brand would obviously sit alongside the company’s existing HomePod brand for smart speakers. Gurman also reported on a few other new tidbits for the device, including the news that while it will be announced on Tues",
+      "quote": null
+    },
+    {
+      "id": "c3",
+      "kind": "headline",
+      "claim": "9to5Mac published a piece headlined: Report: HomePod mini 2 to release on October 30 with these upgrades",
+      "source_id": "s3",
+      "source_url": "https://9to5mac.com/2026/10/11/apple-homepod-mini-2-release-date",
+      "source_date": "2026-10-11T14:56:13+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "In just a couple days, Apple should be unveiling its long-awaited new lineup of new Home products. That includes an updated HomePod mini, Apple TV 4K , the brand-new smart home hub called ‘HomeView’ , as well as a new lineup of smart home accessories, in collaboration with LG. Here’s what to expect with the HomePod mini 2. more…",
+      "quote": null
+    },
+    {
+      "id": "c4",
+      "kind": "fact",
+      "claim": "Bloomberg's Mark Gurman reports that Apple's smart home hub will be called HomeView and will be shown at the company's Welcome home event.",
+      "source_id": "s1",
+      "source_url": "https://engadget.com/2283275/apples-smart-home-hub-will-reportedly-be-called-homeview",
+      "source_date": "2026-10-11T16:28:47+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Engadget relays Gurman's report.",
+      "quote": null
+    },
+    {
+      "id": "c5",
+      "kind": "fact",
+      "claim": "The event is on 13 October.",
+      "source_id": "s2",
+      "source_url": "https://9to5mac.com/2026/10/11/apple-homeview-home-hub-four-colors-november",
+      "source_date": "2026-10-11T14:09:49+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "9to5Mac: set to be announced on October 13.",
+      "quote": null
+    },
+    {
+      "id": "c6",
+      "kind": "fact",
+      "claim": "Gurman says the View name signals a display controlled mainly by Siri and voice, not a tablet.",
+      "source_id": "s1",
+      "source_url": "https://engadget.com/2283275/apples-smart-home-hub-will-reportedly-be-called-homeview",
+      "source_date": "2026-10-11T16:28:47+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Engadget: the View portion conveys a display primarily controlled through Siri and voice commands.",
+      "quote": null
+    },
+    {
+      "id": "c7",
+      "kind": "fact",
+      "claim": "The hub is reported to have a display floating above a speaker base, in the manner of the iMac G4, with an A18 chip, plus a wall-mountable version.",
+      "source_id": "s2",
+      "source_url": "https://9to5mac.com/2026/10/11/apple-homeview-home-hub-four-colors-november",
+      "source_date": "2026-10-11T14:09:49+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "9to5Mac relays Gurman on design and chip.",
+      "quote": null
+    },
+    {
+      "id": "c8",
+      "kind": "fact",
+      "claim": "The countertop version is reported in space gray, silver, starlight and pink; the wall-mounted model in space gray and silver only.",
+      "source_id": "s1",
+      "source_url": "https://engadget.com/2283275/apples-smart-home-hub-will-reportedly-be-called-homeview",
+      "source_date": "2026-10-11T16:28:47+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Engadget relays Gurman on colours.",
+      "quote": null
+    },
+    {
+      "id": "c9",
+      "kind": "fact",
+      "claim": "The hub is reported to run a limited selection of Apple apps with no App Store access.",
+      "source_id": "s1",
+      "source_url": "https://engadget.com/2283275/apples-smart-home-hub-will-reportedly-be-called-homeview",
+      "source_date": "2026-10-11T16:28:47+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Engadget: limited selection of Apple apps and won't have access to the App Store.",
+      "quote": null
+    },
+    {
+      "id": "c10",
+      "kind": "fact",
+      "claim": "9to5Mac says users might be able to project third-party app widgets from a nearby iPhone.",
+      "source_id": "s2",
+      "source_url": "https://9to5mac.com/2026/10/11/apple-homeview-home-hub-four-colors-november",
+      "source_date": "2026-10-11T14:09:49+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "9to5Mac: might be able to project third-party app widgets from a nearby iPhone.",
+      "quote": null
+    },
+    {
+      "id": "c11",
+      "kind": "fact",
+      "claim": "The HomeView is expected to be released in mid-November, a few weeks after the other devices.",
+      "source_id": "s1",
+      "source_url": "https://engadget.com/2283275/apples-smart-home-hub-will-reportedly-be-called-homeview",
+      "source_date": "2026-10-11T16:28:47+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Engadget: HomeView will release a few weeks later in mid-November.",
+      "quote": null
+    },
+    {
+      "id": "c12",
+      "kind": "fact",
+      "claim": "A new HomePod mini with the S10 chip and a new Apple TV with the A19 chip are expected in stores on 30 October.",
+      "source_id": "s1",
+      "source_url": "https://engadget.com/2283275/apples-smart-home-hub-will-reportedly-be-called-homeview",
+      "source_date": "2026-10-11T16:28:47+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Engadget relays Gurman.",
+      "quote": null
+    },
+    {
+      "id": "c13",
+      "kind": "fact",
+      "claim": "The new HomePod mini is reported to move from the S5 chip to the S10, enabling Siri AI features, with an N1 networking chip for Thread and Matter and Wi-Fi 7 support.",
+      "source_id": "s3",
+      "source_url": "https://9to5mac.com/2026/10/11/apple-homepod-mini-2-release-date",
+      "source_date": "2026-10-11T14:56:13+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "9to5Mac relays Gurman on the HomePod mini.",
+      "quote": null
+    },
+    {
+      "id": "c14",
+      "kind": "fact",
+      "claim": "The HomePod mini is reported in pink, green and blue as well as midnight and white.",
+      "source_id": "s3",
+      "source_url": "https://9to5mac.com/2026/10/11/apple-homepod-mini-2-release-date",
+      "source_date": "2026-10-11T14:56:13+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "9to5Mac on colours.",
+      "quote": null
+    },
+    {
+      "id": "c15",
+      "kind": "fact",
+      "claim": "Pricing is not known; 9to5Mac notes the HomePod mini rose from $99 to $129 in June.",
+      "source_id": "s3",
+      "source_url": "https://9to5mac.com/2026/10/11/apple-homepod-mini-2-release-date",
+      "source_date": "2026-10-11T14:56:13+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "9to5Mac: pricing isn't clear; increased from $99 to $129 back in June.",
+      "quote": null
+    },
+    {
+      "id": "c16",
+      "kind": "fact",
+      "claim": "Apple is reported to be working with LG on doorbells, thermostats and outdoor cameras, and with Schneider Electric for Europe, under the name Apple Home Collection, shipping later this year at the earliest.",
+      "source_id": "s1",
+      "source_url": "https://engadget.com/2283275/apples-smart-home-hub-will-reportedly-be-called-homeview",
+      "source_date": "2026-10-11T16:28:47+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Engadget relays Gurman on third-party devices.",
+      "quote": null
+    }
+  ],
+  "conflicts": [],
+  "media": {
+    "status": "none",
+    "note": "No hero media selected."
+  },
+  "sensitive": false
+}

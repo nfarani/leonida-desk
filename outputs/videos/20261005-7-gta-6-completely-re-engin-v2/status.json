@@ -1,0 +1,493 @@
+{
+  "video_id": "20261005-7-gta-6-completely-re-engin-v2",
+  "status": "READY_FOR_REVIEW",
+  "updated_at": "2026-10-05T20:14:16+00:00",
+  "history": [
+    {
+      "status": "IDEA",
+      "at": "2026-10-05T19:25:29+00:00",
+      "note": "package started"
+    },
+    {
+      "status": "READY_FOR_GENERATION",
+      "at": "2026-10-05T19:26:53+00:00",
+      "note": "checker: 0 errors"
+    },
+    {
+      "status": "GENERATING",
+      "at": "2026-10-05T19:27:10+00:00",
+      "note": "production run started"
+    },
+    {
+      "status": "READY_FOR_REVIEW",
+      "at": "2026-10-05T19:38:17+00:00",
+      "note": "final.mp4 assembled, 42.24s"
+    },
+    {
+      "status": "GENERATING",
+      "at": "2026-10-05T19:59:03+00:00",
+      "note": "production run started"
+    },
+    {
+      "status": "READY_FOR_REVIEW",
+      "at": "2026-10-05T20:00:09+00:00",
+      "note": "final.mp4 assembled, 29.63s"
+    },
+    {
+      "status": "GENERATING",
+      "at": "2026-10-05T20:12:06+00:00",
+      "note": "production run started"
+    },
+    {
+      "status": "READY_FOR_REVIEW",
+      "at": "2026-10-05T20:13:11+00:00",
+      "note": "final.mp4 assembled, 32.33s"
+    }
+  ],
+  "render": {
+    "adapter": "higgsfield-cli",
+    "jobs": [
+      {
+        "key": "vo-1",
+        "job_id": "89c9198c-5aa6-4608-9a60-1db8ec7b9c82",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.15,
+        "submitted_at": "2026-10-05T19:27:11+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_192711_89c9198c-5aa6-4608-9a60-1db8ec7b9c82.mp3",
+        "asset": "vo-1.mp3"
+      },
+      {
+        "key": "vo-5",
+        "job_id": "4cabd82e-ae44-48c2-9738-6d0272cce62a",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.15,
+        "submitted_at": "2026-10-05T19:27:19+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_192718_4cabd82e-ae44-48c2-9738-6d0272cce62a.mp3",
+        "asset": "vo-5.mp3"
+      },
+      {
+        "key": "shot-3",
+        "job_id": "ae3731d7-a198-4e06-b3f7-d433d0247657",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 8.0,
+        "submitted_at": "2026-10-05T19:27:30+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_192729_ae3731d7-a198-4e06-b3f7-d433d0247657.mp4",
+        "asset": "shot-3.mp4"
+      },
+      {
+        "key": "shot-4",
+        "job_id": "3fb3cecf-b423-4674-87ad-cb3d72a4da52",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 6.0,
+        "submitted_at": "2026-10-05T19:27:31+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_192731_3fb3cecf-b423-4674-87ad-cb3d72a4da52.mp4",
+        "asset": "shot-4.mp4"
+      },
+      {
+        "key": "shot-1",
+        "job_id": "f6da0bb6-74eb-422e-90b3-8394803d2202",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 4.0,
+        "submitted_at": "2026-10-05T19:27:33+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_192733_f6da0bb6-74eb-422e-90b3-8394803d2202.mp4",
+        "asset": "shot-1.mp4"
+      },
+      {
+        "key": "shot-7",
+        "job_id": "6c04f325-5e59-4229-804c-ee3fd3808b40",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 4.0,
+        "submitted_at": "2026-10-05T19:29:36+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_192936_6c04f325-5e59-4229-804c-ee3fd3808b40.mp4",
+        "asset": "shot-7.mp4"
+      },
+      {
+        "key": "music",
+        "job_id": "5c577c98-c04e-4c78-bc16-ed5e0578107b",
+        "model": "sonilo_music",
+        "status": "completed",
+        "credits": 2.75,
+        "submitted_at": "2026-10-05T19:34:20+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_193420_5c577c98-c04e-4c78-bc16-ed5e0578107b.m4a",
+        "asset": "music.m4a"
+      },
+      {
+        "key": "bed-1",
+        "job_id": "e07cf1d1-a13b-4115-979d-c023f1abe075",
+        "model": "seed_audio",
+        "status": "completed",
+        "credits": 0.8,
+        "submitted_at": "2026-10-05T19:34:35+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_193435_e07cf1d1-a13b-4115-979d-c023f1abe075.wav",
+        "asset": "bed-1.wav"
+      },
+      {
+        "key": "sfx-1-1",
+        "job_id": "b4ca9236-e645-4468-8db9-fa65a235486c",
+        "model": "seed_audio",
+        "status": "completed",
+        "credits": 0.7,
+        "submitted_at": "2026-10-05T19:34:55+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_193454_b4ca9236-e645-4468-8db9-fa65a235486c.wav",
+        "asset": "sfx-1-1.wav"
+      },
+      {
+        "key": "sfx-4-1",
+        "job_id": "63764d54-e7e3-4669-8797-a4881ad6b510",
+        "model": "seed_audio",
+        "status": "completed",
+        "credits": 0.4,
+        "submitted_at": "2026-10-05T19:35:34+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_193534_63764d54-e7e3-4669-8797-a4881ad6b510.wav",
+        "asset": "sfx-4-1.wav"
+      },
+      {
+        "key": "sfx-5-1",
+        "job_id": "f136fc22-a3ab-4e1c-96c5-920e73d48c2f",
+        "model": "seed_audio",
+        "status": "completed",
+        "credits": 0.4,
+        "submitted_at": "2026-10-05T19:35:57+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_193557_f136fc22-a3ab-4e1c-96c5-920e73d48c2f.wav",
+        "asset": "sfx-5-1.wav"
+      },
+      {
+        "key": "sfx-7-1",
+        "job_id": "1e0aa912-c36b-4e98-8fe3-d70823b09b14",
+        "model": "seed_audio",
+        "status": "completed",
+        "credits": 0.5,
+        "submitted_at": "2026-10-05T19:36:35+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_193635_1e0aa912-c36b-4e98-8fe3-d70823b09b14.wav",
+        "asset": "sfx-7-1.wav"
+      },
+      {
+        "key": "sfx-8-1",
+        "job_id": "0d43cbd1-0620-4c81-92b7-0863de2daeef",
+        "model": "seed_audio",
+        "status": "completed",
+        "credits": 0.5,
+        "submitted_at": "2026-10-05T19:36:55+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_193655_0d43cbd1-0620-4c81-92b7-0863de2daeef.wav",
+        "asset": "sfx-8-1.wav"
+      },
+      {
+        "key": "sfx-2-1",
+        "job_id": "1cf3b8ec-9b6d-4a89-8620-f12d5792d3e0",
+        "model": "mirelo_text_to_audio",
+        "status": "completed",
+        "credits": 0.75,
+        "submitted_at": "2026-10-05T19:59:10+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_195910_1cf3b8ec-9b6d-4a89-8620-f12d5792d3e0.mp3",
+        "asset": "sfx-2-1.mp3"
+      },
+      {
+        "key": "sfx-6-1",
+        "job_id": "74f005e0-21fc-4bac-b06a-1199ed75668c",
+        "model": "mirelo_text_to_audio",
+        "status": "completed",
+        "credits": 0.75,
+        "submitted_at": "2026-10-05T19:59:19+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_195919_74f005e0-21fc-4bac-b06a-1199ed75668c.mp3",
+        "asset": "sfx-6-1.mp3"
+      },
+      {
+        "key": "vo-3",
+        "job_id": "fbe2b9c7-adb5-43e7-866c-127e259ef32e",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.15,
+        "submitted_at": "2026-10-05T20:12:07+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_201206_fbe2b9c7-adb5-43e7-866c-127e259ef32e.mp3",
+        "asset": "vo-3.mp3"
+      },
+      {
+        "key": "vo-4",
+        "job_id": "eb9145b4-0196-409a-b87c-81c8a2d1a612",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T20:12:07+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_201206_eb9145b4-0196-409a-b87c-81c8a2d1a612.mp3",
+        "asset": "vo-4.mp3"
+      },
+      {
+        "key": "vo-6",
+        "job_id": "068dc0d7-b2d2-4236-bd7e-0cbf5647e34b",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T20:12:07+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_201207_068dc0d7-b2d2-4236-bd7e-0cbf5647e34b.mp3",
+        "asset": "vo-6.mp3"
+      },
+      {
+        "key": "vo-2",
+        "job_id": "a5f0ceba-3896-4229-a153-295cdf007f6d",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.15,
+        "submitted_at": "2026-10-05T20:12:07+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_201207_a5f0ceba-3896-4229-a153-295cdf007f6d.mp3",
+        "asset": "vo-2.mp3"
+      },
+      {
+        "key": "vo-7",
+        "job_id": "f2beb8c5-7083-4e66-ba88-049d2b226a41",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.15,
+        "submitted_at": "2026-10-05T20:12:11+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_201211_f2beb8c5-7083-4e66-ba88-049d2b226a41.mp3",
+        "asset": "vo-7.mp3"
+      },
+      {
+        "key": "vo-9",
+        "job_id": "5035cd89-b301-4fe9-bac8-71b5df2a0104",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T20:12:11+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_201211_5035cd89-b301-4fe9-bac8-71b5df2a0104.mp3",
+        "asset": "vo-9.mp3"
+      },
+      {
+        "key": "vo-8",
+        "job_id": "5d97af24-5dfc-47ea-b000-68f84606d0db",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.15,
+        "submitted_at": "2026-10-05T20:12:11+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_201211_5d97af24-5dfc-47ea-b000-68f84606d0db.mp3",
+        "asset": "vo-8.mp3"
+      },
+      {
+        "key": "vo-10",
+        "job_id": "f0db7936-6998-4d2e-961e-2c9bb27da069",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T20:12:12+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_201212_f0db7936-6998-4d2e-961e-2c9bb27da069.mp3",
+        "asset": "vo-10.mp3"
+      }
+    ],
+    "cost": 31.65,
+    "versions": [
+      "final.mp4",
+      "final_v2.mp4",
+      "final_v3.mp4"
+    ],
+    "design": "config/design.yaml",
+    "final": "final_v3.mp4",
+    "seconds": 32.33,
+    "timeline": "timeline.json",
+    "captions": "captions.srt",
+    "voice": "Callum",
+    "models": [
+      "mirelo_text_to_audio",
+      "seed_audio",
+      "seedance_2_0_mini",
+      "sonilo_music",
+      "text2speech_v2"
+    ],
+    "generations": 23,
+    "produced_at": "2026-10-05T20:13:11+00:00",
+    "cost_unit": "credits (estimated)",
+    "replaced": [
+      {
+        "key": "vo-2",
+        "job_id": "26209b38-4909-4347-9d45-6ac178b4efaa",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T19:27:11+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_192711_26209b38-4909-4347-9d45-6ac178b4efaa.mp3",
+        "asset": "vo-2.mp3",
+        "reason": "recut: line or sound removed, rewritten, or found to contain a voice"
+      },
+      {
+        "key": "vo-4",
+        "job_id": "77ff7b87-3a95-4153-8713-6b1a2396d337",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T19:27:11+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_192711_77ff7b87-3a95-4153-8713-6b1a2396d337.mp3",
+        "asset": "vo-4.mp3",
+        "reason": "recut: line or sound removed, rewritten, or found to contain a voice"
+      },
+      {
+        "key": "vo-3",
+        "job_id": "3654e1ac-74d4-4e9c-b2c3-60e7c50dc8d0",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T19:27:12+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_192712_3654e1ac-74d4-4e9c-b2c3-60e7c50dc8d0.mp3",
+        "asset": "vo-3.mp3",
+        "reason": "recut: line or sound removed, rewritten, or found to contain a voice"
+      },
+      {
+        "key": "vo-11",
+        "job_id": "0203ca75-a6d1-4fd0-82e2-4d12091b02a0",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T19:27:23+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_192723_0203ca75-a6d1-4fd0-82e2-4d12091b02a0.mp3",
+        "asset": "vo-11.mp3",
+        "reason": "recut: line or sound removed, rewritten, or found to contain a voice"
+      },
+      {
+        "key": "shot-9",
+        "job_id": "2c967507-9f45-44e2-b0e0-03dc80876378",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 10.0,
+        "submitted_at": "2026-10-05T19:29:44+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_192944_2c967507-9f45-44e2-b0e0-03dc80876378.mp4",
+        "asset": "shot-9.mp4",
+        "reason": "recut: line or sound removed, rewritten, or found to contain a voice"
+      },
+      {
+        "key": "sfx-2-1",
+        "job_id": "94964ae8-f170-4ec1-b3d5-528618c61b31",
+        "model": "seed_audio",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T19:35:14+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_193514_94964ae8-f170-4ec1-b3d5-528618c61b31.wav",
+        "asset": "sfx-2-1.wav",
+        "reason": "recut: line or sound removed, rewritten, or found to contain a voice"
+      },
+      {
+        "key": "sfx-6-1",
+        "job_id": "508959dc-10c8-4dd4-b5ac-8feba5a25ea7",
+        "model": "seed_audio",
+        "status": "completed",
+        "credits": 0.7,
+        "submitted_at": "2026-10-05T19:36:11+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_193611_508959dc-10c8-4dd4-b5ac-8feba5a25ea7.wav",
+        "asset": "sfx-6-1.wav",
+        "reason": "recut: line or sound removed, rewritten, or found to contain a voice"
+      },
+      {
+        "key": "sfx-9-1",
+        "job_id": "3a328836-30db-49d9-a89a-829591b4d51e",
+        "model": "seed_audio",
+        "status": "completed",
+        "credits": 0.4,
+        "submitted_at": "2026-10-05T19:37:10+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_193710_3a328836-30db-49d9-a89a-829591b4d51e.wav",
+        "asset": "sfx-9-1.wav",
+        "reason": "recut: line or sound removed, rewritten, or found to contain a voice"
+      },
+      {
+        "key": "vo-6",
+        "job_id": "f0219b4d-5fa5-4536-83b7-b4b26ff41915",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.15,
+        "submitted_at": "2026-10-05T19:27:18+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_192718_f0219b4d-5fa5-4536-83b7-b4b26ff41915.mp3",
+        "asset": "vo-6.mp3",
+        "reason": "third cut: line rewritten"
+      },
+      {
+        "key": "vo-7",
+        "job_id": "9d6cb2e5-bab5-452e-b56e-676723b3da1a",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.15,
+        "submitted_at": "2026-10-05T19:27:18+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_192718_9d6cb2e5-bab5-452e-b56e-676723b3da1a.mp3",
+        "asset": "vo-7.mp3",
+        "reason": "third cut: line rewritten"
+      },
+      {
+        "key": "vo-8",
+        "job_id": "ff63b8e2-4e42-4c52-9a8b-6a644519aaeb",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.15,
+        "submitted_at": "2026-10-05T19:27:18+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_192718_ff63b8e2-4e42-4c52-9a8b-6a644519aaeb.mp3",
+        "asset": "vo-8.mp3",
+        "reason": "third cut: line rewritten"
+      },
+      {
+        "key": "vo-9",
+        "job_id": "ef7f9bf2-a2bc-445e-9079-e4109a6b3d98",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.15,
+        "submitted_at": "2026-10-05T19:27:22+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_192722_ef7f9bf2-a2bc-445e-9079-e4109a6b3d98.mp3",
+        "asset": "vo-9.mp3",
+        "reason": "third cut: line rewritten"
+      },
+      {
+        "key": "vo-10",
+        "job_id": "175f18ee-d83c-40a8-be2d-64b67f614791",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.15,
+        "submitted_at": "2026-10-05T19:27:22+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_192722_175f18ee-d83c-40a8-be2d-64b67f614791.mp3",
+        "asset": "vo-10.mp3",
+        "reason": "third cut: line rewritten"
+      },
+      {
+        "key": "vo-3",
+        "job_id": "fa5df685-6220-45f4-82b2-d2e9c591fba3",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.15,
+        "submitted_at": "2026-10-05T19:59:04+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_195904_fa5df685-6220-45f4-82b2-d2e9c591fba3.mp3",
+        "asset": "vo-3.mp3",
+        "reason": "third cut: line rewritten"
+      },
+      {
+        "key": "vo-2",
+        "job_id": "05180bdd-a382-4402-bc00-530823837c1d",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.15,
+        "submitted_at": "2026-10-05T19:59:04+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_195904_05180bdd-a382-4402-bc00-530823837c1d.mp3",
+        "asset": "vo-2.mp3",
+        "reason": "third cut: line rewritten"
+      },
+      {
+        "key": "vo-4",
+        "job_id": "0c05f560-958c-402b-bcc7-551a7206e5ca",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T19:59:04+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_195904_0c05f560-958c-402b-bcc7-551a7206e5ca.mp3",
+        "asset": "vo-4.mp3",
+        "reason": "third cut: line rewritten"
+      }
+    ],
+    "audio_check": {
+      "heard": "Imagine getting five stars in this, because GTA 6 has hurricanes and Rockstar rebuilt the entire weather system. But does the storm affect your driving? Rockstar hasn't said. Because if it does, you're cooked. The streets could flood. Your tires could lose all grip. The cops chasing... you might spin out first, even the chopper could get blown off course. And your favourite escape route could be underwater. So is the storm just for show, or does it change the whole chase?",
+      "script_words": 82,
+      "heard_words": 82,
+      "extra_words": 0,
+      "missing_words": 0,
+      "ok": true
+    }
+  },
+  "posts": [],
+  "errors": 0,
+  "warnings": 0
+}

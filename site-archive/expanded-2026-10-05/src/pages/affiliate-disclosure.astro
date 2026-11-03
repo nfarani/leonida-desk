@@ -1,0 +1,20 @@
+---
+import Base from '../layouts/Base.astro';
+import { AFFILIATE, SITE } from '../config';
+---
+<Base title="Affiliate disclosure" description={`How ${SITE.name} uses affiliate links.`}>
+  <div class="plain">
+    <div class="page-head"><h1>Affiliate disclosure</h1><p>How we make money from recommendations, and what it does not change.</p></div>
+    <p>{AFFILIATE.disclosure}</p>
+    <h2>How it works</h2>
+    <ul>
+      <li>Some articles include a "Recommended" block linking to a retailer. If you buy after following one, the retailer may pay us a commission. You pay the same price.</li>
+      <li>Those links are marked as sponsored in the page code, and every block carries this disclosure next to it.</li>
+      <li>We decide what to recommend first and look for a link second. A product is not recommended because it pays.</li>
+      <li>A price is shown only with the date we checked it. Prices change: confirm on the retailer's page.</li>
+    </ul>
+    <h2>What it does not affect</h2>
+    <p>News, discoveries and explainers are not influenced by commercial relationships. Sponsored content, if we ever run any, will be labelled as sponsored at the top.</p>
+    {!AFFILIATE.enabled && <p class="empty">Affiliate links are not active on the site at the moment.</p>}
+  </div>
+</Base>

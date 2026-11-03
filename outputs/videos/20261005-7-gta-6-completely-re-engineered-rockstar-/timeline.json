@@ -1,0 +1,125 @@
+{
+  "total": 44.89,
+  "shots": [
+    {
+      "shot": 1,
+      "start": 0.0,
+      "duration": 3.93,
+      "lines": [
+        {
+          "line": 1,
+          "start": 0.15,
+          "end": 3.81
+        }
+      ]
+    },
+    {
+      "shot": 2,
+      "start": 3.93,
+      "duration": 6.62,
+      "lines": [
+        {
+          "line": 2,
+          "start": 3.93,
+          "end": 10.43
+        }
+      ]
+    },
+    {
+      "shot": 3,
+      "start": 10.55,
+      "duration": 4.99,
+      "lines": [
+        {
+          "line": 3,
+          "start": 10.55,
+          "end": 15.42
+        }
+      ]
+    },
+    {
+      "shot": 4,
+      "start": 15.54,
+      "duration": 7.72,
+      "lines": [
+        {
+          "line": 4,
+          "start": 15.54,
+          "end": 23.14
+        }
+      ]
+    },
+    {
+      "shot": 5,
+      "start": 23.26,
+      "duration": 2.29,
+      "lines": [
+        {
+          "line": 5,
+          "start": 23.26,
+          "end": 25.43
+        }
+      ]
+    },
+    {
+      "shot": 6,
+      "start": 25.55,
+      "duration": 5.06,
+      "lines": [
+        {
+          "line": 6,
+          "start": 25.55,
+          "end": 30.49
+        }
+      ]
+    },
+    {
+      "shot": 7,
+      "start": 30.61,
+      "duration": 2.31,
+      "lines": [
+        {
+          "line": 7,
+          "start": 30.61,
+          "end": 32.8
+        }
+      ]
+    },
+    {
+      "shot": 8,
+      "start": 32.92,
+      "duration": 2.61,
+      "lines": [
+        {
+          "line": 8,
+          "start": 32.92,
+          "end": 35.41
+        }
+      ]
+    },
+    {
+      "shot": 9,
+      "start": 35.53,
+      "duration": 3.09,
+      "lines": [
+        {
+          "line": 9,
+          "start": 35.53,
+          "end": 38.5
+        }
+      ]
+    },
+    {
+      "shot": 10,
+      "start": 38.62,
+      "duration": 6.27,
+      "lines": [
+        {
+          "line": 10,
+          "start": 38.62,
+          "end": 44.27
+        }
+      ]
+    }
+  ]
+}

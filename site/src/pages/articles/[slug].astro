@@ -1,0 +1,69 @@
+---
+import { render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Badge from '../../components/Badge.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { SITE, BUCKETS, LABELS } from '../../config';
+import { visibleArticles, related, fmtDate, type Article } from '../../lib/articles';
+
+export async function getStaticPaths() {
+  const all = await visibleArticles();
+  return all.map((article) => ({ params: { slug: article.data.slug }, props: { article, all } }));
+}
+const { article, all } = Astro.props as { article: Article; all: Article[] };
+const d = article.data;
+const { Content } = await render(article);
+const more = related(article, all);
+const latest = all.filter((a) => a.data.slug !== d.slug).slice(0, 4);
+const published = d.status === 'PUBLISHED';
+const url = new URL(`/articles/${d.slug}/`, Astro.site).href;
+const updated = d.published_at && d.updated_at && d.updated_at.getTime() - d.published_at.getTime() > 60000;
+// Structured data only for articles that are really published, with their real dates.
+const jsonLd = published ? {
+  '@context': 'https://schema.org',
+  '@type': d.editorial_bucket === 'BREAKING' ? 'NewsArticle' : 'Article',
+  headline: d.title, description: d.description, mainEntityOfPage: url,
+  datePublished: d.published_at?.toISOString(), dateModified: (d.updated_at ?? d.published_at)?.toISOString(),
+  author: { '@type': 'Organization', name: d.author }, publisher: { '@type': 'Organization', name: SITE.name },
+  ...(d.hero_media ? { image: new URL(d.hero_media.src, Astro.site).href } : {}),
+  citation: d.sources.map((s) => s.url),
+} : undefined;
+---
+<Base title={d.title} description={d.description} type="article" image={d.hero_media?.src} noindex={!published} jsonLd={jsonLd}>
+  <article>
+    <header class={`article-top b-${d.editorial_bucket}`}>
+      <a class={`kicker b-${d.editorial_bucket}`} href={BUCKETS[d.editorial_bucket].path}>{BUCKETS[d.editorial_bucket].label}</a>
+      <h1>{d.title}</h1>
+      <p class="standfirst">{d.description}</p>
+      <div class="byline">
+        <span>By <strong>{d.author}</strong></span>
+        <time datetime={d.published_at?.toISOString()}>{published ? `Published ${fmtDate(d.published_at)}` : 'Not yet published'}</time>
+        {updated && <time datetime={d.updated_at?.toISOString()}>Updated {fmtDate(d.updated_at)}</time>}
+        {!published && <span class="status">{d.status.replace('_', ' ')}</span>}
+      </div>
+      <div class="label-note"><Badge label={d.verification_status} /> <span>{LABELS[d.verification_status].meaning}</span></div>
+    </header>
+    <div class="article-layout">
+      <div class="article-main">
+        {d.hero_media && <figure><img src={d.hero_media.src} alt={d.hero_media.alt} loading="eager" />{d.hero_media.credit && <figcaption>{d.hero_media.credit}</figcaption>}</figure>}
+        <div class="prose"><Content /></div>
+        {d.tags.length > 0 && <ul class="tags" aria-label="Tags">{d.tags.map((t) => <li>{t}</li>)}</ul>}
+      </div>
+      <aside class="aside">
+        <section class="box sources" aria-labelledby="sources-h">
+          <h2 id="sources-h">Sources</h2>
+          <ol>{d.sources.map((s) => <li><a href={s.url} rel="noopener nofollow">{s.name}{s.title ? `: ${s.title}` : ''}</a>{s.published_at ? `, ${s.published_at.slice(0, 10)}` : ''}</li>)}</ol>
+          <p><a href="/editorial-standards/">How we label and check claims</a> · <a href="/ai-disclosure/">How automation is used</a></p>
+        </section>
+        {latest.length > 0 && <section class="rail" aria-labelledby="latest-h">
+          <h2 class="rail-head" id="latest-h">Latest</h2>
+          <ol>{latest.map((a) => <li>
+            <a href={`/articles/${a.data.slug}/`}>{a.data.title}</a>
+            <span class="when"><span class={`kicker b-${a.data.editorial_bucket}`}>{BUCKETS[a.data.editorial_bucket].label}</span></span>
+          </li>)}</ol>
+        </section>}
+      </aside>
+    </div>
+    {more.length > 0 && <section class="related section" aria-labelledby="related-h"><div class="section-head"><h2 id="related-h">Related</h2></div><div class="grid">{more.map((a) => <ArticleCard article={a} />)}</div></section>}
+  </article>
+</Base>

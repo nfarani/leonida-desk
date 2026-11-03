@@ -1,0 +1,209 @@
+# Core run settings. All times UTC.
+database_path: data/gta6_intel.db
+briefings_dir: outputs/briefings
+
+discovery:
+  max_item_age_hours: 168        # ignore items older than 7 days at discovery
+  request_timeout_seconds: 20
+  user_agent: "gta6-intel/0.1 (editorial research bot; contact: set-me)"
+  web_search:
+    enabled: true                # requires ANTHROPIC_API_KEY
+    max_searches: 10
+    # Broad gaming first, then the flagship. Half of these look for visual stories rather than headlines.
+    queries:
+      - "video game news today"
+      - "new game announcement trailer this week"
+      - "PlayStation Xbox Nintendo announcement today"
+      - "Steam new release trending players"
+      - "players discover hidden detail game this week"
+      - "game patch notes update changes this week"
+      - "game physics NPC AI detail players noticed"
+      - "GTA 6 news today"
+      - "GTA VI Rockstar new details"
+      - "GTA 6 leak report"
+
+relevance:
+  # An item must match at least one pattern (case-insensitive regex) to enter the pipeline.
+  patterns:
+    - "\\bgta\\s?(vi|6)\\b"
+    - "\\bgta6\\b"
+    - "grand theft auto\\s?(vi|6)"
+    - "\\bleonida\\b"
+  # Sources flagged always_relevant (general gaming feeds, r/GTA6) skip the patterns above.
+  # Everything below applies to every non-community item, whatever feed it came from.
+  #
+  # Site sections that are not about games (outlets file film, TV and shopping under these paths).
+  exclude_url_sections: ["entertainment", "movies", "movie", "film", "tv", "tv-shows", "animation-shows", "anime",
+                         "comics", "streaming", "books", "music", "deals", "tabletop", "toys", "wrestling", "lego"]
+  # Shopping posts and puzzles.
+  exclude_patterns:
+    - "\\b(deal|deals|discount|discounted|% off|prime day|black friday|cyber monday|cheapest|lowest price|price drop|on sale)\\b"
+    - "\\b(wordle|strands|connections hints|crossword|nyt mini|hints and answers)\\b"
+  # Film, TV and celebrity coverage. Rejected unless the headline is clearly about a game.
+  entertainment_patterns:
+    - "\\b(movie|film|tv series|tv show|netflix|hbo|disney\\+|prime video|paramount|box office|showrunner|casting|actor|actress|anime|manga|comic book|novel|season \\d+|episode \\d+|sitcom|soundtrack album|dcu|mcu|marvel studios|dc studios|live-action|animated series|sequel series|the last airbender|wonder woman|superman|batman movie)\\b"
+  # Headlines that are about a screen production even when they name a game or franchise.
+  entertainment_primary:
+    - "\\b(new|upcoming|next) (movie|film|tv series|series|show)\\b"
+    - "\\b(box office|streaming on|now on netflix|season \\d+|episode \\d+|red carpet|oscars?|emmys?)\\b"
+    - "\\b(stars? in|to star in|joins? the cast|cast as)\\b"
+  gaming_signals: "\\b(game|games|gaming|gameplay|video ?game|dlc|expansion|patch|hotfix|update|console|ps5|ps4|playstation|xbox|switch|steam|pc port|early access|release date|launch|developer|studio|publisher|mod|mods|modders?|rpg|fps|mmo|roguelike|multiplayer|co-op|esports|speedrun|remake|remaster|demo|beta|nintendo|rockstar)\\b"
+  # Aggregation, listicles and SEO filler: nothing new to make a story from.
+  low_value_patterns:
+    - "^\\d+ (new |big |more )?(things|details|reasons|games|ways)\\b"
+    - "\\beverything (we|you) (know|need|learned)\\b|\\beverything new\\b|\\ball confirmed\\b|\\bwhat we know so far\\b"
+    - "\\b(codes|promo codes|redeem codes)\\b.*\\b(20\\d\\d|january|february|march|april|may|june|july|august|september|october|november|december)\\b"
+    - "\\b(how to watch|where to (buy|watch|pre-?order)|release time|countdown|live ?blog|as it happened|review roundup|weekly recap|week in review)\\b"
+    - "^(talking point|poll|feature: what are you playing|what are you playing|eshop highlights|upcoming games|random:|soapbox:|opinion:)"
+    - "\\b(tier list|best .* to buy|gift guide|buying guide)\\b"
+    # Guides and reviews: reference pages, not stories. We review only what we have played.
+    - "\\b(walkthrough|how to (get|find|unlock|beat|solve|farm)|best (faction|class|build|builds|settings|loadout|weapons?) (to|for|in)|faq)\\b"
+    - "^(mini )?review\\b|\\breview:|\\breview$|\\breview \\(|\\b(hands-on|preview) (with|of)\\b"
+  # URL sections that hold guides, reviews and shopping rather than stories.
+  low_value_url_sections: ["guide", "guides", "reviews", "review", "how-to", "hardware", "buying-guides"]
+
+clustering:
+  similarity_threshold: 0.45     # blended Jaccard/overlap at or above this = same underlying story
+  match_window_hours: 168        # compare against stories seen in this window
+  llm_adjudication: true         # ask Claude about borderline pairs (floor - threshold)
+  borderline_floor: 0.28
+  # --- event fingerprint (research/fingerprint.py) ---
+  # Two headlines are the same event when they share TWO independent signals inside this window:
+  # a named subject + a topic, a named subject + some wording, or two topics.
+  event_window_hours: 96
+  # Named subjects worth matching on. Capitalised names in sentence-case headlines are picked up
+  # automatically; list here only names with aliases or that appear mostly in Title Case headlines.
+  entities:
+    pegi: ["pegi"]
+    esrb: ["esrb"]
+    australian_board: ["australia", "australian"]
+    dan_houser: ["dan houser"]
+    sam_houser: ["sam houser"]
+    strauss_zelnick: ["strauss zelnick", "zelnick"]
+    miami_heat: ["miami heat", "vice city heat"]
+    snl: ["snl", "saturday night live"]
+    warhorse: ["warhorse", "kingdom come"]
+    cardi_b: ["cardi b"]
+    spotify: ["spotify"]
+    jpmorgan: ["jpmorgan", "jp morgan"]
+  # Names that appear in most GTA VI headlines, or that are the SOURCE of many different stories.
+  # Sharing one of these says nothing about whether two headlines are the same event.
+  generic_entities:
+    - gta
+    - gta 6
+    - gta vi
+    - grand theft auto
+    - rockstar
+    - rockstar games
+    - rockstar north
+    - take-two
+    - take two
+    - take-two interactive
+    - vice city
+    - leonida
+    - jason
+    - lucia
+    - jason duval
+    - lucia caminos
+    - ps5
+    - xbox
+    - playstation
+    - sony
+    - microsoft
+    - florida
+    - miami
+    - game informer
+    - love magazine
+    - dazed
+    - ign
+    - reddit
+    - youtube
+    - dlc
+    - npc
+    - npcs
+    - usa
+    - rpg
+  # Topic concepts: different wording for the same kind of event. Keep these specific; a concept
+  # as broad as "trailer" or "leak" would merge unrelated stories.
+  concepts:
+    age_rating: ["age rating", "rating", "rated", "pegi", "esrb", "ratings board", "classification"]
+    explicit_content: ["sex scene", "sex scenes", "nudity", "drug use", "drugs", "cocaine", "decapitation",
+                       "explicit", "explicit-content", "sexual", "mature content", "adult content", "gore"]
+    nba_tiein: ["miami heat", "basketball", "nba", "kaseya", "vice city heat"]
+    snl: ["snl", "saturday night live"]
+    soundtrack: ["soundtrack", "album", "spotify", "tracklist"]
+    ps5_firmware: ["firmware", "jailbreak"]
+    collectors_edition: ["collector's edition", "collectors edition", "collector's box", "collector's"]
+    stock_market: ["stock", "shares", "analyst", "wall street", "investors"]
+    xbox_deal: ["publishing deal", "xbox contract", "xbox terms", "xbox rulebook"]
+    game_price: ["price", "prices", "$80", "$100", "charging more"]
+    weather_system: ["weather", "hurricane", "hurricanes"]
+    delay: ["delay", "delays", "delayed", "postponed"]
+    pc_version: ["emulator", "pc release", "pc port", "on pc"]
+
+# Publications whose interviews, cover stories or events many outlets then relay. Stories that all
+# trace back to the same one are angles on a single parent event (see research/games.py).
+parent_events:
+  origins:
+    love-magazine: ["love magazine", "love interview"]
+    game-informer: ["game informer"]
+    variety: ["variety"]
+    gq: ["gq"]
+    edge-magazine: ["edge magazine"]
+    famitsu: ["famitsu"]
+    nintendo-direct: ["nintendo direct"]
+    state-of-play: ["state of play"]
+    xbox-showcase: ["xbox showcase", "developer direct"]
+    the-game-awards: ["game awards"]
+    earnings-call: ["earnings call", "financial results", "investor"]
+
+community:
+  # Community content types that may stand as a recommendation on their own. Everything else
+  # (discussion, question, meme, wishlist, unclassified) only feeds demand for stories it attaches to.
+  standalone_types: [OBSERVABLE_DISCOVERY, NEWS_LINK, RUMOUR, THEORY]
+
+cooldown:
+  story_hours: 72                # used story not re-recommended unless material update
+  topic_penalty_hours: 72        # same content_cluster recently used -> penalty, not exclusion
+  topic_penalty_points: 8
+
+freshness:
+  half_life_hours: 18            # freshness halves every N hours
+  update_bump_hours: 6           # a material update within N hours refreshes freshness
+
+ranking:
+  saturation_penalty: 0.35       # rank_score = opportunity * (1 - penalty * saturation/100)
+  flagship_bonus: 6              # rank points added to stories about a flagship game (config/games.yaml)
+  max_per_parent_event: 2        # one interview or announcement may fill at most this many slots in a briefing
+  recommendations: 10
+  # The daily HOT LIST (operator decision, 21 Oct 2026): the top stories in GTA VI and gaming, ranked.
+  # A ceiling, not a quota: a story that fails these checks is never promoted to fill a slot.
+  hot_list:
+    count: 10                    # default length; any run can ask for more (morning.py --count 30, /morning 30)
+    radar: 10                    # further stories listed one line each under "On the radar"
+    min_freshness: 0.15          # about 50 hours at the 18h half-life; older is not hot
+    excluded_labels: [SPECULATION]
+    # Two listed stories whose headlines are at least this similar (same game) are treated as one
+    # story told twice: the second is listed under the first, never given its own slot.
+    duplicate_similarity: 0.45
+    duplicate_min_shared_words: 3  # and this many shared words that are not dates, platforms or news verbs
+    # Running topics. Stories on one topic (same game) take at most ranking.max_per_parent_event
+    # slots; the rest are listed as further angles. Words are matched whole, case-insensitive.
+    topic_caps:
+      console_hacking: ["firmware", "jailbreak", "jailbroken", "hacker", "hackers", "hack", "exploit", "cracked", "homebrew", "kernel"]
+      layoffs: ["layoff", "layoffs", "job cuts", "redundancies", "laid off"]
+      preorders: ["pre-order", "pre-orders", "preorder", "preorders"]
+      delay: ["delay", "delays", "delayed", "postponed"]
+      price: ["price", "prices", "pricing", "cost"]
+  post_now:
+    count: 3
+    min_opportunity: 55
+    min_freshness: 0.45          # 0-1
+    max_saturation: 65
+    excluded_labels: [SPECULATION, THEORY]
+
+llm:
+  model: claude-sonnet-5-5
+  max_tokens: 32000              # the model's thinking counts against this, so leave headroom
+  editorial_batch_size: 10       # stories per Claude editorial call
+  editorial_batches: 3           # calls per run; stories beyond these are scored heuristically

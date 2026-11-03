@@ -1,0 +1,340 @@
+{
+  "video_id": "20261005-7-gta-6-completely-re-engineered-rockstar-",
+  "status": "READY_FOR_REVIEW",
+  "updated_at": "2026-10-05T18:26:10+00:00",
+  "history": [
+    {
+      "status": "IDEA",
+      "at": "2026-10-05T17:12:31+00:00",
+      "note": "package started"
+    },
+    {
+      "status": "READY_FOR_GENERATION",
+      "at": "2026-10-05T17:13:33+00:00",
+      "note": "checker: 0 errors"
+    },
+    {
+      "status": "GENERATING",
+      "at": "2026-10-05T17:34:14+00:00",
+      "note": "production run started"
+    },
+    {
+      "status": "READY_FOR_REVIEW",
+      "at": "2026-10-05T17:49:46+00:00",
+      "note": "final.mp4 assembled, 46.29s"
+    },
+    {
+      "status": "GENERATING",
+      "at": "2026-10-05T17:51:09+00:00",
+      "note": "production run started"
+    },
+    {
+      "status": "READY_FOR_REVIEW",
+      "at": "2026-10-05T17:57:59+00:00",
+      "note": "final.mp4 assembled, 44.89s"
+    },
+    {
+      "status": "GENERATING",
+      "at": "2026-10-05T17:59:10+00:00",
+      "note": "production run started"
+    },
+    {
+      "status": "READY_FOR_REVIEW",
+      "at": "2026-10-05T18:03:30+00:00",
+      "note": "final.mp4 assembled, 44.89s"
+    },
+    {
+      "status": "GENERATING",
+      "at": "2026-10-05T18:21:52+00:00",
+      "note": "production run started"
+    },
+    {
+      "status": "READY_FOR_REVIEW",
+      "at": "2026-10-05T18:22:44+00:00",
+      "note": "final.mp4 assembled, 44.89s"
+    },
+    {
+      "status": "GENERATING",
+      "at": "2026-10-05T18:24:18+00:00",
+      "note": "production run started"
+    },
+    {
+      "status": "READY_FOR_REVIEW",
+      "at": "2026-10-05T18:25:11+00:00",
+      "note": "final.mp4 assembled, 44.89s"
+    }
+  ],
+  "render": {
+    "adapter": "higgsfield-cli",
+    "jobs": [
+      {
+        "key": "vo-1",
+        "job_id": "6843f95a-35d3-4788-8959-a64775d7dae1",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T17:34:15+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_173415_6843f95a-35d3-4788-8959-a64775d7dae1.mp3",
+        "asset": "vo-1.mp3"
+      },
+      {
+        "key": "vo-3",
+        "job_id": "44189b33-4674-4b83-93d2-9abd04071274",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T17:34:16+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_173415_44189b33-4674-4b83-93d2-9abd04071274.mp3",
+        "asset": "vo-3.mp3"
+      },
+      {
+        "key": "vo-2",
+        "job_id": "76c2b8ae-a3b4-42d5-9e22-72e1d1c6f4d3",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.45,
+        "submitted_at": "2026-10-05T17:34:16+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_173415_76c2b8ae-a3b4-42d5-9e22-72e1d1c6f4d3.mp3",
+        "asset": "vo-2.mp3"
+      },
+      {
+        "key": "vo-4",
+        "job_id": "c96e8163-332e-4b55-a40c-9494f3597173",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.45,
+        "submitted_at": "2026-10-05T17:34:16+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_173415_c96e8163-332e-4b55-a40c-9494f3597173.mp3",
+        "asset": "vo-4.mp3"
+      },
+      {
+        "key": "vo-6",
+        "job_id": "6840db6b-7cbb-4636-8c2b-f5bc97e3554d",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T17:34:17+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_173416_6840db6b-7cbb-4636-8c2b-f5bc97e3554d.mp3",
+        "asset": "vo-6.mp3"
+      },
+      {
+        "key": "vo-5",
+        "job_id": "3bc95799-db9a-431c-af0c-4d40904f88cf",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.15,
+        "submitted_at": "2026-10-05T17:34:17+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_173417_3bc95799-db9a-431c-af0c-4d40904f88cf.mp3",
+        "asset": "vo-5.mp3"
+      },
+      {
+        "key": "vo-7",
+        "job_id": "9a04ba55-9714-4ce8-9ea6-f60c6e80d012",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.15,
+        "submitted_at": "2026-10-05T17:35:03+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_173503_9a04ba55-9714-4ce8-9ea6-f60c6e80d012.mp3",
+        "asset": "vo-7.mp3"
+      },
+      {
+        "key": "vo-9",
+        "job_id": "a06bd4cd-8d3f-4df1-8268-2d9bf35282a0",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T17:35:03+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_173503_a06bd4cd-8d3f-4df1-8268-2d9bf35282a0.mp3",
+        "asset": "vo-9.mp3"
+      },
+      {
+        "key": "vo-8",
+        "job_id": "64fb0abe-36a4-4e17-9928-7f6acb5195e5",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.15,
+        "submitted_at": "2026-10-05T17:35:04+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_173504_64fb0abe-36a4-4e17-9928-7f6acb5195e5.mp3",
+        "asset": "vo-8.mp3"
+      },
+      {
+        "key": "vo-10",
+        "job_id": "9b82a8fe-4d5f-4708-8519-74b9b72925e6",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T17:35:04+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_173504_9b82a8fe-4d5f-4708-8519-74b9b72925e6.mp3",
+        "asset": "vo-10.mp3"
+      },
+      {
+        "key": "reference",
+        "job_id": "63da9c4f-3d84-473d-850f-1bc0839a6935",
+        "model": "gpt_image_2_5",
+        "status": "completed",
+        "credits": 0.25,
+        "submitted_at": "2026-10-05T17:35:09+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_173509_63da9c4f-3d84-473d-850f-1bc0839a6935.png",
+        "asset": "reference.png"
+      },
+      {
+        "key": "still-3",
+        "job_id": "9c98e8e5-1761-49b4-9ec7-1ddf14235c1d",
+        "model": "gpt_image_2_5",
+        "status": "completed",
+        "credits": 0.25,
+        "submitted_at": "2026-10-05T17:35:27+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_173526_9c98e8e5-1761-49b4-9ec7-1ddf14235c1d.png",
+        "asset": "still-3.png"
+      },
+      {
+        "key": "shot-3",
+        "job_id": "1141122c-4546-4a96-96e0-3b161c212810",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 6.0,
+        "submitted_at": "2026-10-05T17:35:47+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_173547_1141122c-4546-4a96-96e0-3b161c212810.mp4",
+        "asset": "shot-3.mp4"
+      },
+      {
+        "key": "shot-7",
+        "job_id": "86acd7b1-5af7-48a3-b02c-119c6472bd94",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 4.0,
+        "submitted_at": "2026-10-05T17:39:02+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_173901_86acd7b1-5af7-48a3-b02c-119c6472bd94.mp4",
+        "asset": "shot-7.mp4"
+      },
+      {
+        "key": "shot-8",
+        "job_id": "c02f66ad-86be-407e-8dd5-8f4e610fe649",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 4.0,
+        "submitted_at": "2026-10-05T17:39:02+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_173902_c02f66ad-86be-407e-8dd5-8f4e610fe649.mp4",
+        "asset": "shot-8.mp4"
+      },
+      {
+        "key": "shot-9",
+        "job_id": "0785babf-bd53-44d9-aad1-4e88ee6ade88",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 4.0,
+        "submitted_at": "2026-10-05T17:39:49+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_173949_0785babf-bd53-44d9-aad1-4e88ee6ade88.mp4",
+        "asset": "shot-9.mp4"
+      },
+      {
+        "key": "music",
+        "job_id": "a61369f3-d698-4bf1-9c9d-9c59bfc8948c",
+        "model": "sonilo_music",
+        "status": "completed",
+        "credits": 3.0,
+        "submitted_at": "2026-10-05T17:48:10+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_174810_a61369f3-d698-4bf1-9c9d-9c59bfc8948c.m4a",
+        "asset": "music.m4a"
+      },
+      {
+        "key": "bed-1",
+        "job_id": "0e0ab7b1-1e62-4d4b-bbe2-861a2fc3f83b",
+        "model": "seed_audio",
+        "status": "completed",
+        "credits": 0.8,
+        "submitted_at": "2026-10-05T17:48:21+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_174821_0e0ab7b1-1e62-4d4b-bbe2-861a2fc3f83b.wav",
+        "asset": "bed-1.wav"
+      },
+      {
+        "key": "shot-1",
+        "job_id": "627f8ed2-af98-472b-9ea7-fd42c2e6b368",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 5.0,
+        "submitted_at": "2026-10-05T17:35:31+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_173530_627f8ed2-af98-472b-9ea7-fd42c2e6b368.mp4",
+        "asset": "shot-1.mp4",
+        "note": "first take, with its first second trimmed locally to remove a badge at the frame edge"
+      },
+      {
+        "key": "shot-6",
+        "job_id": "a387572b-5057-481e-9604-b098c7ebc4a0",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 6.0,
+        "submitted_at": "2026-10-05T17:59:15+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_175915_a387572b-5057-481e-9604-b098c7ebc4a0.mp4",
+        "asset": "shot-6.mp4"
+      }
+    ],
+    "cost": 36.15,
+    "final": "final_v2.mp4",
+    "seconds": 44.89,
+    "timeline": "timeline.json",
+    "captions": "captions.srt",
+    "voice": "Dylan",
+    "models": [
+      "gpt_image_2_5",
+      "seed_audio",
+      "seedance_2_0_mini",
+      "sonilo_music",
+      "text2speech_v2"
+    ],
+    "generations": 20,
+    "produced_at": "2026-10-05T18:25:11+00:00",
+    "cost_unit": "credits (estimated)",
+    "replaced": [
+      {
+        "key": "shot-6",
+        "job_id": "e185f8e2-f7af-4b10-aee8-e5f6c98788cd",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 6.0,
+        "submitted_at": "2026-10-05T17:35:30+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_173530_e185f8e2-f7af-4b10-aee8-e5f6c98788cd.mp4",
+        "asset": "shot-6.mp4",
+        "reason": "real carmaker badge visible on the car"
+      },
+      {
+        "key": "shot-6",
+        "job_id": "496ab624-6842-4ffd-b8c5-96902522446d",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 6.0,
+        "submitted_at": "2026-10-05T17:51:15+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_175114_496ab624-6842-4ffd-b8c5-96902522446d.mp4",
+        "asset": "shot-6.mp4",
+        "reason": "retry still showed a real carmaker badge; car also flipped from front to rear mid-clip"
+      },
+      {
+        "key": "shot-1",
+        "job_id": "36548d44-2942-4170-bf19-7f45f522e740",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 5.0,
+        "submitted_at": "2026-10-05T17:51:15+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_175114_36548d44-2942-4170-bf19-7f45f522e740.mp4",
+        "asset": "shot-1.mp4",
+        "reason": "retry still showed a real carmaker badge"
+      }
+    ],
+    "credits_replaced_takes": 17.0,
+    "credits_spent_total": 53.15,
+    "review_notes": [
+      "Shot 1 is the first take with its first second trimmed (a real carmaker badge was visible at the frame edge).",
+      "Shot 6 was re-shot side-on after two rear-view takes showed a real carmaker badge; it no longer matches shot 1's camera angle.",
+      "Shot 9 shows a flooded street with a fallen palm, not an underpass, and the car has bonnet stripes the reference does not.",
+      "Shot 8: the helicopter is faint behind its searchlight.",
+      "Audio was level-checked by measurement only; nobody has listened to it."
+    ],
+    "versions": [
+      "final_v2.mp4"
+    ],
+    "design": "config/design.yaml"
+  },
+  "posts": [],
+  "errors": 0,
+  "warnings": 0
+}

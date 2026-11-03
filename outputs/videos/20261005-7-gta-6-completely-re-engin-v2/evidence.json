@@ -1,0 +1,68 @@
+{
+  "packet": "story-7-short",
+  "story_label": "HIGH_CONFIDENCE_REPORT",
+  "claims": [
+    {
+      "id": "c4",
+      "kind": "fact",
+      "claim": "Eurogamer reports that hurricanes, rainbows and heavy rain are part of GTA 6, citing Owen Shepherd, whom it describes as Rockstar's vice president of art for lighting and rendering, speaking to Game Informer.",
+      "source_id": "s1",
+      "source_url": "https://eurogamer.net/gta6-rockstar-weather-systems-hurricanes-rainbows-rain",
+      "source_date": "2026-09-30T17:04:55+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Eurogamer, 30 Sep 2026, headline and paragraphs 1-2. Opened 5 Oct 2026.",
+      "quote": null
+    },
+    {
+      "id": "c5",
+      "kind": "fact",
+      "claim": "Shepherd said Rockstar re-engineered its weather system to be much more localized and persistent.",
+      "source_id": "s1",
+      "source_url": "https://eurogamer.net/gta6-rockstar-weather-systems-hurricanes-rainbows-rain",
+      "source_date": "2026-09-30T17:04:55+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Eurogamer, 30 Sep 2026, direct quote attributed to Shepherd via Game Informer. Opened 5 Oct 2026.",
+      "quote": "We have re-engineered our weather system to make everything much more localized and persistent, and really wanted the world to feel dynamically solid and achieve a sense of scale we haven't felt before"
+    },
+    {
+      "id": "c7",
+      "kind": "fact",
+      "claim": "Eurogamer says Rockstar has not said how the updated weather might affect how the player moves around the world, and asks whether thunderstorms are purely aesthetic or whether wet roads will affect tyres.",
+      "source_id": "s1",
+      "source_url": "https://eurogamer.net/gta6-rockstar-weather-systems-hurricanes-rainbows-rain",
+      "source_date": "2026-09-30T17:04:55+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Eurogamer, 30 Sep 2026, paragraph 7: 'Rockstar's also omitting how these updated weather systems might impact how you move around the world.' This is the outlet's observation and question, not a Rockstar statement. Opened 5 Oct 2026.",
+      "quote": "Are thunderstorms purely aesthetic or will the wet roads affect my tires?"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "story_id": 7,
+      "publisher": "Eurogamer",
+      "url": "https://eurogamer.net/gta6-rockstar-weather-systems-hurricanes-rainbows-rain",
+      "title": "GTA 6 completely \"re-engineered\" Rockstar's weather systems to \"achieve a sense of scale we haven't felt before,\" adding hurricanes, rainbows and heavy rain",
+      "published_at": "2026-09-30T17:04:55+00:00",
+      "tier": 1,
+      "source_type": "journalism",
+      "opened": true,
+      "opened_at": "2026-10-05T17:12:31+00:00",
+      "note": ""
+    },
+    {
+      "id": "s2",
+      "story_id": 7,
+      "publisher": "Rock Paper Shotgun",
+      "url": "https://rockpapershotgun.com/gta-6-will-simulate-hurricanes-rainbows-and-persistent-dynamic-clouds-among-other-efforts-to-make-you-stop-doing-crime-and-become-a-weather-nerd",
+      "title": "GTA 6 will simulate hurricanes, rainbows and persistent, dynamic clouds, among other efforts to make you stop doing crime and become a weather nerd",
+      "published_at": "2026-09-30T09:30:00+00:00",
+      "tier": 2,
+      "source_type": "journalism",
+      "opened": true,
+      "opened_at": "2026-10-05T17:12:31+00:00",
+      "note": ""
+    }
+  ],
+  "conflicts": []
+}

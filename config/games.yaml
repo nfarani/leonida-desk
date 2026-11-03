@@ -1,0 +1,75 @@
+# GAME REGISTRY. One entry per game Leonida Desk covers. Read by the pipeline (to tag stories) and
+# by the site (to build /games/<slug>/).
+#
+# RULES
+# - `aliases` only decide which stories belong to a game. They are matched as whole words in headlines.
+# - Every factual field (developer, publisher, platforms, release_date, summary) must come from a
+#   stored source, with its URL in `sources`. Leave a field null rather than fill it from memory.
+# - `flagship: true` gives a game its own top-level section and a ranking bonus (settings.yaml).
+games:
+  gta-vi:
+    name: "Grand Theft Auto VI"
+    short_name: "GTA VI"
+    franchise: "Grand Theft Auto"
+    aliases: ["gta 6", "gta vi", "gta6", "gtavi", "grand theft auto 6", "grand theft auto vi", "leonida"]
+    flagship: true
+    path: "/gta-vi/"
+    developer: "Rockstar Games"
+    publisher: "Take-Two Interactive"
+    platforms: null                # not yet taken from a stored source
+    release_date: "2026-11-19"     # as reported by VGC on 3 Oct 2026; not from an official page we have opened
+    release_date_label: HIGH_CONFIDENCE_REPORT
+    summary: "The next Grand Theft Auto, set in the fictional state of Leonida."
+    sources:
+      - "https://videogameschronicle.com/news/gta-6-rating-pulled-after-revealing-sex-scenes-and-drug-use"
+      - "https://videogameschronicle.com/news/gta-6-is-deliberately-avoiding-direct-political-references-says-rockstar"
+  gears-of-war-e-day:
+    name: "Gears of War: E-Day"
+    franchise: "Gears of War"
+    aliases: ["gears of war: e-day", "gears of war e-day", "e-day"]
+    developer: null
+    publisher: null
+    platforms: null
+    release_date: null
+    summary: null
+    sources: []
+  star-wars-galactic-racer:
+    name: "Star Wars: Galactic Racer"
+    franchise: "Star Wars"
+    aliases: ["star wars: galactic racer", "galactic racer"]
+    developer: null
+    publisher: null
+    platforms: null
+    release_date: null
+    summary: null
+    sources: []
+  final-fantasy-7-revelation:
+    name: "Final Fantasy 7 Revelation"
+    franchise: "Final Fantasy"
+    aliases: ["final fantasy 7 revelation", "final fantasy vii revelation", "ff7 revelation"]
+    developer: null
+    publisher: null
+    platforms: null
+    release_date: null
+    summary: null
+    sources: []
+  runescape:
+    name: "RuneScape"
+    franchise: "RuneScape"
+    aliases: ["runescape"]
+    developer: null
+    publisher: null
+    platforms: null
+    release_date: null
+    summary: null
+    sources: []
+  no-law:
+    name: "No Law"
+    franchise: null
+    aliases: ["no law"]
+    developer: null
+    publisher: null
+    platforms: null
+    release_date: null
+    summary: null
+    sources: []

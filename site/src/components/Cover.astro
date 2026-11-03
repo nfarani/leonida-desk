@@ -1,0 +1,14 @@
+---
+// A designed panel where a photograph would go: we publish no image we do not hold the rights to.
+import { BUCKETS } from '../config';
+import type { Article } from '../lib/articles';
+interface Props { article: Article; lead?: boolean }
+const { article, lead = false } = Astro.props;
+const d = article.data;
+const topic = d.tags[0] ?? BUCKETS[d.editorial_bucket].label;
+const cls = `cover c-${d.editorial_bucket}${d.game ? ` g-${d.game}` : ''}${lead ? ' lead' : ''}`;
+---
+<div class={cls} aria-hidden={lead ? undefined : 'true'}>
+  <span class="sec">{BUCKETS[d.editorial_bucket].label}</span>
+  {lead ? <slot /> : <span class="topic">{topic}</span>}
+</div>

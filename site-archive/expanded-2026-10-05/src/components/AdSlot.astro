@@ -1,0 +1,11 @@
+---
+// A reserved advertising position. Renders nothing while ads_enabled is off. In the editor preview
+// it shows a dashed placeholder so placement can be judged before any ad code exists.
+import { FLAGS } from '../config';
+import { PREVIEW } from '../lib/articles';
+interface Props { position: 'homepage-feed' | 'article-top' | 'article-middle' | 'article-bottom' | 'sidebar' | 'related' }
+const { position } = Astro.props;
+---
+{FLAGS.ads_enabled
+  ? <div class="ad-slot live" data-ad-position={position} aria-label="Advertisement"><span>Advertisement</span></div>
+  : PREVIEW && <div class="ad-slot placeholder" data-ad-position={position} aria-hidden="true">Ad position: {position} (ads are off)</div>}

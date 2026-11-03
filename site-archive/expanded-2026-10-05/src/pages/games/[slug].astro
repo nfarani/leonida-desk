@@ -1,0 +1,34 @@
+---
+import Base from '../../layouts/Base.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import NewsletterSignup from '../../components/NewsletterSignup.astro';
+import { GAMES, LABELS, FLAGS, type Game } from '../../config';
+import { visibleArticles } from '../../lib/articles';
+export function getStaticPaths() {
+  return GAMES.filter((g) => !g.path).map((game) => ({ params: { slug: game.slug }, props: { game } }));
+}
+const { game } = Astro.props as { game: Game };
+const articles = await visibleArticles(undefined, game.slug);
+const facts = [['Developer', game.developer], ['Publisher', game.publisher], ['Franchise', game.franchise],
+  ['Platforms', game.platforms?.join(', ')], ['Release date', game.release_date]].filter(([, v]) => v);
+---
+<Base title={game.name} description={game.summary ?? `${game.name}: news, discoveries, explainers and guides from Leonida Desk.`} noindex={articles.length === 0}>
+  <div class="hub-head">
+    <div>
+      <span class="kicker">Game</span>
+      <h1>{game.name}</h1>
+      {game.summary && <p>{game.summary}</p>}
+      {FLAGS.accounts_enabled && <button class="button" data-track="game_follow" data-game={game.slug}>Follow</button>}
+    </div>
+    {facts.length > 0 && (
+      <aside class="facts" aria-label="Key facts">
+        <dl>{facts.map(([k, v]) => <><dt>{k}</dt><dd>{v}</dd></>)}</dl>
+        {game.release_date && game.release_date_label && <p>Release date: {LABELS[game.release_date_label].text.toLowerCase()}.</p>}
+      </aside>
+    )}
+  </div>
+  {articles.length
+    ? <div class="grid">{articles.map((a) => <ArticleCard article={a} heading="h2" />)}</div>
+    : <p class="empty">We are tracking {game.name} but have not published anything on it yet.</p>}
+  <NewsletterSignup source={`game:${game.slug}`} compact heading={`Hear about ${game.name}`} />
+</Base>

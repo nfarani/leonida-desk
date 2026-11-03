@@ -1,0 +1,227 @@
+{
+  "packet_id": "story-1195-us-hardware-numbers",
+  "story_id": 1195,
+  "parent_event_id": null,
+  "story_ids": [
+    1195
+  ],
+  "angle_id": "us-hardware-numbers",
+  "angle": "The numbers behind the warning, and what GTA VI can and cannot fix",
+  "editorial_bucket": "EXPLAINER",
+  "story_label": "HIGH_CONFIDENCE_REPORT",
+  "built_at": "2026-10-11T19:18:21+00:00",
+  "sources": [
+    {
+      "id": "s1",
+      "story_id": 1195,
+      "publisher": "Eurogamer",
+      "url": "https://eurogamer.net/xbox-playstation-sales-new-lows-hardware-market",
+      "title": "As Xbox and PlayStation sales reach new lows, analyst says the \"US hardware market has not been in a more precarious position since the early 80s\"",
+      "published_at": "2026-10-09T18:51:26+00:00",
+      "tier": 1,
+      "source_type": "journalism",
+      "opened": true,
+      "opened_at": "2026-10-11T19:20:48+00:00",
+      "note": ""
+    },
+    {
+      "id": "s2",
+      "story_id": 1195,
+      "publisher": "VGC",
+      "url": "https://videogameschronicle.com/news/us-console-hardware-market-at-its-most-precarious-position-since-the-80s-says-circana",
+      "title": "US console hardware market at its most precarious position ‘since the 80s’, says Circana",
+      "published_at": "2026-10-10T12:53:54+00:00",
+      "tier": 1,
+      "source_type": "journalism",
+      "opened": true,
+      "opened_at": "2026-10-11T19:20:48+00:00",
+      "note": ""
+    },
+    {
+      "id": "s3",
+      "story_id": 1195,
+      "publisher": "games.gg",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9Wblo1ZzZ6RExFb0JxLWRUaGYxRVVQWGJ6Wk1xNUYtaF94RU5JVEFWUXJwWEhWWGpSVTNxUXp3RGdWajFadTNOTTFDX1NqU2pYZzhWMVhpRFhaX250c1Njd09rZ29qVEhINmhpaWsySEdlakZXXzI1cw?oc=5",
+      "title": "Xbox and PlayStation Hardware Sales at Historic Lows",
+      "published_at": "2026-10-11T11:10:10+00:00",
+      "tier": 3,
+      "source_type": "journalism",
+      "opened": false,
+      "opened_at": null,
+      "note": ""
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "headline",
+      "claim": "Eurogamer published a piece headlined: As Xbox and PlayStation sales reach new lows, analyst says the \"US hardware market has not been in a more precarious position since the early 80s\"",
+      "source_id": "s1",
+      "source_url": "https://eurogamer.net/xbox-playstation-sales-new-lows-hardware-market",
+      "source_date": "2026-10-09T18:51:26+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "PS5 and Xbox Series X/S consoles are more expensive than ever in most markets, thanks largely to memory components being gobbled up by AI data centres. Now, analyst Mat Piscatella worries the console market, at least in the US, hasn't looked this dire since the early 1980s, which was maybe not-so-coincidentally when the industry absolutely collapsed. Read more",
+      "quote": null
+    },
+    {
+      "id": "c2",
+      "kind": "headline",
+      "claim": "VGC published a piece headlined: US console hardware market at its most precarious position ‘since the 80s’, says Circana",
+      "source_id": "s2",
+      "source_url": "https://videogameschronicle.com/news/us-console-hardware-market-at-its-most-precarious-position-since-the-80s-says-circana",
+      "source_date": "2026-10-10T12:53:54+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Xbox sales hit an all-time low as US console prices reach record highs",
+      "quote": null
+    },
+    {
+      "id": "c3",
+      "kind": "headline",
+      "claim": "games.gg published a piece headlined: Xbox and PlayStation Hardware Sales at Historic Lows",
+      "source_id": "s3",
+      "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9Wblo1ZzZ6RExFb0JxLWRUaGYxRVVQWGJ6Wk1xNUYtaF94RU5JVEFWUXJwWEhWWGpSVTNxUXp3RGdWajFadTNOTTFDX1NqU2pYZzhWMVhpRFhaX250c1Njd09rZ29qVEhINmhpaWsySEdlakZXXzI1cw?oc=5",
+      "source_date": "2026-10-11T11:10:10+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "Xbox and PlayStation Hardware Sales at Historic Lows games.gg",
+      "quote": null
+    },
+    {
+      "id": "c4",
+      "kind": "fact",
+      "claim": "Circana's Mat Piscatella says Xbox hardware unit sales in the US are down 33% on a year ago and PlayStation hardware units are down 25%, year to date.",
+      "source_id": "s1",
+      "source_url": "https://eurogamer.net/xbox-playstation-sales-new-lows-hardware-market",
+      "source_date": "2026-10-09T18:51:26+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Eurogamer quotes Piscatella's figures.",
+      "quote": null
+    },
+    {
+      "id": "c5",
+      "kind": "fact",
+      "claim": "The figures are year to date through August, from Circana's retail tracking.",
+      "source_id": "s2",
+      "source_url": "https://videogameschronicle.com/news/us-console-hardware-market-at-its-most-precarious-position-since-the-80s-says-circana",
+      "source_date": "2026-10-10T12:53:54+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "VGC: year-to-date through August, latest retail tracking figures.",
+      "quote": null
+    },
+    {
+      "id": "c6",
+      "kind": "fact",
+      "claim": "That is an all-time low for Xbox and PlayStation's lowest point since 2013.",
+      "source_id": "s1",
+      "source_url": "https://eurogamer.net/xbox-playstation-sales-new-lows-hardware-market",
+      "source_date": "2026-10-09T18:51:26+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Eurogamer: new all-time low for Xbox, PlayStation's lowest point since 2013.",
+      "quote": null
+    },
+    {
+      "id": "c7",
+      "kind": "fact",
+      "claim": "The average price paid for a new Xbox console in 2026 to the end of August is $529, 26% higher than a year ago, and for a PlayStation console $597, 20% higher; both are all-time US highs.",
+      "source_id": "s1",
+      "source_url": "https://eurogamer.net/xbox-playstation-sales-new-lows-hardware-market",
+      "source_date": "2026-10-09T18:51:26+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Eurogamer quotes Piscatella.",
+      "quote": "Price sensitivity is becoming a real problem."
+    },
+    {
+      "id": "c8",
+      "kind": "fact",
+      "claim": "Piscatella says the US hardware market has not been in a more precarious position since the early 1980s.",
+      "source_id": "s1",
+      "source_url": "https://eurogamer.net/xbox-playstation-sales-new-lows-hardware-market",
+      "source_date": "2026-10-09T18:51:26+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Eurogamer quotes Piscatella.",
+      "quote": "The US hardware market has not been in a more precarious position since the early 80s"
+    },
+    {
+      "id": "c9",
+      "kind": "fact",
+      "claim": "The price rises are driven mostly by component shortages caused by AI data centres.",
+      "source_id": "s2",
+      "source_url": "https://videogameschronicle.com/news/us-console-hardware-market-at-its-most-precarious-position-since-the-80s-says-circana",
+      "source_date": "2026-10-10T12:53:54+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "VGC: driven mostly by component shortages caused by AI data centers.",
+      "quote": null
+    },
+    {
+      "id": "c10",
+      "kind": "fact",
+      "claim": "Piscatella said GTA 6 might help ease some of the declines, depending on pricing and product availability.",
+      "source_id": "s1",
+      "source_url": "https://eurogamer.net/xbox-playstation-sales-new-lows-hardware-market",
+      "source_date": "2026-10-09T18:51:26+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Eurogamer: might help ease at least some of these declines, dependent on pricing and product availability.",
+      "quote": null
+    },
+    {
+      "id": "c11",
+      "kind": "fact",
+      "claim": "A senior games buyer at an unnamed retailer told The Game Business that GTA 6 will likely lead to console stock selling out.",
+      "source_id": "s2",
+      "source_url": "https://videogameschronicle.com/news/us-console-hardware-market-at-its-most-precarious-position-since-the-80s-says-circana",
+      "source_date": "2026-10-10T12:53:54+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "VGC relays The Game Business report.",
+      "quote": null
+    },
+    {
+      "id": "c12",
+      "kind": "fact",
+      "claim": "Xbox chief strategy officer Matthew Ball said in June that demand for Xbox consoles exceeds supply.",
+      "source_id": "s2",
+      "source_url": "https://videogameschronicle.com/news/us-console-hardware-market-at-its-most-precarious-position-since-the-80s-says-circana",
+      "source_date": "2026-10-10T12:53:54+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "VGC quotes Ball.",
+      "quote": "I can tell you definitively demand for our console exceeds the supply"
+    },
+    {
+      "id": "c13",
+      "kind": "fact",
+      "claim": "Xbox chief Asha Sharma said console storage component costs had more than doubled, then doubled again, and that Xbox expects to pay over five times the price of two years earlier by the 2027 holiday season.",
+      "source_id": "s1",
+      "source_url": "https://eurogamer.net/xbox-playstation-sales-new-lows-hardware-market",
+      "source_date": "2026-10-09T18:51:26+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Eurogamer quotes Sharma.",
+      "quote": null
+    },
+    {
+      "id": "c14",
+      "kind": "fact",
+      "claim": "Micron's chief executive has warned that memory shortages will persist until at least 2028.",
+      "source_id": "s1",
+      "source_url": "https://eurogamer.net/xbox-playstation-sales-new-lows-hardware-market",
+      "source_date": "2026-10-09T18:51:26+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Eurogamer: Micron's CEO warned memory shortages are set to persist until at least 2028.",
+      "quote": null
+    },
+    {
+      "id": "c15",
+      "kind": "fact",
+      "claim": "The PS5, Switch 2 and Xbox Series X/S have all had price increases, some more than once.",
+      "source_id": "s1",
+      "source_url": "https://eurogamer.net/xbox-playstation-sales-new-lows-hardware-market",
+      "source_date": "2026-10-09T18:51:26+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Eurogamer: price tags have all been bumped up, sometimes multiple times.",
+      "quote": null
+    }
+  ],
+  "conflicts": [],
+  "media": {
+    "status": "none",
+    "note": "No hero media selected."
+  },
+  "sensitive": false
+}

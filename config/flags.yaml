@@ -1,0 +1,13 @@
+# FEATURE FLAGS. One place, read by the pipeline and by the site build.
+# Every flag that publishes, spends money or collects data starts off. Turn one on only when the
+# operator asks, and only when what it depends on really exists.
+flags:
+  ads_enabled: false                    # needs real content and traffic first
+  affiliate_enabled: false              # true only once config/affiliates.yaml holds real, approved programmes
+  newsletter_enabled: true              # the form is shown; it submits only when a provider endpoint is configured
+  accounts_enabled: false
+  comments_enabled: false
+  reactions_enabled: false
+  auto_publish_enabled: false           # human review first; revisit after 20-30 consistently good reviewed articles
+  auto_video_generation_enabled: false  # Higgsfield generation is manual until credentials and workflow are validated
+  auto_social_publish_enabled: false

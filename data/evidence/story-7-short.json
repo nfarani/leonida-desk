@@ -1,0 +1,183 @@
+{
+  "packet_id": "story-7-short",
+  "story_id": 7,
+  "parent_event_id": null,
+  "story_ids": [
+    7
+  ],
+  "angle_id": "short",
+  "angle": "",
+  "editorial_bucket": null,
+  "story_label": "HIGH_CONFIDENCE_REPORT",
+  "built_at": "2026-10-05T17:12:31+00:00",
+  "sources": [
+    {
+      "id": "s1",
+      "story_id": 7,
+      "publisher": "Eurogamer",
+      "url": "https://eurogamer.net/gta6-rockstar-weather-systems-hurricanes-rainbows-rain",
+      "title": "GTA 6 completely \"re-engineered\" Rockstar's weather systems to \"achieve a sense of scale we haven't felt before,\" adding hurricanes, rainbows and heavy rain",
+      "published_at": "2026-09-30T17:04:55+00:00",
+      "tier": 1,
+      "source_type": "journalism",
+      "opened": true,
+      "opened_at": "2026-10-05T17:12:31+00:00",
+      "note": ""
+    },
+    {
+      "id": "s2",
+      "story_id": 7,
+      "publisher": "Rock Paper Shotgun",
+      "url": "https://rockpapershotgun.com/gta-6-will-simulate-hurricanes-rainbows-and-persistent-dynamic-clouds-among-other-efforts-to-make-you-stop-doing-crime-and-become-a-weather-nerd",
+      "title": "GTA 6 will simulate hurricanes, rainbows and persistent, dynamic clouds, among other efforts to make you stop doing crime and become a weather nerd",
+      "published_at": "2026-09-30T09:30:00+00:00",
+      "tier": 2,
+      "source_type": "journalism",
+      "opened": true,
+      "opened_at": "2026-10-05T17:12:31+00:00",
+      "note": ""
+    },
+    {
+      "id": "s3",
+      "story_id": 7,
+      "publisher": "turtlebeach.com",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZm85R25oaWFzWlVSRmtFNmNXQTNRNHJHdVRIZlNaZlduUDE4alBGZXRDRzdoUDl1S1ZYck5SUDhaM2VaQ3ZzSVR3YXM0c0hka3ZHcWE3ZkpLcVhoMV8ySTFJVVVZQ3h4RjJCVFROdnBfMmdfMXZxcV83dlZNYjdHSHZEWDhzUmpIUzNjTHFxdjViRTJNVzVR?oc=5",
+      "title": "GTA 6 Will Feature Dynamic Weather System, Rockstar Confirms",
+      "published_at": "2026-10-03T01:35:12+00:00",
+      "tier": 3,
+      "source_type": "journalism",
+      "opened": false,
+      "opened_at": null,
+      "note": ""
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "headline",
+      "claim": "Eurogamer published a piece headlined: GTA 6 completely \"re-engineered\" Rockstar's weather systems to \"achieve a sense of scale we haven't felt before,\" adding hurricanes, rainbows and heavy rain",
+      "source_id": "s1",
+      "source_url": "https://eurogamer.net/gta6-rockstar-weather-systems-hurricanes-rainbows-rain",
+      "source_date": "2026-09-30T17:04:55+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "If you thought Red Dead Redemption 2 's heavy winds and even heavier rain looked impressive, you might be happy to learn that Rockstar Games went back and \"re-engineered our weather system\" for GTA 6 . Hurricanes, rainbows and \"vertiginous cumulonimbus clouds\" are all part of the upcoming open worlder. Read more",
+      "quote": null
+    },
+    {
+      "id": "c2",
+      "kind": "headline",
+      "claim": "Rock Paper Shotgun published a piece headlined: GTA 6 will simulate hurricanes, rainbows and persistent, dynamic clouds, among other efforts to make you stop doing crime and become a weather nerd",
+      "source_id": "s2",
+      "source_url": "https://rockpapershotgun.com/gta-6-will-simulate-hurricanes-rainbows-and-persistent-dynamic-clouds-among-other-efforts-to-make-you-stop-doing-crime-and-become-a-weather-nerd",
+      "source_date": "2026-09-30T09:30:00+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "Grand Theft Auto 6 features a re-engineered, \"more localized and persistent\" weather system that ranges in intensity from physically credible rainbows to full-bore hurricanes, according to Rockstar vice president of art for lighting and rendering Owen Shepherd. As ever with GTA, the question is to what extent this will materially affect your doings in the new open world game , but at the very leas",
+      "quote": null
+    },
+    {
+      "id": "c3",
+      "kind": "headline",
+      "claim": "turtlebeach.com published a piece headlined: GTA 6 Will Feature Dynamic Weather System, Rockstar Confirms",
+      "source_id": "s3",
+      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZm85R25oaWFzWlVSRmtFNmNXQTNRNHJHdVRIZlNaZlduUDE4alBGZXRDRzdoUDl1S1ZYck5SUDhaM2VaQ3ZzSVR3YXM0c0hka3ZHcWE3ZkpLcVhoMV8ySTFJVVVZQ3h4RjJCVFROdnBfMmdfMXZxcV83dlZNYjdHSHZEWDhzUmpIUzNjTHFxdjViRTJNVzVR?oc=5",
+      "source_date": "2026-10-03T01:35:12+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "GTA 6 Will Feature Dynamic Weather System, Rockstar Confirms turtlebeach.com",
+      "quote": null
+    },
+    {
+      "id": "c4",
+      "kind": "fact",
+      "claim": "Eurogamer reports that hurricanes, rainbows and heavy rain are part of GTA 6, citing Owen Shepherd, whom it describes as Rockstar's vice president of art for lighting and rendering, speaking to Game Informer.",
+      "source_id": "s1",
+      "source_url": "https://eurogamer.net/gta6-rockstar-weather-systems-hurricanes-rainbows-rain",
+      "source_date": "2026-09-30T17:04:55+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Eurogamer, 30 Sep 2026, headline and paragraphs 1-2. Opened 5 Oct 2026.",
+      "quote": null
+    },
+    {
+      "id": "c5",
+      "kind": "fact",
+      "claim": "Shepherd said Rockstar re-engineered its weather system to be much more localized and persistent.",
+      "source_id": "s1",
+      "source_url": "https://eurogamer.net/gta6-rockstar-weather-systems-hurricanes-rainbows-rain",
+      "source_date": "2026-09-30T17:04:55+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Eurogamer, 30 Sep 2026, direct quote attributed to Shepherd via Game Informer. Opened 5 Oct 2026.",
+      "quote": "We have re-engineered our weather system to make everything much more localized and persistent, and really wanted the world to feel dynamically solid and achieve a sense of scale we haven't felt before"
+    },
+    {
+      "id": "c6",
+      "kind": "fact",
+      "claim": "Shepherd described the intended effect of storms: heavy clouds, strong winds, dense atmospherics and a lot of rain, with everything dripping wet, water gushing off roof edges and lampposts, thunder and lightning.",
+      "source_id": "s1",
+      "source_url": "https://eurogamer.net/gta6-rockstar-weather-systems-hurricanes-rainbows-rain",
+      "source_date": "2026-09-30T17:04:55+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Eurogamer, 30 Sep 2026, direct quote attributed to Shepherd. Opened 5 Oct 2026.",
+      "quote": "Heavy clouds, strong winds, dense atmospherics, and a lot of rain combine so that everything is dripping wet, water is gushing off roof edges and lampposts, thunder rumbles and flashes of lightning light up the clouds dramatically"
+    },
+    {
+      "id": "c7",
+      "kind": "fact",
+      "claim": "Eurogamer says Rockstar has not said how the updated weather might affect how the player moves around the world, and asks whether thunderstorms are purely aesthetic or whether wet roads will affect tyres.",
+      "source_id": "s1",
+      "source_url": "https://eurogamer.net/gta6-rockstar-weather-systems-hurricanes-rainbows-rain",
+      "source_date": "2026-09-30T17:04:55+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Eurogamer, 30 Sep 2026, paragraph 7: 'Rockstar's also omitting how these updated weather systems might impact how you move around the world.' This is the outlet's observation and question, not a Rockstar statement. Opened 5 Oct 2026.",
+      "quote": "Are thunderstorms purely aesthetic or will the wet roads affect my tires?"
+    },
+    {
+      "id": "c8",
+      "kind": "fact",
+      "claim": "Eurogamer says rain can fall over one area while the player stays dry elsewhere, and that wet pavements and puddles remain after a storm has passed.",
+      "source_id": "s1",
+      "source_url": "https://eurogamer.net/gta6-rockstar-weather-systems-hurricanes-rainbows-rain",
+      "source_date": "2026-09-30T17:04:55+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Eurogamer, 30 Sep 2026, paragraph 5, the outlet's description of the localized and persistent weather. Opened 5 Oct 2026.",
+      "quote": null
+    },
+    {
+      "id": "c9",
+      "kind": "fact",
+      "claim": "Rock Paper Shotgun reports the same Game Informer comments and says it remains to be seen how much the weather will affect play; its writer suspects a storm may be timed to coincide with a car chase.",
+      "source_id": "s2",
+      "source_url": "https://rockpapershotgun.com/gta-6-will-simulate-hurricanes-rainbows-and-persistent-dynamic-clouds-among-other-efforts-to-make-you-stop-doing-crime-and-become-a-weather-nerd",
+      "source_date": "2026-09-30T09:30:00+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "Rock Paper Shotgun, 30 Sep 2026, paragraphs 1 and 4. The car-chase remark is the writer's own suspicion, not a report. Opened 5 Oct 2026.",
+      "quote": null
+    },
+    {
+      "id": "c10",
+      "kind": "fact",
+      "claim": "Eurogamer reports that, in the same Game Informer feature, the studio said there are over 170 animal species in the world, including 60 different birds and more than 30 land mammals.",
+      "source_id": "s1",
+      "source_url": "https://eurogamer.net/gta6-rockstar-weather-systems-hurricanes-rainbows-rain",
+      "source_date": "2026-09-30T17:04:55+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Eurogamer, 30 Sep 2026, final paragraph. Opened 5 Oct 2026.",
+      "quote": null
+    },
+    {
+      "id": "c11",
+      "kind": "fact",
+      "claim": "Rock Paper Shotgun, citing the Game Informer write-up, lists the animals as including manatees, flamingos, pelicans, sharks, rays, turtles and jellyfish among 170 species.",
+      "source_id": "s2",
+      "source_url": "https://rockpapershotgun.com/gta-6-will-simulate-hurricanes-rainbows-and-persistent-dynamic-clouds-among-other-efforts-to-make-you-stop-doing-crime-and-become-a-weather-nerd",
+      "source_date": "2026-09-30T09:30:00+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "Rock Paper Shotgun, 30 Sep 2026, paragraph on the menagerie. Opened 5 Oct 2026.",
+      "quote": null
+    }
+  ],
+  "conflicts": [],
+  "media": {
+    "status": "none",
+    "note": "No hero media selected."
+  },
+  "sensitive": false
+}

@@ -1,0 +1,15 @@
+---
+import Base from '../layouts/Base.astro';
+import ArticleCard from './ArticleCard.astro';
+import { visibleArticles } from '../lib/articles';
+import type { Bucket } from '../config';
+interface Props { title: string; blurb: string; bucket?: Bucket; section?: 'gaming' | 'tech'; empty: string }
+const { title, blurb, bucket, section, empty } = Astro.props;
+const articles = await visibleArticles(bucket, section);
+---
+<Base title={title} description={blurb}>
+  <div class="page-head"><h1>{title}</h1><p>{blurb}</p></div>
+  {articles.length
+    ? <div class="grid">{articles.map((a) => <ArticleCard article={a} heading="h2" />)}</div>
+    : <p class="empty">{empty}</p>}
+</Base>

@@ -1,0 +1,47 @@
+[
+  {
+    "shot": 1,
+    "asset_type": "AI_VIDEO",
+    "seconds": 4,
+    "aspect": "9:16",
+    "camera": "Low dolly forward at knee height, slow",
+    "prompt": "Vertical 9:16 cinematic shot. A sun-bleached coastal boulevard at dusk lined with tall palm trees, dozens of brightly coloured campaign-style yard signs planted in the grass verge, every sign completely blank with no words and no faces, pink and teal sky, warm street lights just coming on, stylised semi-realistic 3D illustration, slow dolly forward at knee height, shallow depth of field, no people in frame, no readable text, no brand marks.",
+    "method": "text_to_video"
+  },
+  {
+    "shot": 2,
+    "asset_type": "AI_VIDEO",
+    "seconds": 6,
+    "aspect": "9:16",
+    "camera": "Slow push-in, centred",
+    "prompt": "Vertical 9:16 cinematic shot. An empty television debate stage with two unoccupied podiums facing each other under harsh studio spotlights, slow confetti drifting down onto an empty floor, exaggerated satirical set design in saturated red and blue, glossy reflective stage, stylised semi-realistic 3D illustration, slow symmetrical push-in, no people, no readable text, no flags of any real country, no brand marks.",
+    "method": "text_to_video"
+  },
+  {
+    "shot": 3,
+    "asset_type": "AI_VIDEO",
+    "seconds": 7,
+    "aspect": "9:16",
+    "camera": "Static wide, time-lapse motion in frame",
+    "prompt": "Vertical 9:16 cinematic time-lapse. A busy city street corner at night, large billboards and shopfront posters rapidly flipping between plain blocks of colour with nothing printed on them, a crowd of pedestrians streaking past as motion blur, neon reflections on wet pavement, humid tropical atmosphere, stylised semi-realistic 3D illustration, static wide camera, no readable text, no recognisable faces, no brand marks.",
+    "method": "text_to_video"
+  },
+  {
+    "shot": 4,
+    "asset_type": "AI_VIDEO",
+    "seconds": 8,
+    "aspect": "9:16",
+    "camera": "Handheld close-up, slight drift, rack focus from phone to radio dial",
+    "prompt": "Vertical 9:16 cinematic close-up inside a parked car at sunset. A smartphone vibrating on the dashboard with a blank glowing incoming-call screen, an old car radio dial lit amber beside it, shadows of palm fronds sliding slowly across the windscreen, dust in warm light, stylised semi-realistic 3D illustration, gentle handheld drift with a rack focus from the phone to the radio dial, no readable text on any screen, no people, no brand marks.",
+    "method": "text_to_video"
+  },
+  {
+    "shot": 6,
+    "asset_type": "AI_VIDEO",
+    "seconds": 6,
+    "aspect": "9:16",
+    "camera": "Slow pull-back and tilt up",
+    "prompt": "Vertical 9:16 cinematic shot. A warped funhouse mirror standing on an empty seaside boardwalk at golden hour, the reflection stretching a distant city skyline into a tall, bulging, comically distorted shape, string lights swaying overhead, gulls in the distance, stylised semi-realistic 3D illustration, slow pull-back with a gentle tilt up to the sky, no people, no readable text, no brand marks.",
+    "method": "text_to_video"
+  }
+]

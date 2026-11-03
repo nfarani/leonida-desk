@@ -1,0 +1,229 @@
+{
+  "packet_id": "story-1104-final-dlc-crossover",
+  "story_id": 1104,
+  "parent_event_id": null,
+  "story_ids": [
+    1104
+  ],
+  "angle_id": "final-dlc-crossover",
+  "angle": "What is in the free final expansion",
+  "editorial_bucket": "BREAKING",
+  "story_label": "HIGH_CONFIDENCE_REPORT",
+  "built_at": "2026-10-11T19:18:21+00:00",
+  "sources": [
+    {
+      "id": "s1",
+      "story_id": 1104,
+      "publisher": "PC Gamer",
+      "url": "https://pcgamer.com/games/adventure/subnautica-2-fans-can-finally-hunt-and-kill-those-pesky-nibbler-mangos-in-dave-the-divers-crossover-dlc",
+      "title": "Subnautica 2 fans can finally hunt and kill those pesky Nibbler Mangos—in Dave the Diver's crossover DLC",
+      "published_at": "2026-10-08T17:40:53+00:00",
+      "tier": 1,
+      "source_type": "journalism",
+      "opened": false,
+      "opened_at": null,
+      "note": ""
+    },
+    {
+      "id": "s2",
+      "story_id": 1104,
+      "publisher": "Gematsu",
+      "url": "https://gematsu.com/2026/10/dave-the-diver-dlc-subnautica-2-content-pack-announced",
+      "title": "DAVE THE DIVER DLC ‘Subnautica 2 Content Pack’ announced",
+      "published_at": "2026-10-08T16:45:07+00:00",
+      "tier": 2,
+      "source_type": "journalism",
+      "opened": true,
+      "opened_at": "2026-10-11T19:20:48+00:00",
+      "note": ""
+    },
+    {
+      "id": "s3",
+      "story_id": 1104,
+      "publisher": "Rock Paper Shotgun",
+      "url": "https://rockpapershotgun.com/dave-the-diver-is-wrapping-up-its-dlc-plans-with-an-aquatically-appropriate-subnautica-2-collab",
+      "title": "Dave the Diver is wrapping up its DLC plans with an aquatically appropriate Subnautica 2 collab",
+      "published_at": "2026-10-08T19:06:45+00:00",
+      "tier": 2,
+      "source_type": "journalism",
+      "opened": true,
+      "opened_at": "2026-10-11T19:20:48+00:00",
+      "note": ""
+    },
+    {
+      "id": "s4",
+      "story_id": 1104,
+      "publisher": "Nintendo Life",
+      "url": "https://nintendolife.com/news/2026/10/dave-the-divers-final-dlc-is-the-perfect-crossover",
+      "title": "Dave The Diver's Final DLC Is The Perfect Crossover",
+      "published_at": "2026-10-09T12:30:00+00:00",
+      "tier": 2,
+      "source_type": "journalism",
+      "opened": false,
+      "opened_at": null,
+      "note": ""
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "headline",
+      "claim": "PC Gamer published a piece headlined: Subnautica 2 fans can finally hunt and kill those pesky Nibbler Mangos—in Dave the Diver's crossover DLC",
+      "source_id": "s1",
+      "source_url": "https://pcgamer.com/games/adventure/subnautica-2-fans-can-finally-hunt-and-kill-those-pesky-nibbler-mangos-in-dave-the-divers-crossover-dlc",
+      "source_date": "2026-10-08T17:40:53+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "I will kill them. I will cook them. I will serve them. Thanks, Dave.",
+      "quote": null
+    },
+    {
+      "id": "c2",
+      "kind": "headline",
+      "claim": "Gematsu published a piece headlined: DAVE THE DIVER DLC ‘Subnautica 2 Content Pack’ announced",
+      "source_id": "s2",
+      "source_url": "https://gematsu.com/2026/10/dave-the-diver-dlc-subnautica-2-content-pack-announced",
+      "source_date": "2026-10-08T16:45:07+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "MINTROCKET has announced DAVE THE DIVER‘s final downloadable content pack—a Subnautica 2-themed expansion in partnership …",
+      "quote": null
+    },
+    {
+      "id": "c3",
+      "kind": "headline",
+      "claim": "Rock Paper Shotgun published a piece headlined: Dave the Diver is wrapping up its DLC plans with an aquatically appropriate Subnautica 2 collab",
+      "source_id": "s3",
+      "source_url": "https://rockpapershotgun.com/dave-the-diver-is-wrapping-up-its-dlc-plans-with-an-aquatically-appropriate-subnautica-2-collab",
+      "source_date": "2026-10-08T19:06:45+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "I am not a huge fan of collaboration DLCs, mostly because my curmudgeonly self can only see them as attempts at multiple companies trying to profit off of one another's things. But I do have to admit that yes, the just announced collab between Dave the Diver and Subnautica 2 does make total sense. Certainly more sense than the Godzilla one from a couple of years back. Read more",
+      "quote": null
+    },
+    {
+      "id": "c4",
+      "kind": "headline",
+      "claim": "Nintendo Life published a piece headlined: Dave The Diver's Final DLC Is The Perfect Crossover",
+      "source_id": "s4",
+      "source_url": "https://nintendolife.com/news/2026/10/dave-the-divers-final-dlc-is-the-perfect-crossover",
+      "source_date": "2026-10-09T12:30:00+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "Submerging next year. After years of content updates and DLC expansions, Mintrocket has announced that the final wave of DLC for Dave the Diver will launch in ' Early 2027 ', and it's a crossover that feels like it was always meant to be. Dave will be teaming up with Subnautica 2 in the free expansion, adding the ocean moon Proteus into the gameplay loop, complete with its fair share of alien crea",
+      "quote": null
+    },
+    {
+      "id": "c5",
+      "kind": "fact",
+      "claim": "Mintrocket has announced Dave the Diver's final DLC, a Subnautica 2 Content Pack made with Unknown Worlds Entertainment, launching free of charge in early 2027.",
+      "source_id": "s2",
+      "source_url": "https://gematsu.com/2026/10/dave-the-diver-dlc-subnautica-2-content-pack-announced",
+      "source_date": "2026-10-08T16:45:07+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "Gematsu: final DLC pack, Subnautica 2-themed, free of charge in early 2027.",
+      "quote": null
+    },
+    {
+      "id": "c6",
+      "kind": "fact",
+      "claim": "Players explore the waters of Proteus, with Dave and Bancho travelling between dimensions to find new creatures, resources and recipes while facing a Leviathan.",
+      "source_id": "s2",
+      "source_url": "https://gematsu.com/2026/10/dave-the-diver-dlc-subnautica-2-content-pack-announced",
+      "source_date": "2026-10-08T16:45:07+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "Gematsu's description of the pack.",
+      "quote": null
+    },
+    {
+      "id": "c7",
+      "kind": "fact",
+      "claim": "Dave the Diver is available on PlayStation 5, Xbox Series, Switch 2, PlayStation 4, Xbox One, Switch, PC, iOS and Android.",
+      "source_id": "s2",
+      "source_url": "https://gematsu.com/2026/10/dave-the-diver-dlc-subnautica-2-content-pack-announced",
+      "source_date": "2026-10-08T16:45:07+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "Gematsu lists platforms.",
+      "quote": null
+    },
+    {
+      "id": "c8",
+      "kind": "fact",
+      "claim": "Mintrocket studio director Jaeho Hwang said working with the Subnautica 2 team let the studio bring something new to the game.",
+      "source_id": "s3",
+      "source_url": "https://rockpapershotgun.com/dave-the-diver-is-wrapping-up-its-dlc-plans-with-an-aquatically-appropriate-subnautica-2-collab",
+      "source_date": "2026-10-08T19:06:45+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "Rock Paper Shotgun quotes Hwang's statement.",
+      "quote": "Both games are set underwater, but Subnautica has such a distinct approach to underwater exploration"
+    },
+    {
+      "id": "c9",
+      "kind": "fact",
+      "claim": "Hwang said a Subnautica collaboration is something players had been requesting for a long time.",
+      "source_id": "s2",
+      "source_url": "https://gematsu.com/2026/10/dave-the-diver-dlc-subnautica-2-content-pack-announced",
+      "source_date": "2026-10-08T16:45:07+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "Gematsu quotes Hwang's press release statement.",
+      "quote": null
+    },
+    {
+      "id": "c10",
+      "kind": "fact",
+      "claim": "Subnautica 2 creative director Anthony Gallegos called the expansion a love letter to both games.",
+      "source_id": "s3",
+      "source_url": "https://rockpapershotgun.com/dave-the-diver-is-wrapping-up-its-dlc-plans-with-an-aquatically-appropriate-subnautica-2-collab",
+      "source_date": "2026-10-08T19:06:45+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "Rock Paper Shotgun quotes Gallegos.",
+      "quote": "the expansion is a love letter to both Dave the Diver and the Subnautica universe"
+    },
+    {
+      "id": "c11",
+      "kind": "fact",
+      "claim": "The reveal trailer shows Dave going through a portal to Subnautica 2's ocean moon and meeting its Leviathan.",
+      "source_id": "s3",
+      "source_url": "https://rockpapershotgun.com/dave-the-diver-is-wrapping-up-its-dlc-plans-with-an-aquatically-appropriate-subnautica-2-collab",
+      "source_date": "2026-10-08T19:06:45+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "Rock Paper Shotgun describes the trailer.",
+      "quote": null
+    },
+    {
+      "id": "c12",
+      "kind": "fact",
+      "claim": "There is no word on Dave appearing in Subnautica 2, which is still in early access.",
+      "source_id": "s3",
+      "source_url": "https://rockpapershotgun.com/dave-the-diver-is-wrapping-up-its-dlc-plans-with-an-aquatically-appropriate-subnautica-2-collab",
+      "source_date": "2026-10-08T19:06:45+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "Rock Paper Shotgun: no word if Dave will be making a counter appearance; the latter is still in early access.",
+      "quote": null
+    },
+    {
+      "id": "c13",
+      "kind": "fact",
+      "claim": "Dave the Diver has had crossover DLC before, including one with Godzilla.",
+      "source_id": "s3",
+      "source_url": "https://rockpapershotgun.com/dave-the-diver-is-wrapping-up-its-dlc-plans-with-an-aquatically-appropriate-subnautica-2-collab",
+      "source_date": "2026-10-08T19:06:45+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "Rock Paper Shotgun mentions the earlier Godzilla collaboration.",
+      "quote": null
+    },
+    {
+      "id": "c14",
+      "kind": "fact",
+      "claim": "Rock Paper Shotgun says details of the collaboration are slim beyond the trailer.",
+      "source_id": "s3",
+      "source_url": "https://rockpapershotgun.com/dave-the-diver-is-wrapping-up-its-dlc-plans-with-an-aquatically-appropriate-subnautica-2-collab",
+      "source_date": "2026-10-08T19:06:45+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "RPS: details are a touch slim on the collab.",
+      "quote": null
+    }
+  ],
+  "conflicts": [],
+  "media": {
+    "status": "none",
+    "note": "No hero media selected."
+  },
+  "sensitive": false
+}

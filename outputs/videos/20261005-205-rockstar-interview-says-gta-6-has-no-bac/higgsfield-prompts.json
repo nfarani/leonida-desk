@@ -1,0 +1,56 @@
+[
+  {
+    "shot": 1,
+    "asset_type": "AI_VIDEO",
+    "seconds": 3,
+    "aspect": "9:16",
+    "camera": "Camera at chest height tracking backward at walking pace; one woman in the centre is sharp, everyone around her is heavily blurred",
+    "prompt": "A crowded sunlit city pavement beside a beach road, dozens of pedestrians walking toward the camera. A woman in a yellow shirt in the centre is in sharp focus while every other person is a soft blur. Camera tracks backward at chest height, steady. Photoreal cinematic street photography, shallow depth of field, warm late-afternoon coastal light, pastel art deco buildings and palm trees, vertical 9:16 frame, natural motion, no readable text, no signage lettering, no brand marks. 3 seconds.",
+    "method": "text_to_video"
+  },
+  {
+    "shot": 3,
+    "asset_type": "AI_VIDEO",
+    "seconds": 6,
+    "aspect": "9:16",
+    "camera": "Locked-off medium shot; focus pulls slowly from the foreground figure to the pair behind her, no camera move",
+    "prompt": "Medium shot on a busy pavement. In the foreground a woman talks on a phone, sharp. Behind her a man in a pink shirt bargains with a fruit seller at a cart, blurred. The focus slowly pulls from the woman to the two men until they are sharp and she is blurred. Static camera, slow rack focus is the only change. Photoreal cinematic street photography, shallow depth of field, warm late-afternoon coastal light, pastel art deco buildings and palm trees, vertical 9:16 frame, natural motion, no readable text, no signage lettering, no brand marks. 6 seconds.",
+    "method": "text_to_video"
+  },
+  {
+    "shot": 4,
+    "asset_type": "AI_IMAGE_WITH_MOTION",
+    "seconds": 5,
+    "aspect": "9:16",
+    "camera": "Generate a still, then animate a slow push-in with slight parallax; subjects barely move",
+    "prompt": "Three strangers waiting side by side at a pedestrian crossing, full body, all in sharp focus: an older man in a linen shirt and straw hat, a young woman with braided hair and roller skates over her shoulder, a construction worker in a high-visibility vest holding a cold drink. Each has clearly different clothing and hairstyle. Slow push-in with gentle parallax. Photoreal cinematic street photography, shallow depth of field, warm late-afternoon coastal light, pastel art deco buildings and palm trees, vertical 9:16 frame, natural motion, no readable text, no signage lettering, no brand marks. 5 seconds.",
+    "method": "text_to_image+image_to_video"
+  },
+  {
+    "shot": 5,
+    "asset_type": "AI_VIDEO",
+    "seconds": 6,
+    "aspect": "9:16",
+    "camera": "Fast forward tracking shot at head height, weaving through people, slight handheld shake, motion blur at the edges",
+    "prompt": "Fast forward tracking shot at head height running through a dense crowd on a wide city pavement. Pairs and small groups pass close on both sides, talking, gesturing, laughing, one couple arguing. Slight handheld shake and motion blur at the frame edges, people stay recognisable. Photoreal cinematic street photography, shallow depth of field, warm late-afternoon coastal light, pastel art deco buildings and palm trees, vertical 9:16 frame, natural motion, no readable text, no signage lettering, no brand marks. 6 seconds.",
+    "method": "text_to_video"
+  },
+  {
+    "shot": 6,
+    "asset_type": "AI_VIDEO",
+    "seconds": 5,
+    "aspect": "9:16",
+    "camera": "Quick whip pan that stops dead on one passer-by, then a short push-in as he turns to the lens",
+    "prompt": "A quick pan across a blurred street crowd stops on one middle-aged man in a floral shirt carrying a grocery bag. He stops walking, turns his head and looks directly into the camera with a wary expression as the camera pushes in to a close-up. The crowd behind him stays blurred. Photoreal cinematic street photography, shallow depth of field, warm late-afternoon coastal light, pastel art deco buildings and palm trees, vertical 9:16 frame, natural motion, no readable text, no signage lettering, no brand marks. 5 seconds.",
+    "method": "text_to_video"
+  },
+  {
+    "shot": 7,
+    "asset_type": "AI_VIDEO",
+    "seconds": 6,
+    "aspect": "9:16",
+    "camera": "High angle wide from a first-floor balcony, slow crane up; the blur clears across the frame until the whole street is sharp",
+    "prompt": "High angle wide shot from a balcony over a long crowded pavement and beach road at golden hour. The image starts soft and the focus sweeps from bottom to top of the frame until every pedestrian is sharp and detailed. Slow crane upward. Deep focus by the end. Photoreal cinematic street photography, shallow depth of field, warm late-afternoon coastal light, pastel art deco buildings and palm trees, vertical 9:16 frame, natural motion, no readable text, no signage lettering, no brand marks. 6 seconds.",
+    "method": "text_to_video"
+  }
+]

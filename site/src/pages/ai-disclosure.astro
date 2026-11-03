@@ -1,0 +1,33 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE } from '../config';
+---
+<Base title="AI and automation disclosure" description={`How ${SITE.name} uses AI and automation, and where humans decide.`}>
+  <div class="plain">
+    <div class="page-head"><h1>AI and automation disclosure</h1><p>What is automated here, what is not, and who is responsible.</p></div>
+    <h2>In short</h2>
+    <ul>
+      <li>AI systems assist with research, drafting and production.</li>
+      <li>Source verification and editorial rules govern every factual claim.</li>
+      <li>Automation is used to monitor and organise gaming information.</li>
+      <li>A human Editor-in-Chief approves what is published.</li>
+    </ul>
+    <h2>What automation does</h2>
+    <ul>
+      <li><strong>Monitoring.</strong> Software checks official channels, gaming press and community forums for gaming developments, with GTA VI watched most closely, groups reports about the same event, and records where each one came from.</li>
+      <li><strong>Labelling.</strong> Each story gets a verification label limited by its evidence. The limits are fixed in code: an AI model can lower a label but cannot raise it above what the sources support.</li>
+      <li><strong>Drafting.</strong> An AI model drafts articles from an evidence file listing each claim, its source and its date. It is not allowed to add facts from its own memory.</li>
+      <li><strong>Checking.</strong> Automated checks flag uncited statements, quotes that do not appear in the evidence, duplicates and thin stories.</li>
+    </ul>
+    <h2>What humans do</h2>
+    <ul>
+      <li>Decide what is worth covering and what is not.</li>
+      <li>Review and approve every article before it is published.</li>
+      <li>Handle corrections.</li>
+    </ul>
+    <h2>Limits you should know about</h2>
+    <p>AI systems make mistakes, including confident ones. That is why each claim is linked to a source you can open yourself, and why uncertain material is labelled as a rumour, theory or community discovery. If you find an error, treat the linked source as the authority, not our summary of it.</p>
+    <h2>Byline</h2>
+    <p>Articles are credited to "{SITE.byline}", a team byline. We do not present AI-assisted work as the work of a named journalist, and we do not invent people.</p>
+  </div>
+</Base>

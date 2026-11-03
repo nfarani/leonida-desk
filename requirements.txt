@@ -1,0 +1,10 @@
+feedparser>=6.0
+requests>=2.31
+PyYAML>=6.0
+python-dateutil>=2.9
+anthropic>=0.40
+pytest>=8.0
+pillow>=10.0
+imageio-ffmpeg>=0.5
+numpy>=2.0
+faster-whisper>=1.0     # local speech check on generated audio (optional: the check is skipped without it)

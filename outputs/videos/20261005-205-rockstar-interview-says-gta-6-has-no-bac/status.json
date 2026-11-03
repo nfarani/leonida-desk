@@ -1,0 +1,30 @@
+{
+  "video_id": "20261005-205-rockstar-interview-says-gta-6-has-no-bac",
+  "status": "READY_FOR_GENERATION",
+  "updated_at": "2026-10-05T16:40:46+00:00",
+  "history": [
+    {
+      "status": "IDEA",
+      "at": "2026-10-05T16:39:48+00:00",
+      "note": "package started"
+    },
+    {
+      "status": "SCRIPTED",
+      "at": "2026-10-05T16:40:37+00:00",
+      "note": "checker: 3 errors"
+    },
+    {
+      "status": "READY_FOR_GENERATION",
+      "at": "2026-10-05T16:40:46+00:00",
+      "note": "checker: 0 errors"
+    }
+  ],
+  "render": {
+    "adapter": "manual",
+    "jobs": [],
+    "cost": null
+  },
+  "posts": [],
+  "errors": 0,
+  "warnings": 0
+}

@@ -1,0 +1,16 @@
+# AFFILIATE PRODUCTS. Empty until the operator has joined real programmes.
+# Never invent a product, a price, a merchant or an affiliate URL. A price is shown only with the
+# date it was checked. Set flags.yaml -> affiliate_enabled: true once at least one entry is real.
+#
+# Entry shape:
+#   <product-id>:
+#     name: "Product name"
+#     merchant: "Merchant name"
+#     affiliate_url: "https://..."         # the tracked link from the programme
+#     price: null                          # e.g. "£59.99", or null
+#     price_checked: null                  # ISO date the price was seen
+#     image: null                          # path under site/public/, with rights cleared
+#     cta: "Check price"
+#     summary: "One line on why we recommend it"
+disclosure: "Leonida Desk may earn a commission if you buy through links on this page. It does not change what we recommend."
+products: {}

@@ -1,0 +1,18 @@
+---
+import fs from 'node:fs';
+import path from 'node:path';
+import Base from '../layouts/Base.astro';
+import Badge from '../components/Badge.astro';
+// Video packages live in ../outputs/videos/<id>/package.json. Only PUBLISHED ones with a public URL are listed.
+const dir = path.resolve(process.cwd(), '..', 'outputs', 'videos');
+const videos = (fs.existsSync(dir) ? fs.readdirSync(dir) : [])
+  .map((d) => path.join(dir, d, 'package.json')).filter((f) => fs.existsSync(f))
+  .map((f) => JSON.parse(fs.readFileSync(f, 'utf8')))
+  .filter((v) => v.status === 'PUBLISHED' && v.public_url);
+---
+<Base title="Videos" description="Short videos from Leonida Desk, each with its sources.">
+  <div class="page-head"><h1>Videos</h1><p>Short videos on the stories worth a minute of your time. Visuals are AI-generated illustrations unless stated, and every video lists its sources.</p></div>
+  {videos.length
+    ? <div class="grid">{videos.map((v) => <article class="card"><span class="kicker">{v.treatment}</span><h2><a href={v.public_url} rel="noopener" data-track="video_click" data-video={v.video_id}>{v.youtube_title}</a></h2><p>{v.editorial_angle}</p><div class="meta"><Badge label={v.verification_status} /></div></article>)}</div>
+    : <p class="empty">No videos have been published yet.</p>}
+</Base>

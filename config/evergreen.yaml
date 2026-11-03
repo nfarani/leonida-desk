@@ -1,0 +1,57 @@
+# EVERGREEN topics: reference content that does not depend on today's news.
+# A topic is only proposed when enough stored, well-labelled stories support it (config/publishing.yaml
+# -> buckets.evergreen). The keywords select supporting stories from the database; they are never a
+# source of facts. An evergreen article is still written only from an evidence packet.
+topics:
+  characters:
+    title: "Jason and Lucia: what is on the record about GTA VI's protagonists"
+    keywords: ["jason", "lucia", "protagonist", "duval", "caminos"]
+    format: "Reference article + character short"
+  map_regions:
+    title: "Leonida's regions: what has been shown and said so far"
+    keywords: ["leonida", "vice city", "region", "map", "grassrivers", "ambrosia", "keys"]
+    format: "Structured reference article"
+  weather:
+    title: "Weather in GTA VI: what Rockstar has described"
+    keywords: ["weather", "hurricane", "storm"]
+    format: "Explainer article + short"
+  wildlife:
+    title: "Wildlife in GTA VI: what has been reported"
+    keywords: ["wildlife", "animal", "animals", "hunting", "hunt", "gator"]
+    format: "Structured reference article"
+  npc_systems:
+    title: "NPCs in GTA VI: what Rockstar has said about its world"
+    keywords: ["npc", "npcs", "background", "pedestrian", "crowd"]
+    format: "Explainer article"
+  wanted_system:
+    title: "Police and the wanted system in GTA VI: what is known"
+    keywords: ["police", "cops", "wanted"]
+    format: "Explainer article"
+  vehicles:
+    title: "Vehicles in GTA VI: what has been shown"
+    keywords: ["car", "cars", "vehicle", "vehicles"]
+    format: "Structured reference article"
+  trailers:
+    title: "Every official GTA VI trailer and reveal, in order"
+    keywords: ["trailer", "extended look", "reveal"]
+    format: "Timeline article"
+  ratings_content:
+    title: "GTA VI's age ratings: what each board has published"
+    keywords: ["rating", "rated", "pegi", "esrb"]
+    format: "Structured reference article"
+  music:
+    title: "Music and radio in GTA VI: what is confirmed and what is rumour"
+    keywords: ["soundtrack", "album", "radio", "music"]
+    format: "Reference article"
+  development_history:
+    title: "How GTA VI was made: the development story so far"
+    keywords: ["development", "research", "writers", "delay", "studio"]
+    format: "Timeline article"
+  rockstar_history:
+    title: "Rockstar's people and GTA VI: who has said what"
+    keywords: ["houser", "nelson", "garbut", "humphries", "zelnick"]
+    format: "Reference article"
+  editions_release:
+    title: "GTA VI editions and release information"
+    keywords: ["edition", "pre-order", "preorder", "release date", "collector"]
+    format: "Structured reference article"

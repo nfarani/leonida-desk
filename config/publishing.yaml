@@ -1,0 +1,268 @@
+# CONTENT DESK settings: editorial buckets, output formats, article scoring and the publication gate.
+# Every threshold here is deliberate. Lowering one loosens an editorial safeguard: ask the operator first.
+
+publication:
+  name: "Leonida Desk"            # working title; the operator can rename it here and in site/src/config.ts
+  byline: "Leonida Desk"          # team byline. Never invent named journalists, credentials or biographies.
+  site_url: "https://leonida-desk.farani-niccolas96.workers.dev"   # the live address; change it here when a domain is attached
+
+# ------------------------------------------------------------------ editorial buckets
+buckets:
+  # BREAKING: a genuinely new development. Needs journalism or an official source, and to be fresh.
+  breaking:
+    min_freshness: 0.45
+    min_label: CREDIBLE_RUMOUR     # speculation is never "breaking"
+  # DISCOVERY: a community find or theory; the label carries how much of it is interpretation.
+  discovery:
+    labels: [COMMUNITY_DISCOVERY, THEORY]
+    min_freshness: 0.10
+  # EXPLAINER: a known, well-sourced development that is no longer fresh but supports an explanatory angle.
+  explainer:
+    min_label: CREDIBLE_RUMOUR
+    min_publishers: 2              # or one tier-0/1 source
+    min_age_hours: 20
+  # EVERGREEN: reference topics that do not depend on the news cycle. See config/evergreen.yaml.
+  evergreen:
+    min_supporting_stories: 2
+    min_label: HIGH_CONFIDENCE_REPORT
+  per_section: {breaking: 6, discovery: 4, explainer: 4, evergreen: 3}
+
+# ------------------------------------------------------------------ VIDEO / ARTICLE recommendation
+output:
+  video_min: 55                    # video suitability (0-100) needed to recommend a video
+  article_min: 55                  # article suitability (0-100) needed to recommend an article
+  # A story below this label is never recommended as an article on its own evidence.
+  article_min_label: CREDIBLE_RUMOUR
+  # Speculation resting on one low-tier source is not worth making.
+  ignore_single_source_speculation: true
+
+# Daily capacity. These are ceilings and a target mix, never a quota: fewer is fine, filler is not.
+# VIDEO FIRST: the plan is shorts, plus an article only when it earns its place.
+content_plan:
+  max_shorts: 2                    # baseline 1 a day, target 1-2
+  max_shorts_major_day: 3          # only when three stories genuinely clear MAKE NOW
+  max_articles: 2                  # articles are supporting content
+  # An article is proposed only for a story that is already worth an article AND has one of:
+  article_min_search: 60           # strong search value
+  article_min_commercial: 50       # commercial or affiliate potential
+  article_min_suitability: 80      # enough sourced substance to add real value, alongside a planned video
+
+# ------------------------------------------------------------------ article scoring
+article:
+  min_claims: 3                    # fewer distinct evidenced claims than this = a thin story
+  min_sources: 1
+  description_chars: [50, 170]
+  title_chars: [20, 90]
+  # Headings that mark editorial analysis rather than reported fact. Analysis must still not
+  # introduce quotes, numbers or attributions that are missing from the evidence packet.
+  analysis_headings: ["analysis", "what it could mean", "why it matters", "our read", "context",
+                      "how it compares", "what we don't know"]
+  duplicate_similarity: 0.6        # body/title token similarity at or above this = duplicate article
+  rewrite_overlap: 0.5             # share of article 5-word shingles copied from sources = a rewrite
+
+# ------------------------------------------------------------------ publication gate (deterministic)
+gate:
+  auto_publish:
+    # The switch itself is config/flags.yaml -> auto_publish_enabled. While it is false, nothing is
+    # ever published without /approve-article.
+    min_label: HIGH_CONFIDENCE_REPORT
+    min_originality: 70
+    min_quality: 75
+    min_independent_sources: 2     # distinct credible publishers (tier <= 2) ...
+    or_primary_sources: 1          # ... or this many primary (official) sources
+    credible_max_tier: 2
+  do_not_publish:
+    max_originality: 39            # below this the piece is a rewrite
+    max_quality: 39
+  # Labels that always need a human, whatever the scores.
+  review_labels: [CREDIBLE_RUMOUR, COMMUNITY_DISCOVERY, THEORY, FALSE_OR_DEBUNKED]
+  blocked_labels: [SPECULATION]
+
+# ------------------------------------------------------------------ deployment (adapter-based, off)
+deployment:
+  adapter: manual                  # manual | vercel | netlify | cloudflare_pages
+  auto_deploy: false               # do not enable without the operator explicitly asking
+
+# ------------------------------------------------------------------ short-form video (/make)
+video:
+  aspect: "9:16"
+  seconds: [20, 45]                # total runtime of a short. Shorter is fine: never pad to protect a runtime
+  words_per_second: [1.8, 3.2]     # voiceover pace; outside this the script will not fit the cut
+  min_shots: 4
+  min_prompt_words: 15
+  treatments: [BREAKING NEWS, YOU MISSED THIS, WHY THIS MATTERS, DETAIL BREAKDOWN, RUMOUR CHECK, THEORY CHECK,
+               COMPARISON, EXPLAINER, TIMELINE, DEBUNK, HISTORY, COMMUNITY DISCOVERY, MECHANIC EXPLAINED,
+               WHAT THIS CHANGES, VISUAL RECONSTRUCTION, PLAYER EXPERIMENT, LORE BREAKDOWN, TECHNICAL BREAKDOWN]
+  # Rotate these: the checker warns when a video repeats the previous one's style.
+  hook_styles: [shock, question, mystery, discovery, challenge, humor, consequence, story,
+                statement, contrast, number, quote, reveal, correction]
+  hook_max_seconds: 3              # the hook lands in the first shot; a longer opener is a slow intro
+  hook_max_words: 12
+  scene_seconds: [3, 6]            # preferred length of a generated scene: cheaper and more reliable
+  # Phrases that make a short sound generic or oversold. Flagged, not silently rewritten.
+  weak_phrases: ["did you know", "in this video", "let's dive", "without further ado", "must-see", "you won't believe",
+                 "follow for part", "like and subscribe", "smash that"]
+  videos_dir: outputs/videos
+  # What each shot is made of. AI_* shots are generated in Higgsfield; the GRAPHIC types are made in
+  # the edit. The last three use someone else's material: each needs the asset's URL from the evidence
+  # packet and a rights note, and the checker flags it for the editor to clear before publishing.
+  asset_types: [AI_VIDEO, AI_IMAGE_WITH_MOTION, TEXT_GRAPHIC, MAP_GRAPHIC, OTHER, SCREENSHOT, OFFICIAL_IMAGE, OFFICIAL_VIDEO_CLIP]
+  generated_asset_types: [AI_VIDEO, AI_IMAGE_WITH_MOTION]
+  third_party_asset_types: [SCREENSHOT, OFFICIAL_IMAGE, OFFICIAL_VIDEO_CLIP]
+  # Every short says its visuals are AI-generated, on screen and in the description.
+  disclosure: "Visuals are AI-generated illustrations, not game footage."
+  template_similarity: 0.7         # prompt overlap with an earlier package at or above this = too similar
+  higgsfield:
+    adapter: manual                # manual | api (api also needs HF_API_KEY_ID and HF_API_KEY_SECRET, and model paths below)
+    # --- API adapter. Lifecycle per docs.higgsfield.ai: POST to the model's path with
+    #     "Authorization: Key <id>:<secret>", poll the returned status_url, download video.url.
+    #     Model paths, parameters and prices are per model and shown in console.higgsfield.ai:
+    #     copy them from there. Nothing here is guessed. Credentials go in the environment
+    #     (HF_API_KEY_ID, HF_API_KEY_SECRET), never in this file.
+    base_url: "https://api.higgsfield.ai"
+    models:
+      # One entry per generation method. AI_VIDEO shots use text_to_video; AI_IMAGE_WITH_MOTION shots
+      # use text_to_image then image_to_video ("{image_url}" is the still's URL).
+      text_to_video:
+        name: null                 # the model's name as the console shows it, for the record
+        path: null                 # e.g. the path shown for your chosen text-to-video model
+        params: {}                 # body template; "{prompt}", "{seconds}", "{aspect}" and "{image_url}" are filled in per shot
+        cost_per_generation: null  # credits or USD as shown in the console; null = unknown
+      text_to_image:
+        name: null
+        path: null
+        params: {}
+        cost_per_generation: null
+      image_to_video:
+        name: null
+        path: null
+        params: {}
+        cost_per_generation: null
+    cost_unit: credits
+    poll_timeout_seconds: 900
+    max_retries: 1                 # a failed shot is resubmitted at most this many times; moderated shots never are
+
+  # --- RETENTION ENGINE: how a selected story becomes something people watch to the end. These are
+  #     checks on the package /make writes; they never touch story discovery or selection.
+  retention:
+    # The first two seconds are a consequence, a question, a visual, a mystery, a reaction or a
+    # challenge. An opening line that starts like an article is refused.
+    banned_openers: ["today we", "today i", "in this video", "new gta", "new information", "according to", "a recent report",
+                     "a new report", "reports indicate", "reports suggest", "rockstar games is", "rockstar is reportedly",
+                     "it has been", "recently,", "welcome", "hey guys", "what's up"]
+    opener_max_words: 8            # the first sentence
+    sentence_max_words: 16         # one sentence, one idea; longer reads like an article
+    article_words: ["implications", "significantly", "potentially", "furthermore", "moreover", "indicate", "indicates",
+                    "regarding", "utilise", "utilize", "in terms of", "it is worth noting", "has emerged", "appears to"]
+    # A speculation line must sound like one. The reaction can be dramatic; the claim cannot mislead.
+    conditional_words: ["could", "might", "may", "imagine", "if ", "would", "what if", "maybe", "suppose", "picture", "?"]
+    punch_caption_max_words: 5     # on-screen captions punch the idea; they are not a transcript
+    still_max_seconds: 3.5         # a held or still frame longer than this is dead attention
+    shot_max_seconds: 7            # longer than this needs something new happening on screen
+    micro_hooks: ["but here's the crazy part", "watch the car", "except there's a problem", "then this happens", "look closer",
+                  "here's the thing", "but wait", "it gets worse", "it gets better"]
+    # The final viewer simulation. Every answer is recorded in the package; a "no" means rework.
+    viewer_test: [frame_one_stops_the_scroll, first_sentence_creates_curiosity, clear_why_by_second_three,
+                  new_reason_to_stay_every_few_seconds, voice_entertains_not_informs, visuals_show_what_is_said,
+                  story_escalates, hook_promise_delivered, no_boring_second, script_cannot_be_simpler,
+                  cannot_be_shorter, worth_sending_to_a_friend, makes_you_want_another]
+
+  # --- THE NARRATOR. One original host across every video: part of the channel's identity. He is our
+  #     own character. Never imitate an existing game character or the actor who plays one, and never
+  #     clone a real person's voice.
+  narrator:
+    name: null                     # the operator names him
+    persona: >
+      Sounds like he lives somewhere in the game's world and is telling a friend about something wild he
+      just found out. Charismatic, street-smart, confident, a little sarcastic, mischievous, funny,
+      natural, occasionally chaotic. He reacts; he does not report.
+    rules:
+      - "Short spoken sentences. One idea each. The first one is very short."
+      - "Reactions over statements: 'And then the whole damn road starts flooding', not 'The roads may flood'."
+      - "Consequences over terminology: 'This dude might actually remember you', not 'NPC persistence is improved'."
+      - "Dramatic about the reaction, exact about the claim: 'could' and 'imagine' when it is a possibility."
+      - "Mild language only. No slurs, nothing aimed at a real person."
+    # The voice itself is production.voice below. Audition candidates with `make_video.py voices`.
+
+  # --- Full production (`make_video.py produce`, behind /render). Generation runs through the
+  #     installed, logged-in `higgsfield` CLI; graphics, captions, timing and the edit are local.
+  #     Model ids are the CLI's own (`higgsfield model list`); costs are asked from the CLI per run.
+  production:
+    # seedance_2_0_mini is about 1 credit a second at 720p; seedance_2_5 (the Higgsfield skill's
+    # quality default) is 7 a second, about 225 credits for a six-clip short. Start cheap, look at
+    # the result, and regenerate a weak shot on the better model: delete its file in assets/ and its
+    # job in package.json, change this line, and run produce again.
+    video_model: seedance_2_0_mini
+    reference_mode_models: [seedance_2_5]   # models that need --mode omni_reference to accept reference media
+    resolution: 720p
+    min_clip_seconds: 4              # shortest clip the video model makes
+    image_model: gpt_image_2_5       # reference image and stills
+    # Sound events use a dedicated effects model. seed_audio is a voice-capable model and has read
+    # its prompt aloud as an effect (5 Oct 2026), so it is kept only for long ambience beds, and
+    # every generated sound is checked for speech before it is used (produce.spoken_words).
+    sfx_model: mirelo_text_to_audio  # 0.25 credits a second
+    bed_model: seed_audio
+    duration_models: [mirelo_text_to_audio, sonilo_music]
+    music: {enabled: true, model: sonilo_music}
+    voice:
+      model: text2speech_v2
+      variant: elevenlabs
+      # Chosen 5 Oct 2026 from 23 auditioned presets by measurement, not by ear (files in
+      # outputs/voices/): the most pitch movement at a natural male pitch, brisk pace, strong energy
+      # variation. Runner-up for a deeper read: Jasper, a7b8abe9-47f1-553e-a9df-87945a7e5bc8.
+      # The editor should confirm by listening; change name and id together.
+      name: Callum                   # tagged young male by Higgsfield
+      id: 858499d9-fef5-40e1-bc29-b4dc661dc283
+      type: preset
+    parallel_jobs: 3
+    clip_audio_prompt: "Audio: natural sound effects only, no music, no speech, no voices."
+    line_gap_seconds: 0.12           # pause between voiceover lines
+    lead_in_seconds: 0.15
+    tail_seconds: 0.5                # hold on the end card after the last word
+    min_shot_seconds: 1.6
+    overrun_tolerance_seconds: 2     # the spoken take may run this far past the 45s ceiling before the run stops
+    caption_max_chars: 24
+    caption_y: 1240                  # caption block top, on a 1080x1920 canvas (clear of platform UI)
+    disclosure: "AI-generated visualisation, not game footage"
+    mix: {voice_db: 0, clip_db: -15, bed_db: -22, music_db: -21, sfx_db: -9}   # nothing is ever louder than the voice
+    fonts:
+      bold: ["/System/Library/Fonts/Supplemental/Arial Bold.ttf", "/Library/Fonts/Arial Bold.ttf"]
+      regular: ["/System/Library/Fonts/Supplemental/Arial.ttf", "/Library/Fonts/Arial.ttf"]
+
+# ------------------------------------------------------------------ video desk (/morning tiers)
+# MAKE NOW / MAKE TODAY / WATCH / SKIP. Every number is a minimum a story must reach (0-100 unless
+# noted); a story that misses one drops a tier. Ceilings, not quotas: when nothing clears MAKE NOW or
+# MAKE TODAY the briefing says NO STRONG VIDEO OPPORTUNITY RIGHT NOW instead of promoting something.
+# Change these only on the operator's say-so: lowering one loosens the quality gate.
+video_desk:
+  make_now:
+    max: 3
+    min_opportunity: 75
+    min_video: 75                 # video suitability
+    min_viral: 70
+    min_visual: 70                # visual potential
+    min_hook: 70                  # hook strength
+    min_confidence: 60            # recommendation confidence
+    min_freshness: 0.45           # 0-1: MAKE NOW means it will be worth less tomorrow
+    max_saturation: 65
+    min_novelty: 0.5              # 0-1: not a repeat of an angle we published in the last 14 days
+    min_label: CREDIBLE_RUMOUR    # an observable COMMUNITY_DISCOVERY also qualifies
+  make_today:
+    max: 5
+    min_opportunity: 65
+    min_video: 65
+    min_viral: 60
+    min_visual: 60
+    min_hook: 60
+    min_confidence: 50
+    min_freshness: 0.0            # a strong visual story does not have to be today's news
+    max_saturation: 75
+    min_novelty: 0.4
+    min_label: THEORY             # a theory can be a clearly labelled THEORY CHECK
+  watch: {max: 6, min_opportunity: 50, min_freshness: 0.30}
+  not_now_labels: [THEORY, SPECULATION]   # never MAKE NOW
+  require_substance: true                 # at least one source with real text, or two independent outlets
+  max_per_game: 2                         # in MAKE NOW + MAKE TODAY combined, so one game cannot fill the desk
+  max_per_game_flagship: 3
+  max_per_parent_event: 1                 # one short per interview or announcement
+  heuristic_hook_cap: 55                  # no Claude judgement = no written hook, so hook strength is capped here

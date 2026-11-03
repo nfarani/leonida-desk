@@ -1,0 +1,40 @@
+---
+import Base from '../layouts/Base.astro';
+import Badge from '../components/Badge.astro';
+import { SITE, LABELS } from '../config';
+---
+<Base title="Editorial standards" description={`How ${SITE.name} sources, labels and checks what it publishes.`}>
+  <div class="plain">
+    <div class="page-head"><h1>Editorial standards</h1><p>The rules every article has to pass before it is published.</p></div>
+    <h2>Every claim has a source</h2>
+    <ul>
+      <li>Each factual statement in an article is tied to a specific source, which is listed on the page.</li>
+      <li>We do not write facts from memory. Release information, mechanics, characters, locations, statistics and developer statements come only from sources we have stored and opened.</li>
+      <li>We do not fabricate quotes. A quotation appears only if it is word for word in a source.</li>
+      <li>Analysis and opinion are placed under their own headings so they cannot be mistaken for reported fact.</li>
+    </ul>
+    <h2>Verification labels</h2>
+    <p>Every article carries exactly one label. The label is limited by the evidence: a story can be labelled lower than its evidence allows, never higher.</p>
+    <table>
+      <thead><tr><th>Label</th><th>What it means</th></tr></thead>
+      <tbody>{Object.entries(LABELS).map(([key, l]) => <tr><td><Badge label={key} /></td><td>{l.meaning}</td></tr>)}</tbody>
+    </table>
+    <p>A rumour, leak, theory or community find is never described as confirmed, in a headline or anywhere else. Community posts are leads, not facts.</p>
+    <h2>Original work</h2>
+    <p>We do not publish rewrites of other outlets' articles. A piece has to add something: synthesis across sources, comparison with earlier games, context, a timeline, a fact check or a clear explanation. A story that is too thin to add anything is not published.</p>
+    <h2>Before publication</h2>
+    <ul>
+      <li>Automated checks look for uncited claims, quotes that are not in the evidence, duplicated coverage and missing information.</li>
+      <li>Rumours, theories, community discoveries, conflicting reports and anything sensitive always go to a human editor.</li>
+      <li>Nothing is published without the Editor-in-Chief's approval.</li>
+    </ul>
+    <h2>Dates</h2>
+    <p>The published date is set once. The updated date changes only when the text changes. We do not alter dates to make an article look newer.</p>
+    <h2>What we do not do</h2>
+    <ul>
+      <li>No misleading headlines, and no hooks the article cannot deliver.</li>
+      <li>No pages written only to target search terms, and no near-identical pages.</li>
+      <li>No padding to reach a word count.</li>
+    </ul>
+  </div>
+</Base>

@@ -1,0 +1,250 @@
+[
+  {
+    "shot": 1,
+    "start": 0.0,
+    "end": 3.0,
+    "seconds": 3,
+    "shot_type": "MONEY SHOT: hydroplane toward camera",
+    "asset_type": "AI_VIDEO",
+    "money_shot": true,
+    "reference": true,
+    "camera": "Low front three-quarter angle, camera retreating fast in front of the car, slight shake as the spray hits the lens",
+    "visual": "The red coupe slides sideways through deep floodwater straight at us, a wall of spray, police lights right behind it.",
+    "purpose": "The chase is already going wrong in frame one. Why is the street a river?",
+    "on_screen_text": "FIVE STARS IN THIS?!  |  corner label: AI-generated visualisation. Not actual GTA VI gameplay.",
+    "vo_lines": [
+      1
+    ],
+    "graphics": {},
+    "sfx": [
+      {
+        "prompt": "car tyres hydroplaning through deep water with a huge splash, engine revving, police sirens close behind",
+        "at": 0.0,
+        "seconds": 3.0,
+        "db": -8
+      }
+    ],
+    "higgsfield_prompt": "A red sports coupe speeds through deep standing water on a city avenue at night, loses traction and slides sideways toward the camera, throwing a huge wall of spray. Two patrol cars with flashing red and blue lights are right behind it in the rain. Low front three-quarter angle, the camera retreats fast ahead of the car, spray hits the lens. Urgent, out of control. Photoreal, cinematic, night storm in a subtropical coastal city with palm trees and pastel low-rise buildings, heavy rain, vertical 9:16 frame. The red coupe is seen only from the front or the side, never from behind. No readable text, no lettering, no badges, no brand marks. 3 seconds."
+  },
+  {
+    "shot": 2,
+    "start": 3.0,
+    "end": 6.5,
+    "seconds": 3.5,
+    "shot_type": "The storm arrives",
+    "asset_type": "OTHER",
+    "footage": {
+      "asset": "library/storm-front.mp4",
+      "start": 0.6
+    },
+    "camera": "Wide, clouds rolling toward camera, slow tilt up (existing clip)",
+    "visual": "A towering storm front rolls over the city from the sea, lightning inside it.",
+    "on_screen_text": "ON RECORD",
+    "vo_lines": [
+      2
+    ],
+    "graphics": {
+      "tag": "ON RECORD",
+      "tag_text": "SOURCE: GAME INFORMER"
+    },
+    "higgsfield_prompt": null,
+    "sfx": [
+      {
+        "prompt": "a single deep thunderclap with a long rolling rumble",
+        "at": 0.2,
+        "seconds": 3.0,
+        "db": -9
+      }
+    ]
+  },
+  {
+    "shot": 3,
+    "start": 6.5,
+    "end": 9.5,
+    "seconds": 3,
+    "shot_type": "Everything dripping wet",
+    "asset_type": "AI_VIDEO",
+    "camera": "Starts close on a roof edge, tilts down fast with the falling water to street level as headlights approach through the rain",
+    "visual": "Water pours off a roof edge and down a lamppost, a palm thrashes in the wind, the camera drops to a street already filling with water.",
+    "purpose": "Shows exactly what Rockstar described, and ends on the street starting to flood: now what happens to a car?",
+    "on_screen_text": "ON RECORD",
+    "vo_lines": [
+      3
+    ],
+    "graphics": {
+      "tag": "ON RECORD",
+      "tag_text": "SOURCE: GAME INFORMER"
+    },
+    "higgsfield_prompt": "Torrential rain at night. Water gushes off the edge of a pastel building's roof and streams down a street lamp, a palm tree thrashes violently in the wind. The camera tilts down fast, following the falling water, to a street where water is rising across the tarmac, as two headlights approach through the rain in the distance. Lightning flashes. Menacing, the storm is taking over. Photoreal, cinematic, subtropical coastal city, vertical 9:16 frame, no readable text, no brand marks. 5 seconds.",
+    "clip_start": 2.4
+  },
+  {
+    "shot": 4,
+    "start": 9.5,
+    "end": 13.5,
+    "seconds": 4,
+    "shot_type": "The tyre meets the water",
+    "asset_type": "AI_VIDEO",
+    "reference": true,
+    "camera": "Ground-level close-up tracking alongside the front wheel, very shallow depth of field",
+    "visual": "The coupe's front wheel ploughs into standing water at speed; the water climbs the tyre and the wheel starts to skate.",
+    "purpose": "The question in one picture: does this water do anything to the car? Hold on the wheel until it starts to slip.",
+    "on_screen_text": "NOT CONFIRMED",
+    "vo_lines": [
+      4
+    ],
+    "graphics": {
+      "tag": "NOT CONFIRMED"
+    },
+    "sfx": [
+      {
+        "prompt": "a short tense rising whoosh that cuts off abruptly",
+        "at": 3.0,
+        "seconds": 1.5,
+        "db": -10
+      }
+    ],
+    "higgsfield_prompt": "Extreme ground-level close-up of the front wheel of a red sports coupe driving fast into deep standing water on a city street at night. Water sprays up and climbs the black tyre, the wheel begins to skate and wobble as it loses grip. The camera tracks alongside the wheel at road height, shallow depth of field, rain hitting the water. Tense, the moment before it goes wrong. Photoreal, cinematic, night storm in a subtropical coastal city with palm trees and pastel low-rise buildings, heavy rain, vertical 9:16 frame. The red coupe is seen only from the front or the side, never from behind. No readable text, no lettering, no badges, no brand marks. 5 seconds."
+  },
+  {
+    "shot": 5,
+    "start": 13.5,
+    "end": 19.0,
+    "seconds": 5.5,
+    "shot_type": "It goes wrong",
+    "asset_type": "OTHER",
+    "footage": {
+      "asset": "library/flood-side.mp4",
+      "start": 0.3
+    },
+    "camera": "Side-on tracking at wheel height through spray (existing clip)",
+    "visual": "The coupe ploughs through deep water side-on, spray everywhere, and keeps going as the street fills.",
+    "on_screen_text": "WHAT IF",
+    "vo_lines": [
+      5,
+      6
+    ],
+    "graphics": {
+      "tag": "WHAT IF"
+    },
+    "higgsfield_prompt": null,
+    "sfx": [
+      {
+        "prompt": "a heavy bass impact hit followed by rushing water",
+        "at": 0.0,
+        "seconds": 2.0,
+        "db": -8
+      }
+    ]
+  },
+  {
+    "shot": 6,
+    "start": 19.0,
+    "end": 22.0,
+    "seconds": 3,
+    "shot_type": "No grip, and the cops lose it too",
+    "asset_type": "OTHER",
+    "footage": {
+      "asset": "library/junction-slide.mp4",
+      "start": 1.2
+    },
+    "camera": "Static high corner view of a flooded junction (existing clip)",
+    "visual": "At a flooded junction the patrol car chasing the coupe spins a full circle and stops.",
+    "on_screen_text": "WHAT IF",
+    "vo_lines": [
+      7
+    ],
+    "graphics": {
+      "tag": "WHAT IF"
+    },
+    "higgsfield_prompt": null,
+    "sfx": [
+      {
+        "prompt": "car tyres screeching and sliding on a wet road, then a splash",
+        "at": 0.1,
+        "seconds": 3.0,
+        "db": -8
+      }
+    ]
+  },
+  {
+    "shot": 7,
+    "start": 22.0,
+    "end": 25.0,
+    "seconds": 3,
+    "shot_type": "The helicopter loses the fight",
+    "asset_type": "AI_VIDEO",
+    "camera": "Low angle from the street, the camera whips up to follow the helicopter as a gust throws it sideways",
+    "visual": "A helicopter hovering low over the street is shoved sideways by a gust, its searchlight whipping off the road and across the buildings.",
+    "purpose": "Escalation: even the thing that always finds you is in trouble. The viewer watches it get thrown.",
+    "on_screen_text": "WHAT IF",
+    "vo_lines": [
+      8
+    ],
+    "graphics": {
+      "tag": "WHAT IF"
+    },
+    "sfx": [
+      {
+        "prompt": "helicopter rotor blades straining and wobbling in violent wind gusts",
+        "at": 0.0,
+        "seconds": 3.0,
+        "db": -9
+      }
+    ],
+    "higgsfield_prompt": "A dark helicopter hovers low over a flooded palm-lined street at night, clearly visible, its searchlight pointed at the road. A violent gust of wind hits it and shoves it sideways, the helicopter tilts hard, and the searchlight beam whips off the road and across the pastel buildings. Low angle from street level, the camera whips up to follow it. Palm trees bent flat by the wind, sheets of rain. Chaotic, the storm is winning. Photoreal, cinematic, vertical 9:16 frame, no readable text, no markings. 4 seconds."
+  },
+  {
+    "shot": 8,
+    "start": 25.0,
+    "end": 28.0,
+    "seconds": 3,
+    "shot_type": "The way out is gone",
+    "asset_type": "OTHER",
+    "footage": {
+      "asset": "library/route-gone.mp4",
+      "start": 0.3
+    },
+    "camera": "Front three-quarter, the car braking toward camera (existing clip)",
+    "visual": "The coupe brakes hard at a flooded street with a fallen palm across it.",
+    "on_screen_text": "WHAT IF",
+    "vo_lines": [
+      9
+    ],
+    "graphics": {
+      "tag": "WHAT IF"
+    },
+    "higgsfield_prompt": null,
+    "sfx": [
+      {
+        "prompt": "a car braking hard on a wet road and sloshing to a stop in deep water",
+        "at": 0.0,
+        "seconds": 2.5,
+        "db": -9
+      }
+    ]
+  },
+  {
+    "shot": 9,
+    "start": 28.0,
+    "end": 32.5,
+    "seconds": 4.5,
+    "shot_type": "PAYOFF: the slide again, slowed",
+    "asset_type": "OTHER",
+    "footage": {
+      "asset": "shot-1.mp4",
+      "start": 1.2,
+      "speed": 0.7
+    },
+    "camera": "The opening slide from its side-on peak, slowed down (existing clip)",
+    "visual": "The coupe mid-slide in a wall of spray, slowed: the picture the video opened on, now with the question hanging over it.",
+    "on_screen_text": "WHAT IF",
+    "vo_lines": [
+      10
+    ],
+    "graphics": {
+      "tag": "WHAT IF"
+    },
+    "higgsfield_prompt": null
+  }
+]

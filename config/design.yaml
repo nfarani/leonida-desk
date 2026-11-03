@@ -1,0 +1,117 @@
+# LEONIDA DESK VISUAL SYSTEM. One definition for every video: brand bug, hook, captions, editorial
+# tags, source lines, disclosure, end card, safe areas, colours and motion. Rendered by
+# research/design.py on a 1080x1920 canvas. Change the look here, not in code and not per video.
+#
+# Principles: the footage is the product. Show the minimum text the moment needs, keep the centre of
+# the frame clear, no full-screen cards, no boxes behind text, no outlines: a soft shadow only.
+canvas: {width: 1080, height: 1920, fps: 30}
+
+# Platform UI on Shorts, TikTok and Reels covers the top strip, the bottom caption area and the
+# right-hand button column. Nothing important is drawn outside these margins.
+safe:
+  top: 170            # brand bug and tags sit on this line
+  left: 64
+  right: 64           # at the top of the frame
+  right_lower: 150    # beside the like/comment/share buttons
+  bottom: 430         # captions and titles end above this
+
+fonts:
+  dir: assets/fonts
+  headline: {file: BarlowCondensed-Bold.ttf}        # hooks, end card
+  label:    {file: BarlowCondensed-SemiBold.ttf}    # brand bug, tags, quotes
+  body:     {file: Inter-Variable.ttf, weight: 500} # captions, attributions
+  body_bold: {file: Inter-Variable.ttf, weight: 800} # highlighted caption words
+
+colors:
+  text: "#FFFFFF"
+  text_soft: "#FFFFFFC8"       # attributions, sub-labels
+  accent: "#FFE14D"            # the one brand accent: highlighted words and the bug's mark
+  shadow: "#000000"
+  states:                      # editorial tags: a small accent bar, never a filled block
+    "ON RECORD": "#36D6A3"
+    "WHAT IF": "#7CC4FF"
+    "NOT CONFIRMED": "#C8B58C"
+  aliases: {"NOT SAID": "NOT CONFIRMED", "RUMOUR": "NOT CONFIRMED", "THEORY": "WHAT IF"}
+
+shadow: {blur: 12, offset: 2, opacity: 0.75, tight_blur: 2, tight_opacity: 0.7}
+
+brand_bug:
+  text: ["LEONIDA", "DESK"]    # first word in the headline weight, second lighter
+  size: 38
+  tracking: 3                  # extra pixels between letters
+  mark: {width: 6, gap: 12}    # the accent bar before the wordmark
+  opacity: 0.92
+  corner: top_left             # stays for the whole video, never moves
+
+tag:
+  size: 33
+  tracking: 2
+  bar: {width: 5, gap: 12}
+  sub_size: 24                 # "AI visualisation" under WHAT IF
+  corner: top_right            # opposite the bug
+  speculative_states: []            # states that carry a small AI marker under the tag (none: see disclosure)
+  # A tag can carry a source instead of a state name: graphics.tag_text ("GAME INFORMER") on an
+  # ON RECORD shot credits where the fact comes from, in the ON RECORD colour.
+
+disclosure:
+  # Operator decision, 5 Oct 2026: no AI label on screen. The disclosure lives in every description
+  # and caption, and in the platform's own AI or altered-content setting at upload.
+  on_screen: false
+  label: "AI visualisation"
+  seconds: [0.15, 2.3]         # used only if on_screen is turned back on
+  size: 26
+  description_line: "AI-generated visualisation. Not actual {game} gameplay."
+
+hook:
+  seconds: 1.9                 # then it leaves and the footage breathes
+  size: 124                    # shrinks to fit the widest line
+  line_gap: 4
+  bottom: 1470                 # the block's bottom edge
+  scrim: true                  # a soft gradient under the title, for its duration only
+
+captions:
+  size: 58
+  line_height: 76
+  max_chars: 28                # per chunk
+  max_width: 780
+  one_line_width: 600          # wider than this and the caption is set as two balanced lines
+  max_lines: 2
+  center_y: 1385
+  max_highlights: 3            # highlighted words per caption
+  uppercase_highlights: true
+
+# Punch captions: used when a voiceover line carries its own `caption` ("FIVE STARS?!", "THE ROAD
+# FLOODS"). Short, large, immediate: they sell the idea instead of transcribing the sentence. The
+# full transcript is always written to captions.srt for the platform's own caption track.
+punch:
+  size: 112                    # shrinks to fit
+  max_width: 820
+  line_gap: 2
+  center_y: 1360
+  pop: 0.08                    # fade-in, faster than a reading caption
+
+source:
+  quote_size: 50
+  by_size: 28
+  bar: {width: 4, gap: 16}
+  bottom: 1255                 # sits just above the captions, left-aligned
+  delay: 0.5
+  max_seconds: 4.5
+
+end_card:
+  size: 116
+  line_gap: 4
+  bottom: 1470
+  scrim: true
+
+scrim: {height: 1000, opacity: 0.62}
+
+motion:                        # deliberate, small, and the same everywhere
+  fade_in: 0.14
+  fade_out: 0.10
+  rise: 12                     # pixels an element travels up as it fades in
+  hook_fade_out: 0.18
+  hold_push: 0.00035           # zoom per frame on a held or still frame
+
+# Words spelled for the voice engine, shown properly on screen.
+caption_replacements: {"GTA six": "GTA VI", "GTA five": "GTA V"}

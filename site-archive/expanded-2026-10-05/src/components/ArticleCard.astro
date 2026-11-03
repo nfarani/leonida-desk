@@ -1,0 +1,19 @@
+---
+import Badge from './Badge.astro';
+import { BUCKETS, findGame } from '../config';
+import { fmtDate, type Article } from '../lib/articles';
+interface Props { article: Article; heading?: 'h2' | 'h3' }
+const { article, heading: H = 'h3' } = Astro.props;
+const d = article.data;
+const game = findGame(d.game);
+---
+<article class="card">
+  <span class="kicker">{game ? `${game.short_name ?? game.name} · ` : ''}{BUCKETS[d.editorial_bucket].label}</span>
+  <H><a href={`/articles/${d.slug}/`}>{d.title}</a></H>
+  <p>{d.description}</p>
+  <div class="meta">
+    <Badge label={d.verification_status} />
+    <time datetime={(d.published_at ?? d.updated_at)?.toISOString()}>{fmtDate(d.published_at)}</time>
+    {d.status !== 'PUBLISHED' && <span class="status">{d.status.replace('_', ' ')}</span>}
+  </div>
+</article>

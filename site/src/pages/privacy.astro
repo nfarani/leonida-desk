@@ -1,0 +1,19 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE } from '../config';
+---
+<Base title="Privacy" description={`What ${SITE.name} measures when you visit, and what it does not collect.`}>
+  <div class="plain">
+    <div class="page-head"><h1>Privacy</h1><p>What we measure when you visit, and what we do not collect.</p></div>
+    <h2>The short version</h2>
+    <p>{SITE.name} has no accounts, no comments and no sign-up forms, so we do not ask you for any personal information. We count visits so we know which articles are read. We do not use advertising cookies, and we do not sell or share data about readers.</p>
+    <h2>Visitor statistics</h2>
+    <p>We use Cloudflare Web Analytics to count page views and visits. It reports totals such as how many times a page was opened, which site a visit came from, and the country, browser and device type of visits in aggregate. Cloudflare says the service does not use cookies and does not track individual visitors across sites. We see totals, not people.</p>
+    <h2>Hosting</h2>
+    <p>The site is hosted by Cloudflare. Like any web host, it processes the technical details needed to deliver a page, such as your IP address, and keeps server logs for security and reliability.</p>
+    <h2>Links to other sites</h2>
+    <p>Our articles link to the sources behind each claim. Those sites have their own privacy policies, and we have no control over what they collect when you follow a link.</p>
+    <h2>If this changes</h2>
+    <p>If we add advertising, affiliate links, a newsletter or any other feature that collects or uses data differently, we will update this page before it goes live and, where the law requires it, ask for your consent first.</p>
+  </div>
+</Base>

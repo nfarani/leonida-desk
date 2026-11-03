@@ -1,0 +1,81 @@
+{
+  "packet": "story-7-wildlife",
+  "story_label": "HIGH_CONFIDENCE_REPORT",
+  "claims": [
+    {
+      "id": "c4",
+      "kind": "fact",
+      "claim": "Eurogamer reports that, in the Game Informer feature, the studio said there are over 170 animal species in the world, including 60 different birds and more than 30 land mammals.",
+      "source_id": "s1",
+      "source_url": "https://eurogamer.net/gta6-rockstar-weather-systems-hurricanes-rainbows-rain",
+      "source_date": "2026-09-30T17:04:55+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Eurogamer, 30 Sep 2026, final paragraph. Opened 5 Oct 2026.",
+      "quote": null
+    },
+    {
+      "id": "c7",
+      "kind": "fact",
+      "claim": "Rockstar's official site describes Grassrivers as a primordial expanse where the gators may be the most famous attraction but there are far deadlier predators and weirder discoveries among the mangroves.",
+      "source_id": "s4",
+      "source_url": "https://www.rockstargames.com/VI/only-in-leonida/grassrivers",
+      "source_date": null,
+      "verification": "CONFIRMED",
+      "evidence": "rockstargames.com/VI/only-in-leonida/grassrivers, region description, read from the page source on 5 Oct 2026. Marketing copy: it describes the place, not a game mechanic.",
+      "quote": "The gators may be the most famous attraction, but there are far deadlier predators and weirder discoveries among the mangroves."
+    },
+    {
+      "id": "c8",
+      "kind": "fact",
+      "claim": "One of the official Grassrivers screenshots on Rockstar's site is described, in its own image description, as a helicopter and two police cars chasing a pick-up truck through a swamp with alligators, with an airboat in the background.",
+      "source_id": "s4",
+      "source_url": "https://www.rockstargames.com/VI/only-in-leonida/grassrivers",
+      "source_date": null,
+      "verification": "CONFIRMED",
+      "evidence": "rockstargames.com/VI/only-in-leonida/grassrivers, alt text of image Grassrivers_04, read from the page source on 5 Oct 2026. It is a still image: it shows the scene, it does not say animals react to the chase.",
+      "quote": "A helicopter and two police cars chase a pick-up truck through a swamp with alligators in the Grassrivers."
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "story_id": 7,
+      "publisher": "Eurogamer",
+      "url": "https://eurogamer.net/gta6-rockstar-weather-systems-hurricanes-rainbows-rain",
+      "title": "GTA 6 completely \"re-engineered\" Rockstar's weather systems to \"achieve a sense of scale we haven't felt before,\" adding hurricanes, rainbows and heavy rain",
+      "published_at": "2026-09-30T17:04:55+00:00",
+      "tier": 1,
+      "source_type": "journalism",
+      "opened": true,
+      "opened_at": "2026-10-05T17:00:00+00:00",
+      "note": ""
+    },
+    {
+      "id": "s2",
+      "story_id": 7,
+      "publisher": "Rock Paper Shotgun",
+      "url": "https://rockpapershotgun.com/gta-6-will-simulate-hurricanes-rainbows-and-persistent-dynamic-clouds-among-other-efforts-to-make-you-stop-doing-crime-and-become-a-weather-nerd",
+      "title": "GTA 6 will simulate hurricanes, rainbows and persistent, dynamic clouds, among other efforts to make you stop doing crime and become a weather nerd",
+      "published_at": "2026-09-30T09:30:00+00:00",
+      "tier": 2,
+      "source_type": "journalism",
+      "opened": true,
+      "opened_at": "2026-10-05T17:00:00+00:00",
+      "note": ""
+    },
+    {
+      "id": "s4",
+      "story_id": 7,
+      "publisher": "Rockstar Games",
+      "url": "https://www.rockstargames.com/VI/only-in-leonida/grassrivers",
+      "title": "Grand Theft Auto VI: Only in Leonida: Grassrivers (official site)",
+      "published_at": null,
+      "tier": 0,
+      "source_type": "primary",
+      "opened": true,
+      "opened_at": "2026-10-05T21:30:00+00:00",
+      "note": "Found by web search on 5 Oct 2026 and opened the same day. Not from a feed. The page is rendered by script; the text was read from the page source."
+    }
+  ],
+  "conflicts": []
+}

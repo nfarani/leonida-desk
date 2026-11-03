@@ -1,0 +1,181 @@
+{
+  "packet_id": "story-1175-reviews-versus-sales",
+  "story_id": 1175,
+  "parent_event_id": null,
+  "story_ids": [
+    1175
+  ],
+  "angle_id": "reviews-versus-sales",
+  "angle": "The exec's argument and the reply to it",
+  "editorial_bucket": "EXPLAINER",
+  "story_label": "CREDIBLE_RUMOUR",
+  "built_at": "2026-10-11T19:18:21+00:00",
+  "sources": [
+    {
+      "id": "s1",
+      "story_id": 1175,
+      "publisher": "Kotaku",
+      "url": "https://kotaku.com/crimson-desert-exec-explains-the-gulf-between-the-mid-review-scores-and-the-7-million-sales-2000743258",
+      "title": "Crimson Desert Exec Explains The Gulf Between The Mid Review Scores And The 6 Million Sales",
+      "published_at": "2026-10-09T16:11:00+00:00",
+      "tier": 1,
+      "source_type": "journalism",
+      "opened": true,
+      "opened_at": "2026-10-11T19:20:48+00:00",
+      "note": ""
+    },
+    {
+      "id": "s2",
+      "story_id": 1175,
+      "publisher": "Rock Paper Shotgun",
+      "url": "https://rockpapershotgun.com/a-crimson-desert-exec-thinks-critic-review-scores-were-lower-because-they-didnt-have-enough-time-to-play-it-and-boy-oh-boy-i-wonder-whose-fault-that-is",
+      "title": "A Crimson Desert exec thinks critic review scores were lower because they didn't have enough time to play it, and boy oh boy I wonder whose fault that is",
+      "published_at": "2026-10-10T17:02:49+00:00",
+      "tier": 2,
+      "source_type": "journalism",
+      "opened": true,
+      "opened_at": "2026-10-11T19:20:48+00:00",
+      "note": ""
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "headline",
+      "claim": "Kotaku published a piece headlined: Crimson Desert Exec Explains The Gulf Between The Mid Review Scores And The 6 Million Sales",
+      "source_id": "s1",
+      "source_url": "https://kotaku.com/crimson-desert-exec-explains-the-gulf-between-the-mid-review-scores-and-the-7-million-sales-2000743258",
+      "source_date": "2026-10-09T16:11:00+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "Launch-day patches were part of the problem",
+      "quote": null
+    },
+    {
+      "id": "c2",
+      "kind": "headline",
+      "claim": "Rock Paper Shotgun published a piece headlined: A Crimson Desert exec thinks critic review scores were lower because they didn't have enough time to play it, and boy oh boy I wonder whose fault that is",
+      "source_id": "s2",
+      "source_url": "https://rockpapershotgun.com/a-crimson-desert-exec-thinks-critic-review-scores-were-lower-because-they-didnt-have-enough-time-to-play-it-and-boy-oh-boy-i-wonder-whose-fault-that-is",
+      "source_date": "2026-10-10T17:02:49+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "Crimson Desert looks like a perfectly fine game. I've not played it, and I don't intend to, so my perspective is based predominantly on trailers and reviews from my industry peers. Which, as it happens, also generally seemed to reach a consensus of \"yeah, it's fine.\" Sibling site European Gamer certainly seemed to think so , as did others. But if you ask the European CEO of developer Pearl Abyss L",
+      "quote": null
+    },
+    {
+      "id": "c3",
+      "kind": "fact",
+      "claim": "Pearl Abyss Europe chief executive Lybee Park told The Game Business that critics reviewed a build that was not the same as the launch version.",
+      "source_id": "s2",
+      "source_url": "https://rockpapershotgun.com/a-crimson-desert-exec-thinks-critic-review-scores-were-lower-because-they-didnt-have-enough-time-to-play-it-and-boy-oh-boy-i-wonder-whose-fault-that-is",
+      "source_date": "2026-10-10T17:02:49+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "Rock Paper Shotgun quotes Park.",
+      "quote": "They had to play the build that is not the exact same version as the launch game."
+    },
+    {
+      "id": "c4",
+      "kind": "fact",
+      "claim": "Park said critics had limited time and tend to follow the main quest line, while the game's appeal is spread across its world.",
+      "source_id": "s2",
+      "source_url": "https://rockpapershotgun.com/a-crimson-desert-exec-thinks-critic-review-scores-were-lower-because-they-didnt-have-enough-time-to-play-it-and-boy-oh-boy-i-wonder-whose-fault-that-is",
+      "source_date": "2026-10-10T17:02:49+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "Rock Paper Shotgun quotes Park.",
+      "quote": "our unique charm is spread all over our in-game world"
+    },
+    {
+      "id": "c5",
+      "kind": "fact",
+      "claim": "Crimson Desert has a 77 on Metacritic and has sold 6 million copies, a figure Pearl Abyss confirmed.",
+      "source_id": "s1",
+      "source_url": "https://kotaku.com/crimson-desert-exec-explains-the-gulf-between-the-mid-review-scores-and-the-7-million-sales-2000743258",
+      "source_date": "2026-10-09T16:11:00+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Kotaku: 77 on Metacritic, 6 million sales milestone; correction notes Pearl Abyss confirmed 6 million.",
+      "quote": null
+    },
+    {
+      "id": "c6",
+      "kind": "fact",
+      "claim": "Critics praised the open world and combat but found the story weak, while the game rose to the top of the Steam charts.",
+      "source_id": "s1",
+      "source_url": "https://kotaku.com/crimson-desert-exec-explains-the-gulf-between-the-mid-review-scores-and-the-7-million-sales-2000743258",
+      "source_date": "2026-10-09T16:11:00+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Kotaku summarises critical and player reception.",
+      "quote": null
+    },
+    {
+      "id": "c7",
+      "kind": "fact",
+      "claim": "Kotaku notes some reviewers played for more than 100 hours before publishing.",
+      "source_id": "s1",
+      "source_url": "https://kotaku.com/crimson-desert-exec-explains-the-gulf-between-the-mid-review-scores-and-the-7-million-sales-2000743258",
+      "source_date": "2026-10-09T16:11:00+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Kotaku: some played over 100 hours before delivering their assessments.",
+      "quote": null
+    },
+    {
+      "id": "c8",
+      "kind": "fact",
+      "claim": "The game received a day-one patch and a large first-week update that overhauled systems including the inventory limits that had frustrated reviewers.",
+      "source_id": "s1",
+      "source_url": "https://kotaku.com/crimson-desert-exec-explains-the-gulf-between-the-mid-review-scores-and-the-7-million-sales-2000743258",
+      "source_date": "2026-10-09T16:11:00+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Kotaku: day-one patch and big update in its first week, including inventory limitations.",
+      "quote": null
+    },
+    {
+      "id": "c9",
+      "kind": "fact",
+      "claim": "The Charting the Unknown DLC arrives on 29 October.",
+      "source_id": "s1",
+      "source_url": "https://kotaku.com/crimson-desert-exec-explains-the-gulf-between-the-mid-review-scores-and-the-7-million-sales-2000743258",
+      "source_date": "2026-10-09T16:11:00+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Kotaku: new DLC arrives on October 29.",
+      "quote": null
+    },
+    {
+      "id": "c10",
+      "kind": "fact",
+      "claim": "Rock Paper Shotgun's writer accepts that critics are often short of time but asks whose fault that is, pointing at the developer.",
+      "source_id": "s2",
+      "source_url": "https://rockpapershotgun.com/a-crimson-desert-exec-thinks-critic-review-scores-were-lower-because-they-didnt-have-enough-time-to-play-it-and-boy-oh-boy-i-wonder-whose-fault-that-is",
+      "source_date": "2026-10-10T17:02:49+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "RPS: whose fault is it that critics had such little time?",
+      "quote": null
+    },
+    {
+      "id": "c11",
+      "kind": "fact",
+      "claim": "Rock Paper Shotgun argues a critic's job differs from a player's experience, and that an average review is not a verdict on people who enjoy a game.",
+      "source_id": "s2",
+      "source_url": "https://rockpapershotgun.com/a-crimson-desert-exec-thinks-critic-review-scores-were-lower-because-they-didnt-have-enough-time-to-play-it-and-boy-oh-boy-i-wonder-whose-fault-that-is",
+      "source_date": "2026-10-10T17:02:49+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "RPS on the difference between what a critic does and what the average person does.",
+      "quote": null
+    },
+    {
+      "id": "c12",
+      "kind": "fact",
+      "claim": "Kotaku argues sales and quality need not correlate, in games as in film.",
+      "source_id": "s1",
+      "source_url": "https://kotaku.com/crimson-desert-exec-explains-the-gulf-between-the-mid-review-scores-and-the-7-million-sales-2000743258",
+      "source_date": "2026-10-09T16:11:00+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Kotaku: no necessary correlation between sales and quality.",
+      "quote": null
+    }
+  ],
+  "conflicts": [],
+  "media": {
+    "status": "none",
+    "note": "No hero media selected."
+  },
+  "sensitive": false
+}

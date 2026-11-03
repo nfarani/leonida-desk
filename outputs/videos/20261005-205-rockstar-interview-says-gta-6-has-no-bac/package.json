@@ -1,0 +1,407 @@
+{
+  "video_id": "20261005-205-rockstar-interview-says-gta-6-has-no-bac",
+  "story_id": 205,
+  "evidence_packet": "story-224-love-interview",
+  "game": "gta-vi",
+  "verification_status": "HIGH_CONFIDENCE_REPORT",
+  "status": "READY_FOR_GENERATION",
+  "created_at": "2026-10-05T16:39:48+00:00",
+  "history": [
+    {
+      "status": "IDEA",
+      "at": "2026-10-05T16:39:48+00:00",
+      "note": "package started"
+    },
+    {
+      "status": "SCRIPTED",
+      "at": "2026-10-05T16:40:37+00:00",
+      "note": "checker: 3 errors"
+    },
+    {
+      "status": "READY_FOR_GENERATION",
+      "at": "2026-10-05T16:40:46+00:00",
+      "note": "checker: 0 errors"
+    }
+  ],
+  "format": {
+    "aspect": "9:16",
+    "target_seconds": [
+      25,
+      45
+    ]
+  },
+  "treatment": "DETAIL BREAKDOWN",
+  "editorial_angle": "Coverage of the Love Magazine interview has mostly quoted the line and moved on. This short makes the line visible: it treats 'no background' as a camera idea, so the viewer watches a crowd stop being wallpaper one person at a time. It then adds the two supporting details most write-ups split across separate articles (the Florida research behind how pedestrians talk and dress, and the 'hundred different conversations' quote), and it ends by saying plainly that this is a claim from an interview that nobody has been able to check yet.",
+  "visual_premise": "A busy street where everyone but one person is a blur, exactly how a game crowd normally works.",
+  "visual_escalation": "The focus keeps moving. Each time it lands on a new passer-by, that person turns out to be mid-story: an argument, a phone call, a distinct look. The camera speeds up until it is sprinting through overlapping conversations.",
+  "visual_payoff": "One stranger turns and fills the frame, then the whole street snaps into focus at once: no blur left, nobody is an extra.",
+  "visual_style": "photoreal street photography, shallow depth of field, rack-focus as the recurring device, warm coastal light",
+  "hooks": [
+    "Rockstar says GTA six has no background characters.",
+    "The people you drive past in GTA six aren't extras, according to Rockstar.",
+    "What if every pedestrian in GTA six was worth following?"
+  ],
+  "recommended_hook": 0,
+  "hook_style": "statement",
+  "voiceover": [
+    {
+      "text": "Rockstar says GTA six has no background characters.",
+      "claims": [
+        "c26"
+      ],
+      "kind": "fact"
+    },
+    {
+      "text": "That's writing director James Horton, in a Love Magazine interview reported by Polygon.",
+      "claims": [
+        "c26",
+        "c25"
+      ],
+      "kind": "fact"
+    },
+    {
+      "text": "His words: \"there's no 'background' in this game\". Then: \"There's just foreground you're not paying attention to right now.\"",
+      "claims": [
+        "c26",
+        "c27"
+      ],
+      "kind": "fact"
+    },
+    {
+      "text": "Polygon reports Rockstar sent teams around Florida to study its people, and it shows in how pedestrians talk, dress and wear their hair.",
+      "claims": [
+        "c31"
+      ],
+      "kind": "fact"
+    },
+    {
+      "text": "Horton says the city should wash over you: sprint down its busiest street and you hear \"snatches of a hundred different conversations as you go\".",
+      "claims": [
+        "c32"
+      ],
+      "kind": "fact"
+    },
+    {
+      "text": "Shift your focus onto something new, he says, and it fills the frame and pushes back.",
+      "claims": [
+        "c33"
+      ],
+      "kind": "fact"
+    },
+    {
+      "text": "For now that's a promise, not something anyone can test.",
+      "claims": [],
+      "kind": "framing"
+    },
+    {
+      "text": "Would you stop and listen? Sources in the description.",
+      "claims": [],
+      "kind": "framing"
+    }
+  ],
+  "shots": [
+    {
+      "seconds": 3,
+      "shot_type": "Hook: low wide, crowd toward camera",
+      "asset_type": "AI_VIDEO",
+      "camera": "Camera at chest height tracking backward at walking pace; one woman in the centre is sharp, everyone around her is heavily blurred",
+      "visual": "A packed sunlit pavement. One person is in focus, the rest of the crowd is soft blur: the usual game crowd.",
+      "on_screen_text": "\"NO BACKGROUND CHARACTERS\"  |  corner label for the whole video: AI-generated visuals, not game footage",
+      "vo_lines": [
+        1
+      ],
+      "higgsfield_prompt": "A crowded sunlit city pavement beside a beach road, dozens of pedestrians walking toward the camera. A woman in a yellow shirt in the centre is in sharp focus while every other person is a soft blur. Camera tracks backward at chest height, steady. Photoreal cinematic street photography, shallow depth of field, warm late-afternoon coastal light, pastel art deco buildings and palm trees, vertical 9:16 frame, natural motion, no readable text, no signage lettering, no brand marks. 3 seconds."
+    },
+    {
+      "seconds": 5,
+      "shot_type": "Attribution card",
+      "asset_type": "TEXT_GRAPHIC",
+      "reuse_shot": 1,
+      "camera": "None: freeze the last frame of shot 1, darken and blur it, type the attribution over it",
+      "visual": "Frozen, dimmed frame of the crowd with a clean lower-third naming who said it and where.",
+      "on_screen_text": "James Horton, writing director  ·  Love Magazine interview, reported by Polygon",
+      "vo_lines": [
+        2
+      ],
+      "higgsfield_prompt": null
+    },
+    {
+      "seconds": 6,
+      "shot_type": "Rack focus, medium",
+      "asset_type": "AI_VIDEO",
+      "camera": "Locked-off medium shot; focus pulls slowly from the foreground figure to the pair behind her, no camera move",
+      "visual": "A woman on a phone in the foreground goes soft as the focus lands on a man behind her bargaining with a fruit seller, who is suddenly the subject.",
+      "on_screen_text": "\"There's just foreground you're not paying attention to right now.\"",
+      "vo_lines": [
+        3
+      ],
+      "higgsfield_prompt": "Medium shot on a busy pavement. In the foreground a woman talks on a phone, sharp. Behind her a man in a pink shirt bargains with a fruit seller at a cart, blurred. The focus slowly pulls from the woman to the two men until they are sharp and she is blurred. Static camera, slow rack focus is the only change. Photoreal cinematic street photography, shallow depth of field, warm late-afternoon coastal light, pastel art deco buildings and palm trees, vertical 9:16 frame, natural motion, no readable text, no signage lettering, no brand marks. 6 seconds."
+    },
+    {
+      "seconds": 5,
+      "shot_type": "Three portraits at a crossing",
+      "asset_type": "AI_IMAGE_WITH_MOTION",
+      "camera": "Generate a still, then animate a slow push-in with slight parallax; subjects barely move",
+      "visual": "Three very different people waiting at a crossing, each with distinct clothes and hair, all sharp: studied, not copy-pasted.",
+      "on_screen_text": "How they talk. What they wear. Their hair.  (Polygon, on Rockstar's Florida research)",
+      "vo_lines": [
+        4
+      ],
+      "higgsfield_prompt": "Three strangers waiting side by side at a pedestrian crossing, full body, all in sharp focus: an older man in a linen shirt and straw hat, a young woman with braided hair and roller skates over her shoulder, a construction worker in a high-visibility vest holding a cold drink. Each has clearly different clothing and hairstyle. Slow push-in with gentle parallax. Photoreal cinematic street photography, shallow depth of field, warm late-afternoon coastal light, pastel art deco buildings and palm trees, vertical 9:16 frame, natural motion, no readable text, no signage lettering, no brand marks. 5 seconds."
+    },
+    {
+      "seconds": 6,
+      "shot_type": "Fast forward track through the crowd",
+      "asset_type": "AI_VIDEO",
+      "camera": "Fast forward tracking shot at head height, weaving through people, slight handheld shake, motion blur at the edges",
+      "visual": "Running through the busiest street: pairs and groups pass on both sides mid-conversation, gesturing, laughing, arguing.",
+      "on_screen_text": "\"snatches of a hundred different conversations\"",
+      "vo_lines": [
+        5
+      ],
+      "higgsfield_prompt": "Fast forward tracking shot at head height running through a dense crowd on a wide city pavement. Pairs and small groups pass close on both sides, talking, gesturing, laughing, one couple arguing. Slight handheld shake and motion blur at the frame edges, people stay recognisable. Photoreal cinematic street photography, shallow depth of field, warm late-afternoon coastal light, pastel art deco buildings and palm trees, vertical 9:16 frame, natural motion, no readable text, no signage lettering, no brand marks. 6 seconds."
+    },
+    {
+      "seconds": 5,
+      "shot_type": "Whip to a single stranger, close",
+      "asset_type": "AI_VIDEO",
+      "camera": "Quick whip pan that stops dead on one passer-by, then a short push-in as he turns to the lens",
+      "visual": "The camera lands on one man in the crowd. He stops, turns, and looks straight into the lens until he fills the frame.",
+      "on_screen_text": "Look at someone new and they \"fill the frame\"",
+      "vo_lines": [
+        6
+      ],
+      "higgsfield_prompt": "A quick pan across a blurred street crowd stops on one middle-aged man in a floral shirt carrying a grocery bag. He stops walking, turns his head and looks directly into the camera with a wary expression as the camera pushes in to a close-up. The crowd behind him stays blurred. Photoreal cinematic street photography, shallow depth of field, warm late-afternoon coastal light, pastel art deco buildings and palm trees, vertical 9:16 frame, natural motion, no readable text, no signage lettering, no brand marks. 5 seconds."
+    },
+    {
+      "seconds": 6,
+      "shot_type": "Payoff: high wide, everything sharp",
+      "asset_type": "AI_VIDEO",
+      "camera": "High angle wide from a first-floor balcony, slow crane up; the blur clears across the frame until the whole street is sharp",
+      "visual": "The whole street from above. The soft blur sweeps away and every single person is in focus at the same time.",
+      "on_screen_text": "A promise from an interview. Not something anyone can test yet.",
+      "vo_lines": [
+        7
+      ],
+      "higgsfield_prompt": "High angle wide shot from a balcony over a long crowded pavement and beach road at golden hour. The image starts soft and the focus sweeps from bottom to top of the frame until every pedestrian is sharp and detailed. Slow crane upward. Deep focus by the end. Photoreal cinematic street photography, shallow depth of field, warm late-afternoon coastal light, pastel art deco buildings and palm trees, vertical 9:16 frame, natural motion, no readable text, no signage lettering, no brand marks. 6 seconds."
+    },
+    {
+      "seconds": 3,
+      "shot_type": "End card",
+      "asset_type": "TEXT_GRAPHIC",
+      "reuse_shot": 7,
+      "camera": "None: hold the last frame of shot 7 under the card",
+      "visual": "Question card over the final sharp street frame, with the publication name.",
+      "on_screen_text": "Would you stop and listen?  |  Sources in the description  |  Leonida Desk",
+      "vo_lines": [
+        8
+      ],
+      "higgsfield_prompt": null
+    }
+  ],
+  "editing_notes": "The whole edit is one idea: focus. Blur means 'background', sharp means 'someone'. Never cut to a shot where everything is sharp until shot 7, or the payoff is spent. Hook text is on screen from frame one, before the voice. Shot 2 is a freeze of shot 1, not a new image. Cut shot 3 so the focus lands on the word 'foreground'. Shots 5 and 6 are the escalation: let 5 run fast and cut on the whip into 6 so the stop feels sudden. Keep the small 'AI-generated visuals, not game footage' label in a corner for the full runtime. Burned-in captions, two lines maximum, quote marks only around Horton's exact words. No game art, no trailer frames, no logos anywhere.",
+  "sound_music": "Open cold on street ambience, no music for the first three seconds. Under shots 3 and 4 a light, warm, mid-tempo bed (licensed library track, no vocals). In shot 5 raise layered crowd walla so the 'hundred conversations' line is heard as well as said, then drop everything to near silence on the whip into shot 6. Bring the bed back, resolved, on shot 7. Voice: conversational and dry, not an announcer read; slight smile on the last line.",
+  "cta": "A question, not a demand: would you actually stop and listen? Sources in the description.",
+  "youtube_title": "Rockstar says GTA VI has no background characters #shorts",
+  "youtube_description": "Rockstar's writing director James Horton says there is no 'background' in GTA VI, just foreground you're not paying attention to yet. That comes from a Love Magazine interview as reported by Polygon and PC Gamer. It is a claim from an interview: nobody outside the studio has been able to test it.\n\nVisuals are AI-generated illustrations, not game footage.\n\nSources:\nPolygon: https://polygon.com/grand-theft-auto-gta-6-love-magazine-interview-npc-details\nPC Gamer: https://pcgamer.com/games/grand-theft-auto/gta-6-wont-be-letting-up-on-the-satire-if-you-are-going-to-put-all-this-effort-into-creating-a-version-of-todays-world-it-has-to-be-more-over-the-top-more-insane-more-in-your-face\n\nLeonida Desk is not affiliated with Rockstar Games or Take-Two Interactive.",
+  "tiktok_caption": "Rockstar's writing director says GTA VI has no 'background', just foreground you're not looking at yet. Reported by Polygon and PC Gamer from a Love Magazine interview. Visuals are AI-generated, not game footage. #gta6 #gtavi #gaming",
+  "instagram_caption": "\"There's just foreground you're not paying attention to right now.\" That's Rockstar writing director James Horton on GTA VI's crowds, from a Love Magazine interview reported by Polygon and PC Gamer. A claim from an interview, not something anyone can test yet. Visuals are AI-generated illustrations, not game footage. #gta6 #gtavi #gaming",
+  "sources": [
+    {
+      "name": "Polygon",
+      "url": "https://polygon.com/grand-theft-auto-gta-6-love-magazine-interview-npc-details"
+    },
+    {
+      "name": "PC Gamer",
+      "url": "https://pcgamer.com/games/grand-theft-auto/gta-6-wont-be-letting-up-on-the-satire-if-you-are-going-to-put-all-this-effort-into-creating-a-version-of-todays-world-it-has-to-be-more-over-the-top-more-insane-more-in-your-face"
+    }
+  ],
+  "disclosure": "Visuals are AI-generated illustrations, not game footage.",
+  "render": {
+    "adapter": "manual",
+    "jobs": [],
+    "cost": null
+  },
+  "posts": [],
+  "desk": {
+    "tier": "WATCH",
+    "tier_reason": "misses MAKE TODAY on: video suitability 63.5 (needs >= 65)",
+    "gate": {
+      "MAKE NOW": [
+        {
+          "check": "opportunity",
+          "value": 67.93,
+          "bar": ">= 75",
+          "ok": false
+        },
+        {
+          "check": "video suitability",
+          "value": 63.5,
+          "bar": ">= 75",
+          "ok": false
+        },
+        {
+          "check": "viral",
+          "value": 62.5,
+          "bar": ">= 70",
+          "ok": false
+        },
+        {
+          "check": "visual potential",
+          "value": 60.0,
+          "bar": ">= 70",
+          "ok": false
+        },
+        {
+          "check": "hook strength",
+          "value": 70.0,
+          "bar": ">= 70",
+          "ok": true
+        },
+        {
+          "check": "confidence",
+          "value": 96.2,
+          "bar": ">= 60",
+          "ok": true
+        },
+        {
+          "check": "freshness",
+          "value": 0.7,
+          "bar": ">= 0.45",
+          "ok": true
+        },
+        {
+          "check": "novelty",
+          "value": 1.0,
+          "bar": ">= 0.5",
+          "ok": true
+        },
+        {
+          "check": "saturation",
+          "value": 15.3,
+          "bar": "<= 65",
+          "ok": true
+        },
+        {
+          "check": "credible enough evidence",
+          "value": "HIGH_CONFIDENCE_REPORT",
+          "bar": "CREDIBLE_RUMOUR or better",
+          "ok": true
+        },
+        {
+          "check": "story substance",
+          "value": "yes",
+          "bar": "a source with real text, or two outlets",
+          "ok": true
+        },
+        {
+          "check": "no unresolved factual conflict",
+          "value": "none found",
+          "bar": "none",
+          "ok": true
+        },
+        {
+          "check": "non-duplicate angle",
+          "value": "new",
+          "bar": "no existing package for this story",
+          "ok": true
+        }
+      ],
+      "MAKE TODAY": [
+        {
+          "check": "opportunity",
+          "value": 67.93,
+          "bar": ">= 65",
+          "ok": true
+        },
+        {
+          "check": "video suitability",
+          "value": 63.5,
+          "bar": ">= 65",
+          "ok": false
+        },
+        {
+          "check": "viral",
+          "value": 62.5,
+          "bar": ">= 60",
+          "ok": true
+        },
+        {
+          "check": "visual potential",
+          "value": 60.0,
+          "bar": ">= 60",
+          "ok": true
+        },
+        {
+          "check": "hook strength",
+          "value": 70.0,
+          "bar": ">= 60",
+          "ok": true
+        },
+        {
+          "check": "confidence",
+          "value": 96.2,
+          "bar": ">= 50",
+          "ok": true
+        },
+        {
+          "check": "freshness",
+          "value": 0.7,
+          "bar": ">= 0.0",
+          "ok": true
+        },
+        {
+          "check": "novelty",
+          "value": 1.0,
+          "bar": ">= 0.4",
+          "ok": true
+        },
+        {
+          "check": "saturation",
+          "value": 15.3,
+          "bar": "<= 75",
+          "ok": true
+        },
+        {
+          "check": "credible enough evidence",
+          "value": "HIGH_CONFIDENCE_REPORT",
+          "bar": "THEORY or better",
+          "ok": true
+        },
+        {
+          "check": "story substance",
+          "value": "yes",
+          "bar": "a source with real text, or two outlets",
+          "ok": true
+        },
+        {
+          "check": "no unresolved factual conflict",
+          "value": "none found",
+          "bar": "none",
+          "ok": true
+        },
+        {
+          "check": "non-duplicate angle",
+          "value": "new",
+          "bar": "no existing package for this story",
+          "ok": true
+        }
+      ]
+    },
+    "treatment": "DETAIL BREAKDOWN",
+    "video_suitability": 63.5,
+    "visual_potential": 60.0,
+    "hook_strength": 70.0,
+    "recommendation_confidence": 96.2,
+    "momentum": 15.0,
+    "opportunity": 67.93,
+    "viral": 62.5,
+    "saturation": 15.33,
+    "freshness": 0.6991,
+    "suggested_hook": "Reportedly, GTA 6 has no background characters at all.",
+    "visual_premise": "Original illustration of a street crowd where each silhouette gets its own name tag and speech bubble."
+  },
+  "game_name": "GTA VI",
+  "topic": "npc_behaviour",
+  "updated_at": "2026-10-05T16:40:46+00:00"
+}

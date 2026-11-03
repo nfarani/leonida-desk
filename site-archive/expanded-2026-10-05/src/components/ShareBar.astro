@@ -1,0 +1,16 @@
+---
+interface Props { url: string; title: string; slug: string }
+const { url, title, slug } = Astro.props;
+const u = encodeURIComponent(url), t = encodeURIComponent(title);
+const links = [
+  ['x', 'X', `https://twitter.com/intent/tweet?url=${u}&text=${t}`],
+  ['reddit', 'Reddit', `https://www.reddit.com/submit?url=${u}&title=${t}`],
+  ['facebook', 'Facebook', `https://www.facebook.com/sharer/sharer.php?u=${u}`],
+  ['whatsapp', 'WhatsApp', `https://wa.me/?text=${t}%20${u}`],
+];
+---
+<div class="share" aria-label="Share this article">
+  <span>Share</span>
+  {links.map(([network, label, href]) => <a href={href} target="_blank" rel="noopener" data-track="share" data-network={network} data-article={slug}>{label}</a>)}
+  <a href={url} data-track="share" data-network="copy" data-article={slug} data-copy={url}>Copy link</a>
+</div>

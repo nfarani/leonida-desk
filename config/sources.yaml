@@ -1,0 +1,211 @@
+# SOURCE REGISTRY
+# Two parts:
+#   1. domains: classifies ANY url (from feeds or web search) by publisher type + tier.
+#   2. feeds:   what discovery actually polls.
+#
+# verified: false  = URL format believed correct but not yet checked live.
+#                    Run `python scripts/check_sources.py` and flip to true once it returns items.
+# Never add a feed you have not seen work. Never invent outlets.
+
+domains:
+  primary:            # official channels -> eligible for CONFIRMED
+    rockstargames.com: {name: "Rockstar Games", tier: 0}
+    take2games.com:    {name: "Take-Two Interactive", tier: 0}
+    blog.playstation.com: {name: "PlayStation Blog", tier: 0}
+    playstation.com:   {name: "PlayStation", tier: 0}
+    news.xbox.com:     {name: "Xbox Wire", tier: 0}
+    xbox.com:          {name: "Xbox", tier: 0}
+    nintendo.com:      {name: "Nintendo", tier: 0}
+    store.steampowered.com: {name: "Steam", tier: 0}
+  journalism:
+    bloomberg.com:     {name: "Bloomberg", tier: 1}
+    reuters.com:       {name: "Reuters", tier: 1}
+    ign.com:           {name: "IGN", tier: 1}
+    eurogamer.net:     {name: "Eurogamer", tier: 1}
+    videogameschronicle.com: {name: "VGC", tier: 1}
+    gamesradar.com:    {name: "GamesRadar+", tier: 1}
+    pcgamer.com:       {name: "PC Gamer", tier: 1}
+    polygon.com:       {name: "Polygon", tier: 1}
+    kotaku.com:        {name: "Kotaku", tier: 1}
+    gamespot.com:      {name: "GameSpot", tier: 1}
+    theverge.com:      {name: "The Verge", tier: 1}
+    gameinformer.com:  {name: "Game Informer", tier: 1}
+    pushsquare.com:    {name: "Push Square", tier: 2}
+    nintendolife.com:  {name: "Nintendo Life", tier: 2}
+    rockpapershotgun.com: {name: "Rock Paper Shotgun", tier: 2}
+    gematsu.com:       {name: "Gematsu", tier: 2}
+    videogamer.com:    {name: "VideoGamer", tier: 3}
+    purexbox.com:      {name: "Pure Xbox", tier: 2}
+    techradar.com:     {name: "TechRadar", tier: 2}
+    windowscentral.com: {name: "Windows Central", tier: 2}
+    insider-gaming.com: {name: "Insider Gaming", tier: 2}
+    dexerto.com:       {name: "Dexerto", tier: 2}
+    forbes.com:        {name: "Forbes (contributor)", tier: 2}
+    # product and tech news (lane: tech)
+    arstechnica.com:   {name: "Ars Technica", tier: 1}
+    engadget.com:      {name: "Engadget", tier: 1}
+    techcrunch.com:    {name: "TechCrunch", tier: 1}
+    wired.com:         {name: "Wired", tier: 1}
+    9to5mac.com:       {name: "9to5Mac", tier: 2}
+    9to5google.com:    {name: "9to5Google", tier: 2}
+    androidauthority.com: {name: "Android Authority", tier: 2}
+    thegamer.com:      {name: "TheGamer", tier: 3}
+    gamerant.com:      {name: "Game Rant", tier: 3}
+    screenrant.com:    {name: "Screen Rant", tier: 3}
+    sportskeeda.com:   {name: "Sportskeeda", tier: 3}
+  community:
+    reddit.com:        {name: "Reddit", tier: 4}
+    gtaforums.com:     {name: "GTAForums", tier: 4}
+    youtube.com:       {name: "YouTube", tier: 4}
+    x.com:             {name: "X", tier: 4}
+    twitter.com:       {name: "X", tier: 4}
+    tiktok.com:        {name: "TikTok", tier: 4}
+  # Unknown domains default to journalism tier 3 and can never alone support CONFIRMED.
+
+feeds:
+  # --- PRIMARY (via Google News site-restricted search: robust when official sites lack RSS)
+  - id: gn_rockstar_official
+    name: "Rockstar (Google News, site-restricted)"
+    kind: rss
+    source_type: aggregator        # each item is re-classified by its publisher domain
+    url: "https://news.google.com/rss/search?q=site:rockstargames.com+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22&hl=en-GB&gl=GB&ceid=GB:en"
+    enabled: true
+    verified: true
+  - id: rockstar_youtube
+    name: "Rockstar Games YouTube"
+    kind: rss
+    source_type: primary
+    url: "https://www.youtube.com/feeds/videos.xml?channel_id=REPLACE_WITH_ROCKSTAR_CHANNEL_ID"
+    enabled: false                 # look up the channel id from youtube.com/@RockstarGames, then enable
+    verified: false
+  - id: playstation_blog
+    name: "PlayStation Blog"
+    kind: rss
+    source_type: primary
+    url: "https://blog.playstation.com/feed/"
+    always_relevant: true
+    enabled: true
+    verified: true
+  - id: xbox_wire
+    name: "Xbox Wire"
+    kind: rss
+    source_type: primary
+    url: "https://news.xbox.com/en-us/feed/"
+    always_relevant: true
+    enabled: true
+    verified: true
+  - id: gn_take_two
+    name: "Take-Two (Google News)"
+    kind: rss
+    source_type: aggregator
+    url: "https://news.google.com/rss/search?q=%22Take-Two%22+GTA+when:7d&hl=en-GB&gl=GB&ceid=GB:en"
+    enabled: true
+    verified: true
+
+  # --- JOURNALISM
+  - id: gn_gta6_news
+    name: "GTA VI news (Google News, last 2 days)"
+    kind: rss
+    source_type: aggregator
+    url: "https://news.google.com/rss/search?q=%22GTA+6%22+OR+%22GTA+VI%22+when:2d&hl=en-GB&gl=GB&ceid=GB:en"
+    enabled: true
+    verified: true
+  - {id: eurogamer, name: "Eurogamer", kind: rss, source_type: journalism, url: "https://www.eurogamer.net/feed", enabled: true, verified: true, always_relevant: true}
+  - {id: vgc, name: "VGC", kind: rss, source_type: journalism, url: "https://www.videogameschronicle.com/feed/", enabled: true, verified: true, always_relevant: true}
+  - {id: pcgamer, name: "PC Gamer", kind: rss, source_type: journalism, url: "https://www.pcgamer.com/rss/", enabled: true, verified: true, always_relevant: true}
+  - {id: gamesradar, name: "GamesRadar+", kind: rss, source_type: journalism, url: "https://www.gamesradar.com/rss/", enabled: true, verified: true, always_relevant: true}
+  - {id: polygon, name: "Polygon", kind: rss, source_type: journalism, url: "https://www.polygon.com/rss/index.xml", enabled: true, verified: true, always_relevant: true}
+  - {id: kotaku, name: "Kotaku", kind: rss, source_type: journalism, url: "https://kotaku.com/rss", enabled: true, verified: true, always_relevant: true}
+  - {id: pushsquare, name: "Push Square", kind: rss, source_type: journalism, url: "https://www.pushsquare.com/feeds/latest", enabled: true, verified: true, always_relevant: true}
+
+  # --- GENERAL GAMING (added 5 Oct 2026; each was fetched and returned items before being added)
+  - {id: ign, name: "IGN", kind: rss, source_type: journalism, url: "https://feeds.feedburner.com/ign/games-all", enabled: true, verified: true, always_relevant: true}
+  - {id: gamespot, name: "GameSpot", kind: rss, source_type: journalism, url: "https://www.gamespot.com/feeds/game-news/", enabled: true, verified: true, always_relevant: true}
+  - {id: rps, name: "Rock Paper Shotgun", kind: rss, source_type: journalism, url: "https://www.rockpapershotgun.com/feed", enabled: true, verified: true, always_relevant: true}
+  - {id: nintendolife, name: "Nintendo Life", kind: rss, source_type: journalism, url: "https://www.nintendolife.com/feeds/latest", enabled: true, verified: true, always_relevant: true}
+  - {id: purexbox, name: "Pure Xbox", kind: rss, source_type: journalism, url: "https://www.purexbox.com/feeds/latest", enabled: true, verified: true, always_relevant: true}
+  - {id: gematsu, name: "Gematsu", kind: rss, source_type: journalism, url: "https://www.gematsu.com/feed", enabled: true, verified: true, always_relevant: true}
+  - {id: theverge_games, name: "The Verge (games)", kind: rss, source_type: journalism, url: "https://www.theverge.com/rss/games/index.xml", enabled: true, verified: true, always_relevant: true}
+  - {id: steam_news, name: "Steam news", kind: rss, source_type: primary, url: "https://store.steampowered.com/feeds/news.xml", enabled: true, verified: true, always_relevant: true}
+  - id: reddit_games_top_day
+    name: "r/Games (top, 24h)"
+    kind: reddit
+    source_type: community
+    url: "https://www.reddit.com/r/Games/top.json?t=day&limit=50"
+    always_relevant: true
+    enabled: true
+    verified: true                 # worked over RSS on 5 Oct 2026; Reddit rate-limits unauthenticated requests
+
+  # --- PLATFORM COVERAGE (added 5 Oct 2026 after a live check). Google News searches bring several
+  #     outlets per event, which is what lets a non-GTA story cluster and rank on its merits.
+  - {id: nintendo_uk, name: "Nintendo UK news", kind: rss, source_type: primary, url: "https://www.nintendo.com/en-gb/news.xml", enabled: true, verified: true, always_relevant: true}
+  - {id: gn_nintendo, name: "Nintendo (Google News, 24h)", kind: rss, source_type: aggregator, url: "https://news.google.com/rss/search?q=%22Nintendo%22+OR+%22Switch+2%22+game+when:1d&hl=en-GB&gl=GB&ceid=GB:en", enabled: true, verified: true, always_relevant: true}
+  - {id: gn_playstation, name: "PlayStation (Google News, 24h)", kind: rss, source_type: aggregator, url: "https://news.google.com/rss/search?q=%22PlayStation%22+OR+%22PS5%22+game+when:1d&hl=en-GB&gl=GB&ceid=GB:en", enabled: true, verified: true, always_relevant: true}
+  - {id: gn_xbox, name: "Xbox (Google News, 24h)", kind: rss, source_type: aggregator, url: "https://news.google.com/rss/search?q=%22Xbox%22+game+when:1d&hl=en-GB&gl=GB&ceid=GB:en", enabled: true, verified: true, always_relevant: true}
+  - {id: gn_pc, name: "PC and Steam (Google News, 24h)", kind: rss, source_type: aggregator, url: "https://news.google.com/rss/search?q=%22Steam%22+OR+%22PC+game%22+when:1d&hl=en-GB&gl=GB&ceid=GB:en", enabled: true, verified: true, always_relevant: true}
+  - id: reddit_pcgaming_top_day
+    name: "r/pcgaming (top, 24h)"
+    kind: reddit
+    source_type: community
+    url: "https://www.reddit.com/r/pcgaming/top.json?t=day&limit=30"
+    always_relevant: true
+    enabled: true
+    verified: true
+  # --- PUBLISHERS AND VIRAL MOMENTS (added 5 Oct 2026, each fetched live first: 48, 47 and 27 items)
+  - {id: gn_publishers, name: "Major publishers (Google News, 24h)", kind: rss, source_type: aggregator, url: "https://news.google.com/rss/search?q=%22Capcom%22+OR+%22Ubisoft%22+OR+%22Square+Enix%22+OR+%22Bandai+Namco%22+OR+%22Electronic+Arts%22+OR+%22Activision%22+game+when:1d&hl=en-GB&gl=GB&ceid=GB:en", enabled: true, verified: true, always_relevant: true}
+  - {id: gn_rdr_gtao, name: "Rockstar catalogue beyond GTA VI (Google News, 2d)", kind: rss, source_type: aggregator, url: "https://news.google.com/rss/search?q=%22Rockstar+Games%22+OR+%22Red+Dead%22+OR+%22GTA+Online%22+when:2d&hl=en-GB&gl=GB&ceid=GB:en", enabled: true, verified: true, always_relevant: true}
+  - id: reddit_gaming_top_day
+    name: "r/gaming (top, 24h)"
+    kind: reddit
+    source_type: community
+    url: "https://www.reddit.com/r/gaming/top.json?t=day&limit=30"
+    always_relevant: true
+    enabled: true
+    verified: true
+  # Tried and NOT added, 5 Oct 2026: Google News searches for "patch notes" and for player discoveries
+  # returned mostly sports results and how-to guides (too noisy to be worth the volume).
+  # r/GamingLeaksAndRumours and r/GamingDetails returned 429 again.
+  # Checked and NOT added, 5 Oct 2026: EA, Ubisoft, Capcom, Square Enix, Bandai Namco, Activision and
+  # Blizzard have no working public RSS at the URLs tried (404/403/empty). Their announcements arrive
+  # through the press feeds and the platform searches above. r/NintendoSwitch, r/PS5, r/xbox and
+  # r/GamingLeaksAndRumours returned 429 (Reddit rate limit); retry with authenticated access later.
+  # YouTube trend data needs YOUTUBE_API_KEY.
+
+  # --- COMMUNITY (leads, never facts)
+  - id: reddit_gta6_new
+    name: "r/GTA6 (new)"
+    kind: reddit
+    source_type: community
+    url: "https://www.reddit.com/r/GTA6/new.json?limit=100"
+    always_relevant: true
+    enabled: true
+    verified: true
+  - id: reddit_gta6_top_day
+    name: "r/GTA6 (top, 24h)"
+    kind: reddit
+    source_type: community
+    url: "https://www.reddit.com/r/GTA6/top.json?t=day&limit=50"
+    always_relevant: true
+    enabled: true
+    verified: false
+  - id: gtaforums_gta6
+    name: "GTAForums GTA VI board"
+    kind: rss
+    source_type: community
+    url: "REPLACE_WITH_GTAFORUMS_BOARD_RSS"
+    always_relevant: true
+    enabled: false                 # find the board's RSS link on gtaforums.com, then enable
+    verified: false
+
+# DEMAND SIGNALS (milestone 1: engagement + outlet velocity are computed from the above;
+# YouTube competitor counts use YOUTUBE_API_KEY if present; Google Trends is a planned adapter.)
+
+  # --- PRODUCT AND TECH NEWS (lane: tech). Gadgets and software, for the article desk only: these
+  #     stories are never judged for video and never appear on the video desk. Checked live 11 Oct 2026.
+  - {id: tech_verge, name: "The Verge (tech)", kind: rss, source_type: journalism, lane: tech, url: "https://www.theverge.com/rss/tech/index.xml", enabled: true, verified: true, always_relevant: true}
+  - {id: tech_ars_gadgets, name: "Ars Technica (gadgets)", kind: rss, source_type: journalism, lane: tech, url: "https://feeds.arstechnica.com/arstechnica/gadgets", enabled: true, verified: true, always_relevant: true}
+  - {id: tech_engadget, name: "Engadget", kind: rss, source_type: journalism, lane: tech, url: "https://www.engadget.com/rss.xml", enabled: true, verified: true, always_relevant: true}
+  - {id: tech_techcrunch, name: "TechCrunch", kind: rss, source_type: journalism, lane: tech, url: "https://techcrunch.com/feed/", enabled: true, verified: true, always_relevant: true}
+  - {id: tech_9to5mac, name: "9to5Mac", kind: rss, source_type: journalism, lane: tech, url: "https://9to5mac.com/feed/", enabled: true, verified: true, always_relevant: true}
+  - {id: tech_9to5google, name: "9to5Google", kind: rss, source_type: journalism, lane: tech, url: "https://9to5google.com/feed/", enabled: true, verified: true, always_relevant: true}
+  - {id: tech_android_authority, name: "Android Authority", kind: rss, source_type: journalism, lane: tech, url: "https://www.androidauthority.com/feed/", enabled: true, verified: true, always_relevant: true}

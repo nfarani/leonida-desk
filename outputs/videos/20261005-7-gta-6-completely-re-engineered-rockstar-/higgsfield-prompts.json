@@ -1,0 +1,56 @@
+[
+  {
+    "shot": 1,
+    "asset_type": "AI_VIDEO",
+    "seconds": 3,
+    "aspect": "9:16",
+    "camera": "Low tracking shot from behind and to the side of the red coupe, fast, steady, slight forward push",
+    "prompt": "A red sports coupe speeds down a wide palm-lined coastal avenue in bright midday sun, two patrol cars with flashing roof lights close behind. Clear blue sky, dry road. Low tracking shot from behind the coupe, fast and steady. Photoreal cinematic look, vertical 9:16 frame, subtropical coastal city with palm trees and pastel low-rise buildings, the same red sports coupe in every shot, generic unmarked black-and-white patrol cars, no readable text, no lettering, no badges, no brand marks. 3 seconds.",
+    "method": "text_to_video"
+  },
+  {
+    "shot": 3,
+    "asset_type": "AI_IMAGE_WITH_MOTION",
+    "seconds": 5,
+    "aspect": "9:16",
+    "camera": "Generate a still, then animate: clouds roll toward camera, lightning flickers inside them, slow tilt up",
+    "prompt": "Wide shot of an enormous dark cumulonimbus storm front rolling in from the sea over a subtropical city skyline, lightning flickering inside the clouds, sheets of rain under them, while the foreground street is still sunlit. Clouds drift toward the camera, slow tilt up. Photoreal, dramatic contrast, vertical 9:16 frame, no readable text. 5 seconds.",
+    "method": "text_to_image+image_to_video"
+  },
+  {
+    "shot": 6,
+    "asset_type": "AI_VIDEO",
+    "seconds": 6,
+    "aspect": "9:16",
+    "camera": "Side-on tracking shot at wheel height travelling alongside the coupe, through spray; only the car's side profile is seen",
+    "prompt": "Side-on tracking shot at wheel height travelling alongside a red sports coupe as it drives fast from left to right through deep standing water on a city avenue in torrential rain at dusk, throwing up a tall wall of spray. Only the side profile of the car is visible. Red and blue police lights flash through the grey rain far behind it. Palm trees bend in the wind, pastel low-rise buildings are dim shapes in the downpour. Photoreal cinematic look, vertical 9:16 frame, no readable text, no lettering, no badges, no brand marks. 6 seconds.",
+    "method": "text_to_video"
+  },
+  {
+    "shot": 7,
+    "asset_type": "AI_VIDEO",
+    "seconds": 4,
+    "aspect": "9:16",
+    "camera": "Static high corner view of the intersection, like a traffic camera, no camera move",
+    "prompt": "High static corner view of a rain-flooded city intersection at night. A red sports coupe slides sideways through the junction and straightens. The patrol car following it spins a full circle on the wet road and stops, lights flashing. Heavy rain, reflections on the water. Photoreal cinematic look, vertical 9:16 frame, subtropical coastal city with palm trees and pastel low-rise buildings, the same red sports coupe in every shot, generic unmarked black-and-white patrol cars, no readable text, no lettering, no badges, no brand marks. 4 seconds.",
+    "method": "text_to_video"
+  },
+  {
+    "shot": 8,
+    "asset_type": "AI_VIDEO",
+    "seconds": 4,
+    "aspect": "9:16",
+    "camera": "Low angle from street level looking up, handheld shake; the searchlight beam sweeps across the lens and away",
+    "prompt": "Low angle from a rain-lashed street looking up at a dark helicopter with a bright searchlight, buffeted sideways by hurricane wind between tall palm trees bent over by the gusts. The searchlight beam swings wildly across the frame and the helicopter banks away. Handheld shake, sheets of rain. Photoreal, vertical 9:16 frame, no readable text, no markings. 4 seconds.",
+    "method": "text_to_video"
+  },
+  {
+    "shot": 9,
+    "asset_type": "AI_VIDEO",
+    "seconds": 4,
+    "aspect": "9:16",
+    "camera": "Front three-quarter view of the coupe braking toward camera, then a slow push-in on the car as it sits stopped",
+    "prompt": "A red sports coupe brakes to a stop in heavy rain at the entrance of a road underpass completely filled with dark floodwater, a fallen palm tree lying across it. The car stops, headlights shining on the water. Night, wind-driven rain, slow push-in on the stopped car. Photoreal cinematic look, vertical 9:16 frame, subtropical coastal city with palm trees and pastel low-rise buildings, the same red sports coupe in every shot, generic unmarked black-and-white patrol cars, no readable text, no lettering, no badges, no brand marks. 4 seconds.",
+    "method": "text_to_video"
+  }
+]

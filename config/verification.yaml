@@ -1,0 +1,31 @@
+# Exactly one label per story. Ordered from most to least confident.
+labels:
+  CONFIRMED: "Stated by Rockstar, Take-Two or a platform holder in an official channel."
+  HIGH_CONFIDENCE_REPORT: "Reported by a tier-1 outlet with its own sourcing, or corroborated by several tier-1 outlets."
+  CREDIBLE_RUMOUR: "Unconfirmed, but carried by credible journalism or an insider with a strong track record."
+  COMMUNITY_DISCOVERY: "Something the community found in official material (e.g. a trailer frame); observable but interpretation unverified."
+  THEORY: "A reasoned interpretation by the community; not supported by official statements."
+  SPECULATION: "Unsourced claims, wishlists, low-credibility leaks."
+  FALSE_OR_DEBUNKED: "Denied officially or credibly shown to be false. Only usable as a debunk."
+
+confidence_order:
+  - CONFIRMED
+  - HIGH_CONFIDENCE_REPORT
+  - CREDIBLE_RUMOUR
+  - COMMUNITY_DISCOVERY
+  - THEORY
+  - SPECULATION
+
+# Hard evidence ceilings (enforced in code; Claude cannot exceed them):
+#  - CONFIRMED requires at least one PRIMARY source item in the story.
+#  - HIGH_CONFIDENCE_REPORT requires at least one tier-1 journalism item.
+#  - CREDIBLE_RUMOUR requires at least one journalism item (any tier).
+#  - Community-only stories max out at COMMUNITY_DISCOVERY.
+#  - FALSE_OR_DEBUNKED requires a primary source OR tier-1 journalism item supporting the debunk.
+
+keywords:
+  debunk: ["debunked", "fake", "hoax", "denies", "denied", "not true", "false claim", "fabricated", "misleading"]
+  rumour: ["rumour", "rumor", "leak", "leaked", "insider", "allegedly", "claims", "unconfirmed", "datamine"]
+  report: ["reportedly", "according to sources", "sources familiar", "report:", "reports that"]
+  official: ["announced", "officially", "confirms", "confirmed by rockstar", "rockstar has confirmed", "take-two confirms", "official trailer"]
+  theory: ["theory", "theories", "could mean", "i think", "what if", "predict"]

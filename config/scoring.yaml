@@ -1,0 +1,57 @@
+# Opportunity score weights. Must total 100.
+# News desk weighting (operator decision, 21 Oct 2026): how hot and how important a story is right now.
+# Visual potential is no longer scored; significance (how much it matters to players or the industry)
+# took its place, and demand and credibility were raised.
+weights:
+  freshness: 20
+  existing_demand: 15
+  significance: 15
+  curiosity_gap: 10
+  surprise: 10
+  credibility: 10
+  emotional_reaction: 8
+  novelty: 7
+  shareability: 3
+  comment_potential: 2
+
+# How each dimension is produced.
+#   computed = deterministic code (auditable, reproducible)
+#   judged   = Claude editorial judgement (0-10), heuristic fallback without API key
+methods:
+  freshness: computed
+  existing_demand: computed
+  novelty: computed
+  credibility: computed
+  curiosity_gap: judged
+  surprise: judged
+  significance: judged
+  emotional_reaction: judged
+  shareability: judged
+  comment_potential: judged
+
+# viral_score (0-100) = weighted blend of these dimensions
+viral_components:
+  curiosity_gap: 0.25
+  surprise: 0.15
+  emotional_reaction: 0.2
+  shareability: 0.15
+  comment_potential: 0.1
+  existing_demand: 0.15
+
+# Credibility value per verification label (0-1).
+# FALSE_OR_DEBUNKED is credible *as a debunk* and is always framed as debunking.
+credibility_by_label:
+  CONFIRMED: 1.0
+  HIGH_CONFIDENCE_REPORT: 0.85
+  CREDIBLE_RUMOUR: 0.6
+  COMMUNITY_DISCOVERY: 0.55
+  THEORY: 0.3
+  SPECULATION: 0.15
+  FALSE_OR_DEBUNKED: 0.7
+
+saturation:
+  # Saturation 0-100: how crowded the story already is.
+  outlet_count_full: 12          # this many distinct outlets = fully saturated on that axis
+  age_full_hours: 72             # stories this old are assumed widely covered
+  youtube_videos_full: 25        # competitor videos in 48h for full saturation (needs YOUTUBE_API_KEY)
+  weights: {outlets: 0.45, age: 0.25, youtube: 0.30}

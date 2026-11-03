@@ -1,0 +1,17 @@
+{
+  "name": "leonida-desk-site",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "preview:drafts": "PREVIEW=1 astro dev",
+    "build": "astro build",
+    "build:drafts": "PREVIEW=1 astro build --outDir dist-preview",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "astro": "^7.3.5",
+    "js-yaml": "^5.4.2"
+  }
+}

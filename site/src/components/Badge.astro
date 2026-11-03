@@ -1,0 +1,6 @@
+---
+import { LABELS } from '../config';
+const { label } = Astro.props;
+const l = LABELS[label];
+---
+<span class={`badge ${l.tone}`} title={l.meaning}>{l.text}</span>

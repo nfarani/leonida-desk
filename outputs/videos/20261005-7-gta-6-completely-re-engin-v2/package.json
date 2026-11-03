@@ -1,0 +1,940 @@
+{
+  "video_id": "20261005-7-gta-6-completely-re-engin-v2",
+  "story_id": 7,
+  "evidence_packet": "story-7-short",
+  "game": "gta-vi",
+  "verification_status": "HIGH_CONFIDENCE_REPORT",
+  "status": "READY_FOR_REVIEW",
+  "created_at": "2026-10-05T19:25:29+00:00",
+  "history": [
+    {
+      "status": "IDEA",
+      "at": "2026-10-05T19:25:29+00:00",
+      "note": "package started"
+    },
+    {
+      "status": "READY_FOR_GENERATION",
+      "at": "2026-10-05T19:26:53+00:00",
+      "note": "checker: 0 errors"
+    },
+    {
+      "status": "GENERATING",
+      "at": "2026-10-05T19:27:10+00:00",
+      "note": "production run started"
+    },
+    {
+      "status": "READY_FOR_REVIEW",
+      "at": "2026-10-05T19:38:17+00:00",
+      "note": "final.mp4 assembled, 42.24s"
+    },
+    {
+      "status": "GENERATING",
+      "at": "2026-10-05T19:59:03+00:00",
+      "note": "production run started"
+    },
+    {
+      "status": "READY_FOR_REVIEW",
+      "at": "2026-10-05T20:00:09+00:00",
+      "note": "final.mp4 assembled, 29.63s"
+    },
+    {
+      "status": "GENERATING",
+      "at": "2026-10-05T20:12:06+00:00",
+      "note": "production run started"
+    },
+    {
+      "status": "READY_FOR_REVIEW",
+      "at": "2026-10-05T20:13:11+00:00",
+      "note": "final.mp4 assembled, 32.33s"
+    }
+  ],
+  "format": {
+    "aspect": "9:16",
+    "target_seconds": [
+      20,
+      45
+    ]
+  },
+  "treatment": "WHAT THIS CHANGES",
+  "editorial_angle": "The article says the weather was rebuilt. The video asks the only question a player cares about: what happens to a police chase when the hurricane hits? It opens on the consequence, gives the two facts that are on record, names the thing Rockstar has not said, and then plays the chase through the storm as a clearly labelled what-if.",
+  "entertainment_angle": {
+    "surprising_fact": "Rockstar rebuilt the whole weather system and put hurricanes in the game, then said nothing about whether they affect how you play.",
+    "entertaining_consequence": "If the storm is more than scenery, the police chase every player knows by heart falls apart: no grip, no visibility, no usual way out.",
+    "visual_opportunity": "A red sports car hydroplaning through floodwater at night with police lights behind it.",
+    "relatable_scenario": "You are at maximum wanted level, flooring it to the escape route you always use.",
+    "wait_what_moment": "The road you are escaping on is under water, and the cops chasing you are spinning out too.",
+    "why_viewers_care": "Everyone who has played an open-world game has run from the police. Nobody has done it in a hurricane."
+  },
+  "money_shot": "A red coupe sliding sideways through deep floodwater toward the camera at night, a wall of spray, police lights right behind it.",
+  "visual_premise": "The chase is already going wrong: the first frame is the car losing it in floodwater.",
+  "visual_escalation": "Storm arrives, rain hammers everything, a tyre meets standing water, the car slides, the cops spin out, the helicopter is thrown around, the way out is flooded.",
+  "visual_payoff": "The opening slide returns in slow motion under the last question, so the end runs straight back into the start.",
+  "visual_style": "photoreal night storm, one red coupe, front and side angles only, hard action in every shot",
+  "hooks": [
+    "Imagine getting five stars in THIS.",
+    "Try outrunning the cops when the road is underwater.",
+    "What if the hurricane ends your police chase before the cops do?"
+  ],
+  "recommended_hook": 0,
+  "hook_style": "challenge",
+  "voiceover": [
+    {
+      "text": "Imagine getting five stars in THIS.",
+      "kind": "speculation",
+      "claims": [],
+      "caption": "FIVE STARS / IN *THIS?!*"
+    },
+    {
+      "text": "Because GTA six has hurricanes.",
+      "kind": "fact",
+      "claims": [
+        "c4"
+      ],
+      "caption": "GTA VI HAS / *HURRICANES*"
+    },
+    {
+      "text": "And Rockstar rebuilt the entire weather system.",
+      "kind": "fact",
+      "claims": [
+        "c5"
+      ],
+      "caption": "A REBUILT / *WEATHER SYSTEM*"
+    },
+    {
+      "text": "But does the storm affect your driving? Rockstar hasn't said.",
+      "kind": "fact",
+      "claims": [
+        "c7"
+      ],
+      "caption": "DOES IT AFFECT / *YOUR DRIVING?*"
+    },
+    {
+      "text": "Because if it does? You're cooked.",
+      "kind": "speculation",
+      "claims": [],
+      "caption": "YOU'RE *COOKED*"
+    },
+    {
+      "text": "The streets could flood. Your tires could lose all grip.",
+      "kind": "speculation",
+      "claims": [],
+      "caption": "NO *GRIP?*"
+    },
+    {
+      "text": "The cops chasing you might spin out first.",
+      "kind": "speculation",
+      "claims": [],
+      "caption": "COPS *SPIN OUT?*"
+    },
+    {
+      "text": "Even the chopper could get blown off course.",
+      "kind": "speculation",
+      "claims": [],
+      "caption": "GOOD LUCK, / *CHOPPER*"
+    },
+    {
+      "text": "And your favorite escape route? Could be underwater.",
+      "kind": "speculation",
+      "claims": [],
+      "caption": "ESCAPE ROUTE: / *UNDERWATER?*"
+    },
+    {
+      "text": "So is the storm just for show... or does it change the whole chase?",
+      "kind": "framing",
+      "claims": [],
+      "caption": "JUST FOR *SHOW?*"
+    }
+  ],
+  "shots": [
+    {
+      "seconds": 3,
+      "shot_type": "MONEY SHOT: hydroplane toward camera",
+      "asset_type": "AI_VIDEO",
+      "money_shot": true,
+      "reference": true,
+      "camera": "Low front three-quarter angle, camera retreating fast in front of the car, slight shake as the spray hits the lens",
+      "visual": "The red coupe slides sideways through deep floodwater straight at us, a wall of spray, police lights right behind it.",
+      "purpose": "The chase is already going wrong in frame one. Why is the street a river?",
+      "on_screen_text": "FIVE STARS IN THIS?!  |  corner label: AI-generated visualisation. Not actual GTA VI gameplay.",
+      "vo_lines": [
+        1
+      ],
+      "graphics": {},
+      "sfx": [
+        {
+          "prompt": "car tyres hydroplaning through deep water with a huge splash, engine revving, police sirens close behind",
+          "at": 0.0,
+          "seconds": 3.0,
+          "db": -8
+        }
+      ],
+      "higgsfield_prompt": "A red sports coupe speeds through deep standing water on a city avenue at night, loses traction and slides sideways toward the camera, throwing a huge wall of spray. Two patrol cars with flashing red and blue lights are right behind it in the rain. Low front three-quarter angle, the camera retreats fast ahead of the car, spray hits the lens. Urgent, out of control. Photoreal, cinematic, night storm in a subtropical coastal city with palm trees and pastel low-rise buildings, heavy rain, vertical 9:16 frame. The red coupe is seen only from the front or the side, never from behind. No readable text, no lettering, no badges, no brand marks. 3 seconds."
+    },
+    {
+      "seconds": 3.5,
+      "shot_type": "The storm arrives",
+      "asset_type": "OTHER",
+      "footage": {
+        "asset": "library/storm-front.mp4",
+        "start": 0.6
+      },
+      "camera": "Wide, clouds rolling toward camera, slow tilt up (existing clip)",
+      "visual": "A towering storm front rolls over the city from the sea, lightning inside it.",
+      "on_screen_text": "ON RECORD",
+      "vo_lines": [
+        2
+      ],
+      "graphics": {
+        "tag": "ON RECORD",
+        "tag_text": "SOURCE: GAME INFORMER"
+      },
+      "higgsfield_prompt": null,
+      "sfx": [
+        {
+          "prompt": "a single deep thunderclap with a long rolling rumble",
+          "at": 0.2,
+          "seconds": 3.0,
+          "db": -9
+        }
+      ]
+    },
+    {
+      "seconds": 3,
+      "shot_type": "Everything dripping wet",
+      "asset_type": "AI_VIDEO",
+      "camera": "Starts close on a roof edge, tilts down fast with the falling water to street level as headlights approach through the rain",
+      "visual": "Water pours off a roof edge and down a lamppost, a palm thrashes in the wind, the camera drops to a street already filling with water.",
+      "purpose": "Shows exactly what Rockstar described, and ends on the street starting to flood: now what happens to a car?",
+      "on_screen_text": "ON RECORD",
+      "vo_lines": [
+        3
+      ],
+      "graphics": {
+        "tag": "ON RECORD",
+        "tag_text": "SOURCE: GAME INFORMER"
+      },
+      "higgsfield_prompt": "Torrential rain at night. Water gushes off the edge of a pastel building's roof and streams down a street lamp, a palm tree thrashes violently in the wind. The camera tilts down fast, following the falling water, to a street where water is rising across the tarmac, as two headlights approach through the rain in the distance. Lightning flashes. Menacing, the storm is taking over. Photoreal, cinematic, subtropical coastal city, vertical 9:16 frame, no readable text, no brand marks. 5 seconds.",
+      "clip_start": 2.4
+    },
+    {
+      "seconds": 4,
+      "shot_type": "The tyre meets the water",
+      "asset_type": "AI_VIDEO",
+      "reference": true,
+      "camera": "Ground-level close-up tracking alongside the front wheel, very shallow depth of field",
+      "visual": "The coupe's front wheel ploughs into standing water at speed; the water climbs the tyre and the wheel starts to skate.",
+      "purpose": "The question in one picture: does this water do anything to the car? Hold on the wheel until it starts to slip.",
+      "on_screen_text": "NOT CONFIRMED",
+      "vo_lines": [
+        4
+      ],
+      "graphics": {
+        "tag": "NOT CONFIRMED"
+      },
+      "sfx": [
+        {
+          "prompt": "a short tense rising whoosh that cuts off abruptly",
+          "at": 3.0,
+          "seconds": 1.5,
+          "db": -10
+        }
+      ],
+      "higgsfield_prompt": "Extreme ground-level close-up of the front wheel of a red sports coupe driving fast into deep standing water on a city street at night. Water sprays up and climbs the black tyre, the wheel begins to skate and wobble as it loses grip. The camera tracks alongside the wheel at road height, shallow depth of field, rain hitting the water. Tense, the moment before it goes wrong. Photoreal, cinematic, night storm in a subtropical coastal city with palm trees and pastel low-rise buildings, heavy rain, vertical 9:16 frame. The red coupe is seen only from the front or the side, never from behind. No readable text, no lettering, no badges, no brand marks. 5 seconds."
+    },
+    {
+      "seconds": 5.5,
+      "shot_type": "It goes wrong",
+      "asset_type": "OTHER",
+      "footage": {
+        "asset": "library/flood-side.mp4",
+        "start": 0.3
+      },
+      "camera": "Side-on tracking at wheel height through spray (existing clip)",
+      "visual": "The coupe ploughs through deep water side-on, spray everywhere, and keeps going as the street fills.",
+      "on_screen_text": "WHAT IF",
+      "vo_lines": [
+        5,
+        6
+      ],
+      "graphics": {
+        "tag": "WHAT IF"
+      },
+      "higgsfield_prompt": null,
+      "sfx": [
+        {
+          "prompt": "a heavy bass impact hit followed by rushing water",
+          "at": 0.0,
+          "seconds": 2.0,
+          "db": -8
+        }
+      ]
+    },
+    {
+      "seconds": 3,
+      "shot_type": "No grip, and the cops lose it too",
+      "asset_type": "OTHER",
+      "footage": {
+        "asset": "library/junction-slide.mp4",
+        "start": 1.2
+      },
+      "camera": "Static high corner view of a flooded junction (existing clip)",
+      "visual": "At a flooded junction the patrol car chasing the coupe spins a full circle and stops.",
+      "on_screen_text": "WHAT IF",
+      "vo_lines": [
+        7
+      ],
+      "graphics": {
+        "tag": "WHAT IF"
+      },
+      "higgsfield_prompt": null,
+      "sfx": [
+        {
+          "prompt": "car tyres screeching and sliding on a wet road, then a splash",
+          "at": 0.1,
+          "seconds": 3.0,
+          "db": -8
+        }
+      ]
+    },
+    {
+      "seconds": 3,
+      "shot_type": "The helicopter loses the fight",
+      "asset_type": "AI_VIDEO",
+      "camera": "Low angle from the street, the camera whips up to follow the helicopter as a gust throws it sideways",
+      "visual": "A helicopter hovering low over the street is shoved sideways by a gust, its searchlight whipping off the road and across the buildings.",
+      "purpose": "Escalation: even the thing that always finds you is in trouble. The viewer watches it get thrown.",
+      "on_screen_text": "WHAT IF",
+      "vo_lines": [
+        8
+      ],
+      "graphics": {
+        "tag": "WHAT IF"
+      },
+      "sfx": [
+        {
+          "prompt": "helicopter rotor blades straining and wobbling in violent wind gusts",
+          "at": 0.0,
+          "seconds": 3.0,
+          "db": -9
+        }
+      ],
+      "higgsfield_prompt": "A dark helicopter hovers low over a flooded palm-lined street at night, clearly visible, its searchlight pointed at the road. A violent gust of wind hits it and shoves it sideways, the helicopter tilts hard, and the searchlight beam whips off the road and across the pastel buildings. Low angle from street level, the camera whips up to follow it. Palm trees bent flat by the wind, sheets of rain. Chaotic, the storm is winning. Photoreal, cinematic, vertical 9:16 frame, no readable text, no markings. 4 seconds."
+    },
+    {
+      "seconds": 3,
+      "shot_type": "The way out is gone",
+      "asset_type": "OTHER",
+      "footage": {
+        "asset": "library/route-gone.mp4",
+        "start": 0.3
+      },
+      "camera": "Front three-quarter, the car braking toward camera (existing clip)",
+      "visual": "The coupe brakes hard at a flooded street with a fallen palm across it.",
+      "on_screen_text": "WHAT IF",
+      "vo_lines": [
+        9
+      ],
+      "graphics": {
+        "tag": "WHAT IF"
+      },
+      "higgsfield_prompt": null,
+      "sfx": [
+        {
+          "prompt": "a car braking hard on a wet road and sloshing to a stop in deep water",
+          "at": 0.0,
+          "seconds": 2.5,
+          "db": -9
+        }
+      ]
+    },
+    {
+      "seconds": 4.5,
+      "shot_type": "PAYOFF: the slide again, slowed",
+      "asset_type": "OTHER",
+      "footage": {
+        "asset": "shot-1.mp4",
+        "start": 1.2,
+        "speed": 0.7
+      },
+      "camera": "The opening slide from its side-on peak, slowed down (existing clip)",
+      "visual": "The coupe mid-slide in a wall of spray, slowed: the picture the video opened on, now with the question hanging over it.",
+      "on_screen_text": "WHAT IF",
+      "vo_lines": [
+        10
+      ],
+      "graphics": {
+        "tag": "WHAT IF"
+      },
+      "higgsfield_prompt": null
+    }
+  ],
+  "editing_notes": "Frame one is the slide: no fade-in, no title. The first caption is on screen with the first word. The narrator leads and the cuts follow his full stops. Shots 5 to 8 are the escalation and get faster: one consequence, one cut. Leave a beat of near silence before 'You're cooked'. The last shot is the opening slide slowed down: it lets the question land and loops cleanly into frame one. Tags stay small in the corner: ON RECORD for the two facts, NOT CONFIRMED for the question, WHAT IF for everything we are imagining. No HUD, no wanted stars on screen, nothing that imitates a game interface.",
+  "sound_music": "Rain and wind from the first frame. Tyres, sirens and water for the slide; a thunderclap as the storm front appears; a riser into the cut to 'You're cooked' and a bass hit on it; screech and spin-out at the junction; a straining rotor for the helicopter; brakes and sloshing water at the dead end; then the music thins under the last question. The voice is always on top.",
+  "cta": "No ask. The last line opens the next question.",
+  "ending_hook": "does it change the whole chase?",
+  "retention_edit": {
+    "cut": [
+      "the opening statement hook ('GTA VI's hurricanes could completely change police chases'): replaced by the reaction over the money shot",
+      "the full Game Informer attribution sentence and the 'localized and persistent' quote: one short line now, the quote is in the description",
+      "the 'So from here, this is our what-if' transition line and its full-screen moment: the WHAT IF tag does that job",
+      "'rain cuts how far you can see': the weakest consequence and the hardest to show",
+      "'If Rockstar goes that far, weather isn't decoration. It's the chase.': compressed to 'Just for show? Or the whole chase?'",
+      "the end card and 'Sources in the description': the ending is now the animal line",
+      "both held frames (about 11 seconds of frozen footage in the first version)",
+      "second cut, after the editor's review: 'Rockstar's own lighting guy said so' (attribution is in the description and the ON RECORD tag)",
+      "'Heavy wind. A lot of rain. Everything dripping wet.': description, not story",
+      "the closing line about 170 animal species and the flamingo shot: a different story, kept for its own video",
+      "'But here's what Rockstar hasn't said. Does any of it touch your car?' rewritten to one short line",
+      "third cut: every on-screen 'AI visualisation' label; the 'ON RECORD' tag (now a source credit); the on-screen Eurogamer quote",
+      "third cut: lines 2-4 and 6-10 rewritten with plainer, stronger verbs ('affect your driving', 'lose all grip', 'blown off course')"
+    ],
+    "seconds_before": 42,
+    "seconds_after": 29
+  },
+  "viewer_test": {
+    "frame_one_stops_the_scroll": {
+      "pass": true,
+      "note": "A car sliding through floodwater at the camera with police behind it."
+    },
+    "first_sentence_creates_curiosity": {
+      "pass": true,
+      "note": "Six words, a challenge, and 'THIS' points at the picture."
+    },
+    "clear_why_by_second_three": {
+      "pass": true,
+      "note": "By second three you know it is a police chase in a flood; the game is named at second four."
+    },
+    "new_reason_to_stay_every_few_seconds": {
+      "pass": true,
+      "note": "A new shot and a new consequence every 2.5 to 5 seconds; the question lands at about 12 seconds."
+    },
+    "voice_entertains_not_informs": {
+      "pass": true,
+      "note": "On the page, yes: reactions and fragments. Whether the chosen voice delivers it has to be heard."
+    },
+    "visuals_show_what_is_said": {
+      "pass": true,
+      "note": "Every line has its own shot; four of them are existing clips chosen because they show exactly that consequence."
+    },
+    "story_escalates": {
+      "pass": true,
+      "note": "Storm, rain, tyre, slide, cops spin out, helicopter, dead end, flamingo."
+    },
+    "hook_promise_delivered": {
+      "pass": true,
+      "note": "The hook promises a chase in a storm and the middle is that chase falling apart, honestly labelled as a what-if."
+    },
+    "no_boring_second": {
+      "pass": true,
+      "note": "The two fact lines now take about five seconds in total, over the storm arriving and the street flooding."
+    },
+    "script_cannot_be_simpler": {
+      "pass": true,
+      "note": "Longest sentence is 13 words; most are under 8."
+    },
+    "cannot_be_shorter": {
+      "pass": true,
+      "note": "Second cut removed 13 seconds. What is left is one hook, two facts, one question and five consequences."
+    },
+    "worth_sending_to_a_friend": {
+      "pass": true,
+      "note": "The 'you're cooked' beat and the flamingo are the shareable moments."
+    },
+    "makes_you_want_another": {
+      "pass": true,
+      "note": "Ends on an open question over the opening image, which loops; the follow-up (police, animals) is for separate videos."
+    }
+  },
+  "youtube_title": "Imagine getting five stars in a GTA VI hurricane #shorts",
+  "youtube_description": "GTA VI has hurricanes: Rockstar's Owen Shepherd told Game Informer the weather system was re-engineered to be \"much more localized and persistent\" (reported by Eurogamer and Rock Paper Shotgun).\n\nWhat Rockstar has NOT said is whether weather affects driving, police or anything else you do. Everything under the WHAT IF tag is our speculation about what a storm could do to a police chase. Wanted stars are a series tradition, not something announced for GTA VI.\n\nAI-generated visualisation. Not actual GTA VI gameplay.\n\nSources:\nEurogamer: https://eurogamer.net/gta6-rockstar-weather-systems-hurricanes-rainbows-rain\nRock Paper Shotgun: https://rockpapershotgun.com/gta-6-will-simulate-hurricanes-rainbows-and-persistent-dynamic-clouds-among-other-efforts-to-make-you-stop-doing-crime-and-become-a-weather-nerd\n\nLeonida Desk is not affiliated with Rockstar Games or Take-Two Interactive.",
+  "tiktok_caption": "GTA VI has hurricanes. Rockstar hasn't said if they change how you play, so we imagined a police chase in one. The chase is our what-if, not a leak. AI-generated visualisation. Not actual GTA VI gameplay. #gta6 #gtavi #gaming",
+  "instagram_caption": "On record: GTA VI has hurricanes and a rebuilt weather system (Game Informer, via Eurogamer). Not said: whether any of it affects your car. So imagine five stars in this. The chase is our what-if. AI-generated visualisation. Not actual GTA VI gameplay. #gta6 #gtavi #gaming",
+  "sources": [
+    {
+      "name": "Eurogamer",
+      "url": "https://eurogamer.net/gta6-rockstar-weather-systems-hurricanes-rainbows-rain"
+    },
+    {
+      "name": "Rock Paper Shotgun",
+      "url": "https://rockpapershotgun.com/gta-6-will-simulate-hurricanes-rainbows-and-persistent-dynamic-clouds-among-other-efforts-to-make-you-stop-doing-crime-and-become-a-weather-nerd"
+    }
+  ],
+  "disclosure": "AI-generated visualisation. Not actual GTA VI gameplay.",
+  "render": {
+    "adapter": "higgsfield-cli",
+    "jobs": [
+      {
+        "key": "vo-1",
+        "job_id": "89c9198c-5aa6-4608-9a60-1db8ec7b9c82",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.15,
+        "submitted_at": "2026-10-05T19:27:11+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_192711_89c9198c-5aa6-4608-9a60-1db8ec7b9c82.mp3",
+        "asset": "vo-1.mp3"
+      },
+      {
+        "key": "vo-5",
+        "job_id": "4cabd82e-ae44-48c2-9738-6d0272cce62a",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.15,
+        "submitted_at": "2026-10-05T19:27:19+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_192718_4cabd82e-ae44-48c2-9738-6d0272cce62a.mp3",
+        "asset": "vo-5.mp3"
+      },
+      {
+        "key": "shot-3",
+        "job_id": "ae3731d7-a198-4e06-b3f7-d433d0247657",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 8.0,
+        "submitted_at": "2026-10-05T19:27:30+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_192729_ae3731d7-a198-4e06-b3f7-d433d0247657.mp4",
+        "asset": "shot-3.mp4"
+      },
+      {
+        "key": "shot-4",
+        "job_id": "3fb3cecf-b423-4674-87ad-cb3d72a4da52",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 6.0,
+        "submitted_at": "2026-10-05T19:27:31+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_192731_3fb3cecf-b423-4674-87ad-cb3d72a4da52.mp4",
+        "asset": "shot-4.mp4"
+      },
+      {
+        "key": "shot-1",
+        "job_id": "f6da0bb6-74eb-422e-90b3-8394803d2202",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 4.0,
+        "submitted_at": "2026-10-05T19:27:33+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_192733_f6da0bb6-74eb-422e-90b3-8394803d2202.mp4",
+        "asset": "shot-1.mp4"
+      },
+      {
+        "key": "shot-7",
+        "job_id": "6c04f325-5e59-4229-804c-ee3fd3808b40",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 4.0,
+        "submitted_at": "2026-10-05T19:29:36+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_192936_6c04f325-5e59-4229-804c-ee3fd3808b40.mp4",
+        "asset": "shot-7.mp4"
+      },
+      {
+        "key": "music",
+        "job_id": "5c577c98-c04e-4c78-bc16-ed5e0578107b",
+        "model": "sonilo_music",
+        "status": "completed",
+        "credits": 2.75,
+        "submitted_at": "2026-10-05T19:34:20+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_193420_5c577c98-c04e-4c78-bc16-ed5e0578107b.m4a",
+        "asset": "music.m4a"
+      },
+      {
+        "key": "bed-1",
+        "job_id": "e07cf1d1-a13b-4115-979d-c023f1abe075",
+        "model": "seed_audio",
+        "status": "completed",
+        "credits": 0.8,
+        "submitted_at": "2026-10-05T19:34:35+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_193435_e07cf1d1-a13b-4115-979d-c023f1abe075.wav",
+        "asset": "bed-1.wav"
+      },
+      {
+        "key": "sfx-1-1",
+        "job_id": "b4ca9236-e645-4468-8db9-fa65a235486c",
+        "model": "seed_audio",
+        "status": "completed",
+        "credits": 0.7,
+        "submitted_at": "2026-10-05T19:34:55+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_193454_b4ca9236-e645-4468-8db9-fa65a235486c.wav",
+        "asset": "sfx-1-1.wav"
+      },
+      {
+        "key": "sfx-4-1",
+        "job_id": "63764d54-e7e3-4669-8797-a4881ad6b510",
+        "model": "seed_audio",
+        "status": "completed",
+        "credits": 0.4,
+        "submitted_at": "2026-10-05T19:35:34+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_193534_63764d54-e7e3-4669-8797-a4881ad6b510.wav",
+        "asset": "sfx-4-1.wav"
+      },
+      {
+        "key": "sfx-5-1",
+        "job_id": "f136fc22-a3ab-4e1c-96c5-920e73d48c2f",
+        "model": "seed_audio",
+        "status": "completed",
+        "credits": 0.4,
+        "submitted_at": "2026-10-05T19:35:57+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_193557_f136fc22-a3ab-4e1c-96c5-920e73d48c2f.wav",
+        "asset": "sfx-5-1.wav"
+      },
+      {
+        "key": "sfx-7-1",
+        "job_id": "1e0aa912-c36b-4e98-8fe3-d70823b09b14",
+        "model": "seed_audio",
+        "status": "completed",
+        "credits": 0.5,
+        "submitted_at": "2026-10-05T19:36:35+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_193635_1e0aa912-c36b-4e98-8fe3-d70823b09b14.wav",
+        "asset": "sfx-7-1.wav"
+      },
+      {
+        "key": "sfx-8-1",
+        "job_id": "0d43cbd1-0620-4c81-92b7-0863de2daeef",
+        "model": "seed_audio",
+        "status": "completed",
+        "credits": 0.5,
+        "submitted_at": "2026-10-05T19:36:55+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_193655_0d43cbd1-0620-4c81-92b7-0863de2daeef.wav",
+        "asset": "sfx-8-1.wav"
+      },
+      {
+        "key": "sfx-2-1",
+        "job_id": "1cf3b8ec-9b6d-4a89-8620-f12d5792d3e0",
+        "model": "mirelo_text_to_audio",
+        "status": "completed",
+        "credits": 0.75,
+        "submitted_at": "2026-10-05T19:59:10+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_195910_1cf3b8ec-9b6d-4a89-8620-f12d5792d3e0.mp3",
+        "asset": "sfx-2-1.mp3"
+      },
+      {
+        "key": "sfx-6-1",
+        "job_id": "74f005e0-21fc-4bac-b06a-1199ed75668c",
+        "model": "mirelo_text_to_audio",
+        "status": "completed",
+        "credits": 0.75,
+        "submitted_at": "2026-10-05T19:59:19+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_195919_74f005e0-21fc-4bac-b06a-1199ed75668c.mp3",
+        "asset": "sfx-6-1.mp3"
+      },
+      {
+        "key": "vo-3",
+        "job_id": "fbe2b9c7-adb5-43e7-866c-127e259ef32e",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.15,
+        "submitted_at": "2026-10-05T20:12:07+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_201206_fbe2b9c7-adb5-43e7-866c-127e259ef32e.mp3",
+        "asset": "vo-3.mp3"
+      },
+      {
+        "key": "vo-4",
+        "job_id": "eb9145b4-0196-409a-b87c-81c8a2d1a612",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T20:12:07+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_201206_eb9145b4-0196-409a-b87c-81c8a2d1a612.mp3",
+        "asset": "vo-4.mp3"
+      },
+      {
+        "key": "vo-6",
+        "job_id": "068dc0d7-b2d2-4236-bd7e-0cbf5647e34b",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T20:12:07+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_201207_068dc0d7-b2d2-4236-bd7e-0cbf5647e34b.mp3",
+        "asset": "vo-6.mp3"
+      },
+      {
+        "key": "vo-2",
+        "job_id": "a5f0ceba-3896-4229-a153-295cdf007f6d",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.15,
+        "submitted_at": "2026-10-05T20:12:07+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_201207_a5f0ceba-3896-4229-a153-295cdf007f6d.mp3",
+        "asset": "vo-2.mp3"
+      },
+      {
+        "key": "vo-7",
+        "job_id": "f2beb8c5-7083-4e66-ba88-049d2b226a41",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.15,
+        "submitted_at": "2026-10-05T20:12:11+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_201211_f2beb8c5-7083-4e66-ba88-049d2b226a41.mp3",
+        "asset": "vo-7.mp3"
+      },
+      {
+        "key": "vo-9",
+        "job_id": "5035cd89-b301-4fe9-bac8-71b5df2a0104",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T20:12:11+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_201211_5035cd89-b301-4fe9-bac8-71b5df2a0104.mp3",
+        "asset": "vo-9.mp3"
+      },
+      {
+        "key": "vo-8",
+        "job_id": "5d97af24-5dfc-47ea-b000-68f84606d0db",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.15,
+        "submitted_at": "2026-10-05T20:12:11+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_201211_5d97af24-5dfc-47ea-b000-68f84606d0db.mp3",
+        "asset": "vo-8.mp3"
+      },
+      {
+        "key": "vo-10",
+        "job_id": "f0db7936-6998-4d2e-961e-2c9bb27da069",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T20:12:12+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_201212_f0db7936-6998-4d2e-961e-2c9bb27da069.mp3",
+        "asset": "vo-10.mp3"
+      }
+    ],
+    "cost": 31.65,
+    "versions": [
+      "final.mp4",
+      "final_v2.mp4",
+      "final_v3.mp4"
+    ],
+    "design": "config/design.yaml",
+    "final": "final_v3.mp4",
+    "seconds": 32.33,
+    "timeline": "timeline.json",
+    "captions": "captions.srt",
+    "voice": "Callum",
+    "models": [
+      "mirelo_text_to_audio",
+      "seed_audio",
+      "seedance_2_0_mini",
+      "sonilo_music",
+      "text2speech_v2"
+    ],
+    "generations": 23,
+    "produced_at": "2026-10-05T20:13:11+00:00",
+    "cost_unit": "credits (estimated)",
+    "replaced": [
+      {
+        "key": "vo-2",
+        "job_id": "26209b38-4909-4347-9d45-6ac178b4efaa",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T19:27:11+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_192711_26209b38-4909-4347-9d45-6ac178b4efaa.mp3",
+        "asset": "vo-2.mp3",
+        "reason": "recut: line or sound removed, rewritten, or found to contain a voice"
+      },
+      {
+        "key": "vo-4",
+        "job_id": "77ff7b87-3a95-4153-8713-6b1a2396d337",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T19:27:11+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_192711_77ff7b87-3a95-4153-8713-6b1a2396d337.mp3",
+        "asset": "vo-4.mp3",
+        "reason": "recut: line or sound removed, rewritten, or found to contain a voice"
+      },
+      {
+        "key": "vo-3",
+        "job_id": "3654e1ac-74d4-4e9c-b2c3-60e7c50dc8d0",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T19:27:12+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_192712_3654e1ac-74d4-4e9c-b2c3-60e7c50dc8d0.mp3",
+        "asset": "vo-3.mp3",
+        "reason": "recut: line or sound removed, rewritten, or found to contain a voice"
+      },
+      {
+        "key": "vo-11",
+        "job_id": "0203ca75-a6d1-4fd0-82e2-4d12091b02a0",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T19:27:23+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_192723_0203ca75-a6d1-4fd0-82e2-4d12091b02a0.mp3",
+        "asset": "vo-11.mp3",
+        "reason": "recut: line or sound removed, rewritten, or found to contain a voice"
+      },
+      {
+        "key": "shot-9",
+        "job_id": "2c967507-9f45-44e2-b0e0-03dc80876378",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 10.0,
+        "submitted_at": "2026-10-05T19:29:44+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_192944_2c967507-9f45-44e2-b0e0-03dc80876378.mp4",
+        "asset": "shot-9.mp4",
+        "reason": "recut: line or sound removed, rewritten, or found to contain a voice"
+      },
+      {
+        "key": "sfx-2-1",
+        "job_id": "94964ae8-f170-4ec1-b3d5-528618c61b31",
+        "model": "seed_audio",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T19:35:14+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_193514_94964ae8-f170-4ec1-b3d5-528618c61b31.wav",
+        "asset": "sfx-2-1.wav",
+        "reason": "recut: line or sound removed, rewritten, or found to contain a voice"
+      },
+      {
+        "key": "sfx-6-1",
+        "job_id": "508959dc-10c8-4dd4-b5ac-8feba5a25ea7",
+        "model": "seed_audio",
+        "status": "completed",
+        "credits": 0.7,
+        "submitted_at": "2026-10-05T19:36:11+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_193611_508959dc-10c8-4dd4-b5ac-8feba5a25ea7.wav",
+        "asset": "sfx-6-1.wav",
+        "reason": "recut: line or sound removed, rewritten, or found to contain a voice"
+      },
+      {
+        "key": "sfx-9-1",
+        "job_id": "3a328836-30db-49d9-a89a-829591b4d51e",
+        "model": "seed_audio",
+        "status": "completed",
+        "credits": 0.4,
+        "submitted_at": "2026-10-05T19:37:10+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_193710_3a328836-30db-49d9-a89a-829591b4d51e.wav",
+        "asset": "sfx-9-1.wav",
+        "reason": "recut: line or sound removed, rewritten, or found to contain a voice"
+      },
+      {
+        "key": "vo-6",
+        "job_id": "f0219b4d-5fa5-4536-83b7-b4b26ff41915",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.15,
+        "submitted_at": "2026-10-05T19:27:18+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_192718_f0219b4d-5fa5-4536-83b7-b4b26ff41915.mp3",
+        "asset": "vo-6.mp3",
+        "reason": "third cut: line rewritten"
+      },
+      {
+        "key": "vo-7",
+        "job_id": "9d6cb2e5-bab5-452e-b56e-676723b3da1a",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.15,
+        "submitted_at": "2026-10-05T19:27:18+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_192718_9d6cb2e5-bab5-452e-b56e-676723b3da1a.mp3",
+        "asset": "vo-7.mp3",
+        "reason": "third cut: line rewritten"
+      },
+      {
+        "key": "vo-8",
+        "job_id": "ff63b8e2-4e42-4c52-9a8b-6a644519aaeb",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.15,
+        "submitted_at": "2026-10-05T19:27:18+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_192718_ff63b8e2-4e42-4c52-9a8b-6a644519aaeb.mp3",
+        "asset": "vo-8.mp3",
+        "reason": "third cut: line rewritten"
+      },
+      {
+        "key": "vo-9",
+        "job_id": "ef7f9bf2-a2bc-445e-9079-e4109a6b3d98",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.15,
+        "submitted_at": "2026-10-05T19:27:22+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_192722_ef7f9bf2-a2bc-445e-9079-e4109a6b3d98.mp3",
+        "asset": "vo-9.mp3",
+        "reason": "third cut: line rewritten"
+      },
+      {
+        "key": "vo-10",
+        "job_id": "175f18ee-d83c-40a8-be2d-64b67f614791",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.15,
+        "submitted_at": "2026-10-05T19:27:22+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_192722_175f18ee-d83c-40a8-be2d-64b67f614791.mp3",
+        "asset": "vo-10.mp3",
+        "reason": "third cut: line rewritten"
+      },
+      {
+        "key": "vo-3",
+        "job_id": "fa5df685-6220-45f4-82b2-d2e9c591fba3",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.15,
+        "submitted_at": "2026-10-05T19:59:04+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_195904_fa5df685-6220-45f4-82b2-d2e9c591fba3.mp3",
+        "asset": "vo-3.mp3",
+        "reason": "third cut: line rewritten"
+      },
+      {
+        "key": "vo-2",
+        "job_id": "05180bdd-a382-4402-bc00-530823837c1d",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.15,
+        "submitted_at": "2026-10-05T19:59:04+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_195904_05180bdd-a382-4402-bc00-530823837c1d.mp3",
+        "asset": "vo-2.mp3",
+        "reason": "third cut: line rewritten"
+      },
+      {
+        "key": "vo-4",
+        "job_id": "0c05f560-958c-402b-bcc7-551a7206e5ca",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T19:59:04+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_195904_0c05f560-958c-402b-bcc7-551a7206e5ca.mp3",
+        "asset": "vo-4.mp3",
+        "reason": "third cut: line rewritten"
+      }
+    ],
+    "audio_check": {
+      "heard": "Imagine getting five stars in this, because GTA 6 has hurricanes and Rockstar rebuilt the entire weather system. But does the storm affect your driving? Rockstar hasn't said. Because if it does, you're cooked. The streets could flood. Your tires could lose all grip. The cops chasing... you might spin out first, even the chopper could get blown off course. And your favourite escape route could be underwater. So is the storm just for show, or does it change the whole chase?",
+      "script_words": 82,
+      "heard_words": 82,
+      "extra_words": 0,
+      "missing_words": 0,
+      "ok": true
+    }
+  },
+  "posts": [],
+  "desk": {
+    "tier": null,
+    "tier_reason": null,
+    "gate": null,
+    "treatment": null,
+    "video_suitability": null,
+    "visual_potential": null,
+    "hook_strength": null,
+    "recommendation_confidence": null,
+    "momentum": null,
+    "opportunity": 36.1,
+    "viral": 34.0,
+    "saturation": 51.79,
+    "freshness": 0.0075,
+    "suggested_hook": null,
+    "visual_premise": null
+  },
+  "game_name": "GTA VI",
+  "topic": "world_simulation",
+  "continuity": {
+    "reference_prompt": "(reused) the red coupe on a sunny pastel coastal avenue: assets/reference.png from the first hurricane video",
+    "note": "Same car and city as the first version; front and side views only, because rear views made the model draw a real maker's badge."
+  },
+  "music_prompt": "Instrumental tension underscore for a night-time car chase in a storm, 28 seconds. Dark, driving, heavy low synth bass and tight percussion from the first beat, a brief drop to near silence around 12 seconds, then harder and faster, ending on a single sustained low note. No vocals, no lead melody, stays in the background.",
+  "audio_beds": [
+    {
+      "prompt": "Heavy tropical rain and strong gusting wind ambience with distant rolling thunder, continuous, no music, no voices",
+      "from_shot": 1,
+      "to_shot": 9,
+      "db": -21
+    }
+  ],
+  "updated_at": "2026-10-05T20:14:16+00:00"
+}

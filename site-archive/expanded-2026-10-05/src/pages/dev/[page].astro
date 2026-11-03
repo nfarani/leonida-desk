@@ -1,0 +1,28 @@
+---
+// Editor-only component gallery. It exists only in the preview build (npm run preview:drafts);
+// a production build generates no page here. The product below is a SAMPLE, not a recommendation.
+import Base from '../../layouts/Base.astro';
+import NewsletterSignup from '../../components/NewsletterSignup.astro';
+import AffiliateBlock from '../../components/AffiliateBlock.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import ShareBar from '../../components/ShareBar.astro';
+import { PREVIEW } from '../../lib/articles';
+import { AD_SLOTS, EMAIL, FLAGS } from '../../config';
+export function getStaticPaths() { return PREVIEW ? [{ params: { page: 'components' } }] : []; }
+const demo = { name: 'Sample product name', merchant: 'Sample merchant', affiliate_url: 'https://example.com/',
+  price: null, summary: 'This is a layout sample. No real product, price or affiliate link is configured yet.', cta: 'Check price' };
+---
+<Base title="Components (editor preview)" noindex>
+  <div class="plain">
+    <div class="page-head"><h1>Components</h1><p>Editor preview of the commercial and audience modules. This page is not part of the public site.</p></div>
+    <h2>Newsletter signup</h2><NewsletterSignup source="dev-components" />
+    <h2>Newsletter signup, compact (used in articles and game pages)</h2><NewsletterSignup source="dev-components-compact" compact />
+    <h2>Affiliate block</h2><AffiliateBlock product="sample" article="dev" demo={demo} />
+    <h2>Ad positions</h2>{AD_SLOTS.map((p) => <AdSlot position={p} />)}
+    <h2>Share bar</h2><ShareBar url="https://example.com/articles/sample/" title="Sample article" slug="sample" />
+    <h2>Brand email</h2>
+    <p>{EMAIL.domain ? `Addresses use @${EMAIL.domain}: ${[EMAIL.hello, EMAIL.editorial, EMAIL.tips, EMAIL.partnerships, EMAIL.privacy].join(', ')}` : 'PUBLICATION_EMAIL_DOMAIN is not set, so no address is shown anywhere on the site.'}</p>
+    <h2>Feature flags</h2>
+    <table><tbody>{Object.entries(FLAGS).map(([k, v]) => <tr><th scope="row">{k}</th><td>{v ? 'on' : 'off'}</td></tr>)}</tbody></table>
+  </div>
+</Base>

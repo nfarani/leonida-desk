@@ -1,0 +1,203 @@
+[
+  {
+    "shot": 1,
+    "start": 0.0,
+    "end": 3.0,
+    "seconds": 3,
+    "shot_type": "Hook: clear-sky chase, low tracking",
+    "asset_type": "AI_VIDEO",
+    "camera": "Low tracking shot from behind and to the side of the red coupe, fast, steady, slight forward push",
+    "visual": "A red sports coupe at speed on a sunlit coastal avenue with two patrol cars close behind. Blue sky, dry road, total control.",
+    "on_screen_text": "HURRICANES vs POLICE CHASES  |  corner label for the whole video: AI-generated visualisation, not game footage",
+    "vo_lines": [
+      1
+    ],
+    "higgsfield_prompt": "A red sports coupe speeds down a wide palm-lined coastal avenue in bright midday sun, two patrol cars with flashing roof lights close behind. Clear blue sky, dry road. Low tracking shot from behind the coupe, fast and steady. Photoreal cinematic look, vertical 9:16 frame, subtropical coastal city with palm trees and pastel low-rise buildings, the same red sports coupe in every shot, generic unmarked black-and-white patrol cars, no readable text, no lettering, no badges, no brand marks. 3 seconds.",
+    "reference": true,
+    "graphics": {}
+  },
+  {
+    "shot": 2,
+    "start": 3.0,
+    "end": 9.0,
+    "seconds": 6,
+    "shot_type": "ON RECORD card",
+    "asset_type": "TEXT_GRAPHIC",
+    "reuse_shot": 1,
+    "camera": "None: freeze the last frame of shot 1, dim it, build the text line by line",
+    "visual": "Evidence card over the frozen chase. Green ON RECORD tag in the top corner.",
+    "on_screen_text": "ON RECORD  ·  Weather system \"re-engineered\"  ·  \"much more localized and persistent\"  ·  Owen Shepherd, Rockstar, to Game Informer (via Eurogamer)",
+    "vo_lines": [
+      2
+    ],
+    "higgsfield_prompt": null,
+    "graphics": {
+      "tag": "ON RECORD",
+      "source": {
+        "quote": "much more localized and persistent",
+        "by": "Owen Shepherd / Game Informer"
+      }
+    },
+    "footage": {
+      "asset": "reference.png",
+      "note": "the continuity still, with a slow push"
+    }
+  },
+  {
+    "shot": 3,
+    "start": 9.0,
+    "end": 14.0,
+    "seconds": 5,
+    "shot_type": "Storm front over the skyline, wide",
+    "asset_type": "AI_IMAGE_WITH_MOTION",
+    "camera": "Generate a still, then animate: clouds roll toward camera, lightning flickers inside them, slow tilt up",
+    "visual": "A towering dark storm front rolling over the city from the sea while the near streets are still in sunlight.",
+    "on_screen_text": "ON RECORD  ·  \"Heavy clouds, strong winds ... a lot of rain\"",
+    "vo_lines": [
+      3
+    ],
+    "higgsfield_prompt": "Wide shot of an enormous dark cumulonimbus storm front rolling in from the sea over a subtropical city skyline, lightning flickering inside the clouds, sheets of rain under them, while the foreground street is still sunlit. Clouds drift toward the camera, slow tilt up. Photoreal, dramatic contrast, vertical 9:16 frame, no readable text. 5 seconds.",
+    "graphics": {
+      "tag": "ON RECORD"
+    }
+  },
+  {
+    "shot": 4,
+    "start": 14.0,
+    "end": 20.0,
+    "seconds": 6,
+    "shot_type": "NOT SAID card",
+    "asset_type": "TEXT_GRAPHIC",
+    "reuse_shot": 3,
+    "camera": "None: hold the last frame of shot 3, desaturate it, type the question",
+    "visual": "The storm frame goes grey. Amber NOT SAID tag. The question appears as a quote.",
+    "on_screen_text": "NOT SAID  ·  Does any of it change how you play?  ·  \"will the wet roads affect my tires?\" (Eurogamer)",
+    "vo_lines": [
+      4
+    ],
+    "higgsfield_prompt": null,
+    "graphics": {
+      "tag": "NOT CONFIRMED",
+      "source": {
+        "quote": "will the wet roads affect my tires?",
+        "by": "Eurogamer"
+      }
+    }
+  },
+  {
+    "shot": 5,
+    "start": 20.0,
+    "end": 22.0,
+    "seconds": 2,
+    "shot_type": "WHAT IF stamp",
+    "asset_type": "TEXT_GRAPHIC",
+    "camera": "None: hard cut to a full-screen stamp, one frame of flash",
+    "visual": "Full-screen red stamp. From this point a WHAT IF badge stays on screen until the end card.",
+    "on_screen_text": "WHAT IF  ·  From here: our speculation",
+    "vo_lines": [
+      5
+    ],
+    "higgsfield_prompt": null,
+    "graphics": {
+      "tag": "WHAT IF"
+    },
+    "footage": {
+      "asset": "rejected/shot-6-badge-retry.mp4",
+      "start": 0,
+      "speed": 0.87,
+      "note": "first two seconds of a rejected take: the car approaching in the rain, before the part that was rejected"
+    }
+  },
+  {
+    "shot": 6,
+    "start": 22.0,
+    "end": 28.0,
+    "seconds": 6,
+    "shot_type": "Rain and flooding, chase continues",
+    "asset_type": "AI_VIDEO",
+    "camera": "Side-on tracking shot at wheel height travelling alongside the coupe, through spray; only the car's side profile is seen",
+    "visual": "The same chase in a downpour. Grey-out visibility, tail lights vanishing in spray, the coupe ploughing into standing water.",
+    "on_screen_text": "WHAT IF · our speculation, not confirmed  ·  Can't see. Streets flooding.",
+    "vo_lines": [
+      6
+    ],
+    "higgsfield_prompt": "Side-on tracking shot at wheel height travelling alongside a red sports coupe as it drives fast from left to right through deep standing water on a city avenue in torrential rain at dusk, throwing up a tall wall of spray. Only the side profile of the car is visible. Red and blue police lights flash through the grey rain far behind it. Palm trees bend in the wind, pastel low-rise buildings are dim shapes in the downpour. Photoreal cinematic look, vertical 9:16 frame, no readable text, no lettering, no badges, no brand marks. 6 seconds.",
+    "reference": true,
+    "graphics": {
+      "tag": "WHAT IF"
+    }
+  },
+  {
+    "shot": 7,
+    "start": 28.0,
+    "end": 32.0,
+    "seconds": 4,
+    "shot_type": "Traction loss at an intersection",
+    "asset_type": "AI_VIDEO",
+    "camera": "Static high corner view of the intersection, like a traffic camera, no camera move",
+    "visual": "The coupe fishtails through a flooded junction and just holds it. The patrol car behind spins a full turn and stops.",
+    "on_screen_text": "WHAT IF · our speculation, not confirmed  ·  No grip. Pursuers crash.",
+    "vo_lines": [
+      7
+    ],
+    "higgsfield_prompt": "High static corner view of a rain-flooded city intersection at night. A red sports coupe slides sideways through the junction and straightens. The patrol car following it spins a full circle on the wet road and stops, lights flashing. Heavy rain, reflections on the water. Photoreal cinematic look, vertical 9:16 frame, subtropical coastal city with palm trees and pastel low-rise buildings, the same red sports coupe in every shot, generic unmarked black-and-white patrol cars, no readable text, no lettering, no badges, no brand marks. 4 seconds.",
+    "reference": true,
+    "graphics": {
+      "tag": "WHAT IF"
+    }
+  },
+  {
+    "shot": 8,
+    "start": 32.0,
+    "end": 36.0,
+    "seconds": 4,
+    "shot_type": "Helicopter in the wind, low angle",
+    "asset_type": "AI_VIDEO",
+    "camera": "Low angle from street level looking up, handheld shake; the searchlight beam sweeps across the lens and away",
+    "visual": "A helicopter with a searchlight is thrown sideways by the gusts. Its beam swings off the street and it banks away.",
+    "on_screen_text": "WHAT IF · our speculation, not confirmed  ·  Air support struggles.",
+    "vo_lines": [
+      8
+    ],
+    "higgsfield_prompt": "Low angle from a rain-lashed street looking up at a dark helicopter with a bright searchlight, buffeted sideways by hurricane wind between tall palm trees bent over by the gusts. The searchlight beam swings wildly across the frame and the helicopter banks away. Handheld shake, sheets of rain. Photoreal, vertical 9:16 frame, no readable text, no markings. 4 seconds.",
+    "graphics": {
+      "tag": "WHAT IF"
+    }
+  },
+  {
+    "shot": 9,
+    "start": 36.0,
+    "end": 40.0,
+    "seconds": 4,
+    "shot_type": "Payoff: the route is gone",
+    "asset_type": "AI_VIDEO",
+    "camera": "Front three-quarter view of the coupe braking toward camera, then a slow push-in on the car as it sits stopped",
+    "visual": "The coupe brakes hard at the mouth of an underpass that is filled with floodwater, a fallen palm across it. Brake lights. Nowhere to go.",
+    "on_screen_text": "WHAT IF · our speculation, not confirmed  ·  Your usual way out: gone.",
+    "vo_lines": [
+      9
+    ],
+    "higgsfield_prompt": "A red sports coupe brakes to a stop in heavy rain at the entrance of a road underpass completely filled with dark floodwater, a fallen palm tree lying across it. The car stops, headlights shining on the water. Night, wind-driven rain, slow push-in on the stopped car. Photoreal cinematic look, vertical 9:16 frame, subtropical coastal city with palm trees and pastel low-rise buildings, the same red sports coupe in every shot, generic unmarked black-and-white patrol cars, no readable text, no lettering, no badges, no brand marks. 4 seconds.",
+    "reference": true,
+    "graphics": {
+      "tag": "WHAT IF"
+    }
+  },
+  {
+    "shot": 10,
+    "start": 40.0,
+    "end": 45.0,
+    "seconds": 5,
+    "shot_type": "End card",
+    "asset_type": "TEXT_GRAPHIC",
+    "reuse_shot": 9,
+    "camera": "None: hold the last frame of shot 9 under the text; rain audio continues",
+    "visual": "The stopped car in the rain, held. The takeaway line, then the question.",
+    "on_screen_text": "Hurricanes: on record.  Gameplay effects: not said.  |  Systemic, or just pretty?  |  Sources in the description  ·  Leonida Desk",
+    "vo_lines": [
+      10
+    ],
+    "higgsfield_prompt": null,
+    "graphics": {}
+  }
+]

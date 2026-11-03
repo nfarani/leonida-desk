@@ -1,0 +1,328 @@
+{
+  "packet_id": "story-886-sonic-discord-launch",
+  "story_id": 886,
+  "parent_event_id": null,
+  "story_ids": [
+    886
+  ],
+  "angle_id": "sonic-discord-launch",
+  "angle": "Timeline of the first day and Sega's account of it",
+  "editorial_bucket": "BREAKING",
+  "story_label": "HIGH_CONFIDENCE_REPORT",
+  "built_at": "2026-10-07T10:42:13+00:00",
+  "sources": [
+    {
+      "id": "s1",
+      "story_id": 886,
+      "publisher": "Kotaku",
+      "url": "https://kotaku.com/sonic-hedgehog-discord-server-mod-team-rules-messages-2000740928",
+      "title": "The Official Sonic Discord Server’s Launch Went About As Poorly As You’d Expect",
+      "published_at": "2026-10-06T14:20:11+00:00",
+      "tier": 1,
+      "source_type": "journalism",
+      "opened": true,
+      "opened_at": "2026-10-07T10:45:04+00:00",
+      "note": ""
+    },
+    {
+      "id": "s2",
+      "story_id": 886,
+      "publisher": "GamesRadar+",
+      "url": "https://gamesradar.com/games/sonic-the-hedgehog/sega-decides-an-official-sonic-discord-server-is-a-good-idea-is-quickly-proven-wrong-sonic-pregnant",
+      "title": "Sega decides official Sonic Discord server is a good idea, is quickly proven wrong: \"Sonic pregnant\"",
+      "published_at": "2026-10-06T14:35:07+00:00",
+      "tier": 1,
+      "source_type": "journalism",
+      "opened": false,
+      "opened_at": null,
+      "note": ""
+    },
+    {
+      "id": "s3",
+      "story_id": 886,
+      "publisher": "VGC",
+      "url": "https://videogameschronicle.com/news/segas-newly-launched-sonic-discord-server-is-off-to-a-rough-start-with-questionable-content-bans-and-a-lockdown",
+      "title": "Sega’s newly launched Sonic Discord server is off to a rough start with questionable content, bans and a lockdown",
+      "published_at": "2026-10-06T14:46:36+00:00",
+      "tier": 1,
+      "source_type": "journalism",
+      "opened": true,
+      "opened_at": "2026-10-07T10:45:04+00:00",
+      "note": ""
+    },
+    {
+      "id": "s4",
+      "story_id": 886,
+      "publisher": "Eurogamer",
+      "url": "https://eurogamer.net/sonic-the-hedgehog-official-discord-oh-no",
+      "title": "\"Keep it family friendly\" - Sega's official Sonic Discord swarmed by 50,000 people in six hours, as understandably strict moderation is put in place",
+      "published_at": "2026-10-06T15:43:55+00:00",
+      "tier": 1,
+      "source_type": "journalism",
+      "opened": true,
+      "opened_at": "2026-10-07T10:45:04+00:00",
+      "note": ""
+    },
+    {
+      "id": "s5",
+      "story_id": 886,
+      "publisher": "IGN",
+      "url": "https://ign.com/articles/sega-community-relations-director-speaks-out-after-sonic-discord-goes-wild",
+      "title": "Sega Community Relations Director Speaks Out After Sonic Discord Goes Wild",
+      "published_at": "2026-10-06T19:58:07+00:00",
+      "tier": 1,
+      "source_type": "journalism",
+      "opened": true,
+      "opened_at": "2026-10-07T10:45:04+00:00",
+      "note": ""
+    },
+    {
+      "id": "s6",
+      "story_id": 886,
+      "publisher": "Nintendo Life",
+      "url": "https://nintendolife.com/news/2026/10/sega-responds-to-sonics-wild-start-on-discord",
+      "title": "Sega Responds To Sonic's Wild Start On Discord",
+      "published_at": "2026-10-07T03:15:00+00:00",
+      "tier": 2,
+      "source_type": "journalism",
+      "opened": true,
+      "opened_at": "2026-10-07T10:45:04+00:00",
+      "note": ""
+    },
+    {
+      "id": "s7",
+      "story_id": 886,
+      "publisher": "Reddit",
+      "url": "https://reddit.com/r/Games/comments/1wzja5j/keep_it_family_friendly_segas_official_sonic",
+      "title": "\"Keep it family friendly\" - Sega's official Sonic Discord swarmed by 50,000 people in six hours, as understandably strict moderation is put in place",
+      "published_at": "2026-10-07T00:52:28+00:00",
+      "tier": 4,
+      "source_type": "community",
+      "opened": false,
+      "opened_at": null,
+      "note": ""
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "headline",
+      "claim": "Kotaku published a piece headlined: The Official Sonic Discord Server’s Launch Went About As Poorly As You’d Expect",
+      "source_id": "s1",
+      "source_url": "https://kotaku.com/sonic-hedgehog-discord-server-mod-team-rules-messages-2000740928",
+      "source_date": "2026-10-06T14:20:11+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "The mod team is working overtime to rein in fans in its company-sanctioned forum",
+      "quote": null
+    },
+    {
+      "id": "c2",
+      "kind": "headline",
+      "claim": "GamesRadar+ published a piece headlined: Sega decides official Sonic Discord server is a good idea, is quickly proven wrong: \"Sonic pregnant\"",
+      "source_id": "s2",
+      "source_url": "https://gamesradar.com/games/sonic-the-hedgehog/sega-decides-an-official-sonic-discord-server-is-a-good-idea-is-quickly-proven-wrong-sonic-pregnant",
+      "source_date": "2026-10-06T14:35:07+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Live and learn",
+      "quote": null
+    },
+    {
+      "id": "c3",
+      "kind": "headline",
+      "claim": "VGC published a piece headlined: Sega’s newly launched Sonic Discord server is off to a rough start with questionable content, bans and a lockdown",
+      "source_id": "s3",
+      "source_url": "https://videogameschronicle.com/news/segas-newly-launched-sonic-discord-server-is-off-to-a-rough-start-with-questionable-content-bans-and-a-lockdown",
+      "source_date": "2026-10-06T14:46:36+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "New users are currently blocked from posting messages on almost every channel",
+      "quote": null
+    },
+    {
+      "id": "c4",
+      "kind": "headline",
+      "claim": "Eurogamer published a piece headlined: \"Keep it family friendly\" - Sega's official Sonic Discord swarmed by 50,000 people in six hours, as understandably strict moderation is put in place",
+      "source_id": "s4",
+      "source_url": "https://eurogamer.net/sonic-the-hedgehog-official-discord-oh-no",
+      "source_date": "2026-10-06T15:43:55+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Sega has invited chaos upon itself by launching an official Sonic the Hedgehog Discord channel. Unsurprisingly, it's proven immediately popular, and strictly locked down. There is no fan art channel as of writing. Read more",
+      "quote": null
+    },
+    {
+      "id": "c5",
+      "kind": "headline",
+      "claim": "IGN published a piece headlined: Sega Community Relations Director Speaks Out After Sonic Discord Goes Wild",
+      "source_id": "s5",
+      "source_url": "https://ign.com/articles/sega-community-relations-director-speaks-out-after-sonic-discord-goes-wild",
+      "source_date": "2026-10-06T19:58:07+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Sega created a Discord server just for Sonic fans — and it wasn’t long until it descended into chaos, forcing its moderators to take action in an admittedly unexpected, if somewhat amusing, turn of events.",
+      "quote": null
+    },
+    {
+      "id": "c6",
+      "kind": "headline",
+      "claim": "Nintendo Life published a piece headlined: Sega Responds To Sonic's Wild Start On Discord",
+      "source_id": "s6",
+      "source_url": "https://nintendolife.com/news/2026/10/sega-responds-to-sonics-wild-start-on-discord",
+      "source_date": "2026-10-07T03:15:00+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "It was fairly wholesome for the rest of the day. If you didn't catch the official announcement, Sega this week launched an official Sonic the Hedgehog Discord server. Read the full article on nintendolife.com",
+      "quote": null
+    },
+    {
+      "id": "c7",
+      "kind": "headline",
+      "claim": "Reddit published a piece headlined: \"Keep it family friendly\" - Sega's official Sonic Discord swarmed by 50,000 people in six hours, as understandably strict moderation is put in place",
+      "source_id": "s7",
+      "source_url": "https://reddit.com/r/Games/comments/1wzja5j/keep_it_family_friendly_segas_official_sonic",
+      "source_date": "2026-10-07T00:52:28+00:00",
+      "verification": "THEORY",
+      "evidence": "submitted by /u/Tenith [link] [comments]",
+      "quote": null
+    },
+    {
+      "id": "c8",
+      "kind": "fact",
+      "claim": "Eurogamer reports that Sega launched an official Sonic the Hedgehog Discord server, announced on its social media accounts.",
+      "source_id": "s4",
+      "source_url": "https://eurogamer.net/sonic-the-hedgehog-official-discord-oh-no",
+      "source_date": "2026-10-06T15:43:55+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Eurogamer, 6 Oct 2026, opening paragraphs, quoting the announcement. Opened 7 Oct 2026.",
+      "quote": "Looking for a place to chill and chat all things Sonic the Hedgehog?"
+    },
+    {
+      "id": "c9",
+      "kind": "fact",
+      "claim": "Eurogamer says the moderators' launch-day Q&A claims over 50,000 people joined the server within around six hours.",
+      "source_id": "s4",
+      "source_url": "https://eurogamer.net/sonic-the-hedgehog-official-discord-oh-no",
+      "source_date": "2026-10-06T15:43:55+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Eurogamer, 6 Oct 2026, paragraph on the Q&A. The figure is the moderators' own. Opened 7 Oct 2026.",
+      "quote": null
+    },
+    {
+      "id": "c10",
+      "kind": "fact",
+      "claim": "Eurogamer found the server on slow mode, with newcomers unable to post unless they used a paid Discord Nitro boost, image posting disabled by default and an auto filter removing messages written in all capitals; a fan-art channel was promised for later.",
+      "source_id": "s4",
+      "source_url": "https://eurogamer.net/sonic-the-hedgehog-official-discord-oh-no",
+      "source_date": "2026-10-06T15:43:55+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Eurogamer, 6 Oct 2026, paragraphs 4-5. Opened 7 Oct 2026.",
+      "quote": "keep it family friendly"
+    },
+    {
+      "id": "c11",
+      "kind": "fact",
+      "claim": "Eurogamer says that when it looked, the server was for the most part stable, with people mostly posting the same Sonic sticker.",
+      "source_id": "s4",
+      "source_url": "https://eurogamer.net/sonic-the-hedgehog-official-discord-oh-no",
+      "source_date": "2026-10-06T15:43:55+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Eurogamer, 6 Oct 2026. Opened 7 Oct 2026.",
+      "quote": null
+    },
+    {
+      "id": "c12",
+      "kind": "fact",
+      "claim": "VGC reports that the server launched on Monday evening and that numerous users were banned for sexual, racist and other discriminatory posts, and others for less serious matters.",
+      "source_id": "s3",
+      "source_url": "https://videogameschronicle.com/news/segas-newly-launched-sonic-discord-server-is-off-to-a-rough-start-with-questionable-content-bans-and-a-lockdown",
+      "source_date": "2026-10-06T14:46:36+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "VGC, 6 Oct 2026, paragraphs 2-5. VGC words it as 'reportedly'. Opened 7 Oct 2026.",
+      "quote": null
+    },
+    {
+      "id": "c13",
+      "kind": "fact",
+      "claim": "VGC says that a few hours after launch moderators locked chat permissions, and that at the time it wrote eight of the nine chat channels were locked to most users, with only a channel for Sonic Racing: CrossWorlds clips open.",
+      "source_id": "s3",
+      "source_url": "https://videogameschronicle.com/news/segas-newly-launched-sonic-discord-server-is-off-to-a-rough-start-with-questionable-content-bans-and-a-lockdown",
+      "source_date": "2026-10-06T14:46:36+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "VGC, 6 Oct 2026. Opened 7 Oct 2026.",
+      "quote": null
+    },
+    {
+      "id": "c14",
+      "kind": "fact",
+      "claim": "VGC says an FAQ on the server attributes many deletions and bans to aggressive auto-moderation and says users who may have been banned by accident will be reviewed.",
+      "source_id": "s3",
+      "source_url": "https://videogameschronicle.com/news/segas-newly-launched-sonic-discord-server-is-off-to-a-rough-start-with-questionable-content-bans-and-a-lockdown",
+      "source_date": "2026-10-06T14:46:36+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "VGC, 6 Oct 2026, quoting the FAQ; paraphrased here. Opened 7 Oct 2026.",
+      "quote": null
+    },
+    {
+      "id": "c15",
+      "kind": "fact",
+      "claim": "IGN reports that the server opened on 5 October, that within hours moderators put chat behind a members-only role that required boosting the server, and that order was restored and the restrictions were mostly lifted.",
+      "source_id": "s5",
+      "source_url": "https://ign.com/articles/sega-community-relations-director-speaks-out-after-sonic-discord-goes-wild",
+      "source_date": "2026-10-06T19:58:07+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "IGN, 6 Oct 2026, paragraphs 2-3. Opened 7 Oct 2026.",
+      "quote": null
+    },
+    {
+      "id": "c16",
+      "kind": "fact",
+      "claim": "IGN quotes Aaron Webber, whom it describes as director of strategy, studio, and community relations at Sega of Japan, disputing that the launch was chaos.",
+      "source_id": "s5",
+      "source_url": "https://ign.com/articles/sega-community-relations-director-speaks-out-after-sonic-discord-goes-wild",
+      "source_date": "2026-10-06T19:58:07+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "IGN, 6 Oct 2026, quoting Webber's thread. Opened 7 Oct 2026.",
+      "quote": "The very start was pretty wild, and this is normal when over 30,000 people arrive and all excitedly want to talk."
+    },
+    {
+      "id": "c17",
+      "kind": "fact",
+      "claim": "Nintendo Life carries Webber's full message, in which he says a number of users were incorrectly banned, that some have already been unbanned, and that the filters will be fine-tuned.",
+      "source_id": "s6",
+      "source_url": "https://nintendolife.com/news/2026/10/sega-responds-to-sonics-wild-start-on-discord",
+      "source_date": "2026-10-07T03:15:00+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "Nintendo Life, 7 Oct 2026, quoting Webber. Opened 7 Oct 2026.",
+      "quote": "Sonic Discord has very busy start and then fairly wholesome rest of the day"
+    },
+    {
+      "id": "c18",
+      "kind": "fact",
+      "claim": "In the same message Webber says new users who cannot type yet will be let in gradually as things calm down.",
+      "source_id": "s6",
+      "source_url": "https://nintendolife.com/news/2026/10/sega-responds-to-sonics-wild-start-on-discord",
+      "source_date": "2026-10-07T03:15:00+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "Nintendo Life, 7 Oct 2026. Opened 7 Oct 2026.",
+      "quote": null
+    },
+    {
+      "id": "c19",
+      "kind": "fact",
+      "claim": "Kotaku notes that the server's rules ban AI-generated content of any kind and that slow mode makes users wait two minutes between messages.",
+      "source_id": "s1",
+      "source_url": "https://kotaku.com/sonic-hedgehog-discord-server-mod-team-rules-messages-2000740928",
+      "source_date": "2026-10-06T14:20:11+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Kotaku, 6 Oct 2026, paragraphs 2 and 4. Opened 7 Oct 2026.",
+      "quote": null
+    }
+  ],
+  "conflicts": [
+    {
+      "description": "The moderators' Q&A (via Eurogamer) says over 50,000 joined in about six hours; Aaron Webber (via IGN) says over 30,000 arrived at the very start. The figures may describe different moments.",
+      "resolved": false
+    }
+  ],
+  "media": {
+    "status": "none",
+    "note": "No hero media selected."
+  },
+  "sensitive": false
+}

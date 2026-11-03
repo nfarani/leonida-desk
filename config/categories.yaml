@@ -1,0 +1,39 @@
+# content_cluster categories. keywords drive heuristic tagging; Claude may override.
+# default_format is used when no editorial judgement is available.
+categories:
+  breaking_news:        {keywords: ["breaking", "just announced", "today"], default_format: "Short news hit (30-45s vertical)"}
+  rockstar_announcements: {keywords: ["rockstar announces", "newswire", "official"], default_format: "Short news hit (30-45s vertical)"}
+  trailer_discoveries:  {keywords: ["trailer", "frame", "screenshot"], default_format: "Frame-by-frame breakdown (45-60s vertical + long-form cut)"}
+  hidden_details:       {keywords: ["hidden", "missed", "detail", "spotted"], default_format: "'You missed this' breakdown (45-60s vertical)"}
+  game_mechanics:       {keywords: ["mechanic", "gameplay", "feature", "system"], default_format: "Explainer (60s vertical / 6-8 min long-form)"}
+  characters:           {keywords: ["lucia", "jason", "character", "protagonist"], default_format: "Character deep-dive (60s vertical)"}
+  map:                  {keywords: ["map", "leonida", "vice city", "location", "size"], default_format: "Map comparison visual (60s vertical)"}
+  cars:                 {keywords: ["car", "vehicle", "supercar"], default_format: "Ranked list (45-60s vertical)"}
+  weapons:              {keywords: ["weapon", "gun"], default_format: "Ranked list (45-60s vertical)"}
+  npc_behaviour:        {keywords: ["npc", "pedestrian", "crowd"], default_format: "Side-by-side comparison (45-60s vertical)"}
+  police:               {keywords: ["police", "cops", "wanted level"], default_format: "Explainer (60s vertical)"}
+  world_simulation:     {keywords: ["simulation", "weather", "ecosystem", "living world"], default_format: "Explainer (60s vertical)"}
+  easter_eggs:          {keywords: ["easter egg", "reference", "nod to"], default_format: "'You missed this' breakdown (45-60s vertical)"}
+  rdr2_comparisons:     {keywords: ["rdr2", "red dead"], default_format: "Side-by-side comparison (45-60s vertical)"}
+  gta_v_comparisons:    {keywords: ["gta 5", "gta v ", "gta v's"], default_format: "Side-by-side comparison (45-60s vertical)"}
+  vice_city_references: {keywords: ["vice city", "tommy vercetti"], default_format: "Then-vs-now comparison (60s vertical)"}
+  lore:                 {keywords: ["lore", "story", "backstory"], default_format: "Story-driven explainer (60-90s vertical)"}
+  technology:           {keywords: ["engine", "rage", "ray tracing", "technology"], default_format: "Tech explainer (60s vertical / long-form)"}
+  graphics:             {keywords: ["graphics", "visuals", "lighting", "fps", "resolution"], default_format: "Side-by-side comparison (45-60s vertical)"}
+  physics:              {keywords: ["physics", "destruction", "water"], default_format: "Side-by-side comparison (45-60s vertical)"}
+  ai_npc_systems:       {keywords: ["ai ", "npc ai", "behaviour system"], default_format: "Explainer (60s vertical)"}
+  music:                {keywords: ["music", "song", "soundtrack"], default_format: "Short news hit (30-45s vertical)"}
+  radio:                {keywords: ["radio", "station"], default_format: "Short news hit (30-45s vertical)"}
+  celebrities:          {keywords: ["celebrity", "actor", "cameo", "voice actor"], default_format: "Short news hit (30-45s vertical)"}
+  rumours:              {keywords: ["rumour", "rumor", "leak", "insider"], default_format: "'Is it true?' rumour check (45-60s vertical)"}
+  debunking:            {keywords: ["fake", "debunk", "hoax", "not real"], default_format: "Debunk (30-45s vertical)"}
+  development_history:  {keywords: ["development", "delay", "delayed", "dev cycle"], default_format: "Timeline explainer (60-90s vertical)"}
+  rockstar_history:     {keywords: ["rockstar north", "houser", "history of rockstar"], default_format: "Story-driven explainer (60-90s vertical)"}
+  controversies:        {keywords: ["controversy", "backlash", "lawsuit", "fired", "union"], default_format: "Balanced explainer (60s vertical)"}
+  community_theories:   {keywords: ["theory", "theories"], default_format: "'Theory, not fact' explainer (45-60s vertical)"}
+  memes:                {keywords: ["meme", "memes"], default_format: "Meme recap (20-30s vertical)"}
+  release_information:  {keywords: ["release date", "launch", "release"], default_format: "Short news hit (30-45s vertical)"}
+  preorders:            {keywords: ["pre-order", "preorder"], default_format: "Short news hit (30-45s vertical)"}
+  sales:                {keywords: ["sales", "copies sold", "revenue"], default_format: "Numbers explainer (45s vertical)"}
+  records:              {keywords: ["record", "most viewed", "most liked"], default_format: "Numbers explainer (45s vertical)"}
+default_category: breaking_news

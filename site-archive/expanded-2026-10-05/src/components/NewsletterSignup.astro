@@ -1,0 +1,36 @@
+---
+// Newsletter capture. Shown when the flag is on; it only submits when a provider endpoint has been
+// configured (PUBLIC_NEWSLETTER_ENDPOINT). Without one it says sign-ups are not open: no fake success.
+import { FLAGS, ENDPOINTS, GAMES, SITE } from '../config';
+interface Props { source: string; compact?: boolean; heading?: string }
+const { source, compact = false, heading = `Get ${SITE.name} in your inbox` } = Astro.props;
+const open = Boolean(ENDPOINTS.newsletter);
+const id = `nl-${source.replace(/[^a-z0-9]+/gi, '-')}`;
+const topics = ['News', 'Discoveries', 'Explainers', 'Guides', 'Hardware'];
+---
+{FLAGS.newsletter_enabled && (
+  <section class={`newsletter ${compact ? 'compact' : ''}`} aria-labelledby={`${id}-h`}>
+    <h2 id={`${id}-h`}>{heading}</h2>
+    <p>The stories worth your time, with sources. No spam, and you can unsubscribe in one click.</p>
+    <form data-newsletter data-endpoint={ENDPOINTS.newsletter} data-source={source} novalidate={false}>
+      <div class="row">
+        <label class="sr" for={`${id}-email`}>Email address</label>
+        <input id={`${id}-email`} type="email" name="email" required autocomplete="email" placeholder="you@example.com" disabled={!open} />
+        <button type="submit" disabled={!open}>{open ? 'Subscribe' : 'Opening soon'}</button>
+      </div>
+      <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" />
+      {!compact && (
+        <>
+          <fieldset><legend>Games you care about (optional)</legend>
+            {GAMES.map((g) => <label><input type="checkbox" name="games" value={g.slug} disabled={!open} /> {g.short_name ?? g.name}</label>)}
+          </fieldset>
+          <fieldset><legend>Topics (optional)</legend>
+            {topics.map((t) => <label><input type="checkbox" name="topics" value={t.toLowerCase()} disabled={!open} /> {t}</label>)}
+          </fieldset>
+        </>
+      )}
+      <label class="consent"><input type="checkbox" name="consent" value="yes" required disabled={!open} /> I agree to receive the newsletter and have read the <a href="/privacy/">privacy notice</a>.</label>
+      <p class="nl-status" data-status role="status">{open ? '' : 'Sign-ups open at launch.'}</p>
+    </form>
+  </section>
+)}

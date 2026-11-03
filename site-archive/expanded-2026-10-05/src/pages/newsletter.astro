@@ -1,0 +1,19 @@
+---
+import Base from '../layouts/Base.astro';
+import NewsletterSignup from '../components/NewsletterSignup.astro';
+import { SITE } from '../config';
+---
+<Base title="Newsletter" description={`The ${SITE.name} newsletter: the gaming stories worth your time, with sources.`}>
+  <div class="plain">
+    <div class="page-head"><h1>The {SITE.name} newsletter</h1><p>The gaming stories worth your time, with the sources shown.</p></div>
+    <h2>What you get</h2>
+    <ul>
+      <li>The stories that mattered, each with its verification label.</li>
+      <li>Discoveries and explainers you may have missed.</li>
+      <li>Only the games and topics you pick, if you pick any.</li>
+    </ul>
+    <NewsletterSignup source="newsletter-page" heading="Subscribe" />
+    <h2>What we store</h2>
+    <p>Your email address, the time you agreed to receive the newsletter, the page you signed up on, and any game or topic preferences you ticked. Nothing else. See the <a href="/privacy/">privacy notice</a>.</p>
+  </div>
+</Base>

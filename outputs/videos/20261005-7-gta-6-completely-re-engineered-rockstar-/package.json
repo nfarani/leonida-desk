@@ -1,0 +1,713 @@
+{
+  "video_id": "20261005-7-gta-6-completely-re-engineered-rockstar-",
+  "story_id": 7,
+  "evidence_packet": "story-7-short",
+  "game": "gta-vi",
+  "verification_status": "HIGH_CONFIDENCE_REPORT",
+  "status": "READY_FOR_REVIEW",
+  "created_at": "2026-10-05T17:12:31+00:00",
+  "history": [
+    {
+      "status": "IDEA",
+      "at": "2026-10-05T17:12:31+00:00",
+      "note": "package started"
+    },
+    {
+      "status": "READY_FOR_GENERATION",
+      "at": "2026-10-05T17:13:33+00:00",
+      "note": "checker: 0 errors"
+    },
+    {
+      "status": "GENERATING",
+      "at": "2026-10-05T17:34:14+00:00",
+      "note": "production run started"
+    },
+    {
+      "status": "READY_FOR_REVIEW",
+      "at": "2026-10-05T17:49:46+00:00",
+      "note": "final.mp4 assembled, 46.29s"
+    },
+    {
+      "status": "GENERATING",
+      "at": "2026-10-05T17:51:09+00:00",
+      "note": "production run started"
+    },
+    {
+      "status": "READY_FOR_REVIEW",
+      "at": "2026-10-05T17:57:59+00:00",
+      "note": "final.mp4 assembled, 44.89s"
+    },
+    {
+      "status": "GENERATING",
+      "at": "2026-10-05T17:59:10+00:00",
+      "note": "production run started"
+    },
+    {
+      "status": "READY_FOR_REVIEW",
+      "at": "2026-10-05T18:03:30+00:00",
+      "note": "final.mp4 assembled, 44.89s"
+    },
+    {
+      "status": "GENERATING",
+      "at": "2026-10-05T18:21:52+00:00",
+      "note": "production run started"
+    },
+    {
+      "status": "READY_FOR_REVIEW",
+      "at": "2026-10-05T18:22:44+00:00",
+      "note": "final.mp4 assembled, 44.89s"
+    },
+    {
+      "status": "GENERATING",
+      "at": "2026-10-05T18:24:18+00:00",
+      "note": "production run started"
+    },
+    {
+      "status": "READY_FOR_REVIEW",
+      "at": "2026-10-05T18:25:11+00:00",
+      "note": "final.mp4 assembled, 44.89s"
+    }
+  ],
+  "format": {
+    "aspect": "9:16",
+    "target_seconds": [
+      25,
+      45
+    ]
+  },
+  "treatment": "WHY THIS MATTERS",
+  "editorial_angle": "Every outlet reported that GTA VI has hurricanes. None could say whether they do anything, because Rockstar has not said: Eurogamer asked outright whether wet roads will affect tyres. This short sits in that gap on purpose. It states the three things that are on record, says plainly what is missing, then switches to a clearly labelled what-if and plays one police chase through a storm to show why the answer matters: if weather is systemic rather than cosmetic, it changes the most repeated moment in the series.",
+  "visual_premise": "An ordinary high-speed police chase under a clear sky: the escape every player already knows how to run.",
+  "visual_escalation": "The same chase, the same red car, as a storm arrives. Rain eats the visibility, the street floods, the car slides and a pursuer spins out, the helicopter above cannot hold steady, and the usual way out is under water.",
+  "visual_payoff": "The driver stops at the flooded underpass he always uses and has to pick a route he has never taken. The weather, not the police, ended the plan.",
+  "visual_style": "photoreal cinematic car chase, one continuous weather progression from clear sky to hurricane, same hero car throughout",
+  "hooks": [
+    "GTA six's hurricanes could completely change police chases.",
+    "What if a hurricane hit in the middle of a GTA six police chase?",
+    "Rockstar put hurricanes in GTA six. It hasn't said what they do to a getaway."
+  ],
+  "recommended_hook": 0,
+  "hook_style": "statement",
+  "voiceover": [
+    {
+      "text": "GTA six's hurricanes could completely change police chases.",
+      "claims": [
+        "c4"
+      ],
+      "kind": "fact",
+      "emphasis": [
+        "hurricanes",
+        "police chases"
+      ]
+    },
+    {
+      "text": "On record: Rockstar's lighting chief told Game Informer the weather system was re-engineered to be localized and persistent.",
+      "claims": [
+        "c5"
+      ],
+      "kind": "fact",
+      "emphasis": [
+        "weather system",
+        "re-engineered"
+      ]
+    },
+    {
+      "text": "He describes heavy clouds, strong winds and a lot of rain, with everything dripping wet.",
+      "claims": [
+        "c6"
+      ],
+      "kind": "fact",
+      "emphasis": [
+        "a lot of rain"
+      ]
+    },
+    {
+      "text": "What Rockstar hasn't said is whether any of it affects how you play. Eurogamer asked the obvious question: will wet roads affect your tyres?",
+      "claims": [
+        "c7"
+      ],
+      "kind": "fact",
+      "emphasis": [
+        "hasn't said",
+        "wet roads"
+      ]
+    },
+    {
+      "text": "So from here, this is our what-if.",
+      "claims": [],
+      "kind": "framing",
+      "emphasis": [
+        "what-if"
+      ]
+    },
+    {
+      "text": "If storms are systemic, rain cuts how far you can see, and streets start to flood.",
+      "claims": [],
+      "kind": "framing",
+      "emphasis": [
+        "systemic",
+        "flood"
+      ]
+    },
+    {
+      "text": "Cars slide. Pursuers spin out.",
+      "claims": [],
+      "kind": "framing",
+      "emphasis": [
+        "slide",
+        "spin out"
+      ]
+    },
+    {
+      "text": "A helicopter might not hold steady in that wind.",
+      "claims": [],
+      "kind": "framing",
+      "emphasis": [
+        "helicopter"
+      ]
+    },
+    {
+      "text": "And the escape route you always use is under water.",
+      "claims": [],
+      "kind": "framing",
+      "emphasis": [
+        "escape route",
+        "under water"
+      ]
+    },
+    {
+      "text": "If Rockstar goes that far, weather isn't decoration. It's the chase. Systemic, or just pretty?",
+      "claims": [],
+      "kind": "framing",
+      "emphasis": [
+        "decoration",
+        "the chase"
+      ]
+    }
+  ],
+  "shots": [
+    {
+      "seconds": 3,
+      "shot_type": "Hook: clear-sky chase, low tracking",
+      "asset_type": "AI_VIDEO",
+      "camera": "Low tracking shot from behind and to the side of the red coupe, fast, steady, slight forward push",
+      "visual": "A red sports coupe at speed on a sunlit coastal avenue with two patrol cars close behind. Blue sky, dry road, total control.",
+      "on_screen_text": "HURRICANES vs POLICE CHASES  |  corner label for the whole video: AI-generated visualisation, not game footage",
+      "vo_lines": [
+        1
+      ],
+      "higgsfield_prompt": "A red sports coupe speeds down a wide palm-lined coastal avenue in bright midday sun, two patrol cars with flashing roof lights close behind. Clear blue sky, dry road. Low tracking shot from behind the coupe, fast and steady. Photoreal cinematic look, vertical 9:16 frame, subtropical coastal city with palm trees and pastel low-rise buildings, the same red sports coupe in every shot, generic unmarked black-and-white patrol cars, no readable text, no lettering, no badges, no brand marks. 3 seconds.",
+      "reference": true,
+      "graphics": {}
+    },
+    {
+      "seconds": 6,
+      "shot_type": "ON RECORD card",
+      "asset_type": "TEXT_GRAPHIC",
+      "reuse_shot": 1,
+      "camera": "None: freeze the last frame of shot 1, dim it, build the text line by line",
+      "visual": "Evidence card over the frozen chase. Green ON RECORD tag in the top corner.",
+      "on_screen_text": "ON RECORD  ·  Weather system \"re-engineered\"  ·  \"much more localized and persistent\"  ·  Owen Shepherd, Rockstar, to Game Informer (via Eurogamer)",
+      "vo_lines": [
+        2
+      ],
+      "higgsfield_prompt": null,
+      "graphics": {
+        "tag": "ON RECORD",
+        "source": {
+          "quote": "much more localized and persistent",
+          "by": "Owen Shepherd / Game Informer"
+        }
+      },
+      "footage": {
+        "asset": "reference.png",
+        "note": "the continuity still, with a slow push"
+      }
+    },
+    {
+      "seconds": 5,
+      "shot_type": "Storm front over the skyline, wide",
+      "asset_type": "AI_IMAGE_WITH_MOTION",
+      "camera": "Generate a still, then animate: clouds roll toward camera, lightning flickers inside them, slow tilt up",
+      "visual": "A towering dark storm front rolling over the city from the sea while the near streets are still in sunlight.",
+      "on_screen_text": "ON RECORD  ·  \"Heavy clouds, strong winds ... a lot of rain\"",
+      "vo_lines": [
+        3
+      ],
+      "higgsfield_prompt": "Wide shot of an enormous dark cumulonimbus storm front rolling in from the sea over a subtropical city skyline, lightning flickering inside the clouds, sheets of rain under them, while the foreground street is still sunlit. Clouds drift toward the camera, slow tilt up. Photoreal, dramatic contrast, vertical 9:16 frame, no readable text. 5 seconds.",
+      "graphics": {
+        "tag": "ON RECORD"
+      }
+    },
+    {
+      "seconds": 6,
+      "shot_type": "NOT SAID card",
+      "asset_type": "TEXT_GRAPHIC",
+      "reuse_shot": 3,
+      "camera": "None: hold the last frame of shot 3, desaturate it, type the question",
+      "visual": "The storm frame goes grey. Amber NOT SAID tag. The question appears as a quote.",
+      "on_screen_text": "NOT SAID  ·  Does any of it change how you play?  ·  \"will the wet roads affect my tires?\" (Eurogamer)",
+      "vo_lines": [
+        4
+      ],
+      "higgsfield_prompt": null,
+      "graphics": {
+        "tag": "NOT CONFIRMED",
+        "source": {
+          "quote": "will the wet roads affect my tires?",
+          "by": "Eurogamer"
+        }
+      }
+    },
+    {
+      "seconds": 2,
+      "shot_type": "WHAT IF stamp",
+      "asset_type": "TEXT_GRAPHIC",
+      "camera": "None: hard cut to a full-screen stamp, one frame of flash",
+      "visual": "Full-screen red stamp. From this point a WHAT IF badge stays on screen until the end card.",
+      "on_screen_text": "WHAT IF  ·  From here: our speculation",
+      "vo_lines": [
+        5
+      ],
+      "higgsfield_prompt": null,
+      "graphics": {
+        "tag": "WHAT IF"
+      },
+      "footage": {
+        "asset": "rejected/shot-6-badge-retry.mp4",
+        "start": 0,
+        "speed": 0.87,
+        "note": "first two seconds of a rejected take: the car approaching in the rain, before the part that was rejected"
+      }
+    },
+    {
+      "seconds": 6,
+      "shot_type": "Rain and flooding, chase continues",
+      "asset_type": "AI_VIDEO",
+      "camera": "Side-on tracking shot at wheel height travelling alongside the coupe, through spray; only the car's side profile is seen",
+      "visual": "The same chase in a downpour. Grey-out visibility, tail lights vanishing in spray, the coupe ploughing into standing water.",
+      "on_screen_text": "WHAT IF · our speculation, not confirmed  ·  Can't see. Streets flooding.",
+      "vo_lines": [
+        6
+      ],
+      "higgsfield_prompt": "Side-on tracking shot at wheel height travelling alongside a red sports coupe as it drives fast from left to right through deep standing water on a city avenue in torrential rain at dusk, throwing up a tall wall of spray. Only the side profile of the car is visible. Red and blue police lights flash through the grey rain far behind it. Palm trees bend in the wind, pastel low-rise buildings are dim shapes in the downpour. Photoreal cinematic look, vertical 9:16 frame, no readable text, no lettering, no badges, no brand marks. 6 seconds.",
+      "reference": true,
+      "graphics": {
+        "tag": "WHAT IF"
+      }
+    },
+    {
+      "seconds": 4,
+      "shot_type": "Traction loss at an intersection",
+      "asset_type": "AI_VIDEO",
+      "camera": "Static high corner view of the intersection, like a traffic camera, no camera move",
+      "visual": "The coupe fishtails through a flooded junction and just holds it. The patrol car behind spins a full turn and stops.",
+      "on_screen_text": "WHAT IF · our speculation, not confirmed  ·  No grip. Pursuers crash.",
+      "vo_lines": [
+        7
+      ],
+      "higgsfield_prompt": "High static corner view of a rain-flooded city intersection at night. A red sports coupe slides sideways through the junction and straightens. The patrol car following it spins a full circle on the wet road and stops, lights flashing. Heavy rain, reflections on the water. Photoreal cinematic look, vertical 9:16 frame, subtropical coastal city with palm trees and pastel low-rise buildings, the same red sports coupe in every shot, generic unmarked black-and-white patrol cars, no readable text, no lettering, no badges, no brand marks. 4 seconds.",
+      "reference": true,
+      "graphics": {
+        "tag": "WHAT IF"
+      }
+    },
+    {
+      "seconds": 4,
+      "shot_type": "Helicopter in the wind, low angle",
+      "asset_type": "AI_VIDEO",
+      "camera": "Low angle from street level looking up, handheld shake; the searchlight beam sweeps across the lens and away",
+      "visual": "A helicopter with a searchlight is thrown sideways by the gusts. Its beam swings off the street and it banks away.",
+      "on_screen_text": "WHAT IF · our speculation, not confirmed  ·  Air support struggles.",
+      "vo_lines": [
+        8
+      ],
+      "higgsfield_prompt": "Low angle from a rain-lashed street looking up at a dark helicopter with a bright searchlight, buffeted sideways by hurricane wind between tall palm trees bent over by the gusts. The searchlight beam swings wildly across the frame and the helicopter banks away. Handheld shake, sheets of rain. Photoreal, vertical 9:16 frame, no readable text, no markings. 4 seconds.",
+      "graphics": {
+        "tag": "WHAT IF"
+      }
+    },
+    {
+      "seconds": 4,
+      "shot_type": "Payoff: the route is gone",
+      "asset_type": "AI_VIDEO",
+      "camera": "Front three-quarter view of the coupe braking toward camera, then a slow push-in on the car as it sits stopped",
+      "visual": "The coupe brakes hard at the mouth of an underpass that is filled with floodwater, a fallen palm across it. Brake lights. Nowhere to go.",
+      "on_screen_text": "WHAT IF · our speculation, not confirmed  ·  Your usual way out: gone.",
+      "vo_lines": [
+        9
+      ],
+      "higgsfield_prompt": "A red sports coupe brakes to a stop in heavy rain at the entrance of a road underpass completely filled with dark floodwater, a fallen palm tree lying across it. The car stops, headlights shining on the water. Night, wind-driven rain, slow push-in on the stopped car. Photoreal cinematic look, vertical 9:16 frame, subtropical coastal city with palm trees and pastel low-rise buildings, the same red sports coupe in every shot, generic unmarked black-and-white patrol cars, no readable text, no lettering, no badges, no brand marks. 4 seconds.",
+      "reference": true,
+      "graphics": {
+        "tag": "WHAT IF"
+      }
+    },
+    {
+      "seconds": 5,
+      "shot_type": "End card",
+      "asset_type": "TEXT_GRAPHIC",
+      "reuse_shot": 9,
+      "camera": "None: hold the last frame of shot 9 under the text; rain audio continues",
+      "visual": "The stopped car in the rain, held. The takeaway line, then the question.",
+      "on_screen_text": "Hurricanes: on record.  Gameplay effects: not said.  |  Systemic, or just pretty?  |  Sources in the description  ·  Leonida Desk",
+      "vo_lines": [
+        10
+      ],
+      "higgsfield_prompt": null,
+      "graphics": {}
+    }
+  ],
+  "editing_notes": "Two visual languages, never mixed. Shots 1-4 carry a green ON RECORD or amber NOT SAID tag; from shot 5 a red WHAT IF badge stays in the top corner until the end card, so a frame grabbed from anywhere in the second half still says it is speculation. Keep the small 'AI-generated visualisation, not game footage' label on screen for the full runtime. The weather only ever gets worse: do not cut back to a dry shot after shot 3. Shots 1 and 6 use the same camera angle on purpose, so the viewer reads it as the same chase before and after; match-cut them through the cards if the timing allows. Shot 5 is two seconds and a hard cut: it is the hinge of the video, give it a beat of near silence. Shots 7, 8 and 9 are fast, one consequence each, cut on the voiceover's full stops. Burned-in captions, two lines maximum. Quote marks on screen only around Shepherd's and Eurogamer's exact words. No game art, no trailer frames, no HUD elements, no wanted stars, no logos: nothing that imitates the game's interface.",
+  "sound_music": "Open on engine and sirens under a bright, driving bed (licensed library track, no vocals). Duck everything under the ON RECORD card. Distant thunder on shot 3. On the WHAT IF stamp, cut the music dead for half a second, then bring the bed back darker and slower with heavy rain over it. Wind and rotor wash on shot 8, with the rotor pitch wobbling. On shot 9, strip back to rain, an idling engine and one distant siren. End on rain only. Voice: conversational and measured, a clear change of tone at 'our what-if'; never an announcer read.",
+  "cta": "One question to argue about: systemic, or just pretty? Sources in the description.",
+  "youtube_title": "GTA VI's hurricanes could change police chases #shorts",
+  "youtube_description": "What's on record: Rockstar's Owen Shepherd told Game Informer that GTA VI's weather system was re-engineered to be \"much more localized and persistent\", with hurricanes, strong winds and heavy rain (reported by Eurogamer and Rock Paper Shotgun).\n\nWhat isn't: Rockstar has not said whether weather affects driving, police or anything else you do. Eurogamer asked whether wet roads will affect tyres, and there is no answer yet.\n\nEverything after the WHAT IF stamp is our speculation about what a storm could do to a police chase if the weather is systemic. It is not reported and not announced.\n\nAI-generated visualisation. Not actual GTA VI gameplay.\n\nSources:\nEurogamer: https://eurogamer.net/gta6-rockstar-weather-systems-hurricanes-rainbows-rain\nRock Paper Shotgun: https://rockpapershotgun.com/gta-6-will-simulate-hurricanes-rainbows-and-persistent-dynamic-clouds-among-other-efforts-to-make-you-stop-doing-crime-and-become-a-weather-nerd\n\nLeonida Desk is not affiliated with Rockstar Games or Take-Two Interactive.",
+  "tiktok_caption": "GTA VI has hurricanes, per Rockstar via Game Informer. What Rockstar hasn't said is whether they affect how you play. The second half of this is our what-if, not a leak. AI-generated visualisation. Not actual GTA VI gameplay. #gta6 #gtavi #gaming",
+  "instagram_caption": "On record: Rockstar says GTA VI's weather was re-engineered, with hurricanes and heavy rain (Game Informer, via Eurogamer). Not said: whether any of it changes how you play. So we ran the what-if: one police chase, one storm. The second half is our speculation. AI-generated visualisation. Not actual GTA VI gameplay. Systemic, or just pretty? #gta6 #gtavi #gaming",
+  "sources": [
+    {
+      "name": "Eurogamer",
+      "url": "https://eurogamer.net/gta6-rockstar-weather-systems-hurricanes-rainbows-rain"
+    },
+    {
+      "name": "Rock Paper Shotgun",
+      "url": "https://rockpapershotgun.com/gta-6-will-simulate-hurricanes-rainbows-and-persistent-dynamic-clouds-among-other-efforts-to-make-you-stop-doing-crime-and-become-a-weather-nerd"
+    }
+  ],
+  "disclosure": "AI-generated visualisation. Not actual GTA VI gameplay.",
+  "render": {
+    "adapter": "higgsfield-cli",
+    "jobs": [
+      {
+        "key": "vo-1",
+        "job_id": "6843f95a-35d3-4788-8959-a64775d7dae1",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T17:34:15+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_173415_6843f95a-35d3-4788-8959-a64775d7dae1.mp3",
+        "asset": "vo-1.mp3"
+      },
+      {
+        "key": "vo-3",
+        "job_id": "44189b33-4674-4b83-93d2-9abd04071274",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T17:34:16+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_173415_44189b33-4674-4b83-93d2-9abd04071274.mp3",
+        "asset": "vo-3.mp3"
+      },
+      {
+        "key": "vo-2",
+        "job_id": "76c2b8ae-a3b4-42d5-9e22-72e1d1c6f4d3",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.45,
+        "submitted_at": "2026-10-05T17:34:16+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_173415_76c2b8ae-a3b4-42d5-9e22-72e1d1c6f4d3.mp3",
+        "asset": "vo-2.mp3"
+      },
+      {
+        "key": "vo-4",
+        "job_id": "c96e8163-332e-4b55-a40c-9494f3597173",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.45,
+        "submitted_at": "2026-10-05T17:34:16+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_173415_c96e8163-332e-4b55-a40c-9494f3597173.mp3",
+        "asset": "vo-4.mp3"
+      },
+      {
+        "key": "vo-6",
+        "job_id": "6840db6b-7cbb-4636-8c2b-f5bc97e3554d",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T17:34:17+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_173416_6840db6b-7cbb-4636-8c2b-f5bc97e3554d.mp3",
+        "asset": "vo-6.mp3"
+      },
+      {
+        "key": "vo-5",
+        "job_id": "3bc95799-db9a-431c-af0c-4d40904f88cf",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.15,
+        "submitted_at": "2026-10-05T17:34:17+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_173417_3bc95799-db9a-431c-af0c-4d40904f88cf.mp3",
+        "asset": "vo-5.mp3"
+      },
+      {
+        "key": "vo-7",
+        "job_id": "9a04ba55-9714-4ce8-9ea6-f60c6e80d012",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.15,
+        "submitted_at": "2026-10-05T17:35:03+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_173503_9a04ba55-9714-4ce8-9ea6-f60c6e80d012.mp3",
+        "asset": "vo-7.mp3"
+      },
+      {
+        "key": "vo-9",
+        "job_id": "a06bd4cd-8d3f-4df1-8268-2d9bf35282a0",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T17:35:03+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_173503_a06bd4cd-8d3f-4df1-8268-2d9bf35282a0.mp3",
+        "asset": "vo-9.mp3"
+      },
+      {
+        "key": "vo-8",
+        "job_id": "64fb0abe-36a4-4e17-9928-7f6acb5195e5",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.15,
+        "submitted_at": "2026-10-05T17:35:04+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_173504_64fb0abe-36a4-4e17-9928-7f6acb5195e5.mp3",
+        "asset": "vo-8.mp3"
+      },
+      {
+        "key": "vo-10",
+        "job_id": "9b82a8fe-4d5f-4708-8519-74b9b72925e6",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T17:35:04+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_173504_9b82a8fe-4d5f-4708-8519-74b9b72925e6.mp3",
+        "asset": "vo-10.mp3"
+      },
+      {
+        "key": "reference",
+        "job_id": "63da9c4f-3d84-473d-850f-1bc0839a6935",
+        "model": "gpt_image_2_5",
+        "status": "completed",
+        "credits": 0.25,
+        "submitted_at": "2026-10-05T17:35:09+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_173509_63da9c4f-3d84-473d-850f-1bc0839a6935.png",
+        "asset": "reference.png"
+      },
+      {
+        "key": "still-3",
+        "job_id": "9c98e8e5-1761-49b4-9ec7-1ddf14235c1d",
+        "model": "gpt_image_2_5",
+        "status": "completed",
+        "credits": 0.25,
+        "submitted_at": "2026-10-05T17:35:27+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_173526_9c98e8e5-1761-49b4-9ec7-1ddf14235c1d.png",
+        "asset": "still-3.png"
+      },
+      {
+        "key": "shot-3",
+        "job_id": "1141122c-4546-4a96-96e0-3b161c212810",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 6.0,
+        "submitted_at": "2026-10-05T17:35:47+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_173547_1141122c-4546-4a96-96e0-3b161c212810.mp4",
+        "asset": "shot-3.mp4"
+      },
+      {
+        "key": "shot-7",
+        "job_id": "86acd7b1-5af7-48a3-b02c-119c6472bd94",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 4.0,
+        "submitted_at": "2026-10-05T17:39:02+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_173901_86acd7b1-5af7-48a3-b02c-119c6472bd94.mp4",
+        "asset": "shot-7.mp4"
+      },
+      {
+        "key": "shot-8",
+        "job_id": "c02f66ad-86be-407e-8dd5-8f4e610fe649",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 4.0,
+        "submitted_at": "2026-10-05T17:39:02+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_173902_c02f66ad-86be-407e-8dd5-8f4e610fe649.mp4",
+        "asset": "shot-8.mp4"
+      },
+      {
+        "key": "shot-9",
+        "job_id": "0785babf-bd53-44d9-aad1-4e88ee6ade88",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 4.0,
+        "submitted_at": "2026-10-05T17:39:49+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_173949_0785babf-bd53-44d9-aad1-4e88ee6ade88.mp4",
+        "asset": "shot-9.mp4"
+      },
+      {
+        "key": "music",
+        "job_id": "a61369f3-d698-4bf1-9c9d-9c59bfc8948c",
+        "model": "sonilo_music",
+        "status": "completed",
+        "credits": 3.0,
+        "submitted_at": "2026-10-05T17:48:10+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_174810_a61369f3-d698-4bf1-9c9d-9c59bfc8948c.m4a",
+        "asset": "music.m4a"
+      },
+      {
+        "key": "bed-1",
+        "job_id": "0e0ab7b1-1e62-4d4b-bbe2-861a2fc3f83b",
+        "model": "seed_audio",
+        "status": "completed",
+        "credits": 0.8,
+        "submitted_at": "2026-10-05T17:48:21+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_174821_0e0ab7b1-1e62-4d4b-bbe2-861a2fc3f83b.wav",
+        "asset": "bed-1.wav"
+      },
+      {
+        "key": "shot-1",
+        "job_id": "627f8ed2-af98-472b-9ea7-fd42c2e6b368",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 5.0,
+        "submitted_at": "2026-10-05T17:35:31+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_173530_627f8ed2-af98-472b-9ea7-fd42c2e6b368.mp4",
+        "asset": "shot-1.mp4",
+        "note": "first take, with its first second trimmed locally to remove a badge at the frame edge"
+      },
+      {
+        "key": "shot-6",
+        "job_id": "a387572b-5057-481e-9604-b098c7ebc4a0",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 6.0,
+        "submitted_at": "2026-10-05T17:59:15+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_175915_a387572b-5057-481e-9604-b098c7ebc4a0.mp4",
+        "asset": "shot-6.mp4"
+      }
+    ],
+    "cost": 36.15,
+    "final": "final_v2.mp4",
+    "seconds": 44.89,
+    "timeline": "timeline.json",
+    "captions": "captions.srt",
+    "voice": "Dylan",
+    "models": [
+      "gpt_image_2_5",
+      "seed_audio",
+      "seedance_2_0_mini",
+      "sonilo_music",
+      "text2speech_v2"
+    ],
+    "generations": 20,
+    "produced_at": "2026-10-05T18:25:11+00:00",
+    "cost_unit": "credits (estimated)",
+    "replaced": [
+      {
+        "key": "shot-6",
+        "job_id": "e185f8e2-f7af-4b10-aee8-e5f6c98788cd",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 6.0,
+        "submitted_at": "2026-10-05T17:35:30+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_173530_e185f8e2-f7af-4b10-aee8-e5f6c98788cd.mp4",
+        "asset": "shot-6.mp4",
+        "reason": "real carmaker badge visible on the car"
+      },
+      {
+        "key": "shot-6",
+        "job_id": "496ab624-6842-4ffd-b8c5-96902522446d",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 6.0,
+        "submitted_at": "2026-10-05T17:51:15+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_175114_496ab624-6842-4ffd-b8c5-96902522446d.mp4",
+        "asset": "shot-6.mp4",
+        "reason": "retry still showed a real carmaker badge; car also flipped from front to rear mid-clip"
+      },
+      {
+        "key": "shot-1",
+        "job_id": "36548d44-2942-4170-bf19-7f45f522e740",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 5.0,
+        "submitted_at": "2026-10-05T17:51:15+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_175114_36548d44-2942-4170-bf19-7f45f522e740.mp4",
+        "asset": "shot-1.mp4",
+        "reason": "retry still showed a real carmaker badge"
+      }
+    ],
+    "credits_replaced_takes": 17.0,
+    "credits_spent_total": 53.15,
+    "review_notes": [
+      "Shot 1 is the first take with its first second trimmed (a real carmaker badge was visible at the frame edge).",
+      "Shot 6 was re-shot side-on after two rear-view takes showed a real carmaker badge; it no longer matches shot 1's camera angle.",
+      "Shot 9 shows a flooded street with a fallen palm, not an underpass, and the car has bonnet stripes the reference does not.",
+      "Shot 8: the helicopter is faint behind its searchlight.",
+      "Audio was level-checked by measurement only; nobody has listened to it."
+    ],
+    "versions": [
+      "final_v2.mp4"
+    ],
+    "design": "config/design.yaml"
+  },
+  "posts": [],
+  "desk": {
+    "tier": null,
+    "tier_reason": null,
+    "gate": null,
+    "treatment": null,
+    "video_suitability": null,
+    "visual_potential": null,
+    "hook_strength": null,
+    "recommendation_confidence": null,
+    "momentum": null,
+    "opportunity": 36.1,
+    "viral": 34.0,
+    "saturation": 51.79,
+    "freshness": 0.0075,
+    "suggested_hook": null,
+    "visual_premise": null
+  },
+  "game_name": "GTA VI",
+  "topic": "world_simulation",
+  "facts_vs_inference": {
+    "reported (HIGH_CONFIDENCE_REPORT: Eurogamer and Rock Paper Shotgun, quoting Rockstar's Owen Shepherd via Game Informer)": [
+      "GTA VI has hurricanes, heavy rain and thunderstorms (c4).",
+      "Rockstar says it re-engineered its weather system to be 'much more localized and persistent' (c5).",
+      "Shepherd's description of a storm: heavy clouds, strong winds, dense atmospherics, a lot of rain, everything dripping wet, water gushing off roof edges and lampposts, thunder and lightning (c6).",
+      "Rain can fall on one area while another stays dry; wet pavements and puddles remain after a storm (c8, Eurogamer's description)."
+    ],
+    "explicitly NOT stated by Rockstar": [
+      "Whether weather affects driving, traction, visibility, flooding of roads, aircraft, police behaviour or any other gameplay system. Eurogamer says Rockstar is 'omitting' this and asks whether wet roads will affect tyres (c7); Rock Paper Shotgun says it remains to be seen (c9)."
+    ],
+    "our inference (shown under a WHAT IF label, voiceover lines 5-10)": [
+      "Reduced visibility in heavy rain.",
+      "Flooded roads and blocked escape routes.",
+      "Vehicles losing traction; crashes becoming more likely.",
+      "A police helicopter struggling in high wind.",
+      "Players having to improvise routes.",
+      "None of these is reported anywhere. Nothing in the stored sources describes GTA VI's police, wanted levels or helicopters at all."
+    ]
+  },
+  "updated_at": "2026-10-05T18:26:10+00:00",
+  "continuity": {
+    "reference_prompt": "Photoreal cinematic still, vertical 9:16. A glossy red two-door sports coupe with a low wedge profile and black wheels, parked three-quarter front view on a wide palm-lined coastal avenue in a subtropical city, pastel art deco low-rise buildings behind it, bright midday sun, clear blue sky. The car has no badges, no number plate text, no lettering. No people, no readable text anywhere, no brand marks.",
+    "note": "The same red coupe and the same coastal city in every chase shot; only the weather changes."
+  },
+  "music_prompt": "Instrumental tension underscore for a car chase, 45 seconds. Starts as a tight, driving electronic pulse with light percussion, then at the halfway point drops darker, slower and heavier with low synth bass and distant thunder-like hits. No vocals, no melody lead, stays in the background.",
+  "audio_beds": [
+    {
+      "prompt": "Heavy tropical rain and strong gusting wind ambience with distant rolling thunder, continuous, no music, no voices",
+      "from_shot": 5,
+      "to_shot": 10,
+      "db": -20
+    }
+  ],
+  "hook_title": [
+    "GTA VI *HURRICANES*",
+    "COULD CHANGE",
+    "POLICE CHASES"
+  ],
+  "end_card": {
+    "lines": [
+      "SYSTEMIC WEATHER",
+      "OR JUST *PRETTY?*"
+    ]
+  }
+}

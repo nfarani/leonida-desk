@@ -1,0 +1,47 @@
+---
+import Base from '../layouts/Base.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import NewsletterSignup from '../components/NewsletterSignup.astro';
+import AdSlot from '../components/AdSlot.astro';
+import { SITE, BUCKETS, type Bucket } from '../config';
+import { visibleArticles } from '../lib/articles';
+const all = await visibleArticles();
+const [lead, ...rest] = all;
+const side = rest.slice(0, 2);
+const order: Bucket[] = ['BREAKING', 'DISCOVERY', 'EXPLAINER', 'EVERGREEN'];
+const shown = new Set([lead, ...side].filter(Boolean).map((a) => a.data.slug));
+// The flagship rail shows GTA VI stories that are not already in the lead block
+const gta = all.filter((a) => a.data.game === 'gta-vi' && !shown.has(a.data.slug)).slice(0, 3);
+gta.forEach((a) => shown.add(a.data.slug));
+const jsonLd = { '@context': 'https://schema.org', '@type': 'WebSite', name: SITE.name, url: Astro.site?.href, description: SITE.description };
+---
+<Base jsonLd={jsonLd}>
+  <div class="page-head">
+    <span class="kicker">Independent gaming publication</span>
+    <h1>{SITE.tagline}</h1>
+    <p>Every article carries a verification label and links the sources behind each factual claim. <a href="/editorial-standards/">How we work</a>.</p>
+  </div>
+  {lead
+    ? <section class="lead" aria-label="Top stories">
+        <ArticleCard article={lead} heading="h2" />
+        {side.length > 0 && <div class="stack">{side.map((a) => <ArticleCard article={a} />)}</div>}
+      </section>
+    : <p class="empty">Nothing has been published yet. Articles appear here only after an editor approves them.</p>}
+  {gta.length > 0 && (
+    <section class="rail" aria-labelledby="gta-rail">
+      <div class="section-head"><h2 id="gta-rail">GTA VI</h2><a href="/gta-vi/">All GTA VI coverage</a></div>
+      <div class="grid">{gta.map((a) => <ArticleCard article={a} />)}</div>
+    </section>
+  )}
+  <AdSlot position="homepage-feed" />
+  {order.map((b) => {
+    const items = all.filter((a) => a.data.editorial_bucket === b && !shown.has(a.data.slug)).slice(0, 3);
+    return items.length > 0 && (
+      <section class="section">
+        <div class="section-head"><h2>{BUCKETS[b].label}</h2><a href={BUCKETS[b].path}>All {BUCKETS[b].label.toLowerCase()}</a></div>
+        <div class="grid">{items.map((a) => <ArticleCard article={a} />)}</div>
+      </section>
+    );
+  })}
+  <NewsletterSignup source="homepage" compact />
+</Base>

@@ -1,0 +1,402 @@
+{
+  "video_id": "20261005-7-wildlife-chase",
+  "status": "READY_FOR_REVIEW",
+  "updated_at": "2026-10-05T21:56:10+00:00",
+  "history": [
+    {
+      "status": "IDEA",
+      "at": "2026-10-05T21:20:21+00:00",
+      "note": "package started"
+    },
+    {
+      "status": "SCRIPTED",
+      "at": "2026-10-05T21:22:05+00:00",
+      "note": "checker: 1 errors"
+    },
+    {
+      "status": "READY_FOR_GENERATION",
+      "at": "2026-10-05T21:22:25+00:00",
+      "note": "checker: 0 errors"
+    },
+    {
+      "status": "GENERATING",
+      "at": "2026-10-05T21:32:07+00:00",
+      "note": "production run started"
+    },
+    {
+      "status": "READY_FOR_REVIEW",
+      "at": "2026-10-05T21:52:58+00:00",
+      "note": "final.mp4 assembled, 36.35s"
+    },
+    {
+      "status": "GENERATING",
+      "at": "2026-10-05T21:53:20+00:00",
+      "note": "production run started"
+    },
+    {
+      "status": "READY_FOR_REVIEW",
+      "at": "2026-10-05T21:56:10+00:00",
+      "note": "final.mp4 assembled, 36.35s"
+    }
+  ],
+  "render": {
+    "adapter": "higgsfield-cli",
+    "jobs": [
+      {
+        "key": "vo-2",
+        "job_id": "08011ebc-a0c0-4104-a977-83a632341abf",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.15,
+        "submitted_at": "2026-10-05T21:32:09+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_213208_08011ebc-a0c0-4104-a977-83a632341abf.mp3",
+        "asset": "vo-2.mp3"
+      },
+      {
+        "key": "vo-1",
+        "job_id": "49e2a772-ef7c-4e3f-9d18-a9c01434adb6",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T21:32:09+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_213208_49e2a772-ef7c-4e3f-9d18-a9c01434adb6.mp3",
+        "asset": "vo-1.mp3"
+      },
+      {
+        "key": "vo-3",
+        "job_id": "824b6d15-a9b7-4356-9b61-8ac635429756",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.15,
+        "submitted_at": "2026-10-05T21:32:09+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_213208_824b6d15-a9b7-4356-9b61-8ac635429756.mp3",
+        "asset": "vo-3.mp3"
+      },
+      {
+        "key": "vo-4",
+        "job_id": "3128f952-bc30-4953-b978-2a035c550cbf",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T21:32:09+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_213209_3128f952-bc30-4953-b978-2a035c550cbf.mp3",
+        "asset": "vo-4.mp3"
+      },
+      {
+        "key": "vo-7",
+        "job_id": "a864e282-819c-414d-8cca-a6d48028e902",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T21:32:14+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_213214_a864e282-819c-414d-8cca-a6d48028e902.mp3",
+        "asset": "vo-7.mp3"
+      },
+      {
+        "key": "vo-5",
+        "job_id": "f704e79e-5489-4144-b46a-e6e17696d54c",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T21:32:14+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_213214_f704e79e-5489-4144-b46a-e6e17696d54c.mp3",
+        "asset": "vo-5.mp3"
+      },
+      {
+        "key": "vo-6",
+        "job_id": "9a0c28e3-220b-4308-b5fe-82a6a86a30a3",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T21:32:15+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_213215_9a0c28e3-220b-4308-b5fe-82a6a86a30a3.mp3",
+        "asset": "vo-6.mp3"
+      },
+      {
+        "key": "vo-8",
+        "job_id": "3549ec01-e000-4daf-854e-df949b5e07aa",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.15,
+        "submitted_at": "2026-10-05T21:32:15+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_213215_3549ec01-e000-4daf-854e-df949b5e07aa.mp3",
+        "asset": "vo-8.mp3"
+      },
+      {
+        "key": "vo-9",
+        "job_id": "ec70c7ca-ca67-48ab-9d10-04d89a4a34cf",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T21:32:18+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_213218_ec70c7ca-ca67-48ab-9d10-04d89a4a34cf.mp3",
+        "asset": "vo-9.mp3"
+      },
+      {
+        "key": "vo-10",
+        "job_id": "7986a12c-0d39-4164-8585-76d84411ad9f",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.15,
+        "submitted_at": "2026-10-05T21:32:19+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_213219_7986a12c-0d39-4164-8585-76d84411ad9f.mp3",
+        "asset": "vo-10.mp3"
+      },
+      {
+        "key": "reference",
+        "job_id": "bbb96626-f273-4885-ada7-55dc426e520e",
+        "model": "gpt_image_2_5",
+        "status": "completed",
+        "credits": 0.25,
+        "submitted_at": "2026-10-05T21:32:24+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_213224_bbb96626-f273-4885-ada7-55dc426e520e.png",
+        "asset": "reference.png"
+      },
+      {
+        "key": "shot-1",
+        "job_id": "0b13c1f7-3aeb-449c-955b-b9a40e027f88",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 5.0,
+        "submitted_at": "2026-10-05T21:32:46+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_213246_0b13c1f7-3aeb-449c-955b-b9a40e027f88.mp4",
+        "asset": "shot-1.mp4"
+      },
+      {
+        "key": "shot-3",
+        "job_id": "776809eb-3948-4c4e-b642-5fe64390603e",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 4.0,
+        "submitted_at": "2026-10-05T21:32:48+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_213247_776809eb-3948-4c4e-b642-5fe64390603e.mp4",
+        "asset": "shot-3.mp4"
+      },
+      {
+        "key": "shot-2",
+        "job_id": "cdf7a323-1e85-41d9-af03-7af954c5134d",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 4.0,
+        "submitted_at": "2026-10-05T21:32:52+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_213252_cdf7a323-1e85-41d9-af03-7af954c5134d.mp4",
+        "asset": "shot-2.mp4"
+      },
+      {
+        "key": "shot-4",
+        "job_id": "acb31c2e-1782-41f3-aca3-10e2e3f5ae1e",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 6.0,
+        "submitted_at": "2026-10-05T21:34:50+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_213450_acb31c2e-1782-41f3-aca3-10e2e3f5ae1e.mp4",
+        "asset": "shot-4.mp4"
+      },
+      {
+        "key": "shot-5",
+        "job_id": "16f6b40e-9f01-4d64-99aa-b2b5c44a5c8f",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 6.0,
+        "submitted_at": "2026-10-05T21:34:58+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_213458_16f6b40e-9f01-4d64-99aa-b2b5c44a5c8f.mp4",
+        "asset": "shot-5.mp4"
+      },
+      {
+        "key": "shot-7",
+        "job_id": "f55b0a84-b17b-4a04-b425-efacbb8d61ce",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 5.0,
+        "submitted_at": "2026-10-05T21:40:59+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_214059_f55b0a84-b17b-4a04-b425-efacbb8d61ce.mp4",
+        "asset": "shot-7.mp4"
+      },
+      {
+        "key": "shot-6",
+        "job_id": "aeaf7c1c-d3e9-487d-af09-8407fb638c50",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 4.0,
+        "submitted_at": "2026-10-05T21:44:16+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_214416_aeaf7c1c-d3e9-487d-af09-8407fb638c50.mp4",
+        "asset": "shot-6.mp4"
+      },
+      {
+        "key": "music",
+        "job_id": "3c402831-0056-46b6-9b43-40ec0463cbce",
+        "model": "sonilo_music",
+        "status": "completed",
+        "credits": 2.38,
+        "submitted_at": "2026-10-05T21:50:00+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_215000_3c402831-0056-46b6-9b43-40ec0463cbce.m4a",
+        "asset": "music.m4a"
+      },
+      {
+        "key": "bed-1",
+        "job_id": "bb9074b0-9a73-40bd-8808-619fdfbc5540",
+        "model": "seed_audio",
+        "status": "completed",
+        "credits": 0.8,
+        "submitted_at": "2026-10-05T21:50:12+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_215012_bb9074b0-9a73-40bd-8808-619fdfbc5540.wav",
+        "asset": "bed-1.wav"
+      },
+      {
+        "key": "bed-2",
+        "job_id": "e10f8f30-f691-4774-9555-17caaeada394",
+        "model": "seed_audio",
+        "status": "completed",
+        "credits": 0.6,
+        "submitted_at": "2026-10-05T21:50:36+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_215036_e10f8f30-f691-4774-9555-17caaeada394.wav",
+        "asset": "bed-2.wav"
+      },
+      {
+        "key": "sfx-1-1",
+        "job_id": "abe1f8de-a3fe-4871-94d6-459cb8c4b3be",
+        "model": "mirelo_text_to_audio",
+        "status": "completed",
+        "credits": 0.5,
+        "submitted_at": "2026-10-05T21:50:57+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_215056_abe1f8de-a3fe-4871-94d6-459cb8c4b3be.mp3",
+        "asset": "sfx-1-1.mp3"
+      },
+      {
+        "key": "sfx-1-2",
+        "job_id": "137cdb13-cc86-446f-a01c-dcb6f5a260f1",
+        "model": "mirelo_text_to_audio",
+        "status": "completed",
+        "credits": 0.5,
+        "submitted_at": "2026-10-05T21:51:05+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_215105_137cdb13-cc86-446f-a01c-dcb6f5a260f1.mp3",
+        "asset": "sfx-1-2.mp3"
+      },
+      {
+        "key": "sfx-2-1",
+        "job_id": "68995a68-245d-4287-a3ba-11ef90a2da4f",
+        "model": "mirelo_text_to_audio",
+        "status": "completed",
+        "credits": 0.75,
+        "submitted_at": "2026-10-05T21:51:12+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_215112_68995a68-245d-4287-a3ba-11ef90a2da4f.mp3",
+        "asset": "sfx-2-1.mp3"
+      },
+      {
+        "key": "sfx-3-1",
+        "job_id": "5deae3f9-3bd1-4db9-b6cd-eb851c666a6d",
+        "model": "mirelo_text_to_audio",
+        "status": "completed",
+        "credits": 0.5,
+        "submitted_at": "2026-10-05T21:51:20+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_215120_5deae3f9-3bd1-4db9-b6cd-eb851c666a6d.mp3",
+        "asset": "sfx-3-1.mp3"
+      },
+      {
+        "key": "sfx-4-1",
+        "job_id": "92a69ade-2949-413a-a74c-bb1a6ed9d1fc",
+        "model": "mirelo_text_to_audio",
+        "status": "completed",
+        "credits": 0.75,
+        "submitted_at": "2026-10-05T21:51:28+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_215128_92a69ade-2949-413a-a74c-bb1a6ed9d1fc.mp3",
+        "asset": "sfx-4-1.mp3"
+      },
+      {
+        "key": "sfx-5-1",
+        "job_id": "9ed22808-09c8-4722-a987-823d96618362",
+        "model": "mirelo_text_to_audio",
+        "status": "completed",
+        "credits": 0.75,
+        "submitted_at": "2026-10-05T21:51:36+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_215136_9ed22808-09c8-4722-a987-823d96618362.mp3",
+        "asset": "sfx-5-1.mp3"
+      },
+      {
+        "key": "sfx-6-1",
+        "job_id": "8ffdd30d-8385-45c7-98ba-a7481feb9fe2",
+        "model": "mirelo_text_to_audio",
+        "status": "completed",
+        "credits": 0.75,
+        "submitted_at": "2026-10-05T21:51:45+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_215145_8ffdd30d-8385-45c7-98ba-a7481feb9fe2.mp3",
+        "asset": "sfx-6-1.mp3"
+      },
+      {
+        "key": "sfx-7-1",
+        "job_id": "a8f19e1f-1ae6-4234-a0b4-d51f33234518",
+        "model": "mirelo_text_to_audio",
+        "status": "completed",
+        "credits": 0.75,
+        "submitted_at": "2026-10-05T21:51:55+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_215155_a8f19e1f-1ae6-4234-a0b4-d51f33234518.mp3",
+        "asset": "sfx-7-1.mp3"
+      },
+      {
+        "key": "sfx-9-1",
+        "job_id": "247f34a7-faa1-47d3-b626-1cd17ce98222",
+        "model": "mirelo_text_to_audio",
+        "status": "completed",
+        "credits": 0.75,
+        "submitted_at": "2026-10-05T21:52:03+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_215203_247f34a7-faa1-47d3-b626-1cd17ce98222.mp3",
+        "asset": "sfx-9-1.mp3"
+      },
+      {
+        "key": "shot-9",
+        "job_id": "0d571d63-2f97-4965-9b57-e377a8b14675",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 7.0,
+        "submitted_at": "2026-10-05T21:53:21+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_215321_0d571d63-2f97-4965-9b57-e377a8b14675.mp4",
+        "asset": "shot-9.mp4"
+      }
+    ],
+    "cost": 53.43,
+    "audio_check": {
+      "heard": "The deadliest thing in this chase? Maybe not the cops. Picture it. Vice City. Cops everywhere. So you run for the swam. Leonida reportedly has over 170 animal species. Rockstar's own site says that swamp hides far deadlier predators than gators. They even showed a big... police chase through a gator swamp. So if any of it bites back, losing the cops could be the easy part. Imagine a gator blocking your only road out. The safest place to hide could be the deadliest spot on the map, and that's just on land.",
+      "script_words": 95,
+      "heard_words": 93,
+      "extra_words": 0,
+      "missing_words": 2,
+      "ok": true
+    },
+    "versions": [
+      "final.mp4"
+    ],
+    "design": "config/design.yaml",
+    "final": "final.mp4",
+    "seconds": 36.35,
+    "timeline": "timeline.json",
+    "captions": "captions.srt",
+    "voice": "Callum",
+    "models": [
+      "gpt_image_2_5",
+      "mirelo_text_to_audio",
+      "seed_audio",
+      "seedance_2_0_mini",
+      "sonilo_music",
+      "text2speech_v2"
+    ],
+    "generations": 31,
+    "produced_at": "2026-10-05T21:56:10+00:00",
+    "cost_unit": "credits (estimated)",
+    "replaced": [
+      {
+        "key": "shot-9",
+        "job_id": "8d0cfdec-8527-4420-acc7-085b7f394419",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 7.0,
+        "submitted_at": "2026-10-05T21:40:58+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_214057_8d0cfdec-8527-4420-acc7-085b7f394419.mp4",
+        "asset": "shot-9.mp4",
+        "reason": "the eyes in the water came out as a regular grid of bright star-shaped lights"
+      }
+    ]
+  },
+  "posts": [],
+  "errors": 0,
+  "warnings": 2
+}

@@ -1,0 +1,251 @@
+{
+  "packet_id": "story-1210-next-waves",
+  "story_id": 1210,
+  "parent_event_id": null,
+  "story_ids": [
+    1210
+  ],
+  "angle_id": "next-waves",
+  "angle": "What the producer said, and the one project already known",
+  "editorial_bucket": "BREAKING",
+  "story_label": "HIGH_CONFIDENCE_REPORT",
+  "built_at": "2026-10-11T19:18:21+00:00",
+  "sources": [
+    {
+      "id": "s1",
+      "story_id": 1210,
+      "publisher": "IGN",
+      "url": "https://ign.com/articles/konami-planning-second-and-third-waves-of-new-silent-hill-games",
+      "title": "Konami Planning 'Second and Third Waves' of New Silent Hill Games",
+      "published_at": "2026-10-09T22:47:30+00:00",
+      "tier": 1,
+      "source_type": "journalism",
+      "opened": true,
+      "opened_at": "2026-10-11T19:20:48+00:00",
+      "note": ""
+    },
+    {
+      "id": "s2",
+      "story_id": 1210,
+      "publisher": "Eurogamer",
+      "url": "https://eurogamer.net/konami-silent-hill-next-wave-new-games-okamoto",
+      "title": "Konami is already thinking about the next wave of Silent Hill games",
+      "published_at": "2026-10-10T10:38:48+00:00",
+      "tier": 1,
+      "source_type": "journalism",
+      "opened": true,
+      "opened_at": "2026-10-11T19:20:48+00:00",
+      "note": ""
+    },
+    {
+      "id": "s3",
+      "story_id": 1210,
+      "publisher": "Eurogamer",
+      "url": "https://eurogamer.net/bokeh-game-studio-toyama-new-horror-game-casting",
+      "title": "Silent Hill, Gravity Rush director's Bokeh Game Studio is reportedly casting for a new horror game",
+      "published_at": "2026-10-10T11:44:06+00:00",
+      "tier": 1,
+      "source_type": "journalism",
+      "opened": false,
+      "opened_at": null,
+      "note": ""
+    },
+    {
+      "id": "s4",
+      "story_id": 1210,
+      "publisher": "PC Gamer",
+      "url": "https://pcgamer.com/games/horror/expect-plenty-more-silent-hill-over-the-next-few-years-as-konami-has-plans-for-second-and-third-waves-of-new-games-in-its-revived-horror-series",
+      "title": "Expect plenty more Silent Hill over the next few years, as Konami has plans for 'second and third waves' of new games in its revived horror series",
+      "published_at": "2026-10-10T12:26:13+00:00",
+      "tier": 1,
+      "source_type": "journalism",
+      "opened": true,
+      "opened_at": "2026-10-11T19:20:48+00:00",
+      "note": ""
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "headline",
+      "claim": "IGN published a piece headlined: Konami Planning 'Second and Third Waves' of New Silent Hill Games",
+      "source_id": "s1",
+      "source_url": "https://ign.com/articles/konami-planning-second-and-third-waves-of-new-silent-hill-games",
+      "source_date": "2026-10-09T22:47:30+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Konami is planning \"second and third waves\" of new Silent Hill games, according to producer Motoi Okamoto.",
+      "quote": null
+    },
+    {
+      "id": "c2",
+      "kind": "headline",
+      "claim": "Eurogamer published a piece headlined: Konami is already thinking about the next wave of Silent Hill games",
+      "source_id": "s2",
+      "source_url": "https://eurogamer.net/konami-silent-hill-next-wave-new-games-okamoto",
+      "source_date": "2026-10-10T10:38:48+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Silent Hill producer Motoi Okamoto says Konami is looking at \"a number of projects\" after the first wave of new Silent Hill games. Read more",
+      "quote": null
+    },
+    {
+      "id": "c3",
+      "kind": "headline",
+      "claim": "Eurogamer published a piece headlined: Silent Hill, Gravity Rush director's Bokeh Game Studio is reportedly casting for a new horror game",
+      "source_id": "s3",
+      "source_url": "https://eurogamer.net/bokeh-game-studio-toyama-new-horror-game-casting",
+      "source_date": "2026-10-10T11:44:06+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "It looks like Bokeh Game Studio, founded by Keiichiro Toyama, who directed the original Silent Hill and created Siren and Gravity Rush , is working on another horror game. Read more",
+      "quote": null
+    },
+    {
+      "id": "c4",
+      "kind": "headline",
+      "claim": "PC Gamer published a piece headlined: Expect plenty more Silent Hill over the next few years, as Konami has plans for 'second and third waves' of new games in its revived horror series",
+      "source_id": "s4",
+      "source_url": "https://pcgamer.com/games/horror/expect-plenty-more-silent-hill-over-the-next-few-years-as-konami-has-plans-for-second-and-third-waves-of-new-games-in-its-revived-horror-series",
+      "source_date": "2026-10-10T12:26:13+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "\"We're currently looking at a number of projects,\" says producer Motoi Okamoto.",
+      "quote": null
+    },
+    {
+      "id": "c5",
+      "kind": "fact",
+      "claim": "Silent Hill producer Motoi Okamoto told Famitsu that Konami must think about second and third waves of games.",
+      "source_id": "s2",
+      "source_url": "https://eurogamer.net/konami-silent-hill-next-wave-new-games-okamoto",
+      "source_date": "2026-10-10T10:38:48+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Eurogamer quotes Okamoto from Famitsu.",
+      "quote": "we're not stopping here; we must think of the second and third waves"
+    },
+    {
+      "id": "c6",
+      "kind": "fact",
+      "claim": "Okamoto said Konami cannot share details but is looking at a number of projects.",
+      "source_id": "s2",
+      "source_url": "https://eurogamer.net/konami-silent-hill-next-wave-new-games-okamoto",
+      "source_date": "2026-10-10T10:38:48+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Eurogamer quotes Okamoto.",
+      "quote": "We can't share specific details, but we're currently looking at a number of projects."
+    },
+    {
+      "id": "c7",
+      "kind": "fact",
+      "claim": "Okamoto said one remake was not enough, because a single release might make people think development would be cancelled again.",
+      "source_id": "s2",
+      "source_url": "https://eurogamer.net/konami-silent-hill-next-wave-new-games-okamoto",
+      "source_date": "2026-10-10T10:38:48+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Eurogamer quotes Okamoto.",
+      "quote": "one remake is not enough"
+    },
+    {
+      "id": "c8",
+      "kind": "fact",
+      "claim": "The interview appeared in Famitsu issue 1965 and reached English-language outlets through Game Observer.",
+      "source_id": "s1",
+      "source_url": "https://ign.com/articles/konami-planning-second-and-third-waves-of-new-silent-hill-games",
+      "source_date": "2026-10-09T22:47:30+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "IGN: interview featured in Famitsu Issue 1965 (via Game Observer).",
+      "quote": null
+    },
+    {
+      "id": "c9",
+      "kind": "fact",
+      "claim": "The first wave included the Silent Hill 2 remake, Silent Hill f and Silent Hill: Townfall, which came out last month.",
+      "source_id": "s1",
+      "source_url": "https://ign.com/articles/konami-planning-second-and-third-waves-of-new-silent-hill-games",
+      "source_date": "2026-10-09T22:47:30+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "IGN lists the first wave; Townfall arrived last month.",
+      "quote": null
+    },
+    {
+      "id": "c10",
+      "kind": "fact",
+      "claim": "IGN gave Silent Hill: Townfall 8/10.",
+      "source_id": "s1",
+      "source_url": "https://ign.com/articles/konami-planning-second-and-third-waves-of-new-silent-hill-games",
+      "source_date": "2026-10-09T22:47:30+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "IGN: giving it an 8/10.",
+      "quote": null
+    },
+    {
+      "id": "c11",
+      "kind": "fact",
+      "claim": "Eurogamer gave Silent Hill: Townfall four stars out of five.",
+      "source_id": "s2",
+      "source_url": "https://eurogamer.net/konami-silent-hill-next-wave-new-games-okamoto",
+      "source_date": "2026-10-10T10:38:48+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Eurogamer: awarded it four out of five stars.",
+      "quote": null
+    },
+    {
+      "id": "c12",
+      "kind": "fact",
+      "claim": "Okamoto said persuading Konami's executives to back new entries was hard, especially after the cancellation of Hideo Kojima's Silent Hills in 2015.",
+      "source_id": "s4",
+      "source_url": "https://pcgamer.com/games/horror/expect-plenty-more-silent-hill-over-the-next-few-years-as-konami-has-plans-for-second-and-third-waves-of-new-games-in-its-revived-horror-series",
+      "source_date": "2026-10-10T12:26:13+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "PC Gamer summarises Okamoto on convincing executives after the 2015 cancellation.",
+      "quote": null
+    },
+    {
+      "id": "c13",
+      "kind": "fact",
+      "claim": "Bloober Team is working on a remake of the original Silent Hill, announced by Konami in June 2025.",
+      "source_id": "s2",
+      "source_url": "https://eurogamer.net/konami-silent-hill-next-wave-new-games-okamoto",
+      "source_date": "2026-10-10T10:38:48+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Eurogamer: Bloober Team is now working on a remake of the original Silent Hill, announced in June 2025.",
+      "quote": null
+    },
+    {
+      "id": "c14",
+      "kind": "fact",
+      "claim": "Konami revived the series in 2022 by announcing several projects at once, including the Silent Hill 2 remake, Silent Hill f and Townfall.",
+      "source_id": "s2",
+      "source_url": "https://eurogamer.net/konami-silent-hill-next-wave-new-games-okamoto",
+      "source_date": "2026-10-10T10:38:48+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Eurogamer: resuscitated in 2022 with several announcements at once.",
+      "quote": null
+    },
+    {
+      "id": "c15",
+      "kind": "fact",
+      "claim": "It is not known whether NeoBards Entertainment and Screen Burn Interactive, the studios behind Silent Hill f and Townfall, will return to the series.",
+      "source_id": "s4",
+      "source_url": "https://pcgamer.com/games/horror/expect-plenty-more-silent-hill-over-the-next-few-years-as-konami-has-plans-for-second-and-third-waves-of-new-games-in-its-revived-horror-series",
+      "source_date": "2026-10-10T12:26:13+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "PC Gamer: whether NeoBards and Screen Burn will return is yet to be decided.",
+      "quote": null
+    },
+    {
+      "id": "c16",
+      "kind": "fact",
+      "claim": "PC Gamer notes the series has had three new entries in as many years after roughly a decade without one.",
+      "source_id": "s4",
+      "source_url": "https://pcgamer.com/games/horror/expect-plenty-more-silent-hill-over-the-next-few-years-as-konami-has-plans-for-second-and-third-waves-of-new-games-in-its-revived-horror-series",
+      "source_date": "2026-10-10T12:26:13+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "PC Gamer: three new entries in as many years after roughly a decade.",
+      "quote": null
+    }
+  ],
+  "conflicts": [],
+  "media": {
+    "status": "none",
+    "note": "No hero media selected."
+  },
+  "sensitive": false
+}

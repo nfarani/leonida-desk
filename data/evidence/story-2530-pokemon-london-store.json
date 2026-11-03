@@ -1,0 +1,229 @@
+{
+  "packet_id": "story-2530-pokemon-london-store",
+  "story_id": 2530,
+  "parent_event_id": null,
+  "story_ids": [
+    2530
+  ],
+  "angle_id": "pokemon-london-store",
+  "angle": "The Pokémon Company's first permanent store outside Asia: what was announced, where it fits, and what is not yet known",
+  "editorial_bucket": "BREAKING",
+  "story_label": "HIGH_CONFIDENCE_REPORT",
+  "built_at": "2026-10-26T10:53:32+00:00",
+  "sources": [
+    {
+      "id": "s1",
+      "story_id": 2530,
+      "publisher": "VGC",
+      "url": "https://videogameschronicle.com/news/a-permanent-pokemon-retail-store-is-coming-to-london-the-first-of-several-outside-asia",
+      "title": "A permanent Pokémon retail store is coming to London, the first of several planned to open outside Asia",
+      "published_at": "2026-10-21T13:23:05+00:00",
+      "tier": 1,
+      "source_type": "journalism",
+      "opened": false,
+      "opened_at": null,
+      "note": ""
+    },
+    {
+      "id": "s2",
+      "story_id": 2530,
+      "publisher": "Kotaku",
+      "url": "https://kotaku.com/pokemon-center-london-japan-locations-new-york-2000748308",
+      "title": "Pokémon Is Finally Opening Official Stores Outside Of Asia, Starting With London",
+      "published_at": "2026-10-21T13:35:45+00:00",
+      "tier": 1,
+      "source_type": "journalism",
+      "opened": true,
+      "opened_at": "2026-10-26T10:53:54+00:00",
+      "note": ""
+    },
+    {
+      "id": "s3",
+      "story_id": 2530,
+      "publisher": "Engadget",
+      "url": "https://engadget.com/2292884/a-permanent-pokmon-store-will-open-in-london-with-more-locations-outside-asia-to-follow",
+      "title": "A permanent Pokémon store will open in London, with more locations outside Asia to follow",
+      "published_at": "2026-10-21T14:20:47+00:00",
+      "tier": 1,
+      "source_type": "journalism",
+      "opened": true,
+      "opened_at": "2026-10-26T10:53:54+00:00",
+      "note": ""
+    },
+    {
+      "id": "s4",
+      "story_id": 2530,
+      "publisher": "Nintendo Life",
+      "url": "https://nintendolife.com/news/2026/10/a-permanent-pokemon-store-is-finally-coming-to-london",
+      "title": "A Permanent Pokémon Store Is Finally Coming To London",
+      "published_at": "2026-10-21T14:15:00+00:00",
+      "tier": 2,
+      "source_type": "journalism",
+      "opened": false,
+      "opened_at": null,
+      "note": ""
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "headline",
+      "claim": "VGC published a piece headlined: A permanent Pokémon retail store is coming to London, the first of several planned to open outside Asia",
+      "source_id": "s1",
+      "source_url": "https://videogameschronicle.com/news/a-permanent-pokemon-retail-store-is-coming-to-london-the-first-of-several-outside-asia",
+      "source_date": "2026-10-21T13:23:05+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "The store will open by 2029, The Pokémon Company says",
+      "quote": null
+    },
+    {
+      "id": "c2",
+      "kind": "headline",
+      "claim": "Kotaku published a piece headlined: Pokémon Is Finally Opening Official Stores Outside Of Asia, Starting With London",
+      "source_id": "s2",
+      "source_url": "https://kotaku.com/pokemon-center-london-japan-locations-new-york-2000748308",
+      "source_date": "2026-10-21T13:35:45+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "The dedicated Pokémon stores are major tourist attractions in Japan, and often have exclusive merchandise and events",
+      "quote": null
+    },
+    {
+      "id": "c3",
+      "kind": "headline",
+      "claim": "Engadget published a piece headlined: A permanent Pokémon store will open in London, with more locations outside Asia to follow",
+      "source_id": "s3",
+      "source_url": "https://engadget.com/2292884/a-permanent-pokmon-store-will-open-in-london-with-more-locations-outside-asia-to-follow",
+      "source_date": "2026-10-21T14:20:47+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "The new retail location is set to open by 2029.",
+      "quote": null
+    },
+    {
+      "id": "c4",
+      "kind": "headline",
+      "claim": "Nintendo Life published a piece headlined: A Permanent Pokémon Store Is Finally Coming To London",
+      "source_id": "s4",
+      "source_url": "https://nintendolife.com/news/2026/10/a-permanent-pokemon-store-is-finally-coming-to-london",
+      "source_date": "2026-10-21T14:15:00+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "The first of \"several\" outside Asia. After years of us leaving the pop-up shop at the European International Championships and wondering, \"why isn't this a permanent thing?\", it seems our wishes have finally been answered. The Pokémon Company has today announced that a \"permanent, physical Pokémon store\" is set to open in London. The store (not referred to as a 'Pokémon Center' in TPC's official s",
+      "quote": null
+    },
+    {
+      "id": "c5",
+      "kind": "fact",
+      "claim": "The Pokémon Company says it will open several permanent stores outside Asia, the first in London, set to open by 2029.",
+      "source_id": "s3",
+      "source_url": "https://engadget.com/2292884/a-permanent-pokmon-store-will-open-in-london-with-more-locations-outside-asia-to-follow",
+      "source_date": "2026-10-21T14:20:47+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Engadget says The Pokémon Company is opening several permanent stores outside of Asia, the first in London, slated to open by 2029.",
+      "quote": null
+    },
+    {
+      "id": "c6",
+      "kind": "fact",
+      "claim": "The announcement on The Pokémon Company's official website calls the London store the first of several permanent stores worldwide but names no other territories.",
+      "source_id": "s2",
+      "source_url": "https://kotaku.com/pokemon-center-london-japan-locations-new-york-2000748308",
+      "source_date": "2026-10-21T13:35:45+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Kotaku says the company's announcement on its official website confirms London will be the first of several permanent stores, without mentioning other specific territories.",
+      "quote": null
+    },
+    {
+      "id": "c7",
+      "kind": "fact",
+      "claim": "Gaku Susai, chief product and experience officer at The Pokémon Company International, said the company is always exploring new opportunities for fans.",
+      "source_id": "s2",
+      "source_url": "https://kotaku.com/pokemon-center-london-japan-locations-new-york-2000748308",
+      "source_date": "2026-10-21T13:35:45+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Kotaku quotes Susai's statement.",
+      "quote": "We are always exploring new opportunities that help us create unique and memorable experiences for our fans,"
+    },
+    {
+      "id": "c8",
+      "kind": "fact",
+      "claim": "Susai said the store will let visitors step into the world of Pokémon, whether new to the brand or long-time fans.",
+      "source_id": "s2",
+      "source_url": "https://kotaku.com/pokemon-center-london-japan-locations-new-york-2000748308",
+      "source_date": "2026-10-21T13:35:45+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Kotaku quotes the statement.",
+      "quote": "This new London store will give visitors the chance to step into the world of Pokémon, whether they’re discovering the brand for the first time or have been Trainers for years."
+    },
+    {
+      "id": "c9",
+      "kind": "fact",
+      "claim": "The Pokémon Company said it will share details of other locations in the future.",
+      "source_id": "s3",
+      "source_url": "https://engadget.com/2292884/a-permanent-pokmon-store-will-open-in-london-with-more-locations-outside-asia-to-follow",
+      "source_date": "2026-10-21T14:20:47+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Engadget says The Pokémon Company said it will reveal details about other physical locations in the future.",
+      "quote": null
+    },
+    {
+      "id": "c10",
+      "kind": "fact",
+      "claim": "London has had Pokémon pop-up shops before, including one at the Natural History Museum this year and others during Pokémon European International Championships.",
+      "source_id": "s3",
+      "source_url": "https://engadget.com/2292884/a-permanent-pokmon-store-will-open-in-london-with-more-locations-outside-asia-to-follow",
+      "source_date": "2026-10-21T14:20:47+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Engadget says pop-ups have appeared in London, including one at the Natural History Museum earlier this year and others during the Pokémon European International Championships.",
+      "quote": null
+    },
+    {
+      "id": "c11",
+      "kind": "fact",
+      "claim": "The permanent store will sell exclusive merchandise, as the pop-ups did.",
+      "source_id": "s3",
+      "source_url": "https://engadget.com/2292884/a-permanent-pokmon-store-will-open-in-london-with-more-locations-outside-asia-to-follow",
+      "source_date": "2026-10-21T14:20:47+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Engadget says that, as with the pop-ups, the permanent location will have exclusive merch.",
+      "quote": null
+    },
+    {
+      "id": "c12",
+      "kind": "fact",
+      "claim": "Pokémon Center New York opened in 2001 and four years later became Nintendo's flagship store.",
+      "source_id": "s3",
+      "source_url": "https://engadget.com/2292884/a-permanent-pokmon-store-will-open-in-london-with-more-locations-outside-asia-to-follow",
+      "source_date": "2026-10-21T14:20:47+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Engadget says Pokémon Center New York opened in 2001 and four years later was turned into Nintendo's flagship physical store.",
+      "quote": null
+    },
+    {
+      "id": "c13",
+      "kind": "fact",
+      "claim": "The Pokémon Centers in Asia draw tourists, fans and scalpers, with exclusive merchandise and displays not found elsewhere.",
+      "source_id": "s2",
+      "source_url": "https://kotaku.com/pokemon-center-london-japan-locations-new-york-2000748308",
+      "source_date": "2026-10-21T13:35:45+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Kotaku says the Pokémon Centers in Asia often draw tourists, fans and scalpers from across the world, with exclusive merchandise and statues and displays not seen anywhere else.",
+      "quote": null
+    },
+    {
+      "id": "c14",
+      "kind": "fact",
+      "claim": "The former New York store, now Nintendo New York, still sells Pokémon merchandise and keeps Poké Ball door handles.",
+      "source_id": "s2",
+      "source_url": "https://kotaku.com/pokemon-center-london-japan-locations-new-york-2000748308",
+      "source_date": "2026-10-21T13:35:45+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Kotaku says the NYC store was converted into Nintendo New York, which sells Pokémon merch, and its door handles are still shaped like Poké Balls.",
+      "quote": null
+    }
+  ],
+  "conflicts": [],
+  "media": {
+    "status": "none",
+    "note": "No hero media selected."
+  },
+  "sensitive": false
+}

@@ -1,0 +1,20 @@
+{
+  "video_id": "20261005-224-rockstar-says-gta-6-is-deliberately-avoi",
+  "status": "READY_FOR_GENERATION",
+  "updated_at": "2026-10-05T16:24:11+00:00",
+  "history": [
+    {
+      "status": "READY_FOR_GENERATION",
+      "at": "2026-10-05T15:34:05+00:00",
+      "note": "migrated to outputs/videos"
+    }
+  ],
+  "render": {
+    "adapter": "manual",
+    "jobs": [],
+    "cost": null
+  },
+  "posts": [],
+  "errors": 0,
+  "warnings": 3
+}

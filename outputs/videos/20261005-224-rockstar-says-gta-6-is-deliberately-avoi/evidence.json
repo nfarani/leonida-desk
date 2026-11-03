@@ -1,0 +1,86 @@
+{
+  "packet": "story-224-love-interview",
+  "story_label": "HIGH_CONFIDENCE_REPORT",
+  "claims": [
+    {
+      "id": "c14",
+      "kind": "fact",
+      "claim": "VGC reports that Rupert Humphries, whom it describes as Rockstar's senior vice president of narrative, made the comments in a new issue of Love Magazine.",
+      "source_id": "s1",
+      "source_url": "https://videogameschronicle.com/news/gta-6-is-deliberately-avoiding-direct-political-references-says-rockstar",
+      "source_date": "2026-10-05T09:57:26+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "VGC, 5 Oct 2026: Humphries 'made the comments in a new issue of Love Magazine'.",
+      "quote": null
+    },
+    {
+      "id": "c15",
+      "kind": "fact",
+      "claim": "Humphries said earlier GTA games never focused much on national politics.",
+      "source_id": "s1",
+      "source_url": "https://videogameschronicle.com/news/gta-6-is-deliberately-avoiding-direct-political-references-says-rockstar",
+      "source_date": "2026-10-05T09:57:26+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Direct quote in VGC.",
+      "quote": "If you go back to the previous GTAs, there's never really been much focus on national politics"
+    },
+    {
+      "id": "c16",
+      "kind": "fact",
+      "claim": "Humphries said Rockstar does not want to be too specific about any person, event or movement.",
+      "source_id": "s1",
+      "source_url": "https://videogameschronicle.com/news/gta-6-is-deliberately-avoiding-direct-political-references-says-rockstar",
+      "source_date": "2026-10-05T09:57:26+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Direct quote in VGC.",
+      "quote": "Because we are trying to make games that feel very specific to the moment they are released, but at the same time, not reflective of the exact world we live in, we don't want to be too specific about any particular person, event, movement, or anything like that."
+    },
+    {
+      "id": "c17",
+      "kind": "fact",
+      "claim": "Humphries said players will encounter election signs, receive robocalls from campaigns and hear commercials and political talk shows on the radio.",
+      "source_id": "s1",
+      "source_url": "https://videogameschronicle.com/news/gta-6-is-deliberately-avoiding-direct-political-references-says-rockstar",
+      "source_date": "2026-10-05T09:57:26+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Paraphrased by VGC, not a direct quote.",
+      "quote": null
+    },
+    {
+      "id": "c18",
+      "kind": "fact",
+      "claim": "Humphries said the aim is satire that is larger than life rather than a mirror.",
+      "source_id": "s1",
+      "source_url": "https://videogameschronicle.com/news/gta-6-is-deliberately-avoiding-direct-political-references-says-rockstar",
+      "source_date": "2026-10-05T09:57:26+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Direct quote in VGC; the same sentence is quoted by PC Gamer.",
+      "quote": "There is a big focus on not just holding up a mirror, but on making everything satirical, larger than life, and more grotesque."
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "story_id": 224,
+      "publisher": "VGC",
+      "url": "https://videogameschronicle.com/news/gta-6-is-deliberately-avoiding-direct-political-references-says-rockstar",
+      "title": "GTA 6 is deliberately avoiding direct political references, says Rockstar",
+      "published_at": "2026-10-05T09:57:26+00:00",
+      "tier": 1,
+      "source_type": "journalism",
+      "opened": true,
+      "opened_at": "2026-10-05T15:38:33+00:00",
+      "note": ""
+    }
+  ],
+  "conflicts": [
+    {
+      "description": "First name of the senior vice president of narrative: VGC and PC Gamer say Rupert Humphries, Polygon says Robert Humphries. Not checked against the magazine.",
+      "resolved": false
+    },
+    {
+      "description": "'Head of development' is given to Aaron Garbut by IGN and to Rob Nelson (with co-studio head) by PC Gamer; GamesRadar+ calls Nelson co-studio head only.",
+      "resolved": false
+    }
+  ]
+}

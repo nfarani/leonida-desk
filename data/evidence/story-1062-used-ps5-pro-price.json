@@ -1,0 +1,305 @@
+{
+  "packet_id": "story-1062-used-ps5-pro-price",
+  "story_id": 1062,
+  "parent_event_id": 1062,
+  "story_ids": [
+    1062,
+    864
+  ],
+  "angle_id": "used-ps5-pro-price",
+  "angle": "What changed, how we know, and what nobody has explained",
+  "editorial_bucket": "BREAKING",
+  "story_label": "HIGH_CONFIDENCE_REPORT",
+  "built_at": "2026-10-07T10:42:13+00:00",
+  "sources": [
+    {
+      "id": "s1",
+      "story_id": 1062,
+      "publisher": "VGC",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOOUxQanByOFpETGZmdWdPNklPSHpEZjEzUkIyOTk5U2p1QkJNckFKNE9EM0tvRE1YT3g5LVNwT05YMjY2NURFVmhJeUI0NjRGWEJUaVRQc0pZQ09ZYmhxbjlndlQ5VEd6a0gzTnQ4Zk10QjREbW9HV1oxRTNNTExhTmJzZ0dXVEw1NzVEWjdINGZialJaeExTNFBUVlVlY1JhbTNQeXEyVFg?oc=5",
+      "title": "GameStop hikes used PS5 Pro price to $1400 as GTA 6 demand looms",
+      "published_at": "2026-10-07T09:40:22+00:00",
+      "tier": 1,
+      "source_type": "journalism",
+      "opened": false,
+      "opened_at": null,
+      "note": ""
+    },
+    {
+      "id": "s2",
+      "story_id": 1062,
+      "publisher": "VGC",
+      "url": "https://videogameschronicle.com/news/gamestop-hikes-used-ps5-pro-price-to-1400-as-gta-6-demand-looms",
+      "title": "GameStop hikes used PS5 Pro price to $1400 as GTA 6 demand looms",
+      "published_at": "2026-10-07T09:40:22+00:00",
+      "tier": 1,
+      "source_type": "journalism",
+      "opened": true,
+      "opened_at": "2026-10-07T10:44:09+00:00",
+      "note": ""
+    },
+    {
+      "id": "s3",
+      "story_id": 864,
+      "publisher": "GameSpot",
+      "url": "https://gamespot.com/articles/gamestop-is-preparing-us-for-next-gen-pricing-with-1400-used-ps5-pros",
+      "title": "GameStop Is Preparing Us For Next-Gen Pricing With $1,400 Used PS5 Pros",
+      "published_at": "2026-10-06T15:19:44+00:00",
+      "tier": 1,
+      "source_type": "journalism",
+      "opened": false,
+      "opened_at": null,
+      "note": ""
+    },
+    {
+      "id": "s4",
+      "story_id": 864,
+      "publisher": "Push Square",
+      "url": "https://pushsquare.com/news/2026/10/this-is-intentional-gamestop-to-start-scalping-used-ps5-pros-for-usd1500",
+      "title": "'This Is Intentional': GameStop to Start Scalping Used PS5 Pros for $1,500",
+      "published_at": "2026-10-06T12:45:00+00:00",
+      "tier": 2,
+      "source_type": "journalism",
+      "opened": true,
+      "opened_at": "2026-10-07T10:44:09+00:00",
+      "note": ""
+    },
+    {
+      "id": "s5",
+      "story_id": 864,
+      "publisher": "Push Square",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTDhMNXhLVlBlUEpwYU1FQmVvTEx4SzhKT0hLVHB4ZzdVZFFkak05WkJDOEdtS3YxOTM3Zy1wckhYYjdyUDB4T3h3bTlwR1Vjb3FFdnRRcUp4azhOTEhuRmtRWl9PQ0ZubDFSLTRoSFJ6bGJKektvMWtzVVhtb0wxQzZ5c0FJcFFNUGtRR0dhYU9VcVVZTVpzRHdpMXl4WmlMQ3JKZWprd2JOWW51eUNSSkxB?oc=5",
+      "title": "'This Is Intentional': GameStop to Start Scalping Used PS5 Pros for $1,500",
+      "published_at": "2026-10-06T12:45:00+00:00",
+      "tier": 2,
+      "source_type": "journalism",
+      "opened": false,
+      "opened_at": null,
+      "note": ""
+    },
+    {
+      "id": "s6",
+      "story_id": 864,
+      "publisher": "Nexus Hub",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaHItN2RvVlh5MXdFS2dPYTJQdzh6eDgxX3gtZ3VRX0xIVTRjQks3YVpiTElGYkx0aWRiMllIU011bFF2UUtob2dtTWJKVkN6Q2F5cnRhcC12ME50cm5Cd1BDYnhHWWhxczBZclJ5Vnl4RzlacVF0bHkzbDlHWG5qUlRTNG9oNmg0NEhseDdTeXIwOVhoVExkODFfc3lmVjdhMkMwbg?oc=5",
+      "title": "GameStop is Selling Used PS5 Pros For $1,400 Ahead of GTA VI Launch",
+      "published_at": "2026-10-07T08:48:52+00:00",
+      "tier": 3,
+      "source_type": "journalism",
+      "opened": false,
+      "opened_at": null,
+      "note": ""
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "headline",
+      "claim": "VGC published a piece headlined: GameStop hikes used PS5 Pro price to $1400 as GTA 6 demand looms",
+      "source_id": "s1",
+      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOOUxQanByOFpETGZmdWdPNklPSHpEZjEzUkIyOTk5U2p1QkJNckFKNE9EM0tvRE1YT3g5LVNwT05YMjY2NURFVmhJeUI0NjRGWEJUaVRQc0pZQ09ZYmhxbjlndlQ5VEd6a0gzTnQ4Zk10QjREbW9HV1oxRTNNTExhTmJzZ0dXVEw1NzVEWjdINGZialJaeExTNFBUVlVlY1JhbTNQeXEyVFg?oc=5",
+      "source_date": "2026-10-07T09:40:22+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "GameStop hikes used PS5 Pro price to $1400 as GTA 6 demand looms Video Games Chronicle",
+      "quote": null
+    },
+    {
+      "id": "c2",
+      "kind": "headline",
+      "claim": "VGC published a piece headlined: GameStop hikes used PS5 Pro price to $1400 as GTA 6 demand looms",
+      "source_id": "s2",
+      "source_url": "https://videogameschronicle.com/news/gamestop-hikes-used-ps5-pro-price-to-1400-as-gta-6-demand-looms",
+      "source_date": "2026-10-07T09:40:22+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "GameStop has increased the price of a pre-owned PS5 Pro by 55% ahead of GTA 6's release",
+      "quote": null
+    },
+    {
+      "id": "c3",
+      "kind": "headline",
+      "claim": "GameSpot published a piece headlined: GameStop Is Preparing Us For Next-Gen Pricing With $1,400 Used PS5 Pros",
+      "source_id": "s3",
+      "source_url": "https://gamespot.com/articles/gamestop-is-preparing-us-for-next-gen-pricing-with-1400-used-ps5-pros",
+      "source_date": "2026-10-06T15:19:44+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "Sticker shock might be underselling it with GameStop's new used pricing for Sony's most powerful system. Starting today, the video game store is listing pre-owned PS5 Pros for $1,400, though GameStop Pro members only need to dish out $1,330. Basically, it's a $500 surcharge over a brand-new PS5 Pro and capitalizing on the fact that those are stock-constrained currently. A generous take on GameStop",
+      "quote": null
+    },
+    {
+      "id": "c4",
+      "kind": "headline",
+      "claim": "Push Square published a piece headlined: 'This Is Intentional': GameStop to Start Scalping Used PS5 Pros for $1,500",
+      "source_id": "s4",
+      "source_url": "https://pushsquare.com/news/2026/10/this-is-intentional-gamestop-to-start-scalping-used-ps5-pros-for-usd1500",
+      "source_date": "2026-10-06T12:45:00+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "Almost double the price of a new unit. A brand new PS5 Pro will already cost you an arm and a leg in the United States at $900, but a used one may now set you back almost double, with GameStop announcing unprecedented price increases for pre-owned consoles. According to a verified Reddit post, the retailer will begin charging up to $1,500 for used units of Sony’s supercharged system; the original ",
+      "quote": null
+    },
+    {
+      "id": "c5",
+      "kind": "headline",
+      "claim": "Push Square published a piece headlined: 'This Is Intentional': GameStop to Start Scalping Used PS5 Pros for $1,500",
+      "source_id": "s5",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTDhMNXhLVlBlUEpwYU1FQmVvTEx4SzhKT0hLVHB4ZzdVZFFkak05WkJDOEdtS3YxOTM3Zy1wckhYYjdyUDB4T3h3bTlwR1Vjb3FFdnRRcUp4azhOTEhuRmtRWl9PQ0ZubDFSLTRoSFJ6bGJKektvMWtzVVhtb0wxQzZ5c0FJcFFNUGtRR0dhYU9VcVVZTVpzRHdpMXl4WmlMQ3JKZWprd2JOWW51eUNSSkxB?oc=5",
+      "source_date": "2026-10-06T12:45:00+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "'This Is Intentional': GameStop to Start Scalping Used PS5 Pros for $1,500 Push Square",
+      "quote": null
+    },
+    {
+      "id": "c6",
+      "kind": "headline",
+      "claim": "Nexus Hub published a piece headlined: GameStop is Selling Used PS5 Pros For $1,400 Ahead of GTA VI Launch",
+      "source_id": "s6",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaHItN2RvVlh5MXdFS2dPYTJQdzh6eDgxX3gtZ3VRX0xIVTRjQks3YVpiTElGYkx0aWRiMllIU011bFF2UUtob2dtTWJKVkN6Q2F5cnRhcC12ME50cm5Cd1BDYnhHWWhxczBZclJ5Vnl4RzlacVF0bHkzbDlHWG5qUlRTNG9oNmg0NEhseDdTeXIwOVhoVExkODFfc3lmVjdhMkMwbg?oc=5",
+      "source_date": "2026-10-07T08:48:52+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "GameStop is Selling Used PS5 Pros For $1,400 Ahead of GTA VI Launch Nexus Hub",
+      "quote": null
+    },
+    {
+      "id": "c7",
+      "kind": "fact",
+      "claim": "VGC reports that GameStop has started selling pre-owned PS5 Pro consoles at a 55% markup compared with new units.",
+      "source_id": "s2",
+      "source_url": "https://videogameschronicle.com/news/gamestop-hikes-used-ps5-pro-price-to-1400-as-gta-6-demand-looms",
+      "source_date": "2026-10-07T09:40:22+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "VGC, 7 Oct 2026, standfirst and first paragraph. Opened 7 Oct 2026.",
+      "quote": null
+    },
+    {
+      "id": "c8",
+      "kind": "fact",
+      "claim": "VGC says an anonymous Reddit user posted what they claimed was an internal GameStop e-mail announcing the increase, which gave no reason but said the higher pre-owned price was intentional.",
+      "source_id": "s2",
+      "source_url": "https://videogameschronicle.com/news/gamestop-hikes-used-ps5-pro-price-to-1400-as-gta-6-demand-looms",
+      "source_date": "2026-10-07T09:40:22+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "VGC, 7 Oct 2026, paragraphs 2-3. VGC calls the e-mail alleged. Opened 7 Oct 2026.",
+      "quote": "the pre-owned consoles will have a higher price than the new console [and] this is intentional"
+    },
+    {
+      "id": "c9",
+      "kind": "fact",
+      "claim": "VGC says updated listings on GameStop's website show the increase is real: pre-owned standard PS5 Pro consoles are listed at $1399.99 against a new price of $899.99.",
+      "source_id": "s2",
+      "source_url": "https://videogameschronicle.com/news/gamestop-hikes-used-ps5-pro-price-to-1400-as-gta-6-demand-looms",
+      "source_date": "2026-10-07T09:40:22+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "VGC, 7 Oct 2026, paragraphs 4-5. Opened 7 Oct 2026.",
+      "quote": null
+    },
+    {
+      "id": "c10",
+      "kind": "fact",
+      "claim": "According to the e-mail as VGC describes it, special edition versions will be priced at $1499.99.",
+      "source_id": "s2",
+      "source_url": "https://videogameschronicle.com/news/gamestop-hikes-used-ps5-pro-price-to-1400-as-gta-6-demand-looms",
+      "source_date": "2026-10-07T09:40:22+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "VGC, 7 Oct 2026, paragraph 5. Opened 7 Oct 2026.",
+      "quote": null
+    },
+    {
+      "id": "c11",
+      "kind": "fact",
+      "claim": "VGC says GameStop currently has no stock of new PS5 Pro consoles online, so only the pre-owned units are available there.",
+      "source_id": "s2",
+      "source_url": "https://videogameschronicle.com/news/gamestop-hikes-used-ps5-pro-price-to-1400-as-gta-6-demand-looms",
+      "source_date": "2026-10-07T09:40:22+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "VGC, 7 Oct 2026, paragraph 6. Opened 7 Oct 2026.",
+      "quote": null
+    },
+    {
+      "id": "c12",
+      "kind": "fact",
+      "claim": "VGC says no explanation has been given and suggests the retailer is likely preparing to capitalise on demand driven by Grand Theft Auto 6, which it says is due on 19 November.",
+      "source_id": "s2",
+      "source_url": "https://videogameschronicle.com/news/gamestop-hikes-used-ps5-pro-price-to-1400-as-gta-6-demand-looms",
+      "source_date": "2026-10-07T09:40:22+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "VGC, 7 Oct 2026, paragraph 7. The link to GTA 6 is VGC's own suggestion. Opened 7 Oct 2026.",
+      "quote": null
+    },
+    {
+      "id": "c13",
+      "kind": "fact",
+      "claim": "VGC recalls that a senior games buyer at an unnamed retailer told The Game Business this summer that hardware component problems meant fewer units than wanted before GTA 6.",
+      "source_id": "s2",
+      "source_url": "https://videogameschronicle.com/news/gamestop-hikes-used-ps5-pro-price-to-1400-as-gta-6-demand-looms",
+      "source_date": "2026-10-07T09:40:22+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "VGC, 7 Oct 2026, quoting The Game Business. Opened 7 Oct 2026.",
+      "quote": "Demand will likely outstrip supply during the year end period"
+    },
+    {
+      "id": "c14",
+      "kind": "fact",
+      "claim": "VGC recalls that Xbox chief strategy officer Matthew Ball said in June that demand for Xbox consoles exceeds supply.",
+      "source_id": "s2",
+      "source_url": "https://videogameschronicle.com/news/gamestop-hikes-used-ps5-pro-price-to-1400-as-gta-6-demand-looms",
+      "source_date": "2026-10-07T09:40:22+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "VGC, 7 Oct 2026, final paragraphs. Opened 7 Oct 2026.",
+      "quote": "I can tell you definitively demand for our console exceeds the supply"
+    },
+    {
+      "id": "c15",
+      "kind": "fact",
+      "claim": "Push Square says the leaked correspondence gives 16 October as the date of the increase, but that GameStop's website already showed the new prices on 6 October.",
+      "source_id": "s4",
+      "source_url": "https://pushsquare.com/news/2026/10/this-is-intentional-gamestop-to-start-scalping-used-ps5-pros-for-usd1500",
+      "source_date": "2026-10-06T12:45:00+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "Push Square, 6 Oct 2026, paragraph 2. Opened 7 Oct 2026.",
+      "quote": null
+    },
+    {
+      "id": "c16",
+      "kind": "fact",
+      "claim": "Push Square describes the new prices as up to $1,399.99 for a digital-only unit and up to $1,499.99 for one with a disc drive attached.",
+      "source_id": "s4",
+      "source_url": "https://pushsquare.com/news/2026/10/this-is-intentional-gamestop-to-start-scalping-used-ps5-pros-for-usd1500",
+      "source_date": "2026-10-06T12:45:00+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "Push Square, 6 Oct 2026, paragraph 3. Opened 7 Oct 2026.",
+      "quote": null
+    },
+    {
+      "id": "c17",
+      "kind": "fact",
+      "claim": "Push Square says supply of the PS5 Pro is light, that Sony has introduced a purchase lottery in Japan limited to people with 60 hours of PS5 playtime, and suggests a run on consoles with a particular firmware after recent jailbreaks may also be a factor.",
+      "source_id": "s4",
+      "source_url": "https://pushsquare.com/news/2026/10/this-is-intentional-gamestop-to-start-scalping-used-ps5-pros-for-usd1500",
+      "source_date": "2026-10-06T12:45:00+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "Push Square, 6 Oct 2026, paragraphs 5-7. The jailbreak link is the outlet's suggestion. Opened 7 Oct 2026.",
+      "quote": null
+    },
+    {
+      "id": "c18",
+      "kind": "fact",
+      "claim": "Push Square gives the price of a new PS5 Pro in the United States as $900.",
+      "source_id": "s4",
+      "source_url": "https://pushsquare.com/news/2026/10/this-is-intentional-gamestop-to-start-scalping-used-ps5-pros-for-usd1500",
+      "source_date": "2026-10-06T12:45:00+00:00",
+      "verification": "CREDIBLE_RUMOUR",
+      "evidence": "Push Square, 6 Oct 2026, first paragraph. Opened 7 Oct 2026.",
+      "quote": null
+    }
+  ],
+  "conflicts": [
+    {
+      "description": "VGC says the $1499.99 price applies to special edition consoles; Push Square says it applies to units with a disc drive attached.",
+      "resolved": false
+    }
+  ],
+  "media": {
+    "status": "none",
+    "note": "No hero media selected."
+  },
+  "sensitive": false
+}

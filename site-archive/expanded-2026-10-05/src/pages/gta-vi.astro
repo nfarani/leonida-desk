@@ -1,0 +1,45 @@
+---
+import Base from '../layouts/Base.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import NewsletterSignup from '../components/NewsletterSignup.astro';
+import { findGame, BUCKETS, LABELS, type Bucket } from '../config';
+import { visibleArticles } from '../lib/articles';
+const game = findGame('gta-vi')!;
+const all = await visibleArticles(undefined, 'gta-vi');
+const order: Bucket[] = ['BREAKING', 'DISCOVERY', 'EXPLAINER', 'EVERGREEN'];
+// Reference topics. A topic links only when a published guide exists for it; nothing is promised early.
+const topics = ['Characters', 'Map and Leonida', 'Mechanics', 'Vehicles', 'Wildlife', 'Weather', 'Wanted system', 'NPC systems', 'Trailers', 'Rockstar interviews', 'Confirmed information', 'Rumours', 'Videos'];
+const tagged = (t: string) => all.find((a) => a.data.tags.map((x) => x.toLowerCase()).includes(t.toLowerCase()));
+---
+<Base title="GTA VI" description="Grand Theft Auto VI: news, discoveries, explainers and reference guides, each labelled by how well it is sourced.">
+  <div class="hub-head">
+    <div>
+      <span class="kicker">Flagship coverage</span>
+      <h1>{game.name}</h1>
+      <p>{game.summary} Everything here carries a verification label, and rumours are marked as rumours.</p>
+    </div>
+    <aside class="facts" aria-label="Key facts">
+      <dl>
+        {game.developer && <><dt>Developer</dt><dd>{game.developer}</dd></>}
+        {game.publisher && <><dt>Publisher</dt><dd>{game.publisher}</dd></>}
+        {game.release_date && <><dt>Release date</dt><dd>{new Date(game.release_date).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' })}</dd></>}
+        {game.platforms && <><dt>Platforms</dt><dd>{game.platforms.join(', ')}</dd></>}
+      </dl>
+      {game.release_date && game.release_date_label && <p>Release date: {LABELS[game.release_date_label].text.toLowerCase()}. {LABELS[game.release_date_label].meaning}</p>}
+    </aside>
+  </div>
+  <ul class="chips" aria-label="Topics">
+    {topics.map((t) => { const a = tagged(t); return <li>{a ? <a href={`/articles/${a.data.slug}/`}>{t}</a> : <span>{t}</span>}</li>; })}
+  </ul>
+  {all.length === 0 && <p class="empty">No GTA VI articles have been published yet.</p>}
+  {order.map((b) => {
+    const items = all.filter((a) => a.data.editorial_bucket === b).slice(0, 6);
+    return items.length > 0 && (
+      <section class="section">
+        <div class="section-head"><h2>{BUCKETS[b].label}</h2></div>
+        <div class="grid">{items.map((a) => <ArticleCard article={a} />)}</div>
+      </section>
+    );
+  })}
+  <NewsletterSignup source="game:gta-vi" compact heading="GTA VI updates, without the noise" />
+</Base>

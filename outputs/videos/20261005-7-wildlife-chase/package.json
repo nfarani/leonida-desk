@@ -1,0 +1,880 @@
+{
+  "video_id": "20261005-7-wildlife-chase",
+  "story_id": 7,
+  "evidence_packet": "story-7-wildlife",
+  "game": "gta-vi",
+  "verification_status": "HIGH_CONFIDENCE_REPORT",
+  "status": "READY_FOR_REVIEW",
+  "created_at": "2026-10-05T21:20:21+00:00",
+  "history": [
+    {
+      "status": "IDEA",
+      "at": "2026-10-05T21:20:21+00:00",
+      "note": "package started"
+    },
+    {
+      "status": "SCRIPTED",
+      "at": "2026-10-05T21:22:05+00:00",
+      "note": "checker: 1 errors"
+    },
+    {
+      "status": "READY_FOR_GENERATION",
+      "at": "2026-10-05T21:22:25+00:00",
+      "note": "checker: 0 errors"
+    },
+    {
+      "status": "GENERATING",
+      "at": "2026-10-05T21:32:07+00:00",
+      "note": "production run started"
+    },
+    {
+      "status": "READY_FOR_REVIEW",
+      "at": "2026-10-05T21:52:58+00:00",
+      "note": "final.mp4 assembled, 36.35s"
+    },
+    {
+      "status": "GENERATING",
+      "at": "2026-10-05T21:53:20+00:00",
+      "note": "production run started"
+    },
+    {
+      "status": "READY_FOR_REVIEW",
+      "at": "2026-10-05T21:56:10+00:00",
+      "note": "final.mp4 assembled, 36.35s"
+    }
+  ],
+  "format": {
+    "aspect": "9:16",
+    "target_seconds": [
+      20,
+      45
+    ]
+  },
+  "treatment": "WHAT THIS CHANGES",
+  "editorial_angle": "Not 'GTA VI has lots of animals'. The video asks what 170 species and a predator-filled swamp could do to the oldest trick in the series: running from the police into the wilderness. It opens on the moment the trick fails, rewinds through one continuous escape from Vice City into Grassrivers, uses three things that are on record (the species count, Rockstar's own description of the swamp, and its own screenshot of a chase through a gator swamp), and then asks, as a labelled what-if, whether the map itself becomes part of the chase.",
+  "entertainment_angle": {
+    "surprising_fact": "Rockstar's own site says its swamp region hides 'far deadlier predators' than the alligators, and one official screenshot shows a police chase going through a gator swamp.",
+    "entertaining_consequence": "The place you run to because the cops will not follow could be worse than the cops.",
+    "visual_opportunity": "Headlights braking hard in front of a huge alligator lying across the only track out, police lights flickering far behind.",
+    "relatable_scenario": "Everyone has shaken a wanted level by leaving the city and driving into the wilderness. It always worked.",
+    "wait_what_moment": "You lost the police. Now look at what is in the water around you.",
+    "why_viewers_care": "It is the one escape trick every open-world player knows, turned into the dangerous option."
+  },
+  "money_shot": "At night on a swamp track, a pick-up's headlights rush up and brake hard just short of a huge alligator lying across the road, police lights flickering far behind through the trees.",
+  "visual_premise": "One continuous escape in one truck: city, highway, dirt track, swamp. Each cut is further from the police and deeper into something else.",
+  "visual_escalation": "Neon streets, then leaving the road, then birds scattering, then eyes in the water, then the chase ploughing through gators, then the police giving up, then being alone out there.",
+  "visual_payoff": "From high above: one pair of headlights stopped in an endless dark swamp, the city glowing on the horizon, and eyes shining in the water all around.",
+  "visual_style": "photoreal night-and-dusk chase, one teal pick-up throughout, city neon giving way to mangroves and black water",
+  "hooks": [
+    "The deadliest thing in this chase? Maybe not the cops.",
+    "The most dangerous thing in a GTA VI chase might not be the police.",
+    "Escaping into GTA VI's swamps might create an entirely different problem."
+  ],
+  "recommended_hook": 0,
+  "hook_style": "mystery",
+  "voiceover": [
+    {
+      "text": "The deadliest thing in this chase? Maybe not the cops.",
+      "kind": "speculation",
+      "claims": [],
+      "caption": "DEADLIEST THING? / *NOT THE COPS*"
+    },
+    {
+      "text": "Picture it. Vice City. Cops everywhere.",
+      "kind": "framing",
+      "claims": [],
+      "caption": "VICE CITY. / *COPS EVERYWHERE*"
+    },
+    {
+      "text": "So you run for the swamp.",
+      "kind": "framing",
+      "claims": [],
+      "caption": "RUN FOR / THE *SWAMP*"
+    },
+    {
+      "text": "Leonida reportedly has over a hundred and seventy animal species.",
+      "kind": "fact",
+      "claims": [
+        "c4"
+      ],
+      "caption": "*170+* / ANIMAL SPECIES"
+    },
+    {
+      "text": "Rockstar's own site says that swamp hides far deadlier predators than gators.",
+      "kind": "fact",
+      "claims": [
+        "c7"
+      ],
+      "caption": "\"FAR DEADLIER / *PREDATORS*\""
+    },
+    {
+      "text": "They even showed a police chase through a gator swamp.",
+      "kind": "fact",
+      "claims": [
+        "c8"
+      ],
+      "caption": "*GATOR SWAMP* / CHASE"
+    },
+    {
+      "text": "So if any of it bites back, losing the cops could be the easy part.",
+      "kind": "speculation",
+      "claims": [],
+      "caption": "COPS: THE / *EASY PART?*"
+    },
+    {
+      "text": "Imagine a gator blocking your only road out.",
+      "kind": "speculation",
+      "claims": [],
+      "caption": "ROAD OUT: / *BLOCKED?*"
+    },
+    {
+      "text": "The safest place to hide could be the deadliest spot on the map.",
+      "kind": "speculation",
+      "claims": [],
+      "caption": "SAFEST PLACE? / *DEADLIEST PLACE?*"
+    },
+    {
+      "text": "And that's just on land.",
+      "kind": "framing",
+      "claims": [],
+      "caption": "AND THAT'S / JUST ON *LAND*"
+    }
+  ],
+  "shots": [
+    {
+      "seconds": 3,
+      "shot_type": "MONEY SHOT: the road is taken",
+      "asset_type": "AI_VIDEO",
+      "money_shot": true,
+      "reference": true,
+      "camera": "Ground level, just behind and beside a huge alligator lying across the track, looking back down the road as headlights rush toward us; slight push-in as the truck stops",
+      "visual": "Night. A huge alligator lies across a narrow dirt track through a swamp. A pick-up's headlights race up and it brakes hard, stopping a few metres short. The gator lifts its head and opens its jaws. Far behind, red and blue lights flicker through the trees.",
+      "purpose": "The escape has already failed in frame one, and not because of the police. Why is there a gator in the road, and who is in the truck?",
+      "on_screen_text": "DEADLIEST THING? NOT THE COPS",
+      "vo_lines": [
+        1
+      ],
+      "graphics": {},
+      "sfx": [
+        {
+          "prompt": "a truck braking hard and skidding to a stop on a gravel track",
+          "at": 0.3,
+          "seconds": 2.0,
+          "db": -8
+        },
+        {
+          "prompt": "a large alligator hissing and a deep reptile growl",
+          "at": 1.8,
+          "seconds": 2.0,
+          "db": -9
+        }
+      ],
+      "higgsfield_prompt": "Night in a mangrove swamp. A huge alligator lies across a narrow dirt track in the foreground, seen from ground level beside it. The headlights of a pick-up truck race toward the camera down the track and the truck brakes hard, skidding to a stop a few metres short of the animal, dust and spray in the beams. The alligator lifts its head and opens its jaws at the truck. Far behind, red and blue police lights flicker through the trees. Tense, a standoff. The vehicle is the same weathered teal pick-up truck in every shot, seen from the front or the side, never from directly behind; it has no badges, no lettering and a blank plate. Photoreal, cinematic, vertical 9:16 frame, no readable text, no brand marks. 4 seconds."
+    },
+    {
+      "seconds": 2.5,
+      "shot_type": "Vice City, cops everywhere",
+      "asset_type": "AI_VIDEO",
+      "reference": true,
+      "camera": "Fast side-on tracking shot at street level, neon signs streaking past",
+      "visual": "The same truck tears down a neon-lit city boulevard at night, weaving between cars, three patrol cars right behind it.",
+      "purpose": "Rewind: this is where the chase started, and it is everything the swamp is not. Bright, loud, crowded.",
+      "on_screen_text": "",
+      "vo_lines": [
+        2
+      ],
+      "graphics": {
+        "tag": "WHAT IF"
+      },
+      "sfx": [
+        {
+          "prompt": "police sirens wailing close behind a speeding truck engine in a city street",
+          "at": 0.0,
+          "seconds": 2.5,
+          "db": -9
+        }
+      ],
+      "higgsfield_prompt": "A weathered teal pick-up truck races down a neon-lit boulevard in a subtropical coastal city at night, weaving hard between two cars, with three patrol cars with flashing red and blue lights right behind it. Fast side-on tracking shot at street level, pastel art deco buildings and neon signs streaking past, wet road reflections. Loud, crowded, urgent. The vehicle is the same weathered teal pick-up truck in every shot, seen from the front or the side, never from directly behind; it has no badges, no lettering and a blank plate. Photoreal, cinematic, vertical 9:16 frame, no readable text, no brand marks. 4 seconds."
+    },
+    {
+      "seconds": 2.5,
+      "shot_type": "Leaving the road",
+      "asset_type": "AI_VIDEO",
+      "reference": true,
+      "camera": "Drone shot following from above and to the side as the truck drops off the highway",
+      "visual": "At dusk the truck swerves off a raised highway, bounces down the embankment and onto a dirt track heading into wetlands. The city skyline is behind it; the patrol cars overshoot.",
+      "purpose": "The decision every player makes. The cut from tarmac to dirt is the moment the video changes worlds.",
+      "on_screen_text": "",
+      "vo_lines": [
+        3
+      ],
+      "graphics": {
+        "tag": "WHAT IF"
+      },
+      "sfx": [
+        {
+          "prompt": "a truck leaving the road, tyres crunching onto gravel and dirt, suspension thumping",
+          "at": 0.2,
+          "seconds": 2.0,
+          "db": -9
+        }
+      ],
+      "higgsfield_prompt": "Dusk. A weathered teal pick-up truck swerves off a raised highway, bounces down a grassy embankment and speeds onto a narrow dirt track leading into vast wetlands, throwing up dust. Two patrol cars with flashing lights overshoot on the highway above. A city skyline glows in the distance behind. Drone shot following from above and to the side. Reckless, a getaway. The vehicle is the same weathered teal pick-up truck in every shot, seen from the front or the side, never from directly behind; it has no badges, no lettering and a blank plate. Photoreal, cinematic, vertical 9:16 frame, no readable text, no brand marks. 4 seconds."
+    },
+    {
+      "seconds": 4,
+      "shot_type": "170 species: the first sign of life",
+      "asset_type": "AI_VIDEO",
+      "reference": true,
+      "camera": "Side-on tracking shot alongside the truck on a raised track through marsh",
+      "visual": "The truck speeds along a narrow raised track through open marsh at dusk. As it passes, a huge flock of flamingos and pelicans bursts into the air beside it, and a deer bolts across the track behind.",
+      "purpose": "The number becomes something you see: the place is full, and the truck is disturbing all of it.",
+      "on_screen_text": "",
+      "vo_lines": [
+        4
+      ],
+      "graphics": {
+        "tag": "ON RECORD",
+        "tag_text": "SOURCE: GAME INFORMER"
+      },
+      "sfx": [
+        {
+          "prompt": "hundreds of large birds taking off at once, heavy wing beats and squawking",
+          "at": 0.5,
+          "seconds": 3.0,
+          "db": -9
+        }
+      ],
+      "higgsfield_prompt": "Dusk over open marshland. A weathered teal pick-up truck speeds along a narrow raised dirt track through shallow water and reeds. As it passes, a huge flock of pink flamingos and white pelicans bursts into flight right beside it, filling the frame, and a deer bolts across the track behind the truck. Side-on tracking shot at the truck's speed, golden light fading to blue. Alive, crowded with animals. The vehicle is the same weathered teal pick-up truck in every shot, seen from the front or the side, never from directly behind; it has no badges, no lettering and a blank plate. Photoreal, cinematic, vertical 9:16 frame, no readable text, no brand marks. 5 seconds."
+    },
+    {
+      "seconds": 4.5,
+      "shot_type": "What is in the water",
+      "asset_type": "AI_VIDEO",
+      "camera": "Low over black water beside the track, the truck's headlights sweeping across the frame as it passes",
+      "visual": "Full dark now. Headlights sweep across black water and mangrove roots. Pairs of eyes shine back from the surface. Something much larger moves under the water, pushing a long wake toward the track.",
+      "purpose": "Rockstar's own words made visible: the gators are the ones you can see. What made that wake?",
+      "on_screen_text": "",
+      "vo_lines": [
+        5
+      ],
+      "graphics": {
+        "tag": "ON RECORD",
+        "tag_text": "SOURCE: ROCKSTAR GAMES"
+      },
+      "sfx": [
+        {
+          "prompt": "a deep low underwater rumble with slow heavy water movement and bubbles",
+          "at": 1.0,
+          "seconds": 3.0,
+          "db": -9
+        }
+      ],
+      "higgsfield_prompt": "Night in a mangrove swamp. The camera sits low over black water beside a dirt track. The headlights of a passing truck sweep across the water and the tangled mangrove roots, and several pairs of eyes shine back from the surface. Then something much larger moves beneath the water, pushing a long V-shaped wake toward the track. Dread, something unseen. Photoreal, cinematic, vertical 9:16 frame, no readable text. 5 seconds."
+    },
+    {
+      "seconds": 4,
+      "shot_type": "The chase goes through the gators",
+      "asset_type": "AI_VIDEO",
+      "reference": true,
+      "camera": "Wide front three-quarter view, low, as the truck ploughs through shallow water toward camera with pursuit behind",
+      "visual": "The truck ploughs through knee-deep swamp water toward us, two patrol cars throwing spray behind it and a helicopter searchlight sweeping overhead, alligators sliding off the banks into the water on both sides.",
+      "purpose": "Our own picture of the scene Rockstar itself showed: the police chase and the swamp in one frame. The stakes double.",
+      "on_screen_text": "",
+      "vo_lines": [
+        6
+      ],
+      "graphics": {
+        "tag": "ON RECORD",
+        "tag_text": "SOURCE: ROCKSTAR GAMES"
+      },
+      "sfx": [
+        {
+          "prompt": "vehicles ploughing through shallow water with big splashes, police sirens and a helicopter overhead",
+          "at": 0.0,
+          "seconds": 3.0,
+          "db": -8
+        }
+      ],
+      "higgsfield_prompt": "Night. A weathered teal pick-up truck ploughs through knee-deep swamp water toward the camera, throwing up walls of spray. Two patrol cars with flashing red and blue lights follow through the water behind it and a helicopter searchlight sweeps across the scene from above. On both sides, alligators slide off muddy banks into the water. Low wide front three-quarter view. Chaotic, everything at once. The vehicle is the same weathered teal pick-up truck in every shot, seen from the front or the side, never from directly behind; it has no badges, no lettering and a blank plate. Photoreal, cinematic, vertical 9:16 frame, no readable text, no brand marks. 5 seconds."
+    },
+    {
+      "seconds": 5,
+      "shot_type": "The cops give up",
+      "asset_type": "AI_VIDEO",
+      "reference": true,
+      "camera": "From beside the truck looking back: the patrol cars stop at the water's edge and shrink into the dark as we keep moving",
+      "visual": "The patrol cars stop at the edge of deep water, their lights getting smaller behind. The truck crawls on alone through flooded track, its headlights the only light. The sirens fade to frogs and insects. Ripples close in around the wheels.",
+      "purpose": "The moment the viewer expects relief and gets the opposite: you won, and now you are alone out here.",
+      "on_screen_text": "",
+      "vo_lines": [
+        7
+      ],
+      "graphics": {
+        "tag": "WHAT IF"
+      },
+      "sfx": [
+        {
+          "prompt": "slow heavy ripples and something large sliding into water nearby, quiet",
+          "at": 2.5,
+          "seconds": 2.5,
+          "db": -9
+        }
+      ],
+      "higgsfield_prompt": "Night in a flooded swamp. Seen from beside a slow-moving teal pick-up truck, looking back: two patrol cars with flashing lights stop at the edge of deep water and fall further and further behind until they are small lights in the dark. The truck crawls forward alone through the water, and slow ripples close in around its wheels from both sides. The mood shifts from escape to unease. The vehicle is the same weathered teal pick-up truck in every shot, seen from the front or the side, never from directly behind; it has no badges, no lettering and a blank plate. Photoreal, cinematic, vertical 9:16 frame, no readable text, no brand marks. 6 seconds."
+    },
+    {
+      "seconds": 3,
+      "shot_type": "Back to the gator",
+      "asset_type": "OTHER",
+      "footage": {
+        "asset": "shot-1.mp4",
+        "start": 1.6,
+        "speed": 0.8
+      },
+      "camera": "The opening shot again, from the moment the truck stops and the jaws open, slightly slowed (existing clip)",
+      "visual": "The alligator across the track, jaws open, the truck's headlights on it.",
+      "on_screen_text": "",
+      "vo_lines": [
+        8
+      ],
+      "graphics": {
+        "tag": "WHAT IF"
+      },
+      "higgsfield_prompt": null
+    },
+    {
+      "seconds": 6,
+      "shot_type": "PAYOFF: alone on the map",
+      "asset_type": "AI_VIDEO",
+      "camera": "Drone rising straight up and pulling back from the stopped truck until the swamp fills the frame",
+      "visual": "From above, rising: one pair of headlights stopped on a thin track in an endless black swamp. Around it, dozens of eyes shine in the water. On the far horizon the city glows, tiny and safe.",
+      "purpose": "The thesis in one image: the map is the threat. The city you fled now looks like the safe place. It also sets up what is under the water for the next video.",
+      "on_screen_text": "",
+      "vo_lines": [
+        9,
+        10
+      ],
+      "graphics": {
+        "tag": "WHAT IF"
+      },
+      "sfx": [
+        {
+          "prompt": "a single low ominous bass swell that fades out",
+          "at": 0.3,
+          "seconds": 3.0,
+          "db": -10
+        }
+      ],
+      "higgsfield_prompt": "Night aerial shot rising slowly straight up from a single pick-up truck stopped with its headlights on, on a thin dirt track through a vast, dark mangrove swamp. The water is black and still. Here and there, scattered irregularly and far apart, a few faint pairs of small dull orange eye-shine reflections sit low on the water near the mangroves, like alligators watching; they are tiny, dim and easy to miss, not lights and not stars. On the far horizon a city skyline glows, tiny. Moonlit haze. Vast, lonely, ominous. Photoreal, cinematic, vertical 9:16 frame, no readable text. 7 seconds."
+    }
+  ],
+  "editing_notes": "Frame one is the gator and the headlights: no title, no fade. Then a hard cut back to the city, so the first three shots run swamp, city, road: the viewer has seen where this ends before it starts. From shot 3 onward it is one journey in one truck and the light only gets darker. Let shot 5 (the wake) and shot 7 (the cops giving up) breathe; cut everything else on the narrator's full stops. Shot 8 returns to the opening image. Tags: a source credit for the three facts, WHAT IF for the scenario. No HUD, no wanted stars, no game art.",
+  "sound_music": "The sound tells the same story as the pictures: sirens and engine in the city, then gravel, then wings, then water, then almost nothing. The sirens must audibly fade during shot 7 so the quiet lands. One low swell under the last line. The voice is always on top.",
+  "cta": "No ask. The last line points at what is under the water.",
+  "ending_hook": "And that's just on land.",
+  "retention_edit": {
+    "cut": [
+      "the hook as one 13-word sentence: split into a 5-word question and its answer",
+      "leading with the number: 170 arrives at second nine, after the scenario is running",
+      "the context line 'GTA VI isn't just Vice City, a huge part of Leonida appears to be wetlands...': the pictures say it, and we hold no source for how much of the map is wetland",
+      "the long what-if sentence listing wildlife, flooded tracks and ecosystems: reduced to one consequence the viewer can see, the blocked road",
+      "'if Rockstar actually makes those ecosystems systemic': rewritten as 'if any of it bites back'",
+      "night-time risk and different ecosystems as separate points: shown by the light changing, not said",
+      "any list of animals: only the ones that are in the truck's way appear"
+    ],
+    "seconds_before": 44,
+    "seconds_after": 35
+  },
+  "viewer_test": {
+    "frame_one_stops_the_scroll": {
+      "pass": true,
+      "note": "A gator across a road with headlights bearing down on it."
+    },
+    "first_sentence_creates_curiosity": {
+      "pass": true,
+      "note": "Five words and a question: if not the cops, then what?"
+    },
+    "clear_why_by_second_three": {
+      "pass": true,
+      "note": "By second three you have seen the gator, the truck and the police lights. The game is named by the tag and the Vice City line at second four."
+    },
+    "new_reason_to_stay_every_few_seconds": {
+      "pass": true,
+      "note": "New world every 2.5 to 4 seconds; the wake at about 12 seconds and the cops giving up at about 20 are the two turns."
+    },
+    "voice_entertains_not_informs": {
+      "pass": true,
+      "note": "On the page. Three fact lines in a row (4 to 6) are the stretch most at risk of sounding like a report; they are short and each has its strongest picture."
+    },
+    "visuals_show_what_is_said": {
+      "pass": true,
+      "note": "Every line has its own shot and the shots form one continuous journey."
+    },
+    "story_escalates": {
+      "pass": true,
+      "note": "City, road, birds, eyes, chase through gators, alone, blocked, the whole map."
+    },
+    "hook_promise_delivered": {
+      "pass": true,
+      "note": "The hook says the cops may not be the danger; by the end they have left and the danger is still there. It stays a what-if."
+    },
+    "no_boring_second": {
+      "pass": true,
+      "note": "The risk is shot 7 at five seconds: it depends on the generated clip really showing the police falling behind."
+    },
+    "script_cannot_be_simpler": {
+      "pass": true,
+      "note": "Longest sentence is 13 words."
+    },
+    "cannot_be_shorter": {
+      "pass": true,
+      "note": "Line 3 or line 8 could go if the cut runs over 35 seconds; both are short and carry a turn, so they stay for now."
+    },
+    "worth_sending_to_a_friend": {
+      "pass": true,
+      "note": "'Rockstar's own site says the swamp hides far deadlier predators than gators' is the line people repeat."
+    },
+    "makes_you_want_another": {
+      "pass": true,
+      "note": "'And that's just on land' sets up sharks, rays and scuba-diving, which are sourced."
+    }
+  },
+  "youtube_title": "GTA VI: the cops might be the least of your problems #shorts",
+  "youtube_description": "On record: GTA VI's Leonida has over 170 animal species (Game Informer, reported by Eurogamer). Rockstar's own site says of the Grassrivers swamp: \"The gators may be the most famous attraction, but there are far deadlier predators and weirder discoveries among the mangroves.\" One of the screenshots on that page shows a police chase through a swamp with alligators.\n\nNot stated anywhere: that animals attack you, block roads or change a police chase. Everything under the WHAT IF tag is our speculation about what that wildlife could mean for escaping into the wilderness.\n\nAI-generated visualisation. Not actual GTA VI gameplay.\n\nSources:\nRockstar Games: https://www.rockstargames.com/VI/only-in-leonida/grassrivers\nEurogamer: https://eurogamer.net/gta6-rockstar-weather-systems-hurricanes-rainbows-rain\nRock Paper Shotgun: https://rockpapershotgun.com/gta-6-will-simulate-hurricanes-rainbows-and-persistent-dynamic-clouds-among-other-efforts-to-make-you-stop-doing-crime-and-become-a-weather-nerd\n\nLeonida Desk is not affiliated with Rockstar Games or Take-Two Interactive.",
+  "tiktok_caption": "Rockstar's own site says GTA VI's swamp hides \"far deadlier predators\" than gators, and there are 170+ animal species out there. Whether any of it comes for you is our what-if. AI-generated visualisation. Not actual GTA VI gameplay. #gta6 #gtavi #gaming",
+  "instagram_caption": "170+ animal species, a swamp with \"far deadlier predators\" than gators (Rockstar's words), and a screenshot on Rockstar's own site of a police chase going straight through it. What that does to your getaway is our what-if. AI-generated visualisation. Not actual GTA VI gameplay. #gta6 #gtavi #gaming",
+  "sources": [
+    {
+      "name": "Rockstar Games",
+      "url": "https://www.rockstargames.com/VI/only-in-leonida/grassrivers"
+    },
+    {
+      "name": "Eurogamer",
+      "url": "https://eurogamer.net/gta6-rockstar-weather-systems-hurricanes-rainbows-rain"
+    },
+    {
+      "name": "Rock Paper Shotgun",
+      "url": "https://rockpapershotgun.com/gta-6-will-simulate-hurricanes-rainbows-and-persistent-dynamic-clouds-among-other-efforts-to-make-you-stop-doing-crime-and-become-a-weather-nerd"
+    }
+  ],
+  "disclosure": "AI-generated visualisation. Not actual GTA VI gameplay.",
+  "render": {
+    "adapter": "higgsfield-cli",
+    "jobs": [
+      {
+        "key": "vo-2",
+        "job_id": "08011ebc-a0c0-4104-a977-83a632341abf",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.15,
+        "submitted_at": "2026-10-05T21:32:09+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_213208_08011ebc-a0c0-4104-a977-83a632341abf.mp3",
+        "asset": "vo-2.mp3"
+      },
+      {
+        "key": "vo-1",
+        "job_id": "49e2a772-ef7c-4e3f-9d18-a9c01434adb6",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T21:32:09+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_213208_49e2a772-ef7c-4e3f-9d18-a9c01434adb6.mp3",
+        "asset": "vo-1.mp3"
+      },
+      {
+        "key": "vo-3",
+        "job_id": "824b6d15-a9b7-4356-9b61-8ac635429756",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.15,
+        "submitted_at": "2026-10-05T21:32:09+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_213208_824b6d15-a9b7-4356-9b61-8ac635429756.mp3",
+        "asset": "vo-3.mp3"
+      },
+      {
+        "key": "vo-4",
+        "job_id": "3128f952-bc30-4953-b978-2a035c550cbf",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T21:32:09+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_213209_3128f952-bc30-4953-b978-2a035c550cbf.mp3",
+        "asset": "vo-4.mp3"
+      },
+      {
+        "key": "vo-7",
+        "job_id": "a864e282-819c-414d-8cca-a6d48028e902",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T21:32:14+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_213214_a864e282-819c-414d-8cca-a6d48028e902.mp3",
+        "asset": "vo-7.mp3"
+      },
+      {
+        "key": "vo-5",
+        "job_id": "f704e79e-5489-4144-b46a-e6e17696d54c",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T21:32:14+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_213214_f704e79e-5489-4144-b46a-e6e17696d54c.mp3",
+        "asset": "vo-5.mp3"
+      },
+      {
+        "key": "vo-6",
+        "job_id": "9a0c28e3-220b-4308-b5fe-82a6a86a30a3",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T21:32:15+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_213215_9a0c28e3-220b-4308-b5fe-82a6a86a30a3.mp3",
+        "asset": "vo-6.mp3"
+      },
+      {
+        "key": "vo-8",
+        "job_id": "3549ec01-e000-4daf-854e-df949b5e07aa",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.15,
+        "submitted_at": "2026-10-05T21:32:15+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_213215_3549ec01-e000-4daf-854e-df949b5e07aa.mp3",
+        "asset": "vo-8.mp3"
+      },
+      {
+        "key": "vo-9",
+        "job_id": "ec70c7ca-ca67-48ab-9d10-04d89a4a34cf",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.3,
+        "submitted_at": "2026-10-05T21:32:18+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_213218_ec70c7ca-ca67-48ab-9d10-04d89a4a34cf.mp3",
+        "asset": "vo-9.mp3"
+      },
+      {
+        "key": "vo-10",
+        "job_id": "7986a12c-0d39-4164-8585-76d84411ad9f",
+        "model": "text2speech_v2",
+        "status": "completed",
+        "credits": 0.15,
+        "submitted_at": "2026-10-05T21:32:19+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_213219_7986a12c-0d39-4164-8585-76d84411ad9f.mp3",
+        "asset": "vo-10.mp3"
+      },
+      {
+        "key": "reference",
+        "job_id": "bbb96626-f273-4885-ada7-55dc426e520e",
+        "model": "gpt_image_2_5",
+        "status": "completed",
+        "credits": 0.25,
+        "submitted_at": "2026-10-05T21:32:24+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_213224_bbb96626-f273-4885-ada7-55dc426e520e.png",
+        "asset": "reference.png"
+      },
+      {
+        "key": "shot-1",
+        "job_id": "0b13c1f7-3aeb-449c-955b-b9a40e027f88",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 5.0,
+        "submitted_at": "2026-10-05T21:32:46+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_213246_0b13c1f7-3aeb-449c-955b-b9a40e027f88.mp4",
+        "asset": "shot-1.mp4"
+      },
+      {
+        "key": "shot-3",
+        "job_id": "776809eb-3948-4c4e-b642-5fe64390603e",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 4.0,
+        "submitted_at": "2026-10-05T21:32:48+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_213247_776809eb-3948-4c4e-b642-5fe64390603e.mp4",
+        "asset": "shot-3.mp4"
+      },
+      {
+        "key": "shot-2",
+        "job_id": "cdf7a323-1e85-41d9-af03-7af954c5134d",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 4.0,
+        "submitted_at": "2026-10-05T21:32:52+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_213252_cdf7a323-1e85-41d9-af03-7af954c5134d.mp4",
+        "asset": "shot-2.mp4"
+      },
+      {
+        "key": "shot-4",
+        "job_id": "acb31c2e-1782-41f3-aca3-10e2e3f5ae1e",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 6.0,
+        "submitted_at": "2026-10-05T21:34:50+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_213450_acb31c2e-1782-41f3-aca3-10e2e3f5ae1e.mp4",
+        "asset": "shot-4.mp4"
+      },
+      {
+        "key": "shot-5",
+        "job_id": "16f6b40e-9f01-4d64-99aa-b2b5c44a5c8f",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 6.0,
+        "submitted_at": "2026-10-05T21:34:58+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_213458_16f6b40e-9f01-4d64-99aa-b2b5c44a5c8f.mp4",
+        "asset": "shot-5.mp4"
+      },
+      {
+        "key": "shot-7",
+        "job_id": "f55b0a84-b17b-4a04-b425-efacbb8d61ce",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 5.0,
+        "submitted_at": "2026-10-05T21:40:59+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_214059_f55b0a84-b17b-4a04-b425-efacbb8d61ce.mp4",
+        "asset": "shot-7.mp4"
+      },
+      {
+        "key": "shot-6",
+        "job_id": "aeaf7c1c-d3e9-487d-af09-8407fb638c50",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 4.0,
+        "submitted_at": "2026-10-05T21:44:16+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_214416_aeaf7c1c-d3e9-487d-af09-8407fb638c50.mp4",
+        "asset": "shot-6.mp4"
+      },
+      {
+        "key": "music",
+        "job_id": "3c402831-0056-46b6-9b43-40ec0463cbce",
+        "model": "sonilo_music",
+        "status": "completed",
+        "credits": 2.38,
+        "submitted_at": "2026-10-05T21:50:00+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_215000_3c402831-0056-46b6-9b43-40ec0463cbce.m4a",
+        "asset": "music.m4a"
+      },
+      {
+        "key": "bed-1",
+        "job_id": "bb9074b0-9a73-40bd-8808-619fdfbc5540",
+        "model": "seed_audio",
+        "status": "completed",
+        "credits": 0.8,
+        "submitted_at": "2026-10-05T21:50:12+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_215012_bb9074b0-9a73-40bd-8808-619fdfbc5540.wav",
+        "asset": "bed-1.wav"
+      },
+      {
+        "key": "bed-2",
+        "job_id": "e10f8f30-f691-4774-9555-17caaeada394",
+        "model": "seed_audio",
+        "status": "completed",
+        "credits": 0.6,
+        "submitted_at": "2026-10-05T21:50:36+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_215036_e10f8f30-f691-4774-9555-17caaeada394.wav",
+        "asset": "bed-2.wav"
+      },
+      {
+        "key": "sfx-1-1",
+        "job_id": "abe1f8de-a3fe-4871-94d6-459cb8c4b3be",
+        "model": "mirelo_text_to_audio",
+        "status": "completed",
+        "credits": 0.5,
+        "submitted_at": "2026-10-05T21:50:57+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_215056_abe1f8de-a3fe-4871-94d6-459cb8c4b3be.mp3",
+        "asset": "sfx-1-1.mp3"
+      },
+      {
+        "key": "sfx-1-2",
+        "job_id": "137cdb13-cc86-446f-a01c-dcb6f5a260f1",
+        "model": "mirelo_text_to_audio",
+        "status": "completed",
+        "credits": 0.5,
+        "submitted_at": "2026-10-05T21:51:05+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_215105_137cdb13-cc86-446f-a01c-dcb6f5a260f1.mp3",
+        "asset": "sfx-1-2.mp3"
+      },
+      {
+        "key": "sfx-2-1",
+        "job_id": "68995a68-245d-4287-a3ba-11ef90a2da4f",
+        "model": "mirelo_text_to_audio",
+        "status": "completed",
+        "credits": 0.75,
+        "submitted_at": "2026-10-05T21:51:12+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_215112_68995a68-245d-4287-a3ba-11ef90a2da4f.mp3",
+        "asset": "sfx-2-1.mp3"
+      },
+      {
+        "key": "sfx-3-1",
+        "job_id": "5deae3f9-3bd1-4db9-b6cd-eb851c666a6d",
+        "model": "mirelo_text_to_audio",
+        "status": "completed",
+        "credits": 0.5,
+        "submitted_at": "2026-10-05T21:51:20+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_215120_5deae3f9-3bd1-4db9-b6cd-eb851c666a6d.mp3",
+        "asset": "sfx-3-1.mp3"
+      },
+      {
+        "key": "sfx-4-1",
+        "job_id": "92a69ade-2949-413a-a74c-bb1a6ed9d1fc",
+        "model": "mirelo_text_to_audio",
+        "status": "completed",
+        "credits": 0.75,
+        "submitted_at": "2026-10-05T21:51:28+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_215128_92a69ade-2949-413a-a74c-bb1a6ed9d1fc.mp3",
+        "asset": "sfx-4-1.mp3"
+      },
+      {
+        "key": "sfx-5-1",
+        "job_id": "9ed22808-09c8-4722-a987-823d96618362",
+        "model": "mirelo_text_to_audio",
+        "status": "completed",
+        "credits": 0.75,
+        "submitted_at": "2026-10-05T21:51:36+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_215136_9ed22808-09c8-4722-a987-823d96618362.mp3",
+        "asset": "sfx-5-1.mp3"
+      },
+      {
+        "key": "sfx-6-1",
+        "job_id": "8ffdd30d-8385-45c7-98ba-a7481feb9fe2",
+        "model": "mirelo_text_to_audio",
+        "status": "completed",
+        "credits": 0.75,
+        "submitted_at": "2026-10-05T21:51:45+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_215145_8ffdd30d-8385-45c7-98ba-a7481feb9fe2.mp3",
+        "asset": "sfx-6-1.mp3"
+      },
+      {
+        "key": "sfx-7-1",
+        "job_id": "a8f19e1f-1ae6-4234-a0b4-d51f33234518",
+        "model": "mirelo_text_to_audio",
+        "status": "completed",
+        "credits": 0.75,
+        "submitted_at": "2026-10-05T21:51:55+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_215155_a8f19e1f-1ae6-4234-a0b4-d51f33234518.mp3",
+        "asset": "sfx-7-1.mp3"
+      },
+      {
+        "key": "sfx-9-1",
+        "job_id": "247f34a7-faa1-47d3-b626-1cd17ce98222",
+        "model": "mirelo_text_to_audio",
+        "status": "completed",
+        "credits": 0.75,
+        "submitted_at": "2026-10-05T21:52:03+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_215203_247f34a7-faa1-47d3-b626-1cd17ce98222.mp3",
+        "asset": "sfx-9-1.mp3"
+      },
+      {
+        "key": "shot-9",
+        "job_id": "0d571d63-2f97-4965-9b57-e377a8b14675",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 7.0,
+        "submitted_at": "2026-10-05T21:53:21+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_215321_0d571d63-2f97-4965-9b57-e377a8b14675.mp4",
+        "asset": "shot-9.mp4"
+      }
+    ],
+    "cost": 53.43,
+    "audio_check": {
+      "heard": "The deadliest thing in this chase? Maybe not the cops. Picture it. Vice City. Cops everywhere. So you run for the swam. Leonida reportedly has over 170 animal species. Rockstar's own site says that swamp hides far deadlier predators than gators. They even showed a big... police chase through a gator swamp. So if any of it bites back, losing the cops could be the easy part. Imagine a gator blocking your only road out. The safest place to hide could be the deadliest spot on the map, and that's just on land.",
+      "script_words": 95,
+      "heard_words": 93,
+      "extra_words": 0,
+      "missing_words": 2,
+      "ok": true
+    },
+    "versions": [
+      "final.mp4"
+    ],
+    "design": "config/design.yaml",
+    "final": "final.mp4",
+    "seconds": 36.35,
+    "timeline": "timeline.json",
+    "captions": "captions.srt",
+    "voice": "Callum",
+    "models": [
+      "gpt_image_2_5",
+      "mirelo_text_to_audio",
+      "seed_audio",
+      "seedance_2_0_mini",
+      "sonilo_music",
+      "text2speech_v2"
+    ],
+    "generations": 31,
+    "produced_at": "2026-10-05T21:56:10+00:00",
+    "cost_unit": "credits (estimated)",
+    "replaced": [
+      {
+        "key": "shot-9",
+        "job_id": "8d0cfdec-8527-4420-acc7-085b7f394419",
+        "model": "seedance_2_0_mini",
+        "status": "completed",
+        "credits": 7.0,
+        "submitted_at": "2026-10-05T21:40:58+00:00",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KHX5hR3GpjUVMiJPyeeWg992IN/hf_20261005_214057_8d0cfdec-8527-4420-acc7-085b7f394419.mp4",
+        "asset": "shot-9.mp4",
+        "reason": "the eyes in the water came out as a regular grid of bright star-shaped lights"
+      }
+    ]
+  },
+  "posts": [],
+  "desk": {
+    "tier": null,
+    "tier_reason": null,
+    "gate": null,
+    "treatment": null,
+    "video_suitability": null,
+    "visual_potential": null,
+    "hook_strength": null,
+    "recommendation_confidence": null,
+    "momentum": null,
+    "opportunity": 36.08,
+    "viral": 34.0,
+    "saturation": 51.79,
+    "freshness": 0.0065,
+    "suggested_hook": null,
+    "visual_premise": null
+  },
+  "game_name": "GTA VI",
+  "topic": "world_simulation",
+  "continuity": {
+    "reference_prompt": "Photoreal cinematic still, vertical 9:16. A weathered teal two-door pick-up truck with a dented bonnet, a roof light bar and mud on its sides, parked three-quarter front view on a dirt track beside a mangrove swamp at dusk. The truck has no badges, no lettering, a blank number plate. No people, no readable text anywhere, no brand marks.",
+    "note": "One truck from the first frame to the last; front and side views only, because rear views made the video model draw a real maker's badge."
+  },
+  "facts_vs_inference": {
+    "on record": [
+      "Over 170 animal species, including 60 birds and more than 30 land mammals (Game Informer feature, reported by Eurogamer; c4).",
+      "Manatees, flamingos, pelicans, sharks, rays, turtles and jellyfish are among them (Rock Paper Shotgun; c6). Scuba-diving returns; there are animals to study and Legendary animals (Eurogamer; c5).",
+      "Rockstar's site on Grassrivers: 'The gators may be the most famous attraction, but there are far deadlier predators and weirder discoveries among the mangroves.' (c7)",
+      "An official Grassrivers screenshot is described by Rockstar as a helicopter and two police cars chasing a pick-up through a swamp with alligators (c8).",
+      "Mount Kalaga 'offers prime hunting, fishing, and off-road trails' (Rockstar's site; c9)."
+    ],
+    "not stated anywhere we have opened": [
+      "That animals attack or injure the player.",
+      "That animals react to, block or interfere with a police chase.",
+      "That police behave differently outside the city.",
+      "That ecosystems or time of day change the danger level.",
+      "The 'far deadlier predators' line is marketing copy about a place, and the screenshot is a still image: neither describes a mechanic."
+    ],
+    "our what-if (voiceover lines 7 to 10, under the WHAT IF tag)": [
+      "Wildlife making an escape route dangerous.",
+      "An animal blocking a road.",
+      "The wilderness being safer from police but more dangerous in itself."
+    ]
+  },
+  "music_prompt": "Instrumental tension underscore, 35 seconds. Opens on a single low held note, then a fast neon synth pulse for about five seconds, which thins out into sparse, uneasy swamp-noir: low drones, distant slide guitar, slow heartbeat percussion. Builds once in the middle, then drops to almost nothing for the ending. No vocals, stays in the background.",
+  "audio_beds": [
+    {
+      "prompt": "Night swamp ambience with frogs, crickets and insects, still water, occasional distant bird call, no music, no voices",
+      "from_shot": 4,
+      "to_shot": 9,
+      "db": -20
+    },
+    {
+      "prompt": "Night swamp ambience with frogs, crickets and insects, still water, no music, no voices",
+      "from_shot": 1,
+      "to_shot": 1,
+      "db": -20
+    }
+  ],
+  "updated_at": "2026-10-05T21:56:10+00:00"
+}

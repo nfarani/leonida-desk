@@ -1,0 +1,21 @@
+---
+import Base from '../layouts/Base.astro';
+import { EMAIL, SITE } from '../config';
+const rows = [
+  ['General enquiries', EMAIL.hello, 'Questions and feedback.'],
+  ['Editorial', EMAIL.editorial, 'Corrections, press releases and review codes.'],
+  ['Story tips', EMAIL.tips, 'Seen something we should look at? Tell us where you found it.'],
+  ['Partnerships', EMAIL.partnerships, 'Sponsorship and commercial enquiries. Editorial decisions are never for sale.'],
+  ['Privacy', EMAIL.privacy, 'Requests about your data.'],
+];
+---
+<Base title="Contact" description={`How to reach ${SITE.name}.`}>
+  <div class="plain">
+    <div class="page-head"><h1>Contact</h1><p>How to reach the right desk.</p></div>
+    {EMAIL.domain
+      ? <table><tbody>{rows.map(([what, addr, note]) => <tr><th scope="row">{what}</th><td><a href={`mailto:${addr}`}>{addr}</a></td><td>{note}</td></tr>)}</tbody></table>
+      : <p class="empty">Contact addresses will be listed here when the site launches.</p>}
+    <h2>Corrections</h2>
+    <p>If something we published is wrong, tell the editorial desk which article and what the source says. We correct the article and note the change on the page.</p>
+  </div>
+</Base>

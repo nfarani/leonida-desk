@@ -1,0 +1,24 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE } from '../config';
+---
+<Base title="About" description={`What ${SITE.name} is, who runs it and how to read it.`}>
+  <div class="plain">
+    <div class="page-head"><h1>About {SITE.name}</h1><p>An independent gaming news blog, with a close focus on Grand Theft Auto VI and a product news desk for gadgets and software.</p></div>
+    <p>{SITE.name} covers video games: what has been announced, what has been reported, what players have found, and what all of it means. Grand Theft Auto VI is the game we follow most closely, and it gets more of our attention than any other, but it is not the only thing we write about. We also cover product news, gadgets and software, when there is a story worth telling. We aim to be early, accurate and original, in that order of difficulty.</p>
+    <h2>What you will find here</h2>
+    <ul>
+      <li><a href="/news/">News</a>: new developments, each labelled by how well it is sourced.</li>
+      <li><a href="/discoveries/">Discoveries</a>: details found in official material, with the observation kept separate from the interpretation.</li>
+      <li><a href="/explainers/">Explainers</a>: why a development matters, how it compares with what came before, and what is still unknown.</li>
+      <li><a href="/tech/">Tech</a>: product news about gadgets, hardware and software, held to the same sourcing rules.</li>
+      <li><a href="/guides/">Guides</a>: reference pieces that collect what is on the record and are updated when that changes.</li>
+    </ul>
+    <h2>Who writes it</h2>
+    <p>Articles carry the byline "{SITE.byline}". That is a team byline, not a person. A human Editor-in-Chief decides what is published; AI systems assist with research, drafting and production. We do not invent journalists, credentials or biographies. See the <a href="/ai-disclosure/">AI and automation disclosure</a>.</p>
+    <h2>Independence</h2>
+    <p>{SITE.name} is not affiliated with, endorsed by or sponsored by Rockstar Games, Take-Two Interactive or any other game company we cover. Game names and related marks are trademarks of their owners.</p>
+    <h2>Corrections</h2>
+    <p>If we get something wrong we correct the article and say so on the page. An article's "Updated" date changes only when its text changes.</p>
+  </div>
+</Base>

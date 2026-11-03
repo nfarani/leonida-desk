@@ -1,0 +1,10 @@
+---
+import Base from '../../layouts/Base.astro';
+import { GAMES, gamePath } from '../../config';
+---
+<Base title="Games" description="The games Leonida Desk tracks.">
+  <div class="page-head"><h1>Games</h1><p>The games we track. A game gets a page once we are following it; facts appear on that page only when we have a source for them.</p></div>
+  <div class="grid">
+    {GAMES.map((g) => <article class="card"><span class="kicker">{g.flagship ? 'Flagship' : g.franchise ?? 'Game'}</span><h2><a href={gamePath(g)}>{g.name}</a></h2>{g.summary && <p>{g.summary}</p>}</article>)}
+  </div>
+</Base>

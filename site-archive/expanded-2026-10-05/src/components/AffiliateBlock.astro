@@ -1,0 +1,24 @@
+---
+// One recommended product. Renders only when affiliate_enabled is on and the product exists in
+// config/affiliates.yaml (or when `demo` is passed on the preview-only components page).
+import { AFFILIATE } from '../config';
+interface Props { product: string; article?: string; demo?: any }
+const { product, article = '', demo } = Astro.props;
+const p = demo ?? (AFFILIATE.enabled ? AFFILIATE.products[product] : null);
+---
+{p && (
+  <aside class="affiliate" data-affiliate-block data-product={product} aria-label="Recommended product">
+    <span class="kicker">Recommended{demo ? ' · sample block' : ''}</span>
+    <div class="aff-body">
+      {p.image && <img src={p.image} alt={p.name} loading="lazy" width="120" height="120" />}
+      <div>
+        <h3>{p.name}</h3>
+        {p.summary && <p>{p.summary}</p>}
+        <p class="aff-meta">{p.merchant}{p.price ? ` · ${p.price}` : ''}{p.price && p.price_checked ? ` (checked ${p.price_checked})` : ''}</p>
+        <a class="button" href={p.affiliate_url} rel="sponsored nofollow noopener" target="_blank"
+           data-track="affiliate_click" data-product={product} data-merchant={p.merchant} data-article={article}>{p.cta ?? 'Check price'}</a>
+      </div>
+    </div>
+    <p class="disclosure">{AFFILIATE.disclosure} <a href="/affiliate-disclosure/">How this works</a>.</p>
+  </aside>
+)}

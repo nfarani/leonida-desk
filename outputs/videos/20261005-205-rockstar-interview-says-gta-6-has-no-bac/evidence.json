@@ -1,0 +1,110 @@
+{
+  "packet": "story-224-love-interview",
+  "story_label": "HIGH_CONFIDENCE_REPORT",
+  "claims": [
+    {
+      "id": "c25",
+      "kind": "fact",
+      "claim": "Polygon says parts of the Love Magazine interview and screenshots of it have been shared by fans online, and that issue 27 is out on 5 October.",
+      "source_id": "s4",
+      "source_url": "https://polygon.com/grand-theft-auto-gta-6-love-magazine-interview-npc-details",
+      "source_date": "2026-10-05T10:12:25+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Polygon, 5 Oct 2026, by Ashely Claudino.",
+      "quote": null
+    },
+    {
+      "id": "c26",
+      "kind": "fact",
+      "claim": "James Horton, described by Polygon as writing director, said there is no background in the game.",
+      "source_id": "s4",
+      "source_url": "https://polygon.com/grand-theft-auto-gta-6-love-magazine-interview-npc-details",
+      "source_date": "2026-10-05T10:12:25+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Direct quote in Polygon.",
+      "quote": "In a way, there's no 'background' in this game"
+    },
+    {
+      "id": "c27",
+      "kind": "fact",
+      "claim": "Horton described background characters as foreground the player is not yet paying attention to.",
+      "source_id": "s4",
+      "source_url": "https://polygon.com/grand-theft-auto-gta-6-love-magazine-interview-npc-details",
+      "source_date": "2026-10-05T10:12:25+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Direct quote in Polygon.",
+      "quote": "There's just foreground you're not paying attention to right now."
+    },
+    {
+      "id": "c31",
+      "kind": "fact",
+      "claim": "Polygon reports that, according to the Love Magazine interview, Rockstar sent teams to various parts of Florida to study its people and culture as well as locations, and that this will be reflected in NPCs' conversations, clothing and hairstyles.",
+      "source_id": "s4",
+      "source_url": "https://polygon.com/grand-theft-auto-gta-6-love-magazine-interview-npc-details",
+      "source_date": "2026-10-05T10:12:25+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "Polygon, 5 Oct 2026, paragraph 2: Rockstar sent teams to various parts of Florida to study not only the locations and environments but also its people and culture; this will be reflected in NPCs' conversations, clothing, and hairstyles. Polygon's paraphrase of the interview, not a direct quote. Re-opened 5 Oct 2026.",
+      "quote": null
+    },
+    {
+      "id": "c32",
+      "kind": "fact",
+      "claim": "James Horton, whom PC Gamer titles writing director: open world, said the city should wash over a player sprinting down its busiest street, hearing snatches of a hundred different conversations.",
+      "source_id": "s12",
+      "source_url": "https://pcgamer.com/games/grand-theft-auto/gta-6-wont-be-letting-up-on-the-satire-if-you-are-going-to-put-all-this-effort-into-creating-a-version-of-todays-world-it-has-to-be-more-over-the-top-more-insane-more-in-your-face",
+      "source_date": "2026-10-04T03:14:41+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "PC Gamer, 4 Oct 2026, direct quote attributed to James Horton from the Love feature. Re-opened 5 Oct 2026.",
+      "quote": "It needs to wash over you when you're sprinting down the busiest street in the city, hearing snatches of a hundred different conversations as you go"
+    },
+    {
+      "id": "c33",
+      "kind": "fact",
+      "claim": "Horton said that when the player shifts focus onto something new, it fills the frame and pushes back.",
+      "source_id": "s12",
+      "source_url": "https://pcgamer.com/games/grand-theft-auto/gta-6-wont-be-letting-up-on-the-satire-if-you-are-going-to-put-all-this-effort-into-creating-a-version-of-todays-world-it-has-to-be-more-over-the-top-more-insane-more-in-your-face",
+      "source_date": "2026-10-04T03:14:41+00:00",
+      "verification": "HIGH_CONFIDENCE_REPORT",
+      "evidence": "PC Gamer, 4 Oct 2026, continuation of the same Horton quote. Re-opened 5 Oct 2026.",
+      "quote": "If you shift your focus onto something new, it's going to fill the frame, and it's going to push back."
+    }
+  ],
+  "sources": [
+    {
+      "id": "s4",
+      "story_id": 205,
+      "publisher": "Polygon",
+      "url": "https://polygon.com/grand-theft-auto-gta-6-love-magazine-interview-npc-details",
+      "title": "GTA 6 Shows 'What the American Dream Looks Like Now' in a Game Without Background Characters",
+      "published_at": "2026-10-05T10:12:25+00:00",
+      "tier": 1,
+      "source_type": "journalism",
+      "opened": true,
+      "opened_at": "2026-10-05T16:39:48+00:00",
+      "note": ""
+    },
+    {
+      "id": "s12",
+      "story_id": 148,
+      "publisher": "PC Gamer",
+      "url": "https://pcgamer.com/games/grand-theft-auto/gta-6-wont-be-letting-up-on-the-satire-if-you-are-going-to-put-all-this-effort-into-creating-a-version-of-todays-world-it-has-to-be-more-over-the-top-more-insane-more-in-your-face",
+      "title": "GTA 6 won't be letting up on the satire: 'If you are going to put all this effort into creating a version of today's world, it has to be more over the top, more insane, more in your face'",
+      "published_at": "2026-10-04T03:14:41+00:00",
+      "tier": 1,
+      "source_type": "journalism",
+      "opened": true,
+      "opened_at": "2026-10-05T16:39:48+00:00",
+      "note": ""
+    }
+  ],
+  "conflicts": [
+    {
+      "description": "First name of the senior vice president of narrative: VGC and PC Gamer say Rupert Humphries, Polygon says Robert Humphries. Not checked against the magazine.",
+      "resolved": false
+    },
+    {
+      "description": "'Head of development' is given to Aaron Garbut by IGN and to Rob Nelson (with co-studio head) by PC Gamer; GamesRadar+ calls Nelson co-studio head only.",
+      "resolved": false
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+---
+import '../styles/global.css';
+import { SITE } from '../config';
+import { PREVIEW, visibleArticles } from '../lib/articles';
+interface Props { title?: string; description?: string; image?: string; type?: 'website' | 'article'; noindex?: boolean; jsonLd?: object }
+const { title, description = SITE.description, image, type = 'website', noindex = false, jsonLd } = Astro.props;
+const fullTitle = title ? `${title} | ${SITE.name}` : `${SITE.name}: ${SITE.tagline}`;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const ogImage = image ? new URL(image, Astro.site) : undefined;
+const nav = [['Latest', '/latest/'], ['News', '/news/'], ['Discoveries', '/discoveries/'], ['Explainers', '/explainers/'], ['Guides', '/guides/'], ['Tech', '/tech/'], ['About', '/about/']];
+const here = Astro.url.pathname;
+const [newest] = await visibleArticles();
+---
+<!doctype html>
+<html lang={SITE.locale}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {(noindex || PREVIEW) && <meta name="robots" content="noindex, nofollow" />}
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate" type="application/rss+xml" title={SITE.name} href="/rss.xml" />
+    <meta property="og:site_name" content={SITE.name} />
+    <meta property="og:type" content={type} />
+    <meta property="og:title" content={title ?? SITE.name} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    {ogImage && <meta property="og:image" content={ogImage} />}
+    <meta name="twitter:card" content={ogImage ? 'summary_large_image' : 'summary'} />
+    <meta name="twitter:title" content={title ?? SITE.name} />
+    <meta name="twitter:description" content={description} />
+    {ogImage && <meta name="twitter:image" content={ogImage} />}
+    {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    {PREVIEW && <div class="preview-bar">Editor preview: unpublished drafts are visible. This build must not be deployed.</div>}
+    <header class="site-header">
+      <div class="wrap">
+        <a class="brand" href="/" aria-label={`${SITE.name} home`}>Leonida <span>Desk</span></a>
+        <nav class="nav" aria-label="Sections">
+          {nav.map(([label, href]) => <a href={href} aria-current={here.startsWith(href) ? 'page' : undefined}>{label}</a>)}
+        </nav>
+      </div>
+    </header>
+    {newest && <div class="ticker"><div class="wrap">
+      <b>Latest</b>
+      <a href={`/articles/${newest.data.slug}/`}>{newest.data.title}</a>
+      <span class="focus">Gaming and tech news · focus: <strong>GTA VI</strong></span>
+    </div></div>}
+    <main id="main"><div class="wrap"><slot /></div></main>
+    <footer class="site-footer">
+      <div class="wrap cols">
+        <div>
+          <a class="brand" href="/">Leonida <span>Desk</span></a>
+          <p>{SITE.name} is an independent publication. It is not affiliated with Rockstar Games, Take-Two Interactive or any other company it covers.</p>
+        </div>
+        <nav aria-label="Sections">
+          <h2>Sections</h2>
+          {nav.filter(([, href]) => href !== '/about/').map(([label, href]) => <a href={href}>{label}</a>)}
+        </nav>
+        <nav aria-label="About this site">
+          <h2>About</h2>
+          <a href="/about/">About</a>
+          <a href="/editorial-standards/">Editorial standards</a>
+          <a href="/ai-disclosure/">AI and automation disclosure</a>
+          <a href="/privacy/">Privacy</a>
+          <a href="/rss.xml">RSS</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

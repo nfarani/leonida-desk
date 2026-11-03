@@ -1,0 +1,51 @@
+---
+import Base from '../layouts/Base.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import Badge from '../components/Badge.astro';
+import Cover from '../components/Cover.astro';
+import { SITE, BUCKETS, type Bucket } from '../config';
+import { visibleArticles, fmtDate } from '../lib/articles';
+const all = await visibleArticles();
+const [lead, ...rest] = all;
+const latest = rest.slice(0, 3);
+const order: Bucket[] = ['BREAKING', 'DISCOVERY', 'EXPLAINER', 'EVERGREEN'];
+const shown = new Set([lead, ...latest].filter(Boolean).map((a) => a.data.slug));
+const more = all.filter((a) => !shown.has(a.data.slug));
+const jsonLd = { '@context': 'https://schema.org', '@type': 'WebSite', name: SITE.name, url: Astro.site?.href, description: SITE.description };
+---
+<Base jsonLd={jsonLd}>
+  <div class="intro">
+    <h1>{SITE.tagline}</h1>
+    <span>Every article carries a verification label and links its sources. <a href="/editorial-standards/">How we work</a></span>
+  </div>
+  {lead
+    ? <section class="top" aria-label="Top stories">
+        <Cover article={lead} lead>
+          <h2><a href={`/articles/${lead.data.slug}/`}>{lead.data.title}</a></h2>
+          <p>{lead.data.description}</p>
+          <div class="meta"><Badge label={lead.data.verification_status} /><time datetime={lead.data.published_at?.toISOString()}>{fmtDate(lead.data.published_at)}</time></div>
+        </Cover>
+        {latest.length > 0 && <aside class="rail" aria-labelledby="latest-h">
+          <h2 class="rail-head" id="latest-h">Latest</h2>
+          <ol>{latest.map((a) => <li>
+            <a href={`/articles/${a.data.slug}/`}>{a.data.title}</a>
+            <span class="when"><span class={`kicker b-${a.data.editorial_bucket}`}>{BUCKETS[a.data.editorial_bucket].label}</span><time datetime={a.data.published_at?.toISOString()}>{fmtDate(a.data.published_at)}</time></span>
+          </li>)}</ol>
+        </aside>}
+      </section>
+    : <p class="empty">Nothing has been published yet. Articles appear here only after an editor approves them.</p>}
+  {more.length > 0 && <section class="section">
+    <div class="section-head"><h2>More stories</h2><a href="/latest/">See everything</a></div>
+    <div class="grid">{more.slice(0, 6).map((a) => <ArticleCard article={a} />)}</div>
+  </section>}
+  {/* Section rows appear once there is enough to fill them without repeating the stories above */}
+  {all.length > 12 && order.map((b) => {
+    const items = all.filter((a) => a.data.editorial_bucket === b && !shown.has(a.data.slug)).slice(0, 3);
+    return items.length === 3 && (
+      <section class="section">
+        <div class="section-head"><h2>{BUCKETS[b].label}</h2><a href={BUCKETS[b].path}>All {BUCKETS[b].label.toLowerCase()}</a></div>
+        <div class="grid">{items.map((a) => <ArticleCard article={a} />)}</div>
+      </section>
+    );
+  })}
+</Base>

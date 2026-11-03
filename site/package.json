@@ -1,0 +1,22 @@
+{
+  "name": "leonida-desk-site",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "preview:drafts": "PREVIEW=1 astro dev",
+    "build": "astro build",
+    "build:drafts": "PREVIEW=1 astro build --outDir dist-preview",
+    "preview": "npm run build && wrangler dev",
+    "generate-types": "wrangler types",
+    "deploy": "npm run build && wrangler deploy"
+  },
+  "dependencies": {
+    "@astrojs/cloudflare": "^14.3.4",
+    "astro": "^7.3.5"
+  },
+  "devDependencies": {
+    "wrangler": "^4.149.0"
+  }
+}
