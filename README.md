@@ -1,7 +1,14 @@
-# GTA VI Content Intelligence
+# Leonida Desk: GTA VI content intelligence
 
-Research desk for a GTA VI media brand. One command gives a fresh, deduplicated, verified, scored
-editorial briefing. **Read [CLAUDE.md](CLAUDE.md) for the full spec and editorial rules.**
+An AI-run digital publication with one human editor. This is its research desk: one command produces a fresh, deduplicated, verified and scored editorial briefing.
+
+**Live:** https://leonida-desk.farani-niccolas96.workers.dev/latest/ · **Case study:** [https://niccolas-farani.pages.dev/work/leonida-desk](https://niccolas-farani.pages.dev/work/leonida-desk/)
+
+![Leonida Desk: GTA VI content intelligence preview](docs/media/preview.webp)
+
+---
+
+**Read [CLAUDE.md](CLAUDE.md) for the full spec and editorial rules.**
 
 ## Quick start
 
